@@ -25,6 +25,10 @@ netsuite.role customrole1071 {
         permlevel = "VIEW"
       },
       {
+        permkey = "TRAN_INVADJST"
+        permlevel = "EDIT"
+      },
+      {
         permkey = "TRAN_AUTO_CASH"
         permlevel = "FULL"
       },
@@ -94,6 +98,10 @@ netsuite.role customrole1071 {
       },
       {
         permkey = "TRAN_DEPAPPL"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_INVDISTR"
         permlevel = "EDIT"
       },
       {
@@ -173,6 +181,18 @@ netsuite.role customrole1071 {
         permlevel = "EDIT"
       },
       {
+        permkey = "TRAN_INVTRNFR"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_TRNFRORD"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "TRAN_TRNFRORDAPPRV"
+        permlevel = "FULL"
+      },
+      {
         permkey = "TRAN_VENDBILLAPPRV"
         permlevel = "FULL"
       },
@@ -230,6 +250,10 @@ netsuite.role customrole1071 {
       },
       {
         permkey = "REPO_PANDL"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "REPO_INVENTORY"
         permlevel = "VIEW"
       },
       {
