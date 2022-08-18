@@ -1,0 +1,166 @@
+netsuite.savedsearch customsearch212 {
+  scriptid = "customsearch212"
+  definition = "6f6112bd820fceb4e6071990e0ecb62811d9f7fe3cc82b033ac355c7ab7efba2@GZC@2022.1.16@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "SystemNote_DATE"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "CUSTOM"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2020-10-01 07:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "SystemNote_RECORD"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_NAME"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_DATE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_CONTEXT"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_TYPE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_FIELD"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_OLDVALUE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_NEWVALUE"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_ROLE"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "SystemNote_RECORD"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_NAME"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_DATE"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_CONTEXT"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_TYPE"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_FIELD"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_OLDVALUE"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_NEWVALUE"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "SystemNote_ROLE"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "SystemNote_RECORD"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch212"
+  FIELD_DEFAULT_NAME = "Hadas - system notes"
+  FIELD_SEARCH_TYPE = "SystemNote"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+}
