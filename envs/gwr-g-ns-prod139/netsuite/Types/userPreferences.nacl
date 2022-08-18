@@ -431,4 +431,8 @@ settings netsuite.userPreferences {
     _required = true
     _hidden_value = true
   }
+  boolean STOCKWARNINGS {
+    label = "Inventory Level Warnings"
+    type = "checkbox"
+  }
 }

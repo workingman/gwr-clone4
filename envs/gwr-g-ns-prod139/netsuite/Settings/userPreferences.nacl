@@ -183,4 +183,5 @@ netsuite.userPreferences {
     value = "1"
     text = "Primary Accounting Book"
   }
+  STOCKWARNINGS = true
 }
