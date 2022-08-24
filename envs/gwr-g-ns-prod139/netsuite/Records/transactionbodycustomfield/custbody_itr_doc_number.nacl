@@ -20,7 +20,7 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   bodyprintstatement = false
   bodypurchase = false
   bodysale = false
-  bodystore = false
+  
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
