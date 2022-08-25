@@ -922,6 +922,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -983,6 +984,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                   
                   

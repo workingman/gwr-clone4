@@ -1404,6 +1404,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
         
         
         
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1465,6 +1466,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                   
                   

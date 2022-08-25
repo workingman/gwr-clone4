@@ -1394,6 +1394,7 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1481,6 +1482,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 6
                   }
+                  
                   
                   
                   
