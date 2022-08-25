@@ -59,10 +59,7 @@ settings netsuite.accountingPreferences {
     label = "Default Payment Account"
     type = "select"
   }
-  netsuite.selectOption JOBCOSTVARIANCEACCOUNT {
-    label = "Default Job Cost Variance Account"
-    type = "select"
-  }
+  
   boolean CCSECURITYCODE {
     label = "Use Card Security Code for Credit Card Transactions"
     type = "checkbox"
@@ -107,10 +104,7 @@ settings netsuite.accountingPreferences {
     label = "Perform limit check on approval action"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYEMPLOYEE {
-    label = "Employee"
-    type = "checkbox"
-  }
+  
   netsuite.selectOption COPYTIMESHEETOPTIONS {
     label = "Copy from Week Options"
     type = "select"
@@ -131,18 +125,12 @@ settings netsuite.accountingPreferences {
     label = "sales Account"
     type = "select"
   }
-  "List<netsuite.selectOption>" categoriesselectLABOR {
-    label = ""
-    type = "multiselect"
-  }
+  
   boolean RECREATEREVRECSCHEDULES {
     label = "Recreate Rev Rec Schedules"
     type = "checkbox"
   }
-  string SUPPLIER {
-    label = "Show only selected supplier items as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean CUSTOMAPPROVALJOURNAL {
     label = "Journal Entries"
     type = "checkbox"
@@ -159,10 +147,7 @@ settings netsuite.accountingPreferences {
     label = "Copy Service Item Description to Time memo"
     type = "checkbox"
   }
-  string LABOR {
-    label = "Show only selected service items as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean CUSTOMAPPROVALVENDORBILL {
     label = "Vendor Bills"
     type = "checkbox"
@@ -415,10 +400,7 @@ settings netsuite.accountingPreferences {
     label = "Default Advance to Apply Account for Expense Reports"
     type = "select"
   }
-  string EXPENSE {
-    label = "Show only selected expense categories as individual categories (max 100)"
-    type = "radio"
-  }
+  
   boolean DEPTMANDATORY {
     label = "Make Departments Mandatory"
     type = "checkbox"
@@ -435,10 +417,7 @@ settings netsuite.accountingPreferences {
     label = "Bill in Advance of Receipt"
     type = "checkbox"
   }
-  "List<netsuite.selectOption>" categoriesselectEXPENSE {
-    label = ""
-    type = "multiselect"
-  }
+  
   netsuite.selectOption FULFILLCOMMITTED {
     label = "Fulfill Based on Commitment"
     type = "select"
@@ -504,18 +483,12 @@ settings netsuite.accountingPreferences {
     label = "Invoice in Advance of Fulfillment"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYLOCATION {
-    label = "Location"
-    type = "checkbox"
-  }
+  
   boolean REVERSALVOIDING {
     label = "Void Transactions Using Reversing Journals"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYPROJECT {
-    label = "Job"
-    type = "checkbox"
-  }
+  
   boolean ALLOW_PERIODS_QUICK_CLOSE {
     label = "Allow Quick Close of Accounting Periods"
     type = "checkbox"
@@ -692,10 +665,7 @@ settings netsuite.accountingPreferences {
     label = "Send level 3 data with authorisation request to Cybersource when decision manager enabled"
     type = "checkbox"
   }
-  boolean TIMEJEGROUPBYDEPARTMENT {
-    label = "Department"
-    type = "checkbox"
-  }
+  
   boolean AUTOMATICITEMCOMMITMENT {
     label = "Perform Item Commitment After Transaction Entry"
     type = "checkbox"
@@ -732,10 +702,7 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Commitment: Item Availability Tracking"
     type = "checkbox"
   }
-  "List<netsuite.selectOption>" categoriesselectSUPPLIER {
-    label = ""
-    type = "multiselect"
-  }
+  
   number MAXPURCHASES {
     label = "Maximum Purchase Lines to Consolidate"
     type = "integer"
@@ -893,10 +860,7 @@ settings netsuite.accountingPreferences {
     label = "Foreign Amount Change"
     type = "select"
   }
-  boolean TIMEJEGROUPBYCLASS {
-    label = "Class"
-    type = "checkbox"
-  }
+  
   string configType {
     _required = true
     _hidden_value = true

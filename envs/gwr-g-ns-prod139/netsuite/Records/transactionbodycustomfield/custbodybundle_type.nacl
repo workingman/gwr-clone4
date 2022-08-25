@@ -35,5 +35,5 @@ netsuite.transactionbodycustomfield custbodybundle_type {
   showinlist = true
   storevalue = true
   bodyinventoryadjustment = false
-  bodytransferorder = false
+  bodytransferorder = true
 }

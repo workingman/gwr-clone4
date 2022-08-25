@@ -493,6 +493,10 @@ netsuite.role customrole1079 {
         permlevel = "EDIT"
       },
       {
+        permkey = "LIST_USAGE"
+        permlevel = "FULL"
+      },
+      {
         permkey = "LIST_VENDOR"
         permlevel = "EDIT"
       },

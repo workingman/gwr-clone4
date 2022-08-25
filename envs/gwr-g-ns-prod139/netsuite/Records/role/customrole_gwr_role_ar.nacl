@@ -217,6 +217,10 @@ netsuite.role customrole_gwr_role_ar {
         permlevel = "EDIT"
       },
       {
+        permkey = "LIST_USAGE"
+        permlevel = "FULL"
+      },
+      {
         permkey = "LIST_VENDOR"
         permlevel = "EDIT"
       },

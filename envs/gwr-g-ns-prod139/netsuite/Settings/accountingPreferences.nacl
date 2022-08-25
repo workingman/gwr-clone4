@@ -26,7 +26,7 @@ netsuite.accountingPreferences {
   REMOVECLIENTGOVERNANCELIMIT = false
   UNRECEIVEDRTNAUTHS = false
   PERFORMLIMITCHECKONAPPROVALACTION = false
-  TIMEJEGROUPBYEMPLOYEE = false
+  
   VENDPYMTTOPRINT = false
   COPYTIMESHEETOPTIONS = {
     value = "ALWAYSCOPYHOURSANDMEMOS"
@@ -34,14 +34,9 @@ netsuite.accountingPreferences {
   }
   TIMEEXPENSEJOBSONLY = false
   UNIFIEDGOVERNANCELIMIT = 1000
-  categoriesselectLABOR = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   RECREATEREVRECSCHEDULES = false
-  SUPPLIER = "group"
+  
   CUSTOMAPPROVALJOURNAL = false
   FORECASTINCLUDES_REIMB_EXP = true
   SHOWADDLITEMSPACKSLIP = {
@@ -49,7 +44,7 @@ netsuite.accountingPreferences {
     text = "None"
   }
   COPYSERVITEMDESCTOMEMO = true
-  LABOR = "group"
+  
   CUSTOMAPPROVALVENDORBILL = false
   CUSTOMCOSTING = false
   DEFVENDBILLSTATUS = {
@@ -149,7 +144,7 @@ netsuite.accountingPreferences {
   CUSTOM_SEGMENT_DELETION = false
   OPENONLYSTMTS = false
   LOGUERECORDSYNCH = false
-  EXPENSE = "group"
+  
   DEPTMANDATORY = false
   DEFRTNAUTHSTATUS = {
     value = "A"
@@ -157,12 +152,7 @@ netsuite.accountingPreferences {
   }
   VALIDATE_SAME_PO_VENDOR_IN_BILL = true
   UNRECEIVEDBILLS = false
-  categoriesselectEXPENSE = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   FULFILLCOMMITTED = {
     value = "ALLOWUNCOMMITTED"
     text = "Allow Uncommitted"
@@ -192,9 +182,9 @@ netsuite.accountingPreferences {
   ACCOUNTNUMBERS = false
   LIMITITEMVENDORS = true
   UNSHIPPEDINVOICES = false
-  TIMEJEGROUPBYLOCATION = false
+  
   REVERSALVOIDING = true
-  TIMEJEGROUPBYPROJECT = true
+  
   ALLOW_PERIODS_QUICK_CLOSE = false
   ENFORCE_MIN_QUANTITY_RET_AUTH = true
   EDITITEMACCOUNTS = true
@@ -285,7 +275,7 @@ netsuite.accountingPreferences {
     value = "DONOTLOG"
     text = ""
   }
-  TIMEJEGROUPBYDEPARTMENT = false
+  
   EXTERNALPAYMENTS = true
   AUTOMATICITEMCOMMITMENT = true
   QTYPRICESCHEDULEMULTDISCOUNTS = false
@@ -301,12 +291,7 @@ netsuite.accountingPreferences {
     text = "Basic UOM Mismatch Checks"
   }
   ENABLEITEMAVAILABILITYTRACKING = true
-  categoriesselectSUPPLIER = [
-    {
-      value = ""
-      text = ""
-    },
-  ]
+  
   MAXPURCHASES = 0
   VALIDATE_LOT_AVAIL_QTY_AT_COMMIT = false
   SHOW_WARN_TAX_RECEIPT = true
@@ -384,7 +369,7 @@ netsuite.accountingPreferences {
     value = "FXRATE"
     text = "Recalculate Exchange Rate"
   }
-  TIMEJEGROUPBYCLASS = false
+  
   DEFAULTTRANSFERORDERCOMMITOPTION = {
     value = "1"
     text = "Available Qty"

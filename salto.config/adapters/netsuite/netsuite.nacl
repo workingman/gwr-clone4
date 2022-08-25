@@ -12,6 +12,9 @@ netsuite {
       ]
     }
     exclude = {
+      fileCabinet = [
+        "^/Templates/Letter Templates/Mail Merge Folder.*",
+      ]
       types = [
         {
           name = "workbook"
@@ -52,9 +55,12 @@ netsuite {
         {
           name = "assemblyItem|lotNumberedAssemblyItem|serializedAssemblyItem|descriptionItem|discountItem|kitItem|markupItem|nonInventoryPurchaseItem|nonInventorySaleItem|nonInventoryResaleItem|otherChargeSaleItem|otherChargeResaleItem|otherChargePurchaseItem|paymentItem|serviceResaleItem|servicePurchaseItem|serviceSaleItem|subtotalItem|inventoryItem|lotNumberedInventoryItem|serializedInventoryItem|itemGroup"
         },
-      ]
-      fileCabinet = [
-        "^/Templates/Letter Templates/Mail Merge Folder.*",
+        {
+          name = "advancedpdftemplate"
+          ids = [
+            "custtmpl_gwr_defunct1",
+          ]
+        },
       ]
     }
   }
