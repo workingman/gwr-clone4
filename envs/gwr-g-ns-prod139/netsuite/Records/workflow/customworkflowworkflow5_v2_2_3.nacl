@@ -431,7 +431,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Total\" > 9.9999999E7"
+                  formula = "\"Total\" > 100000.00"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
