@@ -20,7 +20,7 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   bodyprintstatement = false
   bodypurchase = false
   bodysale = true
-  
+  bodystore = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
