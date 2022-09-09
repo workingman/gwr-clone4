@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_itr_doc_number {
-  scriptid = "custbody_itr_doc_number"
+netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
+  scriptid = "custbody_aw_second_lvl_approval"
   accesslevel = "2"
   applyformatting = false
   bodycustomerpayment = false
@@ -19,23 +19,23 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   bodyprintpackingslip = false
   bodyprintstatement = false
   bodypurchase = false
-  bodysale = false
-  
+  bodysale = true
+  bodystore = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "TEXT"
+  fieldtype = "CHECKBOX"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp doc number"
+  label = "GWR Amp 2nd Level Approval"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  description = "New description 202209091137"
+  subtab = "TRANSACTIONSYSTEMINFORMATION"
 }
