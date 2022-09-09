@@ -4,7 +4,7 @@ netsuite.transactionForm custform_gwr_csform1 {
   name = "Custom Service Invoice"
   recordType = "INVOICE"
   inactive = false
-  preferred = true
+  preferred = false
   mainFields = {
     fieldGroup = {
       primaryinformation = {
@@ -1399,51 +1399,8 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1531,6 +1488,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 6
                   }
+                  
                   
                   
                   
@@ -1900,10 +1858,20 @@ netsuite.transactionForm custform_gwr_csform1 {
       CUSTOMROLE42 = {
         id = "CUSTOMROLE42"
         preferred = false
-        index = 18
+        index = 20
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
+        preferred = false
+        index = 21
+      }
+      customrole1178 = {
+        id = netsuite.role.instance.customrole1178.scriptid
+        preferred = false
+        index = 18
+      }
+      customrole_simon_test = {
+        id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
         index = 19
       }

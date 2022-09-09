@@ -184,4 +184,5 @@ netsuite.userPreferences {
     text = "Primary Accounting Book"
   }
   STOCKWARNINGS = true
+  DO_NOT_CALCULATE_CUSTOMER_BALANCES = false
 }

@@ -927,51 +927,8 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1033,6 +990,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                   
                   
@@ -1322,7 +1280,17 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
       WAREHOUSE_MANAGER = {
         id = "WAREHOUSE_MANAGER"
         preferred = false
+        index = 20
+      }
+      customrole1178 = {
+        id = netsuite.role.instance.customrole1178.scriptid
+        preferred = false
         index = 18
+      }
+      customrole_simon_test = {
+        id = netsuite.role.instance.customrole_simon_test.scriptid
+        preferred = false
+        index = 19
       }
     }
   }

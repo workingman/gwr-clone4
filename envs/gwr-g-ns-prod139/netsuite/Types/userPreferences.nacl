@@ -435,4 +435,8 @@ settings netsuite.userPreferences {
     label = "Inventory Level Warnings"
     type = "checkbox"
   }
+  boolean DO_NOT_CALCULATE_CUSTOMER_BALANCES {
+    label = "Do not calculate balances on customer record"
+    type = "checkbox"
+  }
 }
