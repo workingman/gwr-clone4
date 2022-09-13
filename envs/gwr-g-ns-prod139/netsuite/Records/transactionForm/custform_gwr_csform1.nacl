@@ -1418,9 +1418,10 @@ netsuite.transactionForm custform_gwr_csform1 {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 0
                   }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
+                  
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
                     visible = true
                     mandatory = false
                     displayType = "NORMAL"
@@ -1429,9 +1430,9 @@ netsuite.transactionForm custform_gwr_csform1 {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
                     visible = true
                     mandatory = false
                     displayType = "NORMAL"
