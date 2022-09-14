@@ -32,4 +32,48 @@ netsuite.subsidiary Parent_Company@s {
     id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   identifier = "Parent Company"
+  classTranslationList = {
+    classTranslation = [
+      {
+        language = "German"
+        name = "Konsolidierte Muttergesellschaft"
+      },
+      {
+        language = "Danish"
+        name = "Konsolideret moderselskab"
+      },
+      {
+        language = "Russian"
+        name = "Сводная материнская компания"
+      },
+      {
+        language = "Chinese (Traditional)"
+        name = "合併的母公司"
+      },
+      {
+        language = "Spanish"
+        name = "Empresa matriz consolidada"
+      },
+      {
+        language = "French (France)"
+        name = "Société Parent Consolidée."
+      },
+      {
+        language = "Thai"
+        name = "บริษัทแม่ที่รวมกิจการ"
+      },
+      {
+        language = "Chinese (Simplified)"
+        name = "合并的母公司"
+      },
+      {
+        language = "Korean"
+        name = "통합 모회사"
+      },
+      {
+        language = "Japanese"
+        name = "親会社"
+      },
+    ]
+  }
 }

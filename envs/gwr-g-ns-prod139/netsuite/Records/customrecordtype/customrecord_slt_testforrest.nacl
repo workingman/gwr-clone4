@@ -80,4 +80,5 @@ netsuite.customrecordtype customrecord_slt_testforrest {
       }
     }
   }
+  enablenametranslation = false
 }

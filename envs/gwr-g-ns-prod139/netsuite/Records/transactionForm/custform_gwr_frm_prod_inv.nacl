@@ -431,6 +431,17 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
               sameRowAsPrevious = false
               index = 1
             }
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 2
+            }
           }
           index = 0
         }
@@ -1412,6 +1423,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
         
         
         
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1473,6 +1485,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                   
                   

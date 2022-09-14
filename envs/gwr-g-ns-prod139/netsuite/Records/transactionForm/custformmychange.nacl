@@ -431,6 +431,17 @@ netsuite.transactionForm custformmychange {
               sameRowAsPrevious = false
               index = 4
             }
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 5
+            }
           }
           index = 0
         }
@@ -1403,6 +1414,7 @@ netsuite.transactionForm custformmychange {
         index = 8
         
         
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1470,6 +1482,7 @@ netsuite.transactionForm custformmychange {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                 }
                 index = 0

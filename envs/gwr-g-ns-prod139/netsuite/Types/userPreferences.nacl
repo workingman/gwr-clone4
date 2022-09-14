@@ -439,4 +439,16 @@ settings netsuite.userPreferences {
     label = "Do not calculate balances on customer record"
     type = "checkbox"
   }
+  netsuite.selectOption PDFLANGUAGE {
+    label = "PDF Language"
+    type = "select"
+  }
+  netsuite.selectOption LANGUAGE {
+    label = "Language"
+    type = "select"
+  }
+  netsuite.selectOption HELP_LANGUAGE {
+    label = "Language of the Help Center"
+    type = "select"
+  }
 }

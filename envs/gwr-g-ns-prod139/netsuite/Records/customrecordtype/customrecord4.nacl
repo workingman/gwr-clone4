@@ -32,4 +32,5 @@ netsuite.customrecordtype customrecord4 {
   showowner = false
   showownerallowchange = false
   showowneronlist = false
+  enablenametranslation = false
 }

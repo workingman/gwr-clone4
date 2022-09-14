@@ -185,4 +185,12 @@ netsuite.userPreferences {
   }
   STOCKWARNINGS = true
   DO_NOT_CALCULATE_CUSTOMER_BALANCES = false
+  LANGUAGE = {
+    value = "en_US"
+    text = "English (U.S.)"
+  }
+  HELP_LANGUAGE = {
+    value = "en US"
+    text = ""
+  }
 }

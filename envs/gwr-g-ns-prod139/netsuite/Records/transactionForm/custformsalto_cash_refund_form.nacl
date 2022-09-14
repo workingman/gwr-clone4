@@ -373,6 +373,17 @@ netsuite.transactionForm custformsalto_cash_refund_form {
               sameRowAsPrevious = false
               index = 3
             }
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 4
+            }
           }
           index = 0
         }
@@ -1314,6 +1325,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         index = 8
         
         
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1381,6 +1393,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
                   
                 }
                 index = 0
