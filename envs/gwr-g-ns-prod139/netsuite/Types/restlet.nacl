@@ -42,9 +42,7 @@ type netsuite.restlet {
   }
   netsuite.restlet_scriptdeployments scriptdeployments {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

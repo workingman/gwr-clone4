@@ -50,9 +50,7 @@ type netsuite.transactionForm {
   }
   netsuite.transactionForm_buttons buttons {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

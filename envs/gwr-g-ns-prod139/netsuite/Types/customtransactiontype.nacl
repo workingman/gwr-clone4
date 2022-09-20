@@ -33,9 +33,7 @@ type netsuite.customtransactiontype {
   }
   netsuite.customtransactiontype_statuses statuses {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

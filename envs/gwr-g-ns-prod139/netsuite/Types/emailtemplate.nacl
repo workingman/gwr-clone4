@@ -30,9 +30,7 @@ type netsuite.emailtemplate {
   netsuite.fileContent content {
     additionalFileSuffix = "html"
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

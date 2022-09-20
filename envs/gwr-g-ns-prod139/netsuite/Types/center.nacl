@@ -9,9 +9,7 @@ type netsuite.center {
   string label {
     _required = true
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

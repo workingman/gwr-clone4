@@ -14,9 +14,7 @@ type netsuite.dataset {
   }
   netsuite.dataset_dependencies dependencies {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   boolean nameTranslate {

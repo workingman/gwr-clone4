@@ -32,9 +32,7 @@ type netsuite.fiparserplugin {
   }
   netsuite.script_status status {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

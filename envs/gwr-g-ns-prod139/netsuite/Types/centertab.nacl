@@ -26,9 +26,7 @@ type netsuite.centertab {
   }
   netsuite.centertab_portlets portlets {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   boolean labelTranslate {

@@ -38,9 +38,7 @@ type netsuite.customsegment {
   }
   netsuite.customsegment_segmentapplication segmentapplication {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

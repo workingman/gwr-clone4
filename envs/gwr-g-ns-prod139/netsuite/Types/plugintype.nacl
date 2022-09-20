@@ -42,9 +42,7 @@ type netsuite.plugintype {
   }
   netsuite.plugintype_methods methods {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

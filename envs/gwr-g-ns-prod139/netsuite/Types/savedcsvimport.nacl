@@ -57,9 +57,7 @@ type netsuite.savedcsvimport {
   }
   netsuite.savedcsvimport_recordmappings recordmappings {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

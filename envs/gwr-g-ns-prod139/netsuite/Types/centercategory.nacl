@@ -17,9 +17,7 @@ type netsuite.centercategory {
   }
   netsuite.centercategory_links links {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   boolean labelTranslate {

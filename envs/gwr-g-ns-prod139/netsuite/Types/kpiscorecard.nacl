@@ -24,9 +24,7 @@ type netsuite.kpiscorecard {
   }
   netsuite.kpiscorecard_ranges ranges {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

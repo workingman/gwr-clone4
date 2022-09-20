@@ -54,9 +54,7 @@ type netsuite.role {
   }
   netsuite.role_recordrestrictions recordrestrictions {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

@@ -16,9 +16,7 @@ type netsuite.translationcollection {
   }
   netsuite.translationcollection_strings strings {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   boolean nameTranslate {

@@ -34,9 +34,7 @@ type netsuite.scheduledscript {
   }
   netsuite.scheduledscript_scriptdeployments scriptdeployments {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

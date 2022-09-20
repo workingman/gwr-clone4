@@ -20,9 +20,7 @@ type netsuite.workbook {
   }
   netsuite.workbook_tables tables {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   boolean nameTranslate {

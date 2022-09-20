@@ -19,9 +19,7 @@ type netsuite.cmscontenttype {
   }
   string iconimagepath {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

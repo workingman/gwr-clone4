@@ -110,9 +110,7 @@ type netsuite.crmcustomfield {
   }
   netsuite.crmcustomfield_roleaccesses roleaccesses {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

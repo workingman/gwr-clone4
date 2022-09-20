@@ -6,9 +6,7 @@ type netsuite.integration {
       regex = "^custinteg[0-9a-z_]+"
     }
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

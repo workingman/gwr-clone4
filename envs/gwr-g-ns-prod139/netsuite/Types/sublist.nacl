@@ -91,9 +91,7 @@ type netsuite.sublist {
   }
   string customtransactions {
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
   string internalId {

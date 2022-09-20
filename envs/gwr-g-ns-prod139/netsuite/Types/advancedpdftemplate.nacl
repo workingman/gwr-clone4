@@ -31,9 +31,7 @@ type netsuite.advancedpdftemplate {
   netsuite.fileContent content {
     additionalFileSuffix = "xml"
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }

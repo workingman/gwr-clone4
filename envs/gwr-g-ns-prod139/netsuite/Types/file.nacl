@@ -24,9 +24,7 @@ type netsuite.file {
   string internalId {
     _hidden_value = true
   }
-  string _lastfetchtime {
-    _hidden_value = true
-  }
+  
   string application_id {
   }
 }
