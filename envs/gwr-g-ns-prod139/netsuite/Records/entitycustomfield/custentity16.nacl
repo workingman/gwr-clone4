@@ -1,7 +1,7 @@
-netsuite.entitycustomfield custentity1 {
-  scriptid = "custentity1"
+netsuite.entitycustomfield custentity16 {
+  scriptid = "custentity16"
   accesslevel = "2"
-  appliestocontact = true
+  appliestocontact = false
   appliestocustomer = false
   appliestoemployee = true
   appliestogenericrsrc = false
@@ -16,10 +16,9 @@ netsuite.entitycustomfield custentity1 {
   appliestowebsite = false
   applyformatting = false
   availableexternally = false
-  checkspelling = true
+  checkspelling = false
   defaultchecked = false
-  defaultvalue = "None"
-  description = "A field for Gil"
+  description = "Created for testing"
   displaytype = "NORMAL"
   encryptatrest = false
   fieldtype = "TEXT"
@@ -27,7 +26,7 @@ netsuite.entitycustomfield custentity1 {
   isformula = false
   ismandatory = false
   isparent = false
-  label = "Gil's Field"
+  label = "custCreate17-08"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false

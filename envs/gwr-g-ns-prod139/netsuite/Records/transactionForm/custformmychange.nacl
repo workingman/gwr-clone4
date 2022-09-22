@@ -1415,6 +1415,9 @@ netsuite.transactionForm custformmychange {
         
         
         
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1482,6 +1485,9 @@ netsuite.transactionForm custformmychange {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
+                  
+                  
                   
                   
                 }
