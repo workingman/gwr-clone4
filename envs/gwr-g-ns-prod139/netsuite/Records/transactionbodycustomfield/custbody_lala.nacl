@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
-  scriptid = "custbody_aw_first_lvl_approval"
+netsuite.transactionbodycustomfield custbody_lala {
+  scriptid = "custbody_lala"
   accesslevel = "2"
   applyformatting = false
   bodycustomerpayment = false
@@ -26,15 +26,15 @@ netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "CHECKBOX"
+  fieldtype = "TEXT"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp 1st Level Approval"
+  label = "Test Field"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  subtab = "TRANSACTIONSYSTEMINFORMATION"
+  subtab = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
 }
