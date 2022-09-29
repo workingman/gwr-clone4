@@ -481,6 +481,8 @@ type netsuite.entryForm_tabs_tab_subItems_subTab {
   }
   number index {
   }
+  "List<netsuite.entryForm_tabs_tab_subItems_subTab_subLists>" subLists {
+  }
 }
 type netsuite.entryForm_tabs_tab_subItems {
   "Map<netsuite.entryForm_tabs_tab_subItems_subList>" subList {
@@ -511,5 +513,21 @@ type netsuite.entryForm_tabs_tab {
 type netsuite.entryForm_tabs {
   "Map<netsuite.entryForm_tabs_tab>" tab {
     map_key_field = "id"
+  }
+}
+type netsuite.entryForm_tabs_tab_subItems_subTab_subLists {
+  "List<netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList>" subList {
+  }
+}
+type netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList {
+  string id {
+    _required = true
+  }
+  string label {
+    _required = true
+  }
+  boolean visible {
+  }
+  boolean neverEmpty {
   }
 }

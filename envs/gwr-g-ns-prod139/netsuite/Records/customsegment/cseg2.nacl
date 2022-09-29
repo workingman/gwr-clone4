@@ -7,7 +7,7 @@ netsuite.customsegment cseg2 {
   hasglimpact = false
   ismandatory = false
   label = "Region"
-  recordtype = netsuite.customrecordtype.instance.customrecord_cseg2.scriptid
+  recordtype = netsuite.customrecord_cseg2.attr.scriptid
   valuesdisplayorder = "SUBLIST"
   segmentapplication = {
     items = {

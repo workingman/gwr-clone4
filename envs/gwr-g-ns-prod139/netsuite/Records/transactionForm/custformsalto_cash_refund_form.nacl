@@ -1264,6 +1264,18 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                 }
               }
               index = 0
+              subLists = [
+                {
+                  subList = [
+                    {
+                      id = "MESSAGES"
+                      label = "Messages"
+                      visible = true
+                      neverEmpty = false
+                    },
+                  ]
+                },
+              ]
             }
           }
         }
@@ -1323,6 +1335,11 @@ netsuite.transactionForm custformsalto_cash_refund_form {
           }
         }
         index = 8
+        
+        
+        
+        
+        
         
         
         
@@ -1446,6 +1463,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1503,6 +1526,34 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         label = "Charges"
         visible = true
         index = 14
+      }
+      custtab_43_t2257815_377 = {
+        id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
+        label = "Test Trans Tab"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_lala = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_lala.scriptid
+                    label = "Test Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        index = 15
       }
     }
   }

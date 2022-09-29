@@ -1346,6 +1346,18 @@ netsuite.transactionForm custformmychange {
                 }
               }
               index = 0
+              subLists = [
+                {
+                  subList = [
+                    {
+                      id = "MESSAGES"
+                      label = "Messages"
+                      visible = true
+                      neverEmpty = false
+                    },
+                  ]
+                },
+              ]
             }
           }
         }
@@ -1418,6 +1430,11 @@ netsuite.transactionForm custformmychange {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1435,9 +1452,9 @@ netsuite.transactionForm custformmychange {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 0
                   }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
                     visible = true
                     mandatory = false
                     displayType = "NORMAL"
@@ -1446,9 +1463,9 @@ netsuite.transactionForm custformmychange {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
                     visible = true
                     mandatory = false
                     displayType = "NORMAL"
@@ -1535,6 +1552,12 @@ netsuite.transactionForm custformmychange {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1591,6 +1614,34 @@ netsuite.transactionForm custformmychange {
         id = "CHARGES"
         label = "Charges"
         visible = true
+        index = 15
+      }
+      custtab_43_t2257815_377 = {
+        id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
+        label = "Test Trans Tab"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_lala = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_lala.scriptid
+                    label = "Test Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
         index = 14
       }
     }

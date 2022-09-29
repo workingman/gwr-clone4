@@ -20,6 +20,7 @@ netsuite.usereventscript customscript107 {
         recordtype = "RECORD"
         status = "TESTING"
         index = 0
+        audslctrole = "AR_CLERK|ACCOUNTANT|ACCOUNTANT__REVIEWER"
       }
     }
   }

@@ -945,6 +945,11 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1065,6 +1070,12 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1116,6 +1127,34 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
           }
         }
         index = 9
+      }
+      custtab_43_t2257815_377 = {
+        id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
+        label = "Test Trans Tab"
+        visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_lala = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_lala.scriptid
+                    label = "Test Field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
+        index = 10
       }
     }
   }
