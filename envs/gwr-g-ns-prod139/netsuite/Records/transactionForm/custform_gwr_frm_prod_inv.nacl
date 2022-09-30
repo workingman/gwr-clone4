@@ -431,17 +431,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
               sameRowAsPrevious = false
               index = 1
             }
-            custbody_rg_valid_forto_po = {
-              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
-              label = "Validated Required Fields for FortoX"
-              visible = false
-              mandatory = false
-              displayType = "INLINETEXT"
-              columnBreak = false
-              sameRowAsPrevious = false
-              checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 2
-            }
+            
           }
           index = 0
         }
@@ -1444,6 +1434,11 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1461,17 +1456,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 0
                   }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
+                  
                   custbody_aw_second_lvl_approval = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
                     label = "GWR Amp 2nd Level Approval"
@@ -1481,7 +1466,7 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     columnBreak = false
                     sameRowAsPrevious = false
                     checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
+                    index = 1
                   }
                 }
                 index = 0
@@ -1550,6 +1535,11 @@ netsuite.transactionForm custform_gwr_frm_prod_inv {
                     sameRowAsPrevious = false
                     index = 4
                   }
+                  
+                  
+                  
+                  
+                  
                   
                   
                   
