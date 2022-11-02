@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
-  scriptid = "custbody_aw_first_lvl_approval"
+netsuite.transactionbodycustomfield custbody_srd_opp_source {
+  scriptid = "custbody_srd_opp_source"
   accesslevel = "2"
   applyformatting = false
   bodycustomerpayment = false
@@ -12,29 +12,28 @@ netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
   bodyitemreceipt = false
   bodyitemreceiptorder = false
   bodyjournal = false
-  bodyopportunity = false
+  bodyopportunity = true
   bodyothertransaction = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
   bodypurchase = false
-  bodysale = true
+  bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "CHECKBOX"
+  fieldtype = "TEXT"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp 1st Level Approval"
+  label = "SRD - Opportunity Source"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  subtab = "TRANSACTIONSYSTEMINFORMATION"
 }

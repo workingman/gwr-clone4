@@ -14,6 +14,7 @@ netsuite {
     exclude = {
       fileCabinet = [
         "^/Templates/Letter Templates/Mail Merge Folder.*",
+
       ]
       types = [
         {

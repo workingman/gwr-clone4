@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
-  scriptid = "custbody_aw_second_lvl_approval"
+netsuite.transactionbodycustomfield custbody_rg_valid_forto_po {
+  scriptid = "custbody_rg_valid_forto_po"
   accesslevel = "2"
   applyformatting = false
   bodycustomerpayment = false
@@ -18,23 +18,23 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
-  bodypurchase = false
-  bodysale = true
+  bodypurchase = true
+  bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
-  displaytype = "NORMAL"
+  displaytype = "STATICTEXT"
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp 2nd Level Approval"
+  label = "Validated Required Fields for FortoX"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
   storevalue = true
-  subtab = "TRANSACTIONSYSTEMINFORMATION"
+  subtab = "TRANSACTIONMAIN"
 }
