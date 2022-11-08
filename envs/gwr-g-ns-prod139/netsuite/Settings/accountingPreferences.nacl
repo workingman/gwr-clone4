@@ -265,7 +265,7 @@ netsuite.accountingPreferences {
   USEPORATEONBILLS = false
   CUSTOMAPPROVALPURCHORD = false
   STRICT_SELECTION_OF_PPP = true
-  BFO_VERSION = 0
+  BFO_VERSION = 1
   TIMELIMITDAYMINACTION = {
     value = "ERROR"
     text = "Do not allow time outside limit"
@@ -432,4 +432,5 @@ netsuite.accountingPreferences {
     text = "Average"
   }
   ENABLEINVDEMANDSUPPLYTRACKING = true
+  USE_UPDATED_CALCULATION_OBV = false
 }

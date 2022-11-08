@@ -108,7 +108,7 @@ settings netsuite.companyFeatures {
     label = "Amortization"
   }
   boolean ADVANCEDREVENUERECOGNITION {
-    label = "Advanced Revenue Management"
+    label = "Advanced Revenue Management (Essentials)"
   }
   boolean RULEBASEDRECOGNITIONTREATMENT {
     label = "Rule-Based Recognition Treatment"

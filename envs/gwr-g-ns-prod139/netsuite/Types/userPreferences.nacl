@@ -451,4 +451,8 @@ settings netsuite.userPreferences {
     label = "Language of the Help Center"
     type = "select"
   }
+  boolean PAGE_SEARCH {
+    label = "Page Search"
+    type = "checkbox"
+  }
 }

@@ -193,4 +193,5 @@ netsuite.userPreferences {
     value = "en US"
     text = ""
   }
+  PAGE_SEARCH = true
 }

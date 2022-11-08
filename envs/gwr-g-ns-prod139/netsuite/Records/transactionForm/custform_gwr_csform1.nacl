@@ -412,6 +412,17 @@ netsuite.transactionForm custform_gwr_csform1 {
               index = 4
             }
             
+            custbody_rg_valid_forto_po = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
+              label = "Validated Required Fields for FortoX"
+              visible = false
+              mandatory = false
+              displayType = "INLINETEXT"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 5
+            }
           }
           index = 0
         }
@@ -1429,6 +1440,16 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1446,7 +1467,17 @@ netsuite.transactionForm custform_gwr_csform1 {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 0
                   }
-                  
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
                   custbody_aw_second_lvl_approval = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
                     label = "GWR Amp 2nd Level Approval"
@@ -1456,7 +1487,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
+                    index = 2
                   }
                 }
                 index = 0
@@ -1576,6 +1607,27 @@ netsuite.transactionForm custform_gwr_csform1 {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_srd_opp_source = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+                    label = "Opportunity Source"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 7
+                  }
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1584,7 +1636,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 7
+                    index = 8
                   }
                 }
                 index = 0
@@ -1632,7 +1684,7 @@ netsuite.transactionForm custform_gwr_csform1 {
             }
           }
         }
-        index = 14
+        index = 15
       }
       custtab_43_t2257815_377 = {
         id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
@@ -1660,7 +1712,13 @@ netsuite.transactionForm custform_gwr_csform1 {
             }
           }
         }
-        index = 15
+        index = 16
+      }
+      custtab_8_t2480139_401 = {
+        id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
+        label = "GWR Subtab"
+        visible = true
+        index = 14
       }
     }
   }

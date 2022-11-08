@@ -1893,40 +1893,7 @@ netsuite.entryForm custform_19_t2257815_381 {
         id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
         label = "test tab"
         visible = true
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custentity19 = {
-                    id = netsuite.entitycustomfield.instance.custentity19.scriptid
-                    label = "Cust Field"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    quickAdd = false
-                    index = 0
-                  }
-                  custentity6 = {
-                    id = netsuite.entitycustomfield.instance.custentity6.scriptid
-                    label = "CreatedUsingCode8_3"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    quickAdd = false
-                    index = 1
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
         index = 11
       }
     }

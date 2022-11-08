@@ -1045,4 +1045,8 @@ settings netsuite.accountingPreferences {
     label = "SCM: Inventory: Commitment: Enable Inventory Demand and Inventory Supply Table Tracking"
     type = "checkbox"
   }
+  boolean USE_UPDATED_CALCULATION_OBV {
+    label = "Use updated calculation for OBV when deleting discount lines and mAmount 0 for A/R scenario"
+    type = "checkbox"
+  }
 }

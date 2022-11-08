@@ -373,6 +373,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
               sameRowAsPrevious = false
               index = 3
             }
+            
             custbody_rg_valid_forto_po = {
               id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
               label = "Validated Required Fields for FortoX"
@@ -1346,6 +1347,21 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1469,6 +1485,32 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_srd_opp_source = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+                    label = "Opportunity Source"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 5
+                  }
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1477,7 +1519,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 5
+                    index = 6
                   }
                 }
                 index = 0
@@ -1553,6 +1595,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
             }
           }
         }
+        index = 16
+      }
+      custtab_8_t2480139_401 = {
+        id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
+        label = "GWR Subtab"
+        visible = true
         index = 15
       }
     }

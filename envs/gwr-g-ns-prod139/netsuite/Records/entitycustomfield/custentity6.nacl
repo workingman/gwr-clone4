@@ -2,7 +2,7 @@ netsuite.entitycustomfield custentity6 {
   scriptid = "custentity6"
   accesslevel = "2"
   appliestocontact = false
-  appliestocustomer = true
+  appliestocustomer = false
   appliestoemployee = false
   appliestogenericrsrc = false
   appliestogroup = false
@@ -31,5 +31,5 @@ netsuite.entitycustomfield custentity6 {
   showhierarchy = false
   showinlist = false
   storevalue = true
-  subtab = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+  
 }

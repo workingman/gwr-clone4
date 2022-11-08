@@ -1,5 +1,5 @@
-netsuite.workflow customworkflow_srd_basic_approval {
-  scriptid = "customworkflow_srd_basic_approval"
+netsuite.workflow customworkflow_srd_basic_approval_v1 {
+  scriptid = "customworkflow_srd_basic_approval_v1"
   description = '''
 With this process, a sales order is automatically approved if one of the following is true:
 
@@ -65,7 +65,7 @@ Complexity: Low
               workflowaction1324 = {
                 scriptid = "workflowaction1324"
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-                field = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
+                field = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
                 isinactive = false
                 schedulemode = "DELAY"
                 valuechecked = false
@@ -99,7 +99,7 @@ Complexity: Low
             workflowtransition291 = {
               scriptid = "workflowtransition291"
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate449.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate449.scriptid
               triggertype = "BEFORESUBMIT"
               initcondition = {
                 formula = "( \"Customer:Overdue Balance\" <= 0.00 AND \"Total\" <= 300.00 ) OR isEmpty(\"User:Supervisor\") = 'T'"
@@ -129,7 +129,7 @@ Complexity: Low
             workflowtransition292 = {
               scriptid = "workflowtransition292"
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate448.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate448.scriptid
               triggertype = "AFTERSUBMIT"
               initcondition = {
                 type = "VISUAL_BUILDER"
@@ -153,7 +153,7 @@ Complexity: Low
               workflowaction1326 = {
                 scriptid = "workflowaction1326"
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-                field = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                field = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                 isinactive = false
                 schedulemode = "DELAY"
                 valuechecked = false
@@ -167,7 +167,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                         index = 0
                       }
                     }
@@ -199,10 +199,10 @@ Complexity: Low
                 includerecordlink = false
                 includetransaction = false
                 isinactive = false
-                recipientfield = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                recipientfield = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                 recipienttype = "FIELD"
                 schedulemode = "DELAY"
-                senderfield = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
+                senderfield = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
                 sendertype = "FIELD"
                 subject = "SO {TRANID} needs your attention"
                 usetemplate = false
@@ -228,7 +228,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                         index = 0
                       }
                       User = {
@@ -257,7 +257,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                         index = 0
                       }
                       User = {
@@ -284,7 +284,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                         index = 0
                       }
                       User = {
@@ -337,9 +337,9 @@ Complexity: Low
           workflowtransition = {
             workflowtransition293 = {
               scriptid = "workflowtransition293"
-              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate448.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1330.scriptid
+              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate448.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1330.scriptid
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate449.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate449.scriptid
               initcondition = {
                 type = "VISUAL_BUILDER"
               }
@@ -347,9 +347,9 @@ Complexity: Low
             }
             workflowtransition294 = {
               scriptid = "workflowtransition294"
-              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate448.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1331.scriptid
+              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate448.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1331.scriptid
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate450.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate450.scriptid
               initcondition = {
                 type = "VISUAL_BUILDER"
               }
@@ -359,7 +359,7 @@ Complexity: Low
               scriptid = "workflowtransition295"
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
               eventtypes = "CANCEL"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate451.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate451.scriptid
               triggertype = "AFTERSUBMIT"
               initcondition = {
                 formula = "\"Order Status\" IN (\"Order Status1\")"
@@ -495,10 +495,10 @@ Complexity: Low
                 includerecordlink = false
                 includetransaction = false
                 isinactive = false
-                recipientfield = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
+                recipientfield = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
                 recipienttype = "FIELD"
                 schedulemode = "DELAY"
-                senderfield = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
+                senderfield = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
                 sendertype = "FIELD"
                 subject = "SO {TRANID} rejected"
                 usetemplate = false
@@ -524,7 +524,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
                         index = 0
                       }
                       User = {
@@ -564,7 +564,7 @@ Complexity: Low
                     parameter = {
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
-                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
+                        value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
                         index = 0
                       }
                       User = {
@@ -628,9 +628,9 @@ Complexity: Low
           workflowtransition = {
             workflowtransition296 = {
               scriptid = "workflowtransition296"
-              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate450.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1341.scriptid
+              buttonaction = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate450.workflowactions.BEFORELOAD.addbuttonaction.workflowaction1341.scriptid
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate448.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate448.scriptid
               initcondition = {
                 type = "VISUAL_BUILDER"
               }
@@ -640,7 +640,7 @@ Complexity: Low
               scriptid = "workflowtransition297"
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
               eventtypes = "CANCEL"
-              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval.workflowstates.workflowstate.workflowstate451.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowstates.workflowstate.workflowstate451.scriptid
               triggertype = "AFTERSUBMIT"
               initcondition = {
                 formula = "\"Order Status\" IN (\"Order Status1\")"
