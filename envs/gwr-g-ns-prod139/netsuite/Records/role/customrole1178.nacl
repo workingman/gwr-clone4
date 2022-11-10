@@ -68,6 +68,10 @@ netsuite.role customrole1178 {
         permkey = "LIST_PUBLISHSEARCH"
         permlevel = "FULL"
       },
+      {
+        permkey = netsuite.customrecord_amzn_brand_auth.attr.scriptid
+        permlevel = "FULL"
+      },
     ]
   }
 }

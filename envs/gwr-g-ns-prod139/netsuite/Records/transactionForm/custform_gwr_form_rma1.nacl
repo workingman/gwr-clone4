@@ -1034,6 +1034,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         
         
         
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1191,6 +1192,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     sameRowAsPrevious = false
                     index = 5
                   }
+                  
                   
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
