@@ -37,4 +37,7 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   showinlist = false
   storevalue = true
   subtab = "TRANSACTIONSYSTEMINFORMATION"
+  
+  
+  
 }
