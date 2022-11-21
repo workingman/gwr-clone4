@@ -508,6 +508,12 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     visible = false
                     index = 19
                   }
+                  custcol_gwr_rma1 = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
+                    label = "GWR RMA custom field"
+                    visible = false
+                    index = 20
+                  }
                 }
               }
               index = 0
@@ -682,6 +688,12 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     index = 26
                   }
                   
+                  custcol_gwr_rma1 = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
+                    label = "GWR RMA custom field"
+                    visible = false
+                    index = 27
+                  }
                 }
               }
               index = 1
@@ -966,6 +978,11 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1117,6 +1134,11 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     sameRowAsPrevious = false
                     index = 5
                   }
+                  
+                  
+                  
+                  
+                  
                   
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid

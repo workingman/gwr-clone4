@@ -604,6 +604,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     visible = true
                     index = 27
                   }
+                  custcol_gwr_rma1 = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
+                    label = "GWR RMA custom field"
+                    visible = false
+                    index = 28
+                  }
                 }
               }
               index = 0
@@ -1362,6 +1368,11 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1510,6 +1521,11 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 5
                   }
+                  
+                  
+                  
+                  
+                  
                   
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid

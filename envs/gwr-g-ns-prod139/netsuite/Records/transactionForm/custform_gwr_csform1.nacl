@@ -722,6 +722,12 @@ netsuite.transactionForm custform_gwr_csform1 {
                     visible = false
                     index = 40
                   }
+                  custcol_gwr_rma1 = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
+                    label = "GWR RMA custom field"
+                    visible = false
+                    index = 41
+                  }
                 }
               }
               index = 0
@@ -1450,6 +1456,11 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
+        
+        
+        
+        
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1627,6 +1638,11 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 7
                   }
+                  
+                  
+                  
+                  
+                  
                   
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
