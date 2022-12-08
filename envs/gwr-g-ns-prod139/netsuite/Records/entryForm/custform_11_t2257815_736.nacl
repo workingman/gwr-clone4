@@ -1874,6 +1874,29 @@ netsuite.entryForm custform_11_t2257815_736 {
         visible = true
         
         index = 11
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custentity19 = {
+                    id = netsuite.entitycustomfield.instance.custentity19.scriptid
+                    label = "Cust Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
     }
   }
