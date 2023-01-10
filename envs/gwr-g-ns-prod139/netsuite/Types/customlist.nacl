@@ -40,6 +40,9 @@ type netsuite.customlist_customvalues_customvalue {
   }
   number index {
   }
+  string internalId {
+    _hidden_value = true
+  }
 }
 type netsuite.customlist_customvalues {
   "Map<netsuite.customlist_customvalues_customvalue>" customvalue {

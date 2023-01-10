@@ -238,6 +238,16 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                 sameRowAsPrevious = false
                 index = 21
               }
+              EXCLUDEFROMGLNUMBERING = {
+                id = "EXCLUDEFROMGLNUMBERING"
+                label = "Exclude from GL Audit Numbering"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 22
+              }
             }
             index = 0
           }
@@ -549,12 +559,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     visible = true
                     index = 3
                   }
-                  SERIALNUMBERS = {
-                    id = "SERIALNUMBERS"
-                    label = "Serial/Lot Numbers"
-                    visible = true
-                    index = 4
-                  }
+                  
                   DESCRIPTION = {
                     id = "DESCRIPTION"
                     label = "Description"
@@ -692,7 +697,25 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
+                    index = 29
+                  }
+                  INVENTORYDETAIL = {
+                    id = "INVENTORYDETAIL"
+                    label = "Inventory Detail"
+                    visible = true
+                    index = 4
+                  }
+                  GLNUMBER = {
+                    id = "GLNUMBER"
+                    label = "GL #"
+                    visible = true
                     index = 27
+                  }
+                  GLSEQUENCE = {
+                    id = "GLSEQUENCE"
+                    label = "GL Audit Numbering Sequence"
+                    visible = true
+                    index = 28
                   }
                 }
               }
@@ -983,51 +1006,10 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
+        
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1140,16 +1122,10 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                   
                   
                   
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 6
-                  }
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1169,6 +1145,17 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         label = "GL Impact"
         visible = true
         index = 8
+        subItems = {
+          subList = {
+            GLIMPACTCHANGES = {
+              id = "GLIMPACTCHANGES"
+              label = "GL Impact Changes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
       }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid
@@ -1349,16 +1336,16 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
     }
   }
   linkedForms = {
-    linkedForm = [
-      {
+    linkedForm = {
+      BILL_BILL_CREDIT_TRANSACTION = {
         type = "BILL_BILL_CREDIT_TRANSACTION"
         form = "USE_DEFAULT"
-      },
-      {
+      }
+      BILL_VENDOR_RETURN_AUTHORIZATION_TRANSACTION = {
         type = "BILL_VENDOR_RETURN_AUTHORIZATION_TRANSACTION"
         form = "USE_DEFAULT"
-      },
-    ]
+      }
+    }
   }
   roles = {
     role = {

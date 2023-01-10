@@ -15,7 +15,7 @@ netsuite.customtransactiontype customsale_slt_sales_test {
       ADMINISTRATOR = {
         permittedlevel = "FULL"
         permittedrole = "ADMINISTRATOR"
-        index = 0
+        
       }
     }
   }

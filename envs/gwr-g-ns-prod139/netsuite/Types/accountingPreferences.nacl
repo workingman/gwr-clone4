@@ -1049,4 +1049,16 @@ settings netsuite.accountingPreferences {
     label = "Use updated calculation for OBV when deleting discount lines and mAmount 0 for A/R scenario"
     type = "checkbox"
   }
+  netsuite.selectOption GLNUMBERINGBY {
+    label = "GL Audit Numbering Method"
+    type = "select"
+  }
+  number INVENTORYNUMBEREXPRESSENTRYSIZE {
+    label = "Size of the textarea for inventory number express entry form."
+    type = "integer"
+  }
+  boolean VERIFYINVENTORYDETAILITEM {
+    label = "Perform backend checks to see if the item in the inventory detail subrecord matches the item in the transaction."
+    type = "checkbox"
+  }
 }

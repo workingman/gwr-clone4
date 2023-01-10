@@ -64,9 +64,12 @@ type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_customfieldfi
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_customfieldfilters {
-  "List<netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess {
@@ -81,7 +84,8 @@ type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_roleaccesses_
   }
 }
 type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_roleaccesses {
-  "List<netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.mapreducescript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.mapreducescript_scriptcustomfields_scriptcustomfield {
@@ -341,8 +345,7 @@ type netsuite.mapreducescript_scriptdeployments_scriptdeployment {
   }
   netsuite.mapreducescript_scriptdeployments_scriptdeployment_recurrence recurrence {
   }
-  number index {
-  }
+  
 }
 type netsuite.mapreducescript_scriptdeployments {
   "Map<netsuite.mapreducescript_scriptdeployments_scriptdeployment>" scriptdeployment {

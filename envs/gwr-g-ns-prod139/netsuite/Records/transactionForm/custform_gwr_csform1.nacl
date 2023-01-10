@@ -399,7 +399,7 @@ netsuite.transactionForm custform_gwr_csform1 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 3
+              index = 4
             }
             custbody_slt_sales_order_type = {
               id = netsuite.transactionbodycustomfield.instance.custbody_slt_sales_order_type.scriptid
@@ -409,7 +409,7 @@ netsuite.transactionForm custform_gwr_csform1 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 4
+              index = 5
             }
             
             custbody_rg_valid_forto_po = {
@@ -421,7 +421,17 @@ netsuite.transactionForm custform_gwr_csform1 {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 5
+              index = 6
+            }
+            EXCLUDEFROMGLNUMBERING = {
+              id = "EXCLUDEFROMGLNUMBERING"
+              label = "Exclude from GL Audit Numbering"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 3
             }
           }
           index = 0
@@ -536,12 +546,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     visible = true
                     index = 9
                   }
-                  SERIALNUMBERS = {
-                    id = "SERIALNUMBERS"
-                    label = "Serial/Lot Numbers"
-                    visible = true
-                    index = 10
-                  }
+                  
                   PRICE = {
                     id = "PRICE"
                     label = "Price Level"
@@ -678,55 +683,73 @@ netsuite.transactionForm custform_gwr_csform1 {
                     id = "CHARGETYPE"
                     label = "Charge Type"
                     visible = true
-                    index = 33
+                    index = 35
                   }
                   CHARGES = {
                     id = "CHARGES"
                     label = "Charges"
                     visible = true
-                    index = 34
+                    index = 36
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = true
-                    index = 35
+                    index = 37
                   }
                   cseg2 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
                     label = "Region"
                     visible = false
-                    index = 36
+                    index = 39
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
                     label = "created by oss e2e - 8060213"
                     visible = true
-                    index = 37
+                    index = 38
                   }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = false
-                    index = 38
+                    index = 40
                   }
                   custcol_slt_billable = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
                     label = "Billable"
                     visible = true
-                    index = 39
+                    index = 41
                   }
                   custcoltransactionterms = {
                     id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
                     label = "Terms"
                     visible = false
-                    index = 40
+                    index = 42
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
-                    index = 41
+                    index = 43
+                  }
+                  INVENTORYDETAIL = {
+                    id = "INVENTORYDETAIL"
+                    label = "Inventory Detail"
+                    visible = true
+                    index = 10
+                  }
+                  GLNUMBER = {
+                    id = "GLNUMBER"
+                    label = "GL #"
+                    visible = true
+                    index = 33
+                  }
+                  GLSEQUENCE = {
+                    id = "GLSEQUENCE"
+                    label = "GL Audit Numbering Sequence"
+                    visible = true
+                    index = 34
                   }
                 }
               }
@@ -1299,18 +1322,17 @@ netsuite.transactionForm custform_gwr_csform1 {
                 }
               }
               index = 0
-              subLists = [
-                {
-                  subList = [
-                    {
-                      id = "MESSAGES"
-                      label = "Messages"
-                      visible = true
-                      neverEmpty = false
-                    },
-                  ]
-                },
-              ]
+              subLists = {
+                subList = {
+                  MESSAGES = {
+                    id = "MESSAGES"
+                    label = "Messages"
+                    visible = true
+                    neverEmpty = false
+                    index = 0
+                  }
+                }
+              }
             }
           }
           subList = {
@@ -1461,51 +1483,10 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1644,16 +1625,10 @@ netsuite.transactionForm custform_gwr_csform1 {
                   
                   
                   
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 8
-                  }
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1667,6 +1642,17 @@ netsuite.transactionForm custform_gwr_csform1 {
         label = "GL Impact"
         visible = true
         index = 11
+        subItems = {
+          subList = {
+            GLIMPACTCHANGES = {
+              id = "GLIMPACTCHANGES"
+              label = "GL Impact Changes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
       }
       CHARGES = {
         id = "CHARGES"
@@ -1929,20 +1915,20 @@ netsuite.transactionForm custform_gwr_csform1 {
     }
   }
   linkedForms = {
-    linkedForm = [
-      {
+    linkedForm = {
+      INVOICE_CREDIT_MEMO_TRANSACTION = {
         type = "INVOICE_CREDIT_MEMO_TRANSACTION"
         form = "USE_DEFAULT"
-      },
-      {
+      }
+      INVOICE_ESTIMATE_TRANSACTION = {
         type = "INVOICE_ESTIMATE_TRANSACTION"
         form = "USE_DEFAULT"
-      },
-      {
+      }
+      INVOICE_RETURN_AUTHORIZATION_TRANSACTION = {
         type = "INVOICE_RETURN_AUTHORIZATION_TRANSACTION"
         form = "USE_DEFAULT"
-      },
-    ]
+      }
+    }
   }
   roles = {
     role = {
@@ -2059,36 +2045,43 @@ netsuite.transactionForm custform_gwr_csform1 {
     }
   }
   preferences = {
-    preference = [
-      {
+    preference = {
+      COMBINEEXPENSEINVOICEITEMS = {
         id = "COMBINEEXPENSEINVOICEITEMS"
         value = false
-      },
-      {
+        index = 0
+      }
+      COMBINEINVOICEITEMS = {
         id = "COMBINEINVOICEITEMS"
         value = false
-      },
-      {
+        index = 1
+      }
+      GROUPEXPENSESBYEMPLOYEE = {
         id = "GROUPEXPENSESBYEMPLOYEE"
         value = false
-      },
-      {
+        index = 2
+      }
+      COMBINETIMEITEMS = {
         id = "COMBINETIMEITEMS"
         value = true
-      },
-      {
+        index = 3
+      }
+      BILLABLESUBTOTALS = {
         id = "BILLABLESUBTOTALS"
         value = false
-      },
-      {
+        index = 4
+      }
+      GROUPTIMEBYEMPLOYEE = {
         id = "GROUPTIMEBYEMPLOYEE"
         value = false
-      },
-      {
+        index = 5
+      }
+      BILLABLEGROUPING = {
         id = "BILLABLEGROUPING"
         value = false
-      },
-    ]
+        index = 6
+      }
+    }
   }
   _generated_dependencies = [
     {

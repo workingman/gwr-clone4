@@ -85,7 +85,8 @@ type netsuite.savedcsvimport_filemappings_filemapping {
   }
 }
 type netsuite.savedcsvimport_filemappings {
-  "List<netsuite.savedcsvimport_filemappings_filemapping>" filemapping {
+  "Map<netsuite.savedcsvimport_filemappings_filemapping>" filemapping {
+    map_key_field = "file"
   }
 }
 type netsuite.savedcsvimport_recordmappings_recordmapping_fieldmappings_fieldmapping_columnreference {
@@ -108,7 +109,8 @@ type netsuite.savedcsvimport_recordmappings_recordmapping_fieldmappings_fieldmap
   }
 }
 type netsuite.savedcsvimport_recordmappings_recordmapping_fieldmappings {
-  "List<netsuite.savedcsvimport_recordmappings_recordmapping_fieldmappings_fieldmapping>" fieldmapping {
+  "Map<netsuite.savedcsvimport_recordmappings_recordmapping_fieldmappings_fieldmapping>" fieldmapping {
+    map_key_field = "field"
   }
 }
 type netsuite.savedcsvimport_recordmappings_recordmapping {
@@ -121,6 +123,7 @@ type netsuite.savedcsvimport_recordmappings_recordmapping {
   }
 }
 type netsuite.savedcsvimport_recordmappings {
-  "List<netsuite.savedcsvimport_recordmappings_recordmapping>" recordmapping {
+  "Map<netsuite.savedcsvimport_recordmappings_recordmapping>" recordmapping {
+    map_key_field = "record"
   }
 }

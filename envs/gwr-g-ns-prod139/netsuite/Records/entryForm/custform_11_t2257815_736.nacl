@@ -1603,7 +1603,7 @@ netsuite.entryForm custform_11_t2257815_736 {
       ENTITYCUSTOM = {
         id = "ENTITYCUSTOM"
         label = "Custom"
-        visible = false
+        visible = true
         fieldGroups = {
           defaultFieldGroup = {
             fields = {

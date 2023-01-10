@@ -1,0 +1,9 @@
+netsuite.workflowactionscript customscript_srd_disable_fields {
+  scriptid = "customscript_srd_disable_fields"
+  isinactive = false
+  name = "srd_disable_fields"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_srd_disable_fields@duu.path
+}

@@ -1,0 +1,12 @@
+netsuite.file SuiteScripts_srd_disable_fields@duu {
+  bundleable = false
+  isinactive = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/srd_disable_fields"
+  content = file("netsuite/FileCabinet/SuiteScripts/srd_disable_fields")
+  _parent = [
+    netsuite.folder.instance.SuiteScripts,
+  ]
+}

@@ -14,44 +14,20 @@ netsuite.workflow customworkflow_srd_create_opp {
   releasestatus = "TESTING"
   runasadmin = false
   initcondition = {
-    formula = "\"Opportunity/Estimate Status\" IN (\"Entity Status1\",\"Entity Status2\",\"Entity Status3\",\"Entity Status4\",\"Entity Status5\")"
+    formula = "isEmpty(\"Opportunity:Type\") = 'F'"
     type = "VISUAL_BUILDER"
     parameters = {
       parameter = {
-        Opportunity_Estimate_Status@ds = {
-          name = "Opportunity/Estimate Status"
-          value = "STDBODYENTITYSTATUS"
+        
+        
+        
+        
+        
+        
+        Opportunity_Type@f = {
+          name = "Opportunity:Type"
+          value = "STDBODYOPPORTUNITY:STDBODYTRANTYPE"
           index = 0
-        }
-        Entity_Status1@s = {
-          name = "Entity Status1"
-          selectrecordtype = "-104"
-          value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 1
-        }
-        Entity_Status2@s = {
-          name = "Entity Status2"
-          selectrecordtype = "-104"
-          value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 2
-        }
-        Entity_Status3@s = {
-          name = "Entity Status3"
-          selectrecordtype = "-104"
-          value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 3
-        }
-        Entity_Status4@s = {
-          name = "Entity Status4"
-          selectrecordtype = "-104"
-          value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 4
-        }
-        Entity_Status5@s = {
-          name = "Entity Status5"
-          selectrecordtype = "-104"
-          value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 5
         }
       }
     }

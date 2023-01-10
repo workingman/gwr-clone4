@@ -3,7 +3,11 @@ type netsuite.classTranslationList {
     hidden_string source {
     }
   }
-  "List<netsuite.classTranslation>" classTranslation {
+  "Map<netsuite.classTranslation>" classTranslation {
+    map_key_field = [
+      "locale",
+      "language",
+    ]
   }
   boolean replaceAll {
     isAttribute = true

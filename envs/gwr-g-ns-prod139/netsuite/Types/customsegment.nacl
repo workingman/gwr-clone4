@@ -55,8 +55,7 @@ type netsuite.customsegment_permissions_permission {
   }
   netsuite.customsegment_access_search_level searchaccesslevel {
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_permissions {
   "Map<netsuite.customsegment_permissions_permission>" permission {
@@ -70,8 +69,7 @@ type netsuite.customsegment_segmentapplication_crm_applications_application {
   boolean isapplied {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_segmentapplication_crm_applications {
   "Map<netsuite.customsegment_segmentapplication_crm_applications_application>" application {
@@ -93,8 +91,7 @@ type netsuite.customsegment_segmentapplication_customrecords_applications_applic
   }
   string sourcelist {
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_segmentapplication_customrecords_applications {
   "Map<netsuite.customsegment_segmentapplication_customrecords_applications_application>" application {
@@ -114,7 +111,8 @@ type netsuite.customsegment_segmentapplication_entities_applications_application
   }
 }
 type netsuite.customsegment_segmentapplication_entities_applications {
-  "List<netsuite.customsegment_segmentapplication_entities_applications_application>" application {
+  "Map<netsuite.customsegment_segmentapplication_entities_applications_application>" application {
+    map_key_field = "id"
   }
 }
 type netsuite.customsegment_segmentapplication_entities {
@@ -132,7 +130,8 @@ type netsuite.customsegment_segmentapplication_items_applications_application {
   }
 }
 type netsuite.customsegment_segmentapplication_items_applications {
-  "List<netsuite.customsegment_segmentapplication_items_applications_application>" application {
+  "Map<netsuite.customsegment_segmentapplication_items_applications_application>" application {
+    map_key_field = "id"
   }
 }
 type netsuite.customsegment_segmentapplication_items {
@@ -151,8 +150,7 @@ type netsuite.customsegment_segmentapplication_otherrecords_applications_applica
   boolean isapplied {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_segmentapplication_otherrecords_applications {
   "Map<netsuite.customsegment_segmentapplication_otherrecords_applications_application>" application {
@@ -170,8 +168,7 @@ type netsuite.customsegment_segmentapplication_transactionbody_applications_appl
   boolean isapplied {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_segmentapplication_transactionbody_applications {
   "Map<netsuite.customsegment_segmentapplication_transactionbody_applications_application>" application {
@@ -191,8 +188,7 @@ type netsuite.customsegment_segmentapplication_transactionline_applications_appl
   boolean isapplied {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.customsegment_segmentapplication_transactionline_applications {
   "Map<netsuite.customsegment_segmentapplication_transactionline_applications_application>" application {

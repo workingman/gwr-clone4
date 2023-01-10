@@ -189,6 +189,7 @@ type netsuite.transactionbodycustomfield_roleaccesses_roleaccess {
   }
 }
 type netsuite.transactionbodycustomfield_roleaccesses {
-  "List<netsuite.transactionbodycustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.transactionbodycustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }

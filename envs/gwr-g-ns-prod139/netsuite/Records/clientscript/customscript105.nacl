@@ -19,7 +19,7 @@ netsuite.clientscript customscript105 {
         loglevel = "DEBUG"
         recordtype = "RECORD"
         status = "TESTING"
-        index = 0
+        
       }
     }
   }

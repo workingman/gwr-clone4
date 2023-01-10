@@ -19,7 +19,7 @@ netsuite.usereventscript customscript_feat1_test_ue {
         loglevel = "DEBUG"
         recordtype = "SALESORDER"
         status = "TESTING"
-        index = 0
+        
       }
     }
   }

@@ -81,9 +81,12 @@ type netsuite.portlet_scriptcustomfields_scriptcustomfield_customfieldfilters_cu
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.portlet_scriptcustomfields_scriptcustomfield_customfieldfilters {
-  "List<netsuite.portlet_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.portlet_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.portlet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess {
@@ -98,7 +101,8 @@ type netsuite.portlet_scriptcustomfields_scriptcustomfield_roleaccesses_roleacce
   }
 }
 type netsuite.portlet_scriptcustomfields_scriptcustomfield_roleaccesses {
-  "List<netsuite.portlet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.portlet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.portlet_scriptcustomfields_scriptcustomfield {
@@ -211,8 +215,7 @@ type netsuite.portlet_scriptdeployments_scriptdeployment {
   }
   boolean dashboardapp {
   }
-  number index {
-  }
+  
 }
 type netsuite.portlet_scriptdeployments {
   "Map<netsuite.portlet_scriptdeployments_scriptdeployment>" scriptdeployment {

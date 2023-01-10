@@ -76,9 +76,12 @@ type netsuite.entryForm_actionbar_customMenu_customMenuItem {
   }
   string function {
   }
+  number index {
+  }
 }
 type netsuite.entryForm_actionbar_customMenu {
-  "List<netsuite.entryForm_actionbar_customMenu_customMenuItem>" customMenuItem {
+  "Map<netsuite.entryForm_actionbar_customMenu_customMenuItem>" customMenuItem {
+    map_key_field = "label"
   }
 }
 type netsuite.entryForm_actionbar_menu_menuitem {
@@ -117,9 +120,12 @@ type netsuite.entryForm_buttons_standardButtons_button {
   }
   netsuite.form_buttonstyle style {
   }
+  number index {
+  }
 }
 type netsuite.entryForm_buttons_standardButtons {
-  "List<netsuite.entryForm_buttons_standardButtons_button>" button {
+  "Map<netsuite.entryForm_buttons_standardButtons_button>" button {
+    map_key_field = "id"
   }
 }
 type netsuite.entryForm_buttons {
@@ -367,9 +373,12 @@ type netsuite.entryForm_tabs_tab_subItems_subLists_subList {
   }
   boolean neverEmpty {
   }
+  number index {
+  }
 }
 type netsuite.entryForm_tabs_tab_subItems_subLists {
-  "List<netsuite.entryForm_tabs_tab_subItems_subLists_subList>" subList {
+  "Map<netsuite.entryForm_tabs_tab_subItems_subLists_subList>" subList {
+    map_key_field = "id"
   }
 }
 type netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_defaultFieldGroup_fields_field {
@@ -431,13 +440,18 @@ type netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields_f
   }
   boolean quickAdd {
   }
+  number index {
+  }
 }
 type netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields {
   netsuite.form_fieldposition position {
     _required = true
     isAttribute = true
   }
-  "List<netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields_field>" field {
+  "Map<netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields_field>" field {
+    map_key_field = "id"
+  }
+  number index {
   }
 }
 type netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup {
@@ -454,7 +468,8 @@ type netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup {
   }
   boolean singleColumn {
   }
-  "List<netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields>" fields {
+  "Map<netsuite.entryForm_tabs_tab_subItems_subTab_fieldGroups_fieldGroup_fields>" fields {
+    map_key_field = "position"
   }
   number index {
   }
@@ -481,14 +496,14 @@ type netsuite.entryForm_tabs_tab_subItems_subTab {
   }
   number index {
   }
-  "List<netsuite.entryForm_tabs_tab_subItems_subTab_subLists>" subLists {
+  netsuite.entryForm_tabs_tab_subItems_subTab_subLists subLists {
   }
 }
 type netsuite.entryForm_tabs_tab_subItems {
   "Map<netsuite.entryForm_tabs_tab_subItems_subList>" subList {
     map_key_field = "id"
   }
-  "List<netsuite.entryForm_tabs_tab_subItems_subLists>" subLists {
+  netsuite.entryForm_tabs_tab_subItems_subLists subLists {
   }
   "Map<netsuite.entryForm_tabs_tab_subItems_subTab>" subTab {
     map_key_field = "id"
@@ -516,7 +531,8 @@ type netsuite.entryForm_tabs {
   }
 }
 type netsuite.entryForm_tabs_tab_subItems_subTab_subLists {
-  "List<netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList>" subList {
+  "Map<netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList>" subList {
+    map_key_field = "id"
   }
 }
 type netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList {
@@ -529,5 +545,7 @@ type netsuite.entryForm_tabs_tab_subItems_subTab_subLists_subList {
   boolean visible {
   }
   boolean neverEmpty {
+  }
+  number index {
   }
 }

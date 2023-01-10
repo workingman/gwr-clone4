@@ -66,9 +66,12 @@ type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_customf
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_customfieldfilters {
-  "List<netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess {
@@ -83,7 +86,8 @@ type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_roleacc
   }
 }
 type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_roleaccesses {
-  "List<netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.sdfinstallationscript_scriptcustomfields_scriptcustomfield {
@@ -174,8 +178,7 @@ type netsuite.sdfinstallationscript_scriptdeployments_scriptdeployment {
   }
   netsuite.script_loglevel loglevel {
   }
-  number index {
-  }
+  
 }
 type netsuite.sdfinstallationscript_scriptdeployments {
   "Map<netsuite.sdfinstallationscript_scriptdeployments_scriptdeployment>" scriptdeployment {

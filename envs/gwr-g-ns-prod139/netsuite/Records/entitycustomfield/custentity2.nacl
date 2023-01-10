@@ -36,7 +36,7 @@ netsuite.entitycustomfield custentity2 {
         accesslevel = "1"
         role = "CEO"
         searchlevel = "2"
-        index = 0
+        
       }
     }
   }

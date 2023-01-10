@@ -160,6 +160,16 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                 checkBoxDefault = "UNCHECKED"
                 index = 13
               }
+              EXCLUDEFROMGLNUMBERING = {
+                id = "EXCLUDEFROMGLNUMBERING"
+                label = "Exclude from GL Audit Numbering"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 14
+              }
             }
             index = 0
           }
@@ -464,14 +474,9 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     id = "DESCRIPTION"
                     label = "Description"
                     visible = true
-                    index = 4
-                  }
-                  SERIALNUMBERS = {
-                    id = "SERIALNUMBERS"
-                    label = "Serial/Lot Numbers"
-                    visible = true
                     index = 5
                   }
+                  
                   PRICE = {
                     id = "PRICE"
                     label = "Price Level"
@@ -608,7 +613,25 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
+                    index = 30
+                  }
+                  INVENTORYDETAIL = {
+                    id = "INVENTORYDETAIL"
+                    label = "Inventory Detail"
+                    visible = true
+                    index = 4
+                  }
+                  GLNUMBER = {
+                    id = "GLNUMBER"
+                    label = "GL #"
+                    visible = true
                     index = 28
+                  }
+                  GLSEQUENCE = {
+                    id = "GLSEQUENCE"
+                    label = "GL Audit Numbering Sequence"
+                    visible = true
+                    index = 29
                   }
                 }
               }
@@ -1271,18 +1294,17 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                 }
               }
               index = 0
-              subLists = [
-                {
-                  subList = [
-                    {
-                      id = "MESSAGES"
-                      label = "Messages"
-                      visible = true
-                      neverEmpty = false
-                    },
-                  ]
-                },
-              ]
+              subLists = {
+                subList = {
+                  MESSAGES = {
+                    id = "MESSAGES"
+                    label = "Messages"
+                    visible = true
+                    neverEmpty = false
+                    index = 0
+                  }
+                }
+              }
             }
           }
         }
@@ -1373,51 +1395,10 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1527,16 +1508,10 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                   
                   
                   
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 6
-                  }
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1556,6 +1531,17 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         label = "GL Impact"
         visible = true
         index = 12
+        subItems = {
+          subList = {
+            GLIMPACTCHANGES = {
+              id = "GLIMPACTCHANGES"
+              label = "GL Impact Changes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
       }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid

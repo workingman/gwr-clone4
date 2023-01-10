@@ -83,9 +83,12 @@ type netsuite.usereventscript_scriptcustomfields_scriptcustomfield_customfieldfi
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.usereventscript_scriptcustomfields_scriptcustomfield_customfieldfilters {
-  "List<netsuite.usereventscript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.usereventscript_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.usereventscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess {
@@ -100,7 +103,8 @@ type netsuite.usereventscript_scriptcustomfields_scriptcustomfield_roleaccesses_
   }
 }
 type netsuite.usereventscript_scriptcustomfields_scriptcustomfield_roleaccesses {
-  "List<netsuite.usereventscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.usereventscript_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.usereventscript_scriptcustomfields_scriptcustomfield {
@@ -219,8 +223,7 @@ type netsuite.usereventscript_scriptdeployments_scriptdeployment {
   }
   string localizationcontext {
   }
-  number index {
-  }
+  
 }
 type netsuite.usereventscript_scriptdeployments {
   "Map<netsuite.usereventscript_scriptdeployments_scriptdeployment>" scriptdeployment {

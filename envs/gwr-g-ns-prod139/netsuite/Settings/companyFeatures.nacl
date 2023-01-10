@@ -31,7 +31,7 @@ netsuite.companyFeatures {
   RECEIVABLES = true
   PAYABLES = true
   ACCOUNTINGPERIODS = true
-  GLAUDITNUMBERING = false
+  GLAUDITNUMBERING = true
   EXPENSEALLOCATION = true
   DYNALLOCATION = false
   AMORTIZATION = false
@@ -110,7 +110,7 @@ netsuite.companyFeatures {
   SERIALIZEDINVENTORY = true
   LOTNUMBEREDINVENTORY = true
   BINMANAGEMENT = false
-  ADVBINSERIALLOTMGMT = false
+  ADVBINSERIALLOTMGMT = true
   INVENTORYSTATUS = false
   ADVINVENTORYMGMT = false
   LANDEDCOST = false

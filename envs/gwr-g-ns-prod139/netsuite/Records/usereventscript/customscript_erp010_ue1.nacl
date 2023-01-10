@@ -19,7 +19,7 @@ netsuite.usereventscript customscript_erp010_ue1 {
         loglevel = "DEBUG"
         recordtype = "SALESORDER"
         status = "TESTING"
-        index = 0
+        
       }
     }
   }

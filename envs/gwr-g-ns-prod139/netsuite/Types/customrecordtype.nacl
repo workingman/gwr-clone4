@@ -125,9 +125,12 @@ type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_customfieldfilters {
-  "List<netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_roleaccesses_roleaccess {
@@ -142,7 +145,8 @@ type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_
   }
 }
 type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_roleaccesses {
-  "List<netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield {
@@ -268,8 +272,7 @@ type netsuite.customrecordtype_links_link {
   }
   string linklabel {
   }
-  number index {
-  }
+  
 }
 type netsuite.customrecordtype_links {
   "Map<netsuite.customrecordtype_links_link>" link {
@@ -285,8 +288,7 @@ type netsuite.customrecordtype_permissions_permission {
   }
   netsuite.role_restrict restriction {
   }
-  number index {
-  }
+  
 }
 type netsuite.customrecordtype_permissions {
   "Map<netsuite.customrecordtype_permissions_permission>" permission {

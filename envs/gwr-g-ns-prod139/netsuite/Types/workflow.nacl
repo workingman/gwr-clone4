@@ -276,8 +276,7 @@ type netsuite.workflow_workflowcustomfields_workflowcustomfield_roleaccesses_rol
   netsuite.generic_accesslevel_searchlevel searchlevel {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.workflow_workflowcustomfields_workflowcustomfield_roleaccesses {
   "Map<netsuite.workflow_workflowcustomfields_workflowcustomfield_roleaccesses_roleaccess>" roleaccess {
@@ -2723,8 +2722,7 @@ type netsuite.workflow_workflowstates_workflowstate_workflowstatecustomfields_wo
   netsuite.generic_accesslevel_searchlevel searchlevel {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.workflow_workflowstates_workflowstate_workflowstatecustomfields_workflowstatecustomfield_roleaccesses {
   "Map<netsuite.workflow_workflowstates_workflowstate_workflowstatecustomfields_workflowstatecustomfield_roleaccesses_roleaccess>" roleaccess {

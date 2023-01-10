@@ -161,9 +161,12 @@ type netsuite.transactioncolumncustomfield_customfieldfilters_customfieldfilter 
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.transactioncolumncustomfield_customfieldfilters {
-  "List<netsuite.transactioncolumncustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.transactioncolumncustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.transactioncolumncustomfield_roleaccesses_roleaccess {
@@ -178,6 +181,7 @@ type netsuite.transactioncolumncustomfield_roleaccesses_roleaccess {
   }
 }
 type netsuite.transactioncolumncustomfield_roleaccesses {
-  "List<netsuite.transactioncolumncustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.transactioncolumncustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }

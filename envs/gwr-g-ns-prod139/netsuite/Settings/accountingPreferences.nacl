@@ -433,4 +433,10 @@ netsuite.accountingPreferences {
   }
   ENABLEINVDEMANDSUPPLYTRACKING = true
   USE_UPDATED_CALCULATION_OBV = false
+  GLNUMBERINGBY = {
+    value = "YEAR"
+    text = "Year"
+  }
+  INVENTORYNUMBEREXPRESSENTRYSIZE = 1000
+  VERIFYINVENTORYDETAILITEM = true
 }

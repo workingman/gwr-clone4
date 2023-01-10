@@ -72,7 +72,8 @@ type netsuite.role_permissions_permission {
   }
 }
 type netsuite.role_permissions {
-  "List<netsuite.role_permissions_permission>" permission {
+  "Map<netsuite.role_permissions_permission>" permission {
+    map_key_field = "permkey"
   }
 }
 type netsuite.role_recordrestrictions_recordrestriction {
@@ -88,6 +89,7 @@ type netsuite.role_recordrestrictions_recordrestriction {
   }
 }
 type netsuite.role_recordrestrictions {
-  "List<netsuite.role_recordrestrictions_recordrestriction>" recordrestriction {
+  "Map<netsuite.role_recordrestrictions_recordrestriction>" recordrestriction {
+    map_key_field = "segment"
   }
 }

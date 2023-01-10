@@ -58,7 +58,8 @@ type netsuite.customtransactiontype_links_link {
   }
 }
 type netsuite.customtransactiontype_links {
-  "List<netsuite.customtransactiontype_links_link>" link {
+  "Map<netsuite.customtransactiontype_links_link>" link {
+    map_key_field = "linkcategory"
   }
 }
 type netsuite.customtransactiontype_permissions_permission {
@@ -68,8 +69,7 @@ type netsuite.customtransactiontype_permissions_permission {
   netsuite.generic_permission_level permittedlevel {
     _required = true
   }
-  number index {
-  }
+  
 }
 type netsuite.customtransactiontype_permissions {
   "Map<netsuite.customtransactiontype_permissions_permission>" permission {

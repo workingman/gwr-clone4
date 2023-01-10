@@ -79,9 +79,12 @@ type netsuite.suitelet_scriptcustomfields_scriptcustomfield_customfieldfilters_c
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.suitelet_scriptcustomfields_scriptcustomfield_customfieldfilters {
-  "List<netsuite.suitelet_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.suitelet_scriptcustomfields_scriptcustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.suitelet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess {
@@ -96,7 +99,8 @@ type netsuite.suitelet_scriptcustomfields_scriptcustomfield_roleaccesses_roleacc
   }
 }
 type netsuite.suitelet_scriptcustomfields_scriptcustomfield_roleaccesses {
-  "List<netsuite.suitelet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.suitelet_scriptcustomfields_scriptcustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
 type netsuite.suitelet_scriptcustomfields_scriptcustomfield {
@@ -182,7 +186,8 @@ type netsuite.suitelet_scriptdeployments_scriptdeployment_links_link {
   }
 }
 type netsuite.suitelet_scriptdeployments_scriptdeployment_links {
-  "List<netsuite.suitelet_scriptdeployments_scriptdeployment_links_link>" link {
+  "Map<netsuite.suitelet_scriptdeployments_scriptdeployment_links_link>" link {
+    map_key_field = "linkcategory"
   }
 }
 type netsuite.suitelet_scriptdeployments_scriptdeployment {
@@ -226,8 +231,7 @@ type netsuite.suitelet_scriptdeployments_scriptdeployment {
   }
   netsuite.suitelet_scriptdeployments_scriptdeployment_links links {
   }
-  number index {
-  }
+  
 }
 type netsuite.suitelet_scriptdeployments {
   "Map<netsuite.suitelet_scriptdeployments_scriptdeployment>" scriptdeployment {

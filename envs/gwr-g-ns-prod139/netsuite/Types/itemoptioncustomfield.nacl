@@ -115,9 +115,12 @@ type netsuite.itemoptioncustomfield_customfieldfilters_customfieldfilter {
   }
   string fldcomparefield {
   }
+  number index {
+  }
 }
 type netsuite.itemoptioncustomfield_customfieldfilters {
-  "List<netsuite.itemoptioncustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+  "Map<netsuite.itemoptioncustomfield_customfieldfilters_customfieldfilter>" customfieldfilter {
+    map_key_field = "fldfilter"
   }
 }
 type netsuite.itemoptioncustomfield_roleaccesses_roleaccess {
@@ -132,6 +135,7 @@ type netsuite.itemoptioncustomfield_roleaccesses_roleaccess {
   }
 }
 type netsuite.itemoptioncustomfield_roleaccesses {
-  "List<netsuite.itemoptioncustomfield_roleaccesses_roleaccess>" roleaccess {
+  "Map<netsuite.itemoptioncustomfield_roleaccesses_roleaccess>" roleaccess {
+    map_key_field = "role"
   }
 }
