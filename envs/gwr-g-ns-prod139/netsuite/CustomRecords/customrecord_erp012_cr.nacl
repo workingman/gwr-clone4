@@ -186,4 +186,6 @@ type netsuite.customrecord_erp012_cr {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
 }
