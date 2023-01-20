@@ -39,4 +39,5 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   
   
   
+  description = "new description"
 }
