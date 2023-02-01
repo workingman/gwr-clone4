@@ -41,6 +41,13 @@ netsuite.customlist customlist_gwr_l_rma11b {
         value = "purple"
         index = 4
       }
+      val_53916_t2480139_519 = {
+        scriptid = "val_53916_t2480139_519"
+        abbreviation = "v"
+        isinactive = false
+        value = "value for caleb and fernando"
+        index = 5
+      }
     }
   }
 }
