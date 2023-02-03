@@ -431,14 +431,31 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Total\" > 200000.0"
+                  formula = "\"Sales Order:GWR Workflow selector\" IN (\"GWR Workflow Selector List1\",\"GWR Workflow Selector List2\") AND \"Total\" > 200000.0"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
                       Total = {
                         name = "Total"
                         value = "STDBODYTOTAL"
+                        index = 3
+                      }
+                      Sales_Order_GWR_Workflow_selector@sfss = {
+                        name = "Sales Order:GWR Workflow selector"
+                        value = "STDBODYSALESORDER:[scriptid=custbody_gwr_workflow_selector]"
                         index = 0
+                      }
+                      GWR_Workflow_Selector_List1@s = {
+                        name = "GWR Workflow Selector List1"
+                        selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
+                        value = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.customvalues.customvalue.val_54960_t2257815_430.scriptid
+                        index = 1
+                      }
+                      GWR_Workflow_Selector_List2@s = {
+                        name = "GWR Workflow Selector List2"
+                        selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
+                        value = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.customvalues.customvalue.val_54958_t2257815_585.scriptid
+                        index = 2
                       }
                     }
                   }
@@ -1541,4 +1558,9 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
     }
   }
   initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  _generated_dependencies = [
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+    },
+  ]
 }
