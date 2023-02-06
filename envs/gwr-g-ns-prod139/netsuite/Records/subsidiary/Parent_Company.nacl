@@ -28,7 +28,7 @@ netsuite.subsidiary Parent_Company@s {
     ]
   }
   checkLayout = {
-    name = "Standard Check Layout"
+    name = "GWR Custom Check Layout"
     id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   identifier = "Parent Company"
