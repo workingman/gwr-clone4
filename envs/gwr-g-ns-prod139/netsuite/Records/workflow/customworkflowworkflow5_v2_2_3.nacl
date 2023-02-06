@@ -348,7 +348,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
                 isinactive = true
                 schedulemode = "DELAY"
-                scripttype = netsuite.workflowactionscript.instance.customscript_aw_wa_disable_fields.scriptid
+                scripttype = netsuite.workflowactionscript.instance.customscriptcustomscript_am_wa_disable_f.scriptid
                 initcondition = {
                   type = "VISUAL_BUILDER"
                 }
@@ -782,7 +782,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 checkconditionbeforeexecution = true
                 eventtypes = "VIEW"
                 isinactive = true
-                label = "Approve - Appwrap"
+                label = "Approve - AMP"
                 saverecordfirst = false
                 initcondition = {
                   type = "VISUAL_BUILDER"
