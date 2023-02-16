@@ -37,7 +37,7 @@ netsuite.transactionbodycustomfield custbody_aw_edit {
   showinlist = false
   storevalue = true
   subtab = "TRANSACTIONSYSTEMINFORMATION"
-  
-  
-  
+  bodyassemblybuild = false
+  bodybom = false
+  bodyperiodendjournal = false
 }

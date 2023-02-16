@@ -37,7 +37,7 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   showinlist = false
   storevalue = true
   description = "new description"
-  
-  
-  
+  bodyassemblybuild = false
+  bodybom = false
+  bodyperiodendjournal = false
 }

@@ -2,8 +2,8 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   scriptid = "custbody_gwr_workflow_selector"
   accesslevel = "2"
   applyformatting = false
-  
-  
+  bodyassemblybuild = false
+  bodybom = false
   bodycustomerpayment = false
   bodydeposit = false
   bodydepositapplication = false
@@ -16,7 +16,7 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   bodyjournal = false
   bodyopportunity = false
   bodyothertransaction = false
-  
+  bodyperiodendjournal = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
