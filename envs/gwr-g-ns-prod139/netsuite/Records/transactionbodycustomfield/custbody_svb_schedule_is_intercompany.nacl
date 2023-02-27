@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
-  scriptid = "custbody_aw_second_lvl_approval"
+netsuite.transactionbodycustomfield custbody_svb_schedule_is_intercompany {
+  scriptid = "custbody_svb_schedule_is_intercompany"
   accesslevel = "2"
   applyformatting = false
   bodycustomerpayment = false
@@ -19,7 +19,7 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   bodyprintpackingslip = false
   bodyprintstatement = false
   bodypurchase = false
-  bodysale = true
+  bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
@@ -31,13 +31,12 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp 2nd Level Approval"
+  label = "Schedule Is Intercompany"
   searchlevel = "2"
   showhierarchy = false
   showinlist = false
+  sourcefrom = netsuite.customrecord_svb_bill_dist_sched.field.custom_custrecord_svb_parent_intercomany_alloc.scriptid
+  sourcelist = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
   storevalue = true
-  subtab = "TRANSACTIONSYSTEMINFORMATION"
-  
-  
-  
+  subtab = "TRANSACTIONMAIN"
 }

@@ -41,4 +41,5 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  description = "Old description"
 }
