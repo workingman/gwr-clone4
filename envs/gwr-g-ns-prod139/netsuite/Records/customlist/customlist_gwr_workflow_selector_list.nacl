@@ -26,6 +26,8 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
       }
       
       
+      
+      
       val_55058_t2257815_924 = {
         scriptid = "val_55058_t2257815_924"
         abbreviation = "O"
