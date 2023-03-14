@@ -18,6 +18,18 @@ netsuite {
       ]
       types = [
         {
+          name = "savedsearch"
+          ids = [
+            "^customsearch[0-9]*",
+          ]
+        },
+        {
+          name = "savedcsvimport"
+          ids = [
+            "^custimport[^_]*",
+          ]
+        },
+        {
           name = "workbook"
         },
         {
