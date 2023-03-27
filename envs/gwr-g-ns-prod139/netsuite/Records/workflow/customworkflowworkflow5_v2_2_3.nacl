@@ -184,7 +184,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -202,7 +201,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 1
           }
         }
         workflowtransitions = {
@@ -258,7 +256,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 1
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -305,37 +302,31 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1071.scriptid
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1079.scriptid
-                        index = 3
                       }
                       Role4 = {
                         name = "Role4"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1084.scriptid
-                        index = 4
                       }
                       Role5 = {
                         name = "Role5"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole_gwr_role_acct.scriptid
-                        index = 5
                       }
                     }
                   }
@@ -356,7 +347,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 1
           }
           BEFORESUBMIT = {
             triggertype = "BEFORESUBMIT"
@@ -375,7 +365,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 2
           }
           AFTERSUBMIT = {
             triggertype = "AFTERSUBMIT"
@@ -395,7 +384,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 3
           }
         }
         workflowtransitions = {
@@ -440,24 +428,20 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       Sales_Order_GWR_Workflow_selector@sfss = {
                         name = "Sales Order:GWR Workflow selector"
                         value = "STDBODYSALESORDER:[scriptid=custbody_gwr_workflow_selector]"
-                        index = 0
                       }
                       GWR_Workflow_Selector_List1@s = {
                         name = "GWR Workflow Selector List1"
                         selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
                         value = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.customvalues.customvalue.val_54960_t2257815_430.scriptid
-                        index = 1
                       }
                       GWR_Workflow_Selector_List2@s = {
                         name = "GWR Workflow Selector List2"
                         selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
                         value = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.customvalues.customvalue.val_54958_t2257815_585.scriptid
-                        index = 2
                       }
                       Total = {
                         name = "Total"
                         value = "STDBODYTOTAL"
-                        index = 3
                       }
                     }
                   }
@@ -532,7 +516,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 5
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -550,7 +533,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 1
           }
         }
         workflowstatecustomfields = {
@@ -581,7 +563,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                     State_Second_Approval_Required___2_@fssasjk = {
                       name = "State:Second Approval Required? (2)"
                       value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowstates.workflowstate.workflowstate109.workflowstatecustomfields.workflowstatecustomfield.custwfstate2_7_3.scriptid
-                      index = 0
                     }
                   }
                 }
@@ -600,7 +581,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                     State_Second_Approval_Required___2_@fssasjk = {
                       name = "State:Second Approval Required? (2)"
                       value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowstates.workflowstate.workflowstate109.workflowstatecustomfields.workflowstatecustomfield.custwfstate2_7_3.scriptid
-                      index = 0
                     }
                   }
                 }
@@ -675,7 +655,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 3
               }
             }
-            index = 0
           }
           ONEXIT = {
             triggertype = "ONEXIT"
@@ -695,7 +674,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 1
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -742,36 +720,30 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1078.scriptid
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole_gwr_role_acct.scriptid
-                        index = 3
                       }
                       Workflow_First_Approver__SO___2_@fssjksjk = {
                         name = "Workflow:First Approver (SO) (2)"
                         value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow5_7_3.scriptid
-                        index = 4
                       }
                       Current_User@s = {
                         name = "Current User"
                         selectrecordtype = "-4"
                         value = "@CURRENTUSER@"
-                        index = 5
                       }
                     }
                   }
@@ -806,25 +778,21 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1079.scriptid
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1071.scriptid
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1084.scriptid
-                        index = 3
                       }
                     }
                   }
@@ -832,7 +800,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 2
               }
             }
-            index = 2
           }
         }
         workflowtransitions = {
@@ -935,7 +902,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 3
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -981,31 +947,26 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1071.scriptid
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1079.scriptid
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1084.scriptid
-                        index = 3
                       }
                       Role4 = {
                         name = "Role4"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1080.scriptid
-                        index = 4
                       }
                     }
                   }
@@ -1026,13 +987,11 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
                       }
                     }
                   }
@@ -1052,7 +1011,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 1
           }
           BEFORESUBMIT = {
             triggertype = "BEFORESUBMIT"
@@ -1086,7 +1044,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 1
               }
             }
-            index = 2
           }
         }
         workflowtransitions = {
@@ -1165,7 +1122,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -1212,7 +1168,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       Workflow_From_Pending_2nd_Level@fsss = {
                         name = "Workflow:From Pending 2nd Level"
                         value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow13_2.scriptid
-                        index = 0
                       }
                     }
                   }
@@ -1246,7 +1201,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       Workflow_Approved@f = {
                         name = "Workflow:Approved"
                         value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow14_2.scriptid
-                        index = 0
                       }
                     }
                   }
@@ -1268,7 +1222,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       Workflow_Approved@f = {
                         name = "Workflow:Approved"
                         value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow14_2.scriptid
-                        index = 0
                       }
                     }
                   }
@@ -1276,7 +1229,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 3
               }
             }
-            index = 1
           }
           BEFORESUBMIT = {
             triggertype = "BEFORESUBMIT"
@@ -1309,7 +1261,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 1
               }
             }
-            index = 2
           }
         }
         workflowtransitions = {
@@ -1327,7 +1278,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                     Workflow_Back_2nd_Approver@fss = {
                       name = "Workflow:Back 2nd Approver"
                       value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow11_2.scriptid
-                      index = 0
                     }
                   }
                 }
@@ -1347,7 +1297,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                     Workflow_Back_2nd_Approver@fss = {
                       name = "Workflow:Back 2nd Approver"
                       value = netsuite.workflow.instance.customworkflowworkflow5_v2_2_3.workflowcustomfields.workflowcustomfield.custworkflow11_2.scriptid
-                      index = 0
                     }
                   }
                 }
@@ -1396,7 +1345,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 1
               }
             }
-            index = 0
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -1442,25 +1390,21 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1028_1.scriptid
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1078.scriptid
-                        index = 3
                       }
                     }
                   }
@@ -1482,25 +1426,21 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1079.scriptid
-                        index = 1
                       }
                       Role2 = {
                         name = "Role2"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1071.scriptid
-                        index = 2
                       }
                       Role3 = {
                         name = "Role3"
                         selectrecordtype = "-118"
                         value = netsuite.role.instance.customrole1084.scriptid
-                        index = 3
                       }
                     }
                   }
@@ -1508,7 +1448,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 1
               }
             }
-            index = 1
           }
           BEFORESUBMIT = {
             triggertype = "BEFORESUBMIT"
@@ -1527,7 +1466,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 index = 0
               }
             }
-            index = 2
           }
         }
         workflowtransitions = {
