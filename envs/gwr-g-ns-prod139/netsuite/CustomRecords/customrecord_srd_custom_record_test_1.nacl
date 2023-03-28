@@ -1,4 +1,4 @@
-type netsuite.customrecord_erp010_cr {
+type netsuite.customrecord_srd_custom_record_test_1 {
   annotations {
     serviceid scriptid {
     }
@@ -107,29 +107,8 @@ type netsuite.customrecord_erp010_cr {
   string internalId {
     _hidden_value = true
   }
-  string custom_custrecord_erp010_fld1 {
-    scriptid = "custrecord_erp010_fld1"
-    accesslevel = "2"
-    allowquickadd = false
-    applyformatting = false
-    checkspelling = false
-    defaultchecked = false
-    displaytype = "NORMAL"
-    encryptatrest = false
-    fieldtype = "TEXT"
-    globalsearch = false
-    isformula = false
-    ismandatory = false
-    isparent = false
-    label = "Marketplace Id"
-    rolerestrict = false
-    searchlevel = "2"
-    showinlist = false
-    storevalue = true
-    index = 0
-  }
-  netsuite.customrecord_erp010_cr custom_custrecord_erp010_list_vals {
-    scriptid = "custrecord_erp010_list_vals"
+  netsuite.customrecord_srd_custom_record_test_2 custom_custrecord_srd_link_to_record_2 {
+    scriptid = "custrecord_srd_link_to_record_2"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -142,17 +121,18 @@ type netsuite.customrecord_erp010_cr {
     isformula = false
     ismandatory = false
     isparent = false
-    label = "List Values"
+    label = "Link to Record 2"
     onparentdelete = "NO_ACTION"
     rolerestrict = false
     searchlevel = "2"
-    selectrecordtype = netsuite.customrecord_erp010_cr.attr.scriptid
+    selectrecordtype = netsuite.customrecord_srd_custom_record_test_2.attr.scriptid
     showinlist = false
     storevalue = true
-    index = 1
+    index = 0
+    subtab = netsuite.customrecord_srd_custom_record_test_1.attr.subtabs.subtab.tab_12_t2480139_100.scriptid
   }
-  scriptid = "customrecord_erp010_cr"
-  accesstype = "CUSTRECORDENTRYPERM"
+  scriptid = "customrecord_srd_custom_record_test_1"
+  accesstype = "NONENEEDED"
   allowattachments = true
   allowinlinedeleting = false
   allowinlinedetaching = true
@@ -171,11 +151,12 @@ type netsuite.customrecord_erp010_cr {
   enablesystemnotes = true
   hierarchical = false
   iconbuiltin = true
+  iconindex = "4"
   includeinsearchmenu = true
-  includename = false
+  includename = true
   isinactive = false
   isordered = false
-  recordname = "ERP 010 custom record"
+  recordname = "srd - custom_record_1"
   showcreationdate = false
   showcreationdateonlist = false
   showid = false
@@ -185,6 +166,16 @@ type netsuite.customrecord_erp010_cr {
   showowner = false
   showownerallowchange = false
   showowneronlist = false
+  subtabs = {
+    subtab = {
+      tab_12_t2480139_100 = {
+        scriptid = "tab_12_t2480139_100"
+        tabtitle = "test_tab"
+        index = 0
+      }
+    }
+  }
+  
   metadataType = "customrecordtype"
   netsuite.customRecordTranslationsList translationsList {
   }

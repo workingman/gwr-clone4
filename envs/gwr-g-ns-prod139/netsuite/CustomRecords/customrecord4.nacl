@@ -142,4 +142,6 @@ type netsuite.customrecord4 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
 }
