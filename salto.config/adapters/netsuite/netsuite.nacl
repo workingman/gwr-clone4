@@ -42,9 +42,6 @@ netsuite {
           name = "accountingPeriod"
         },
         {
-          name = "employee"
-        },
-        {
           name = "job"
         },
         {
