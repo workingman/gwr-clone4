@@ -1,4 +1,4 @@
-type netsuite.customrecord_svb_subsidiary_tax_group {
+type netsuite.customrecordtestrecordtype {
   annotations {
     serviceid scriptid {
     }
@@ -84,7 +84,8 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
     }
     boolean showowneronlist {
     }
-    
+    netsuite.customrecordtype_instances instances {
+    }
     netsuite.customrecordtype_links links {
     }
     netsuite.customrecordtype_permissions permissions {
@@ -106,10 +107,30 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
   string internalId {
     _hidden_value = true
   }
-  netsuite.customRecordTranslationsList translationsList {
+  string custom_custrecord1392 {
+    scriptid = "custrecord1392"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    description = "test"
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "TEXT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "test Field"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 0
   }
-  "List<netsuite.subsidiary>" custom_custrecord_svb_grouped_suibsidiaries {
-    scriptid = "custrecord_svb_grouped_suibsidiaries"
+  unknown custom_custrecord_lalalalala {
+    scriptid = "custrecord_lalalalala"
     accesslevel = "2"
     allowquickadd = false
     applyformatting = false
@@ -117,24 +138,23 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
     defaultchecked = false
     displaytype = "NORMAL"
     encryptatrest = false
-    fieldtype = "MULTISELECT"
+    fieldtype = "SELECT"
     globalsearch = false
-    help = "&lt;html&gt;&lt;p&gt;&lt;b&gt;For Australian customers only&lt;/b&gt; Select two or more subsidiaries to create a subsidiary group&lt;/p&gt;&lt;/html&gt;"
     isformula = false
     ismandatory = false
-    isparent = false
-    label = "Grouped Subsidiaries"
-    onparentdelete = "NO_ACTION"
+    isparent = true
+    label = "so fields"
+    onparentdelete = "SET_NULL"
     rolerestrict = false
     searchlevel = "2"
-    selectrecordtype = "-117"
+    selectrecordtype = "-30"
     showinlist = false
     storevalue = true
-    index = 0
+    index = 1
   }
-  scriptid = "customrecord_svb_subsidiary_tax_group"
+  scriptid = "customrecordtestrecordtype"
   accesstype = "CUSTRECORDENTRYPERM"
-  allowattachments = false
+  allowattachments = true
   allowinlinedeleting = false
   allowinlinedetaching = true
   allowinlineediting = false
@@ -143,6 +163,7 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
   allowquickadd = true
   allowquicksearch = false
   allowuiaccess = true
+  description = "aaaabcd"
   enabledle = true
   enablekeywords = true
   enablemailmerge = false
@@ -156,17 +177,28 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
   includename = true
   isinactive = false
   isordered = false
-  recordname = "SVB | Subsidiary Tax Group"
+  recordname = "Test Record Type2"
   showcreationdate = false
   showcreationdateonlist = false
-  showid = true
+  showid = false
   showlastmodified = false
   showlastmodifiedonlist = false
-  shownotes = false
+  shownotes = true
   showowner = false
   showownerallowchange = false
   showowneronlist = false
+  subtabs = {
+    subtab = {
+      tab_495_t2259448_790 = {
+        scriptid = "tab_495_t2259448_790"
+        tabtitle = "aaaa"
+        index = 0
+      }
+    }
+  }
   metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
   permissions = {
     permission = {
       customrole_salto_all_permissions = {
