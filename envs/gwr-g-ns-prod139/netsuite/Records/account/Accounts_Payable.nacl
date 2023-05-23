@@ -11,4 +11,5 @@ netsuite.account Accounts_Payable@s {
   ]
   revalue = true
   identifier = "Accounts Payable"
+  custom_custrecord_acct_special = false
 }

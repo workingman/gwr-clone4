@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56140_t2257815_888 {
+  scriptid = "val_56140_t2257815_888"
+  isInactive = false
+  name = "California-Rancho Santa Margarita"
+}

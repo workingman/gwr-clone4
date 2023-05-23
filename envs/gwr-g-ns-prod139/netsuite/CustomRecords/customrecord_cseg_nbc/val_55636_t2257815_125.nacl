@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55636_t2257815_125 {
+  scriptid = "val_55636_t2257815_125"
+  isInactive = false
+  name = "Oregon-Gresham"
+}

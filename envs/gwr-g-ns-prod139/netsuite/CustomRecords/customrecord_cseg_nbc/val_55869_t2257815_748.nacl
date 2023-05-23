@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55869_t2257815_748 {
+  scriptid = "val_55869_t2257815_748"
+  isInactive = false
+  name = "New Mexico-Santa Fe"
+}

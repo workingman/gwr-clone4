@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55984_t2257815_929 {
+  scriptid = "val_55984_t2257815_929"
+  isInactive = false
+  name = "Utah-South Jordan"
+}

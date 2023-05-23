@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55638_t2257815_598 {
+  scriptid = "val_55638_t2257815_598"
+  isInactive = false
+  name = "Montana-Billings"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56065_t2257815_102 {
+  scriptid = "val_56065_t2257815_102"
+  isInactive = false
+  name = "Texas-Pflugerville"
+}

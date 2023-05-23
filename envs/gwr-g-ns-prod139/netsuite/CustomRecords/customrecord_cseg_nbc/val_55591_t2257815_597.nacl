@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55591_t2257815_597 {
+  scriptid = "val_55591_t2257815_597"
+  isInactive = false
+  name = "Connecticut-Stamford"
+}

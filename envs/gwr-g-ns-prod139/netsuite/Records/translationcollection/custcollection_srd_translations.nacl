@@ -1,0 +1,5 @@
+netsuite.translationcollection custcollection_srd_translations {
+  scriptid = "custcollection_srd_translations"
+  defaultlanguage = "en-US"
+  name = "SRD - translations"
+}

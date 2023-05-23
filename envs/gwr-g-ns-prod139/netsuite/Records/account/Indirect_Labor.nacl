@@ -11,4 +11,5 @@ netsuite.account Indirect_Labor@s {
   ]
   revalue = false
   identifier = "Indirect Labor"
+  custom_custrecord_acct_special = false
 }

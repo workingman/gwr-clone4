@@ -11,4 +11,5 @@ netsuite.account Estimates {
   ]
   revalue = false
   identifier = "Estimates"
+  custom_custrecord_acct_special = false
 }

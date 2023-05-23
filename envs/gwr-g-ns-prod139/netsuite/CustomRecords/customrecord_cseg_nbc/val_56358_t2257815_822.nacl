@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56358_t2257815_822 {
+  scriptid = "val_56358_t2257815_822"
+  isInactive = false
+  name = "Massachusetts-Chelsea"
+}

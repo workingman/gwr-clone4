@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56133_t2257815_252 {
+  scriptid = "val_56133_t2257815_252"
+  isInactive = false
+  name = "Illinois-Downers Grove"
+}

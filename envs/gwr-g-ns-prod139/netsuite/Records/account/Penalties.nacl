@@ -11,4 +11,5 @@ netsuite.account Penalties {
   ]
   revalue = false
   identifier = "Penalties"
+  custom_custrecord_acct_special = false
 }

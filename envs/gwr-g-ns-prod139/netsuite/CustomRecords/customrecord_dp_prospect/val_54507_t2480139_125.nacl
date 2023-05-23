@@ -1,0 +1,6 @@
+netsuite.customrecord_dp_prospect val_54507_t2480139_125 {
+  scriptid = "val_54507_t2480139_125"
+  isInactive = false
+  name = "DP Prospect 1"
+  custom_custrecord_dp_prospect_field = "Something for DP1"
+}

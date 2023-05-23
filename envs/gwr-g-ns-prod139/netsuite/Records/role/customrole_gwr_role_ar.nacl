@@ -252,6 +252,18 @@ netsuite.role customrole_gwr_role_ar {
         permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"
       }
+      LIST_BULK_PROCESSING = {
+        permkey = "LIST_BULK_PROCESSING"
+        permlevel = "VIEW"
+      }
+      LIST_ENTITYSUBSIDIARYRELATION = {
+        permkey = "LIST_ENTITYSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
     }
   }
 }

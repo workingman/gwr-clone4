@@ -11,4 +11,5 @@ netsuite.account Unapproved_Expense_Reports@s {
   ]
   revalue = false
   identifier = "Unapproved Expense Reports"
+  custom_custrecord_acct_special = false
 }

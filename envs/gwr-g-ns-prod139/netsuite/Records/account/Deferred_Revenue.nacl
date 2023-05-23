@@ -11,4 +11,5 @@ netsuite.account Deferred_Revenue@s {
   ]
   revalue = false
   identifier = "Deferred Revenue"
+  custom_custrecord_acct_special = false
 }

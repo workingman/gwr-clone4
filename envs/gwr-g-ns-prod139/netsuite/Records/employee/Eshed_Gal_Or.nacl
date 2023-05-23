@@ -1,0 +1,44 @@
+netsuite.employee Eshed_Gal_Or@sb {
+  entityId = "Eshed Gal-Or"
+  salutation = "Mr."
+  firstName = "Eshed"
+  
+  email = "eshed.gal-or@salto.io"
+  isInactive = false
+  initials = "EGO"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2023-03-07T08:00:00.000Z"
+  gender = "_omitted"
+  workCalendar = {
+    name = "Default Work Calendar"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_1
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_3
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+}

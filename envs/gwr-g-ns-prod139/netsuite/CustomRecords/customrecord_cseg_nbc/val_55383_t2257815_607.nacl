@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55383_t2257815_607 {
+  scriptid = "val_55383_t2257815_607"
+  isInactive = false
+  name = "New York-New York"
+}

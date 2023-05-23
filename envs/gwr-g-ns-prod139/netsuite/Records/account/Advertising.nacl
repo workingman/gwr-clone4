@@ -11,4 +11,5 @@ netsuite.account Advertising {
   ]
   revalue = false
   identifier = "Advertising"
+  custom_custrecord_acct_special = false
 }

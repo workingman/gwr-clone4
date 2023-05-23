@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56137_t2257815_248 {
+  scriptid = "val_56137_t2257815_248"
+  isInactive = false
+  name = "California-Poway"
+}

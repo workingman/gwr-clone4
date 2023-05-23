@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55432_t2257815_390 {
+  scriptid = "val_55432_t2257815_390"
+  isInactive = false
+  name = "Texas-Arlington"
+}

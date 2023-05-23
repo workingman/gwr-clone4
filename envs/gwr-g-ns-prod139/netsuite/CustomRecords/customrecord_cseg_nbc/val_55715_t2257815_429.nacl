@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55715_t2257815_429 {
+  scriptid = "val_55715_t2257815_429"
+  isInactive = false
+  name = "Massachusetts-Lynn"
+}

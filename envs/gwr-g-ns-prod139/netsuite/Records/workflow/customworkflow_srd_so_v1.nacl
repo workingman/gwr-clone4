@@ -14,7 +14,7 @@ If the sales order is not automatically approved, a manual approval process begi
   isinactive = false
   islogenabled = true
   keephistory = "ALWAYS"
-  name = "SRD - Sales Order Approval"
+  name = "SRD - Sales Order Approval (2)"
   recordtypes = "SALESORDER"
   releasestatus = "TESTING"
   runasadmin = true
@@ -88,7 +88,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 1
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -106,17 +106,17 @@ If the sales order is not automatically approved, a manual approval process begi
                     Customer_Overdue_Balance@fs = {
                       name = "Customer:Overdue Balance"
                       value = "STDBODYCUSTOMER:STDENTITYOVERDUEBALANCE"
-                      index = 0
+                      
                     }
                     Total = {
                       name = "Total"
                       value = "STDBODYTOTAL"
-                      index = 1
+                      
                     }
                     User_Supervisor@f = {
                       name = "User:Supervisor"
                       value = "STDUSERUSER:STDENTITYSUPERVISOR"
-                      index = 2
+                      
                     }
                   }
                 }
@@ -165,7 +165,7 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow1.scriptid
-                        index = 0
+                        
                       }
                     }
                   }
@@ -209,7 +209,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -226,12 +226,12 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow1.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -255,12 +255,12 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow1.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -282,12 +282,12 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow1.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -327,7 +327,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 2
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {
@@ -366,13 +366,13 @@ If the sales order is not automatically approved, a manual approval process begi
                     Order_Status@s = {
                       name = "Order Status"
                       value = "STDBODYORDERSTATUS"
-                      index = 0
+                      
                     }
                     Order_Status1@s = {
                       name = "Order Status1"
                       selectrecordtype = "-244"
                       value = "13"
-                      index = 1
+                      
                     }
                   }
                 }
@@ -422,7 +422,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 1
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -439,13 +439,13 @@ If the sales order is not automatically approved, a manual approval process begi
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -453,7 +453,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         index = 2
@@ -505,7 +505,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -522,23 +522,23 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow2.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -562,23 +562,23 @@ If the sales order is not automatically approved, a manual approval process begi
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_so_v1.workflowcustomfields.workflowcustomfield.custworkflow2.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -618,7 +618,7 @@ If the sales order is not automatically approved, a manual approval process begi
                 index = 2
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {
@@ -647,13 +647,13 @@ If the sales order is not automatically approved, a manual approval process begi
                     Order_Status@s = {
                       name = "Order Status"
                       value = "STDBODYORDERSTATUS"
-                      index = 0
+                      
                     }
                     Order_Status1@s = {
                       name = "Order Status1"
                       selectrecordtype = "-244"
                       value = "13"
-                      index = 1
+                      
                     }
                   }
                 }

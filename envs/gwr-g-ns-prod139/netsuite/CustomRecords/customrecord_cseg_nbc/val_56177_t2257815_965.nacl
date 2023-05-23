@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56177_t2257815_965 {
+  scriptid = "val_56177_t2257815_965"
+  isInactive = false
+  name = "Wisconsin-Wauwatosa"
+}

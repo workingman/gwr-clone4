@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55933_t2257815_632 {
+  scriptid = "val_55933_t2257815_632"
+  isInactive = false
+  name = "Texas-New Braunfels"
+}

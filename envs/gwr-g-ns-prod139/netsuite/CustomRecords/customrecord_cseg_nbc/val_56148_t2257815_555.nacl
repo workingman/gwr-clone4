@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56148_t2257815_555 {
+  scriptid = "val_56148_t2257815_555"
+  isInactive = false
+  name = "Wisconsin-Sheboygan"
+}

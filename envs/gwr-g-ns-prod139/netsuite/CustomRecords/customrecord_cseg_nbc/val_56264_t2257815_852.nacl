@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56264_t2257815_852 {
+  scriptid = "val_56264_t2257815_852"
+  isInactive = false
+  name = "New Jersey-Kearny"
+}

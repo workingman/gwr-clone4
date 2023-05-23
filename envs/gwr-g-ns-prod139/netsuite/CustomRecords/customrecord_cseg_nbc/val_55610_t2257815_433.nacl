@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55610_t2257815_433 {
+  scriptid = "val_55610_t2257815_433"
+  isInactive = false
+  name = "Tennessee-Murfreesboro"
+}

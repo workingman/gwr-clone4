@@ -1,0 +1,9 @@
+netsuite.clientscript customscriptdp_searchdemo {
+  scriptid = "customscriptdp_searchdemo"
+  isinactive = false
+  name = "DP Search Demo"
+  notifyadmins = false
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_dp_dp_searchdemo_js@dduv.path
+}

@@ -36,4 +36,6 @@ netsuite.transactionbodycustomfield custbodybundle_type {
   storevalue = true
   bodyinventoryadjustment = false
   bodytransferorder = true
+  bodyassemblybuild = false
+  bodybom = false
 }

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55927_t2257815_424 {
+  scriptid = "val_55927_t2257815_424"
+  isInactive = false
+  name = "Wisconsin-Janesville"
+}

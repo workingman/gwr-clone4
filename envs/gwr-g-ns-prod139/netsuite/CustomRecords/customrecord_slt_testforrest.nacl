@@ -84,8 +84,7 @@ type netsuite.customrecord_slt_testforrest {
     }
     boolean showowneronlist {
     }
-    netsuite.customrecordtype_instances instances {
-    }
+    
     netsuite.customrecordtype_links links {
     }
     netsuite.customrecordtype_permissions permissions {
@@ -186,4 +185,14 @@ type netsuite.customrecord_slt_testforrest {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
+  permissions = {
+    permission = {
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+      }
+    }
+  }
 }

@@ -84,8 +84,7 @@ type netsuite.customrecord_cseg1 {
     }
     boolean showowneronlist {
     }
-    netsuite.customrecordtype_instances instances {
-    }
+    
     netsuite.customrecordtype_links links {
     }
     netsuite.customrecordtype_permissions permissions {
@@ -135,9 +134,11 @@ type netsuite.customrecord_cseg1 {
       BASICSETUPCOMPANY = {
         linkcategory = "BASICSETUPCOMPANY"
         linktasktype = "LIST"
-        index = 0
+        
       }
     }
   }
   metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
 }

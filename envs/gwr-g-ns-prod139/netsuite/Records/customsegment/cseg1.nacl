@@ -58,4 +58,12 @@ netsuite.customsegment cseg1 {
       }
     }
   }
+  permissions = {
+    permission = {
+      customrole_salto_all_permissions = {
+        role = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        valuemgmtaccesslevel = "FULL"
+      }
+    }
+  }
 }

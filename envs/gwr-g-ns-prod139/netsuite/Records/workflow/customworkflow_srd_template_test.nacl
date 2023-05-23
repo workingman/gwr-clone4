@@ -102,7 +102,7 @@ Complexity: Low
                 index = 2
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -146,28 +146,28 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow6.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow7.scriptid
-                        index = 4
+                        
                       }
                     }
                   }
@@ -189,28 +189,28 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow6.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow7.scriptid
-                        index = 4
+                        
                       }
                     }
                   }
@@ -244,7 +244,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -319,7 +319,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -336,13 +336,13 @@ Complexity: Low
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -350,7 +350,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         index = 2
@@ -386,7 +386,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -406,23 +406,23 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow7.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -469,12 +469,12 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_template_test.workflowcustomfields.workflowcustomfield.custworkflow7.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -482,7 +482,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {

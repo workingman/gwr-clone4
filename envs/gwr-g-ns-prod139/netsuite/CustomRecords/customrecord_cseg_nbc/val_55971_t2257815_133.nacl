@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55971_t2257815_133 {
+  scriptid = "val_55971_t2257815_133"
+  isInactive = false
+  name = "California-Cupertino"
+}

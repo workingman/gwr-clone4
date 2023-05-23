@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55748_t2257815_687 {
+  scriptid = "val_55748_t2257815_687"
+  isInactive = false
+  name = "Indiana-Carmel"
+}

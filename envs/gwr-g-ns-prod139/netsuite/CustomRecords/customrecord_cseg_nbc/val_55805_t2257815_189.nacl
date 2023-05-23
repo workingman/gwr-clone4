@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55805_t2257815_189 {
+  scriptid = "val_55805_t2257815_189"
+  isInactive = false
+  name = "Virginia-Lynchburg"
+}

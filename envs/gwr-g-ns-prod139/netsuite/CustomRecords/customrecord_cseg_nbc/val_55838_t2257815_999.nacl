@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55838_t2257815_999 {
+  scriptid = "val_55838_t2257815_999"
+  isInactive = false
+  name = "Wisconsin-Appleton"
+}

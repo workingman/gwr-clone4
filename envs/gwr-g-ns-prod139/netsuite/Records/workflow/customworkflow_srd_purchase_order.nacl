@@ -75,7 +75,7 @@ Complexity: Low
                 index = 1
               }
             }
-            index = 0
+            
           }
           ONEXIT = {
             triggertype = "ONEXIT"
@@ -93,7 +93,7 @@ Complexity: Low
                       User_Supervisor@f = {
                         name = "User:Supervisor"
                         value = "STDUSERUSER:STDENTITYSUPERVISOR"
-                        index = 0
+                        
                       }
                     }
                   }
@@ -118,7 +118,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -138,12 +138,12 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_purchase_order.workflowcustomfields.workflowcustomfield.custworkflow3.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -177,7 +177,7 @@ Complexity: Low
                 index = 1
               }
             }
-            index = 2
+            
           }
         }
         workflowtransitions = {
@@ -221,7 +221,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -241,12 +241,12 @@ Complexity: Low
                       Next_Approver@s = {
                         name = "Next Approver"
                         value = "STDBODYNEXTAPPROVER"
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -268,12 +268,12 @@ Complexity: Low
                       Next_Approver@s = {
                         name = "Next Approver"
                         value = "STDBODYNEXTAPPROVER"
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -292,7 +292,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {
@@ -368,7 +368,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -385,13 +385,13 @@ Complexity: Low
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -399,7 +399,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         index = 2
@@ -451,7 +451,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -471,23 +471,23 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_purchase_order.workflowcustomfields.workflowcustomfield.custworkflow3.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -508,12 +508,12 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_purchase_order.workflowcustomfields.workflowcustomfield.custworkflow3.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -521,7 +521,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {

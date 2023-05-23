@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56271_t2257815_940 {
+  scriptid = "val_56271_t2257815_940"
+  isInactive = false
+  name = "Pennsylvania-Wilkes-Barre"
+}

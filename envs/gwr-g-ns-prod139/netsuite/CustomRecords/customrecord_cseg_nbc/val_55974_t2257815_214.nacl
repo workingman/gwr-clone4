@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55974_t2257815_214 {
+  scriptid = "val_55974_t2257815_214"
+  isInactive = false
+  name = "Michigan-St. Clair Shores"
+}

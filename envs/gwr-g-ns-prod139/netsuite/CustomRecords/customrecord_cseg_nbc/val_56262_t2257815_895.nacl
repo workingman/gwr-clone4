@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56262_t2257815_895 {
+  scriptid = "val_56262_t2257815_895"
+  isInactive = false
+  name = "Virginia-Manassas"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56071_t2257815_577 {
+  scriptid = "val_56071_t2257815_577"
+  isInactive = false
+  name = "Missouri-Blue Springs"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55544_t2257815_565 {
+  scriptid = "val_55544_t2257815_565"
+  isInactive = false
+  name = "California-Pomona"
+}

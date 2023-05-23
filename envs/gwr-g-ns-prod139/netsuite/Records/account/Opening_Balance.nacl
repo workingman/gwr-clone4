@@ -11,4 +11,5 @@ netsuite.account Opening_Balance@s {
   ]
   revalue = false
   identifier = "Opening Balance"
+  custom_custrecord_acct_special = false
 }

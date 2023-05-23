@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55600_t2257815_375 {
+  scriptid = "val_55600_t2257815_375"
+  isInactive = false
+  name = "California-Victorville"
+}

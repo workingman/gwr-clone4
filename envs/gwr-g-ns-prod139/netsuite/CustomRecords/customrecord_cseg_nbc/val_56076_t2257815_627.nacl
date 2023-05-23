@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56076_t2257815_627 {
+  scriptid = "val_56076_t2257815_627"
+  isInactive = false
+  name = "Tennessee-Kingsport"
+}

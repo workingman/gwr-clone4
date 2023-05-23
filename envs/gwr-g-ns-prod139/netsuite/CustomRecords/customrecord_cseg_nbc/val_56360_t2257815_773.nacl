@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56360_t2257815_773 {
+  scriptid = "val_56360_t2257815_773"
+  isInactive = false
+  name = "South Carolina-Spartanburg"
+}

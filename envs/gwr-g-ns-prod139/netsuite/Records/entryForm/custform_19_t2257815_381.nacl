@@ -1640,7 +1640,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 0
+                    index = 14
                   }
                   custentity11 = {
                     id = netsuite.entitycustomfield.instance.custentity11.scriptid
@@ -1651,7 +1651,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 1
+                    index = 0
                   }
                   custentity13 = {
                     id = netsuite.entitycustomfield.instance.custentity13.scriptid
@@ -1662,7 +1662,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 2
+                    index = 1
                   }
                   custentity2edited = {
                     id = netsuite.entitycustomfield.instance.custentity2edited.scriptid
@@ -1673,7 +1673,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 3
+                    index = 2
                   }
                   custentitydemosaltofield = {
                     id = netsuite.entitycustomfield.instance.custentitydemosaltofield.scriptid
@@ -1684,7 +1684,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 4
+                    index = 3
                   }
                   custentityproduct_type = {
                     id = netsuite.entitycustomfield.instance.custentityproduct_type.scriptid
@@ -1695,7 +1695,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 5
+                    index = 4
                   }
                   custentitycust_slt_conflict1 = {
                     id = netsuite.entitycustomfield.instance.custentitycust_slt_conflict1.scriptid
@@ -1706,7 +1706,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 6
+                    index = 5
                   }
                   custentity_slt_demo = {
                     id = netsuite.entitycustomfield.instance.custentity_slt_demo.scriptid
@@ -1717,7 +1717,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 7
+                    index = 6
                   }
                   custentityslt_demo_moti = {
                     id = netsuite.entitycustomfield.instance.custentityslt_demo_moti.scriptid
@@ -1728,7 +1728,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 8
+                    index = 7
                   }
                   custentity14 = {
                     id = netsuite.entitycustomfield.instance.custentity14.scriptid
@@ -1739,7 +1739,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 9
+                    index = 8
                   }
                   custentity15 = {
                     id = netsuite.entitycustomfield.instance.custentity15.scriptid
@@ -1750,7 +1750,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 10
+                    index = 9
                   }
                   custentitytier = {
                     id = netsuite.entitycustomfield.instance.custentitytier.scriptid
@@ -1761,7 +1761,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = true
-                    index = 11
+                    index = 10
                   }
                   custentitydemo_testing = {
                     id = netsuite.entitycustomfield.instance.custentitydemo_testing.scriptid
@@ -1772,7 +1772,7 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 12
+                    index = 11
                   }
                   custentity2 = {
                     id = netsuite.entitycustomfield.instance.custentity2.scriptid
@@ -1783,16 +1783,28 @@ netsuite.entryForm custform_19_t2257815_381 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     quickAdd = false
-                    index = 13
+                    index = 12
                   }
                   
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=entitycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 13
+                  }
                 }
                 index = 0
               }
             }
           }
         }
-        index = 9
+        index = 10
+        
       }
       ENTITYACCESS = {
         id = "ENTITYACCESS"
@@ -1887,14 +1899,13 @@ netsuite.entryForm custform_19_t2257815_381 {
             }
           }
         }
-        index = 10
+        index = 11
       }
-      custtab_42_t2257815_140 = {
-        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+      
+      custtab_salto_test_tab = {
+        id = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
         label = "test tab"
         visible = true
-        
-        index = 11
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1918,6 +1929,23 @@ netsuite.entryForm custform_19_t2257815_381 {
             }
           }
         }
+        subItems = {
+          subTab = {
+            custtab_salto_child_test = {
+              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
+              label = "test child"
+              visible = true
+              index = 0
+            }
+          }
+        }
+        index = 9
+      }
+      custtab_42_t2257815_140 = {
+        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+        label = "test tab"
+        visible = true
+        index = 12
       }
     }
   }
@@ -1960,19 +1988,19 @@ netsuite.entryForm custform_19_t2257815_381 {
           id = "ACCEPTPAYMENT"
           label = "Accept Payment"
           visible = true
-          index = 0
+          
         }
         MERGE = {
           id = "MERGE"
           label = "Merge"
           visible = true
-          index = 1
+          
         }
         SEARCH = {
           id = "SEARCH"
           label = "Search"
           visible = true
-          index = 2
+          
         }
       }
     }
@@ -1982,64 +2010,69 @@ netsuite.entryForm custform_19_t2257815_381 {
           id = "DELETE"
           label = "Delete"
           visible = true
-          index = 0
+          
         }
         GENERATEPRICELIST = {
           id = "GENERATEPRICELIST"
           label = "Generate Price List"
           visible = true
-          index = 1
+          
         }
         GENERATESTATEMENT = {
           id = "GENERATESTATEMENT"
           label = "Generate Statement"
           visible = true
-          index = 2
+          
         }
         MAKECOPY = {
           id = "MAKECOPY"
           label = "Make Copy"
           visible = true
-          index = 3
+          
         }
         NEW = {
           id = "NEW"
           label = "New"
           visible = true
-          index = 4
+          
         }
         SUBMITNEW = {
           id = "SUBMITNEW"
           label = "Save & New"
           visible = true
-          index = 5
+          
         }
         SUBMITNEXT = {
           id = "SUBMITNEXT"
           label = "Save & Next"
           visible = true
-          index = 6
+          
         }
         SUBMITAS = {
           id = "SUBMITAS"
           label = "Save As"
           visible = true
-          index = 7
+          
         }
         ACTIVITYHISTORY = {
           id = "ACTIVITYHISTORY"
           label = "Show Activity"
           visible = true
-          index = 8
+          
         }
         VIEWALLTRANSACTIONS = {
           id = "VIEWALLTRANSACTIONS"
           label = "View All Transactions"
           visible = true
-          index = 9
+          
         }
       }
     }
   }
   editingInList = true
+  _generated_dependencies = [
+    {
+      reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
+    },
+  ]
 }

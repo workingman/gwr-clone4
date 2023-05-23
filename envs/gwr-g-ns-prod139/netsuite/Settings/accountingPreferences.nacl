@@ -439,4 +439,43 @@ netsuite.accountingPreferences {
   }
   INVENTORYNUMBEREXPRESSENTRYSIZE = 1000
   VERIFYINVENTORYDETAILITEM = true
+  CUSTOMTRANSACTION_MAINACCOUNT_102 = {
+    value = "103"
+    text = "Penalties"
+  }
+  USESYSCALCPCT4REVREC = false
+  AMORTIZATIONJOURNALENTRYFORM = {
+    value = "30"
+    text = "Standard Journal Entry"
+  }
+  AMORJOURNALDATEDEFAULT = {
+    value = "LASTDAYOFPERIOD"
+    text = "Last Day of Period"
+  }
+  CSV_SEND_UNKNOWN_EMAIL = false
+  MODIFYAMORTOTALAMOUNT = false
+  NUMBEROFSHORTTERMEXPENSEPERIODS = 12
+  ALLOWASSEMBLYPURCHASE = false
+  DEFAULTWORKORDERCOMMITOPTION = {
+    value = "1"
+    text = "Available Qty"
+  }
+  USEBOMDECORATOR = false
+  ONLY_COSTING_ENGINE_UPDATES_AVGCOST = false
+  ANCHOR_CURRENCIES = [
+    {
+      value = ""
+      text = ""
+    },
+  ]
+  EXCHANGE_RATE_PROVIDER = {
+    value = "HSBC"
+    text = "HSBC"
+  }
+  USE_FX_TRIANGULATION = false
+  EXCHANGE_RATE_WS_TYPE = {
+    value = "SOAP"
+    text = ""
+  }
+  ENABLEVIRTUALCARDOPTIMIZATION = true
 }

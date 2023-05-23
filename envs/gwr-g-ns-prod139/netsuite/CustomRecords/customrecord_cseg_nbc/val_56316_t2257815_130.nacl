@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56316_t2257815_130 {
+  scriptid = "val_56316_t2257815_130"
+  isInactive = false
+  name = "New Mexico-Clovis"
+}

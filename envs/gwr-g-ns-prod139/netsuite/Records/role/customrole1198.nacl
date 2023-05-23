@@ -85,6 +85,14 @@ netsuite.role customrole1198 {
         permkey = netsuite.customrecord2651.attr.scriptid
         permlevel = "CREATE"
       }
+      LIST_BULK_PROCESSING = {
+        permkey = "LIST_BULK_PROCESSING"
+        permlevel = "VIEW"
+      }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
     }
   }
 }

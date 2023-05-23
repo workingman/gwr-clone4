@@ -17,6 +17,10 @@ netsuite.customtransactiontype customsale_slt_sales_test {
         permittedrole = "ADMINISTRATOR"
         
       }
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+      }
     }
   }
 }

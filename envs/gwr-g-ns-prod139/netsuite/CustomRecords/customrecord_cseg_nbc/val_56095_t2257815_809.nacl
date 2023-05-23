@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56095_t2257815_809 {
+  scriptid = "val_56095_t2257815_809"
+  isInactive = false
+  name = "Connecticut-Milford"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56033_t2257815_156 {
+  scriptid = "val_56033_t2257815_156"
+  isInactive = false
+  name = "Ohio-Kettering"
+}

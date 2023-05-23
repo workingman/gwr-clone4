@@ -18,7 +18,7 @@ netsuite.transactionbodycustomfield custbodydp_transaction_field_1 {
   bodyprintpackingslip = false
   bodyprintstatement = false
   bodypurchase = false
-  bodysale = false
+  bodysale = true
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
@@ -36,4 +36,6 @@ netsuite.transactionbodycustomfield custbodydp_transaction_field_1 {
   storevalue = true
   bodyinventoryadjustment = false
   bodytransferorder = false
+  bodyassemblybuild = false
+  bodybom = false
 }

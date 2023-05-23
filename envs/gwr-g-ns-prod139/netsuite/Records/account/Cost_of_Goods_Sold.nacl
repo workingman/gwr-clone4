@@ -11,4 +11,5 @@ netsuite.account Cost_of_Goods_Sold@s {
   ]
   revalue = false
   identifier = "Cost of Goods Sold"
+  custom_custrecord_acct_special = false
 }

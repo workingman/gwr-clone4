@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56158_t2257815_132 {
+  scriptid = "val_56158_t2257815_132"
+  isInactive = false
+  name = "Washington-Olympia"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55995_t2257815_254 {
+  scriptid = "val_55995_t2257815_254"
+  isInactive = false
+  name = "California-La Mesa"
+}

@@ -11,4 +11,5 @@ netsuite.account Bad_Debt_Expense@s {
   ]
   revalue = false
   identifier = "Bad Debt Expense"
+  custom_custrecord_acct_special = false
 }

@@ -39,4 +39,6 @@ netsuite.transactionbodycustomfield custbody_svb_schedule_is_intercompany {
   sourcelist = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
   storevalue = true
   subtab = "TRANSACTIONMAIN"
+  bodyassemblybuild = false
+  bodybom = false
 }

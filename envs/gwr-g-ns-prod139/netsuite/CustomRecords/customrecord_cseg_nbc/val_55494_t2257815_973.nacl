@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55494_t2257815_973 {
+  scriptid = "val_55494_t2257815_973"
+  isInactive = false
+  name = "California-Moreno Valley"
+}

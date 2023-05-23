@@ -38,4 +38,6 @@ netsuite.transactionbodycustomfield custbodysf_payment_processor {
   storevalue = true
   bodyinventoryadjustment = false
   bodytransferorder = false
+  bodyassemblybuild = false
+  bodybom = false
 }

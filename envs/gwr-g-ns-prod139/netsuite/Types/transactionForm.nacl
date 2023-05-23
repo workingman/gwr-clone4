@@ -62,8 +62,7 @@ type netsuite.transactionForm_actionbar_buttons_button {
   }
   boolean visible {
   }
-  number index {
-  }
+  
 }
 type netsuite.transactionForm_actionbar_buttons {
   "Map<netsuite.transactionForm_actionbar_buttons_button>" button {
@@ -106,8 +105,7 @@ type netsuite.transactionForm_actionbar_menu_menuitem {
   }
   boolean visible {
   }
-  number index {
-  }
+  
 }
 type netsuite.transactionForm_actionbar_menu {
   "Map<netsuite.transactionForm_actionbar_menu_menuitem>" menuitem {
@@ -270,8 +268,7 @@ type netsuite.transactionForm_preferences_preference {
   }
   boolean value {
   }
-  number index {
-  }
+  
 }
 type netsuite.transactionForm_preferences {
   "Map<netsuite.transactionForm_preferences_preference>" preference {
@@ -313,8 +310,7 @@ type netsuite.transactionForm_roles_role {
   }
   boolean preferred {
   }
-  number index {
-  }
+  
 }
 type netsuite.transactionForm_roles {
   "Map<netsuite.transactionForm_roles_role>" role {

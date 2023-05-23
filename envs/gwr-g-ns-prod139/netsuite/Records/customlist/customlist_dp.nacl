@@ -11,7 +11,7 @@ netsuite.customlist customlist_dp {
         scriptid = "val_53656_t2257815_183"
         abbreviation = "U"
         isinactive = false
-        value = "Urgent"
+        value = "Urgent - Changed for Demo"
         index = 0
       }
       val_53657_t2257815_765 = {

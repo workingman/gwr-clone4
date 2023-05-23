@@ -647,4 +647,7 @@ settings netsuite.companyFeatures {
   boolean SUITEAPPCONTROLCENTER {
     label = "SuiteApp Control Center"
   }
+  boolean SHIPPINGPARTNERS {
+    label = "Shipping Partners"
+  }
 }

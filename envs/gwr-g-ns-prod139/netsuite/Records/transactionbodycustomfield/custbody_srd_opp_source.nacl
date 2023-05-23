@@ -36,4 +36,6 @@ netsuite.transactionbodycustomfield custbody_srd_opp_source {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  bodyassemblybuild = false
+  bodybom = false
 }

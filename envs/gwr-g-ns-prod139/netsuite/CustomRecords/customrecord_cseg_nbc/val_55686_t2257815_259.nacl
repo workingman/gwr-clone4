@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55686_t2257815_259 {
+  scriptid = "val_55686_t2257815_259"
+  isInactive = false
+  name = "Oklahoma-Lawton"
+}

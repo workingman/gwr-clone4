@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55760_t2257815_936 {
+  scriptid = "val_55760_t2257815_936"
+  isInactive = false
+  name = "Indiana-Fishers"
+}

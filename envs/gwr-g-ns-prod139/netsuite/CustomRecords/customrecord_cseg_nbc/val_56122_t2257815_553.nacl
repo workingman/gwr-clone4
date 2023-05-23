@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56122_t2257815_553 {
+  scriptid = "val_56122_t2257815_553"
+  isInactive = false
+  name = "Texas-Grapevine"
+}

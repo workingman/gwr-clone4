@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55750_t2257815_354 {
+  scriptid = "val_55750_t2257815_354"
+  isInactive = false
+  name = "New Jersey-Clifton"
+}

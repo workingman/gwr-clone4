@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56020_t2257815_229 {
+  scriptid = "val_56020_t2257815_229"
+  isInactive = false
+  name = "Illinois-Berwyn"
+}

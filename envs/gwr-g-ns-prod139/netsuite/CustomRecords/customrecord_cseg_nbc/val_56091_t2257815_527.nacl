@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56091_t2257815_527 {
+  scriptid = "val_56091_t2257815_527"
+  isInactive = false
+  name = "New Jersey-Perth Amboy"
+}

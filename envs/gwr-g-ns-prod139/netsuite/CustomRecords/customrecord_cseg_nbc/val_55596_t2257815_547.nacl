@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55596_t2257815_547 {
+  scriptid = "val_55596_t2257815_547"
+  isInactive = false
+  name = "Louisiana-Lafayette"
+}

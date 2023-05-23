@@ -11,4 +11,5 @@ netsuite.account Sales_Taxes_Payable_CA@s {
   ]
   revalue = true
   identifier = "Sales Taxes Payable CA"
+  custom_custrecord_acct_special = false
 }

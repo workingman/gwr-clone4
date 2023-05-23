@@ -11,4 +11,5 @@ netsuite.account Sales {
   ]
   revalue = false
   identifier = "Sales"
+  custom_custrecord_acct_special = false
 }

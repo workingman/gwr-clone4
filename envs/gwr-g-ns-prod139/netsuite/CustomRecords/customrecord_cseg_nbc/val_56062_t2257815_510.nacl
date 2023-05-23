@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56062_t2257815_510 {
+  scriptid = "val_56062_t2257815_510"
+  isInactive = false
+  name = "Tennessee-Hendersonville"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55601_t2257815_386 {
+  scriptid = "val_55601_t2257815_386"
+  isInactive = false
+  name = "Indiana-Evansville"
+}

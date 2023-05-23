@@ -11,4 +11,5 @@ netsuite.account Machinery___Equipment@ses {
   ]
   revalue = false
   identifier = "Machinery & Equipment"
+  custom_custrecord_acct_special = false
 }

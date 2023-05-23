@@ -17,4 +17,5 @@ netsuite.account GWR_Test_account_2@s {
   ]
   revalue = true
   identifier = "GWR Test account 2"
+  custom_custrecord_acct_special = false
 }

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56363_t2257815_858 {
+  scriptid = "val_56363_t2257815_858"
+  isInactive = false
+  name = "Ohio-Westerville"
+}

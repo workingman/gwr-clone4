@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56152_t2257815_638 {
+  scriptid = "val_56152_t2257815_638"
+  isInactive = false
+  name = "Colorado-Parker"
+}

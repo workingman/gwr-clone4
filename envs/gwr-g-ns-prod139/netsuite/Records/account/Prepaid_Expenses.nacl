@@ -11,4 +11,5 @@ netsuite.account Prepaid_Expenses@s {
   ]
   revalue = false
   identifier = "Prepaid Expenses"
+  custom_custrecord_acct_special = false
 }

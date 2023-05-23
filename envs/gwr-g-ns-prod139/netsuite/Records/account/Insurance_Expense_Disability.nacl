@@ -12,4 +12,5 @@ netsuite.account Insurance_Expense_Disability@su {
   ]
   revalue = false
   identifier = "Insurance Expense_Disability"
+  custom_custrecord_acct_special = false
 }

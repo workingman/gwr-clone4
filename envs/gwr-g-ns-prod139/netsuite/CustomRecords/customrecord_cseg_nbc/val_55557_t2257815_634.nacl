@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55557_t2257815_634 {
+  scriptid = "val_55557_t2257815_634"
+  isInactive = false
+  name = "New Jersey-Paterson"
+}

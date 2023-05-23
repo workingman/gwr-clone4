@@ -11,4 +11,5 @@ netsuite.account Loan_Payable_Short_Term@sbb {
   ]
   revalue = true
   identifier = "Loan Payable-Short-Term"
+  custom_custrecord_acct_special = false
 }

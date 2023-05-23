@@ -10,17 +10,50 @@ netsuite {
         "^/SuiteScripts.*",
         "^/Templates.*",
       ]
-    }  
+      customRecords = [
+        {
+          name = "customrecord_.*"
+        },
+      ]
+    }
+    fieldsToOmit = [
+      {
+        type = "companyInformation"
+        fields = [
+          "formsurl",
+          "appurl",
+        ]
+      },
+      {
+        type = "employee"
+        subtype = "employeeAddressbook"
+        fields = [
+          ".*",
+        ]
+      },
+      {
+        type = "employee"
+        fields = [
+          "lastName",
+        ]
+      },
+      {
+        type = "transactionForm"
+        fields = [
+          "netsuite.transactionForm.instance.custform_gwr_form_rma1",
+        ]
+      },
+    ]
     exclude = {
       fileCabinet = [
         "^/Templates/Letter Templates/Mail Merge Folder.*",
-
       ]
       types = [
         {
           name = "savedsearch"
           ids = [
-            "^customsearch[0-9]*",
+            "^customsearch[0-9].*",
+            "customsearch_srd_opp_search",
           ]
         },
         {
@@ -28,6 +61,9 @@ netsuite {
           ids = [
             "^custimport[^_]*",
           ]
+        },
+        {
+          name = "reportdefinition"
         },
         {
           name = "workbook"
@@ -63,9 +99,24 @@ netsuite {
           name = "assemblyItem|lotNumberedAssemblyItem|serializedAssemblyItem|descriptionItem|discountItem|kitItem|markupItem|nonInventoryPurchaseItem|nonInventorySaleItem|nonInventoryResaleItem|otherChargeSaleItem|otherChargeResaleItem|otherChargePurchaseItem|paymentItem|serviceResaleItem|servicePurchaseItem|serviceSaleItem|subtotalItem|inventoryItem|lotNumberedInventoryItem|serializedInventoryItem|itemGroup"
         },
         {
+          name = "workflow"
+          ids = [
+            "customworkflow4",
+          ]
+        },
+        {
           name = "advancedpdftemplate"
           ids = [
             "custtmpl_gwr_defunct1",
+          ]
+        },
+      ]
+      customRecords = [
+        {
+          name = "customrecord_.*"
+          ids = [
+            "val_55003_t2257815_782",
+            "val_55004_t2257815_304",
           ]
         },
       ]

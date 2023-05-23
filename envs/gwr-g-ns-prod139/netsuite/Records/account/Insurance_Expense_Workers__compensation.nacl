@@ -12,4 +12,5 @@ netsuite.account Insurance_Expense_Workers__compensation@suts {
   ]
   revalue = false
   identifier = "Insurance Expense_Workers' compensation"
+  custom_custrecord_acct_special = false
 }

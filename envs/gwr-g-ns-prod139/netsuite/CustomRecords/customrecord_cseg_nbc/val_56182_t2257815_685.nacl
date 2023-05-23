@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56182_t2257815_685 {
+  scriptid = "val_56182_t2257815_685"
+  isInactive = false
+  name = "New York-Binghamton"
+}

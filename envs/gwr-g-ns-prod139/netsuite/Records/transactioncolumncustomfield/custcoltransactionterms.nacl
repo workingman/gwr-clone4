@@ -34,4 +34,5 @@ netsuite.transactioncolumncustomfield custcoltransactionterms {
   storevalue = true
   colinventoryadjustment = false
   coltransferorder = false
+  colbuild = false
 }

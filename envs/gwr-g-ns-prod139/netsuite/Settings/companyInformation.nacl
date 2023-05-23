@@ -11,7 +11,7 @@ netsuite.companyInformation {
     text = "(GMT-08:00) Pacific Time (US & Canada)"
   }
   purgeaccount = false
-  appurl = "https://tstdrv2480139.app.netsuite.com"
+  
   fiscalmonth = {
     value = "JAN"
     text = "January"
@@ -35,7 +35,7 @@ netsuite.companyInformation {
     text = "Standard Fiscal Calendar"
   }
   lastmodifieddate = "8/16/2021 7:39 am"
-  formsurl = "https://tstdrv2480139.extforms.netsuite.com"
+  
   restleturl = "https://tstdrv2480139.restlets.api.netsuite.com"
   iselimination = false
   displaylogointernally = false

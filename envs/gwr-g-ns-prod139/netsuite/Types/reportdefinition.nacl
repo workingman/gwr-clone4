@@ -104,7 +104,8 @@ type netsuite.reportdefinition_criteria_values {
   }
   number SEQ_NUMBER {
   }
-  string FILED_VALUE {
+  
+  unknown FIELD_VALUE {
   }
 }
 type netsuite.reportdefinition_dependencies {

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56347_t2257815_152 {
+  scriptid = "val_56347_t2257815_152"
+  isInactive = false
+  name = "Illinois-Carpentersville"
+}

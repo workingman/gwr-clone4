@@ -11,4 +11,5 @@ netsuite.account Dues___Subscriptions@ses {
   ]
   revalue = false
   identifier = "Dues & Subscriptions"
+  custom_custrecord_acct_special = false
 }

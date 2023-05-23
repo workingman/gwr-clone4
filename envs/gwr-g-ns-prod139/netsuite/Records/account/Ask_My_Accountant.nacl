@@ -11,4 +11,5 @@ netsuite.account Ask_My_Accountant@s {
   ]
   revalue = false
   identifier = "Ask My Accountant"
+  custom_custrecord_acct_special = false
 }

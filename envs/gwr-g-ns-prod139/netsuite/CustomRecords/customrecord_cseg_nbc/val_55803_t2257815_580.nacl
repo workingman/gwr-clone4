@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55803_t2257815_580 {
+  scriptid = "val_55803_t2257815_580"
+  isInactive = false
+  name = "Wisconsin-Racine"
+}

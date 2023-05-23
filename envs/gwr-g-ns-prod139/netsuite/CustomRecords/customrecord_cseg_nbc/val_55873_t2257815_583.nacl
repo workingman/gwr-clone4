@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55873_t2257815_583 {
+  scriptid = "val_55873_t2257815_583"
+  isInactive = false
+  name = "Montana-Missoula"
+}

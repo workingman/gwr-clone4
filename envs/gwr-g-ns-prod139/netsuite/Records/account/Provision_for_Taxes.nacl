@@ -11,4 +11,5 @@ netsuite.account Provision_for_Taxes@s {
   ]
   revalue = false
   identifier = "Provision for Taxes"
+  custom_custrecord_acct_special = false
 }

@@ -50,4 +50,6 @@ netsuite.transactionbodycustomfield custbody_slt_opportunity_owner {
   }
   bodyinventoryadjustment = false
   bodytransferorder = false
+  bodyassemblybuild = false
+  bodybom = false
 }

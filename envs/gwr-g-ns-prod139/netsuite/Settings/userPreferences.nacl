@@ -14,7 +14,7 @@ netsuite.userPreferences {
     text = "Comma"
   }
   SYSTEMLARGEFONTS = false
-  EXPOSEIDS = false
+  EXPOSEIDS = true
   ONLYSHOWLASTSUBACCT = false
   CLASSSUBS = false
   ALERTONDEMAND = false
@@ -88,14 +88,14 @@ netsuite.userPreferences {
   }
   SORTBYPHONETIC = true
   LISTSEGMENTSIZE = 50
-  SHOWLISTONERESULT = false
+  SHOWLISTONERESULT = true
   CSV_DECIMAL_DELIMITER = {
     value = "PERIOD"
     text = "Period"
   }
   CSVEXPORTENCODING = {
-    value = "UTF8"
-    text = ""
+    value = "UTF-8"
+    text = "UTF-8"
   }
   AUTOPLACE = false
   CHART_BACKGROUND = {
@@ -190,8 +190,9 @@ netsuite.userPreferences {
     text = "English (U.S.)"
   }
   HELP_LANGUAGE = {
-    value = "en US"
-    text = ""
+    value = "de_DE"
+    text = "Deutsch"
   }
   PAGE_SEARCH = true
+  SUBLIST_COLUMN_TOOLTIP = true
 }

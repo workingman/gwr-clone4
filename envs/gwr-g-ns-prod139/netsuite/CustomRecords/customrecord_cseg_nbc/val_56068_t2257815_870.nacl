@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56068_t2257815_870 {
+  scriptid = "val_56068_t2257815_870"
+  isInactive = false
+  name = "Illinois-Wheaton"
+}

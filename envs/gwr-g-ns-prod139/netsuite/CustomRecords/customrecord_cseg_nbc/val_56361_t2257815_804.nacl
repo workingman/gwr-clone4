@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56361_t2257815_804 {
+  scriptid = "val_56361_t2257815_804"
+  isInactive = false
+  name = "Oregon-Lake Oswego"
+}

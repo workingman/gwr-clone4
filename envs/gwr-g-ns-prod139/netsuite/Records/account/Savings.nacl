@@ -12,4 +12,5 @@ netsuite.account Savings {
   ]
   revalue = true
   identifier = "Savings"
+  custom_custrecord_acct_special = false
 }

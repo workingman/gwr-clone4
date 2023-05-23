@@ -84,8 +84,7 @@ type netsuite.customrecord_erp012_cr {
     }
     boolean showowneronlist {
     }
-    netsuite.customrecordtype_instances instances {
-    }
+    
     netsuite.customrecordtype_links links {
     }
     netsuite.customrecordtype_permissions permissions {
@@ -187,5 +186,13 @@ type netsuite.customrecord_erp012_cr {
   showowneronlist = false
   metadataType = "customrecordtype"
   netsuite.customRecordTranslationsList translationsList {
+  }
+  permissions = {
+    permission = {
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+      }
+    }
   }
 }

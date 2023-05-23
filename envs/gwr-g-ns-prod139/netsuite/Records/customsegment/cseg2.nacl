@@ -14,4 +14,12 @@ netsuite.customsegment cseg2 {
       subtype = "BOTH"
     }
   }
+  permissions = {
+    permission = {
+      customrole_salto_all_permissions = {
+        role = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        valuemgmtaccesslevel = "FULL"
+      }
+    }
+  }
 }

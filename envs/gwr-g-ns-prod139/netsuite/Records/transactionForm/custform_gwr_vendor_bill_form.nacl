@@ -376,6 +376,27 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
               checkBoxDefault = "USE_FIELD_DEFAULT"
               index = 2
             }
+            custbody_svb_vb_to_bell_dist_sched = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
+              label = "VB header to Bill Distribution Schedule"
+              visible = true
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 3
+            }
+            custbody_svb_schedule_is_intercompany = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
+              label = "Schedule Is Intercompany"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 4
+            }
           }
           index = 0
         }
@@ -498,31 +519,67 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
                     label = "Terms"
                     visible = true
-                    index = 16
+                    index = 18
                   }
                   cseg2 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
                     label = "Region"
                     visible = false
-                    index = 17
+                    index = 19
                   }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = false
-                    index = 18
+                    index = 21
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = false
-                    index = 19
+                    index = 23
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
+                    index = 24
+                  }
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    index = 26
+                  }
+                  AMORTIZATIONSCHED = {
+                    id = "AMORTIZATIONSCHED"
+                    label = "Amortization Schedule"
+                    visible = true
+                    index = 16
+                  }
+                  AMORTIZSTARTDATE = {
+                    id = "AMORTIZSTARTDATE"
+                    label = "Amortization Start"
+                    visible = true
+                    index = 17
+                  }
+                  AMORTIZATIONENDDATE = {
+                    id = "AMORTIZATIONENDDATE"
+                    label = "Amortization End"
+                    visible = true
                     index = 20
+                  }
+                  AMORTIZATIONRESIDUAL = {
+                    id = "AMORTIZATIONRESIDUAL"
+                    label = "Residual"
+                    visible = true
+                    index = 22
+                  }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 25
                   }
                 }
               }
@@ -697,7 +754,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
-                    index = 29
+                    index = 33
                   }
                   INVENTORYDETAIL = {
                     id = "INVENTORYDETAIL"
@@ -709,13 +766,49 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = "GLNUMBER"
                     label = "GL #"
                     visible = true
-                    index = 27
+                    index = 31
                   }
                   GLSEQUENCE = {
                     id = "GLSEQUENCE"
                     label = "GL Audit Numbering Sequence"
                     visible = true
+                    index = 32
+                  }
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    index = 35
+                  }
+                  AMORTIZATIONSCHED = {
+                    id = "AMORTIZATIONSCHED"
+                    label = "Amortization Schedule"
+                    visible = true
+                    index = 27
+                  }
+                  AMORTIZSTARTDATE = {
+                    id = "AMORTIZSTARTDATE"
+                    label = "Amortization Start"
+                    visible = true
                     index = 28
+                  }
+                  AMORTIZATIONENDDATE = {
+                    id = "AMORTIZATIONENDDATE"
+                    label = "Amortization End"
+                    visible = true
+                    index = 29
+                  }
+                  AMORTIZATIONRESIDUAL = {
+                    id = "AMORTIZATIONRESIDUAL"
+                    label = "Residual"
+                    visible = true
+                    index = 30
+                  }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 34
                   }
                 }
               }
@@ -1010,6 +1103,69 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1061,16 +1217,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     sameRowAsPrevious = false
                     index = 3
                   }
-                  custbodydp_transaction_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbodydp_transaction_field_1.scriptid
-                    label = "DP Transaction Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 4
-                  }
+                  
                   
                   
                   
@@ -1114,6 +1261,27 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
+                    index = 4
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 5
                   }
                   
@@ -1126,6 +1294,62 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 6
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  cseg_nbc = {
+                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 7
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 8
+                  }
                 }
                 index = 0
               }
@@ -1205,13 +1429,19 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
             }
           }
         }
-        index = 11
+        index = 12
       }
       custtab_8_t2480139_401 = {
         id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
         label = "GWR Subtab"
         visible = true
         index = 10
+      }
+      custtab_16_t1221897_664 = {
+        id = netsuite.subtab.instance.custtab_16_t1221897_664.scriptid
+        label = "Bill Distribution Details"
+        visible = true
+        index = 11
       }
     }
   }
@@ -1222,43 +1452,43 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
           id = "RETURN"
           label = "Authorize Return"
           visible = true
-          index = 0
+          
         }
         AUTOFILL = {
           id = "AUTOFILL"
           label = "Auto Fill"
           visible = true
-          index = 1
+          
         }
         CANCELBILL = {
           id = "CANCELBILL"
           label = "Cancel Bill"
           visible = true
-          index = 2
+          
         }
         CREDIT = {
           id = "CREDIT"
           label = "Credit"
           visible = true
-          index = 3
+          
         }
         PAYMENT = {
           id = "PAYMENT"
           label = "Make Payment"
           visible = true
-          index = 4
+          
         }
         RECALC = {
           id = "RECALC"
           label = "Recalc"
           visible = true
-          index = 5
+          
         }
         VIEWEXPENSEPLANS = {
           id = "VIEWEXPENSEPLANS"
           label = "View Expense Plans"
           visible = true
-          index = 6
+          
         }
       }
     }
@@ -1268,61 +1498,61 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
           id = "DELETE"
           label = "Delete"
           visible = true
-          index = 0
+          
         }
         GLIMPACT = {
           id = "GLIMPACT"
           label = "GL Impact"
           visible = true
-          index = 1
+          
         }
         GOTOREGISTER = {
           id = "GOTOREGISTER"
           label = "Go To Register"
           visible = true
-          index = 2
+          
         }
         MAKECOPY = {
           id = "MAKECOPY"
           label = "Make Copy"
           visible = true
-          index = 3
+          
         }
         MEMORIZE = {
           id = "MEMORIZE"
           label = "Memorize"
           visible = true
-          index = 4
+          
         }
         NEW = {
           id = "NEW"
           label = "New"
           visible = true
-          index = 5
+          
         }
         PRINT = {
           id = "PRINT"
           label = "Print"
           visible = true
-          index = 6
+          
         }
         PRINTGLIMPACT = {
           id = "PRINTGLIMPACT"
           label = "Print GL Impact"
           visible = true
-          index = 7
+          
         }
         SUBMITNEW = {
           id = "SUBMITNEW"
           label = "Save & New"
           visible = true
-          index = 8
+          
         }
         ACTIVITYHISTORY = {
           id = "ACTIVITYHISTORY"
           label = "Show Activity"
           visible = true
-          index = 9
+          
         }
       }
     }
@@ -1352,107 +1582,124 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
       AP_CLERK = {
         id = "AP_CLERK"
         preferred = false
-        index = 0
+        
       }
       ACCOUNTANT = {
         id = "ACCOUNTANT"
         preferred = false
-        index = 1
+        
       }
       ACCOUNTANT__REVIEWER = {
         id = "ACCOUNTANT__REVIEWER"
         preferred = false
-        index = 2
+        
       }
       ADMINISTRATOR = {
         id = "ADMINISTRATOR"
         preferred = false
-        index = 3
+        
       }
       BOOKKEEPER = {
         id = "BOOKKEEPER"
         preferred = false
-        index = 4
+        
       }
       BUYER = {
         id = "BUYER"
         preferred = false
-        index = 5
+        
       }
       CEO = {
         id = "CEO"
         preferred = false
-        index = 6
+        
       }
       CEO_HANDS_OFF = {
         id = "CEO_HANDS_OFF"
         preferred = false
-        index = 7
+        
       }
       CUSTOMROLE41 = {
         id = "CUSTOMROLE41"
         preferred = false
-        index = 8
+        
       }
       FULL_ACCESS = {
         id = "FULL_ACCESS"
         preferred = false
-        index = 9
+        
       }
       customrole1028_1 = {
         id = netsuite.role.instance.customrole1028_1.scriptid
         preferred = false
-        index = 10
+        
       }
       customrole1071 = {
         id = netsuite.role.instance.customrole1071.scriptid
         preferred = false
-        index = 11
+        
       }
       customrole1078 = {
         id = netsuite.role.instance.customrole1078.scriptid
         preferred = false
-        index = 12
+        
       }
       customrole1079 = {
         id = netsuite.role.instance.customrole1079.scriptid
         preferred = false
-        index = 13
+        
       }
       customrole1080 = {
         id = netsuite.role.instance.customrole1080.scriptid
         preferred = false
-        index = 14
+        
       }
       customrole1084 = {
         id = netsuite.role.instance.customrole1084.scriptid
         preferred = false
-        index = 15
+        
       }
       customrole_gwr_role_ar = {
         id = netsuite.role.instance.customrole_gwr_role_ar.scriptid
         preferred = false
-        index = 16
+        
       }
       customrole_gwr_role_acct = {
         id = netsuite.role.instance.customrole_gwr_role_acct.scriptid
         preferred = false
-        index = 17
+        
       }
       WAREHOUSE_MANAGER = {
         id = "WAREHOUSE_MANAGER"
         preferred = false
-        index = 20
+        
       }
       customrole1178 = {
         id = netsuite.role.instance.customrole1178.scriptid
         preferred = false
-        index = 18
+        
       }
       customrole_simon_test = {
         id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
-        index = 19
+        
+      }
+      customrole_gwr_role_ar2 = {
+        id = netsuite.role.instance.customrole_gwr_role_ar2.scriptid
+        preferred = false
+        
+      }
+      customrole_itemsnap_viewer = {
+        id = netsuite.role.instance.customrole_itemsnap_viewer.scriptid
+        preferred = false
+      }
+      customrole_itemsnap_viewer_2 = {
+        id = netsuite.role.instance.customrole_itemsnap_viewer_2.scriptid
+        preferred = false
+      }
+      customrole_salto_all_permissions = {
+        id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        preferred = false
       }
     }
   }
@@ -1462,6 +1709,12 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
     },
     {
       reference = netsuite.customsegment.instance.cseg2.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.cseg_nbc.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
 }

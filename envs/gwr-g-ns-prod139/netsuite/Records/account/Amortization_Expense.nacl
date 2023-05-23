@@ -11,4 +11,5 @@ netsuite.account Amortization_Expense@s {
   ]
   revalue = false
   identifier = "Amortization Expense"
+  custom_custrecord_acct_special = false
 }

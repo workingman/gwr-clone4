@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56339_t2257815_730 {
+  scriptid = "val_56339_t2257815_730"
+  isInactive = false
+  name = "Florida-Hallandale Beach"
+}

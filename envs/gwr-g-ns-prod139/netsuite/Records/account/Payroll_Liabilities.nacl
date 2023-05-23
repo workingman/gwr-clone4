@@ -11,4 +11,5 @@ netsuite.account Payroll_Liabilities@s {
   ]
   revalue = true
   identifier = "Payroll Liabilities"
+  custom_custrecord_acct_special = false
 }

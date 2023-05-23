@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55886_t2257815_773 {
+  scriptid = "val_55886_t2257815_773"
+  isInactive = false
+  name = "California-Redondo Beach"
+}

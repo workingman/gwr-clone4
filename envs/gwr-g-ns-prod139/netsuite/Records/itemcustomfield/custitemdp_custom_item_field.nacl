@@ -31,5 +31,6 @@ netsuite.itemcustomfield custitemdp_custom_item_field {
   showinlist = false
   storevalue = true
   subtab = "ITEMPURCHASINGINVENTORY"
-  appliestoinventory = false
+  appliestoinventory = true
+  appliestoitemassembly = false
 }

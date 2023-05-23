@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56312_t2257815_425 {
+  scriptid = "val_56312_t2257815_425"
+  isInactive = false
+  name = "Minnesota-Maplewood"
+}

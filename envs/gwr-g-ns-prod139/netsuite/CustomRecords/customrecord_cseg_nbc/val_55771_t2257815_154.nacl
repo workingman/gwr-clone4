@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55771_t2257815_154 {
+  scriptid = "val_55771_t2257815_154"
+  isInactive = false
+  name = "Georgia-Johns Creek"
+}

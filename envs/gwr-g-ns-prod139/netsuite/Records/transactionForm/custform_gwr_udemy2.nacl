@@ -301,26 +301,8 @@ netsuite.transactionForm custform_gwr_udemy2 {
                 sameRowAsPrevious = false
                 index = 4
               }
-              cseg1 = {
-                id = "[type=transactionbodycustomfield, scriptid=cseg1]"
-                label = "Stam"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 5
-              }
-              csegcseg_rg_seg_cc = {
-                id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
-                label = "Cost Center"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 6
-              }
+              
+              
             }
             index = 0
           }
@@ -334,6 +316,42 @@ netsuite.transactionForm custform_gwr_udemy2 {
         showTitle = true
         singleColumn = false
         index = 3
+      }
+      fieldgroup_1_t2257815_770 = {
+        scriptid = "fieldgroup_1_t2257815_770"
+        label = "DP group"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              cseg1 = {
+                id = "[type=transactionbodycustomfield, scriptid=cseg1]"
+                label = "Stam"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              csegcseg_rg_seg_cc = {
+                id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                label = "Cost Center"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+            }
+            index = 0
+          }
+        }
+        index = 4
       }
     }
     defaultFieldGroup = {
@@ -497,7 +515,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                   JOB = {
                     id = "JOB"
                     label = "Job"
-                    visible = true
+                    visible = false
                     index = 0
                   }
                   ITEM = {
@@ -787,6 +805,12 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     label = "% Complete"
                     visible = false
                     index = 48
+                  }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 49
                   }
                 }
               }
@@ -1731,51 +1755,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1802,6 +1782,52 @@ netsuite.transactionForm custform_gwr_udemy2 {
           }
         }
         index = 9
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1829,16 +1855,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     sameRowAsPrevious = false
                     index = 0
                   }
-                  custbodydp_transaction_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbodydp_transaction_field_1.scriptid
-                    label = "DP Transaction Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 1
-                  }
+                  
                   custbodyil_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodyil_payment_processor.scriptid
                     label = "IL Payment Processor"
@@ -1847,7 +1864,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 2
+                    index = 1
                   }
                   custbodysf_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodysf_payment_processor.scriptid
@@ -1857,7 +1874,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 3
+                    index = 2
                   }
                   custbodytb_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodytb_payment_processor.scriptid
@@ -1867,7 +1884,41 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
+                    index = 3
+                  }
+                  
+                  
+                  custbody_srd_opp_source = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+                    label = "SRD - Opportunity Source"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 4
+                  }
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 5
+                  }
+                  
+                  
+                  cseg_nbc = {
+                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 8
                   }
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
@@ -1877,7 +1928,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 5
+                    index = 6
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1887,7 +1938,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 6
+                    index = 7
                   }
                 }
                 index = 0
@@ -2382,6 +2433,18 @@ netsuite.transactionForm custform_gwr_udemy2 {
         id = netsuite.role.instance.customrole1030.scriptid
         preferred = false
       }
+      customrole_srd_test_cust_role = {
+        id = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+        preferred = false
+      }
+      customrole_srd_customer_center = {
+        id = netsuite.role.instance.customrole_srd_customer_center.scriptid
+        preferred = false
+      }
+      customrole_salto_all_permissions = {
+        id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        preferred = false
+      }
     }
   }
   _generated_dependencies = [
@@ -2390,6 +2453,9 @@ netsuite.transactionForm custform_gwr_udemy2 {
     },
     {
       reference = netsuite.customsegment.instance.cseg2.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.cseg_nbc.scriptid
     },
     {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid

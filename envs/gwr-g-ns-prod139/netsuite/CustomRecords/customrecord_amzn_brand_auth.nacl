@@ -84,8 +84,7 @@ type netsuite.customrecord_amzn_brand_auth {
     }
     boolean showowneronlist {
     }
-    netsuite.customrecordtype_instances instances {
-    }
+    
     netsuite.customrecordtype_links links {
     }
     netsuite.customrecordtype_permissions permissions {
@@ -311,26 +310,28 @@ type netsuite.customrecord_amzn_brand_auth {
   showowner = false
   showownerallowchange = false
   showowneronlist = false
+  
+  metadataType = "customrecordtype"
+  netsuite.customRecordTranslationsList translationsList {
+  }
   permissions = {
     permission = {
       ACCOUNTANT = {
         permittedlevel = "VIEW"
         permittedrole = "ACCOUNTANT"
-        
       }
       BOOKKEEPER = {
         permittedlevel = "VIEW"
         permittedrole = "BOOKKEEPER"
-        
       }
       customrole1178 = {
         permittedlevel = "FULL"
         permittedrole = netsuite.role.instance.customrole1178.scriptid
-        
+      }
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
       }
     }
-  }
-  metadataType = "customrecordtype"
-  netsuite.customRecordTranslationsList translationsList {
   }
 }

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56356_t2257815_832 {
+  scriptid = "val_56356_t2257815_832"
+  isInactive = false
+  name = "Utah-Roy"
+}

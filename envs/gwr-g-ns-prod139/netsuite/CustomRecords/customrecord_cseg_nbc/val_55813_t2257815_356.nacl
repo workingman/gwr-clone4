@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55813_t2257815_356 {
+  scriptid = "val_55813_t2257815_356"
+  isInactive = false
+  name = "Utah-St. George"
+}

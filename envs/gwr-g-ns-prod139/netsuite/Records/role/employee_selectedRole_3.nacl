@@ -1,0 +1,4 @@
+netsuite.recordRef employee_selectedRole_3 {
+  name = "Administrator"
+  isSubInstance = true
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56236_t2257815_244 {
+  scriptid = "val_56236_t2257815_244"
+  isInactive = false
+  name = "Florida-Fort Pierce"
+}

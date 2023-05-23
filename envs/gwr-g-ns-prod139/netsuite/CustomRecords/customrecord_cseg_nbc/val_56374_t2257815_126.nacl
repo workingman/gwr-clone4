@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56374_t2257815_126 {
+  scriptid = "val_56374_t2257815_126"
+  isInactive = false
+  name = "California-Martinez"
+}

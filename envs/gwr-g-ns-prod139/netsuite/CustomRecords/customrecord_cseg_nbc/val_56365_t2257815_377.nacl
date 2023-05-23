@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56365_t2257815_377 {
+  scriptid = "val_56365_t2257815_377"
+  isInactive = false
+  name = "Alabama-Phenix City"
+}

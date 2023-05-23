@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55804_t2257815_635 {
+  scriptid = "val_55804_t2257815_635"
+  isInactive = false
+  name = "Florida-Deerfield Beach"
+}

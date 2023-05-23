@@ -11,4 +11,5 @@ netsuite.account Opportunities {
   ]
   revalue = false
   identifier = "Opportunities"
+  custom_custrecord_acct_special = false
 }

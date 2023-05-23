@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55633_t2257815_745 {
+  scriptid = "val_55633_t2257815_745"
+  isInactive = false
+  name = "Texas-Round Rock"
+}

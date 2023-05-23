@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55631_t2257815_869 {
+  scriptid = "val_55631_t2257815_869"
+  isInactive = false
+  name = "Illinois-Elgin"
+}

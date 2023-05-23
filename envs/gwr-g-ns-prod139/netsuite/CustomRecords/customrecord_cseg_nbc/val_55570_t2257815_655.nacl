@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55570_t2257815_655 {
+  scriptid = "val_55570_t2257815_655"
+  isInactive = false
+  name = "Texas-McAllen"
+}

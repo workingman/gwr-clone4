@@ -30,5 +30,5 @@ netsuite.entitycustomfield custentity19 {
   showhierarchy = false
   showinlist = false
   storevalue = true
-  subtab = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+  subtab = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
 }

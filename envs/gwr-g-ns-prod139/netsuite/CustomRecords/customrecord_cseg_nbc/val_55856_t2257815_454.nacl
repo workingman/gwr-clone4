@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55856_t2257815_454 {
+  scriptid = "val_55856_t2257815_454"
+  isInactive = false
+  name = "Florida-Boynton Beach"
+}

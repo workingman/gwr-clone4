@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56034_t2257815_198 {
+  scriptid = "val_56034_t2257815_198"
+  isInactive = false
+  name = "New Jersey-New Brunswick"
+}

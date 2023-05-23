@@ -11,4 +11,5 @@ netsuite.account Inventory_In_Transit@s {
   ]
   revalue = false
   identifier = "Inventory In Transit"
+  custom_custrecord_acct_special = false
 }

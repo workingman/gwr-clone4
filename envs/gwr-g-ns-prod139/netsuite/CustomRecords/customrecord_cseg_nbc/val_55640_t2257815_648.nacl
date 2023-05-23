@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55640_t2257815_648 {
+  scriptid = "val_55640_t2257815_648"
+  isInactive = false
+  name = "California-San Buenaventura (Ventura)"
+}

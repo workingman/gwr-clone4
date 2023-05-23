@@ -11,4 +11,5 @@ netsuite.account Purchases {
   ]
   revalue = false
   identifier = "Purchases"
+  custom_custrecord_acct_special = false
 }

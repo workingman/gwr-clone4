@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56128_t2257815_368 {
+  scriptid = "val_56128_t2257815_368"
+  isInactive = false
+  name = "California-West Sacramento"
+}

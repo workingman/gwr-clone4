@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55476_t2257815_909 {
+  scriptid = "val_55476_t2257815_909"
+  isInactive = false
+  name = "Texas-Irving"
+}

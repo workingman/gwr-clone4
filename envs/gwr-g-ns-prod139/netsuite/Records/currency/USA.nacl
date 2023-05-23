@@ -8,6 +8,8 @@ netsuite.currency USA {
   symbolPlacement = "_beforeNumber"
   locale = "_unitedStatesEnglish"
   formatSample = "$1,234.56"
-  exchangeRate = 1
+  
   currencyPrecision = "_two"
+  exchangeRate = 1
+  fxRateUpdateTimezone = "_americaNewYork"
 }

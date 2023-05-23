@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55442_t2257815_946 {
+  scriptid = "val_55442_t2257815_946"
+  isInactive = false
+  name = "Texas-Corpus Christi"
+}

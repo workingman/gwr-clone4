@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55992_t2257815_780 {
+  scriptid = "val_55992_t2257815_780"
+  isInactive = false
+  name = "Michigan-Royal Oak"
+}

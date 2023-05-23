@@ -34,4 +34,5 @@ netsuite.transactioncolumncustomfield custcol_gwr_rma1 {
   searchlevel = "2"
   showhierarchy = false
   storevalue = true
+  colbuild = false
 }

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56159_t2257815_471 {
+  scriptid = "val_56159_t2257815_471"
+  isInactive = false
+  name = "Ohio-Euclid"
+}

@@ -12,4 +12,5 @@ netsuite.account Automobile_Expense_Repairs@su {
   ]
   revalue = false
   identifier = "Automobile Expense_Repairs"
+  custom_custrecord_acct_special = false
 }

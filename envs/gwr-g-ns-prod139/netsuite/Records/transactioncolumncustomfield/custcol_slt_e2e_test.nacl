@@ -37,4 +37,5 @@ netsuite.transactioncolumncustomfield custcol_slt_e2e_test {
   storevalue = true
   colinventoryadjustment = false
   coltransferorder = false
+  colbuild = false
 }

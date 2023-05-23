@@ -37,4 +37,6 @@ netsuite.transactionbodycustomfield custbody_lala {
   showinlist = false
   storevalue = true
   subtab = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
+  bodyassemblybuild = false
+  bodybom = false
 }

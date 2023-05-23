@@ -11,4 +11,5 @@ netsuite.account Miscellaneous_Expense@s {
   ]
   revalue = false
   identifier = "Miscellaneous Expense"
+  custom_custrecord_acct_special = false
 }

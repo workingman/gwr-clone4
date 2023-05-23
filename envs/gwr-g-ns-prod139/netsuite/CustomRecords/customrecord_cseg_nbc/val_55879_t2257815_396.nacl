@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55879_t2257815_396 {
+  scriptid = "val_55879_t2257815_396"
+  isInactive = false
+  name = "Florida-Weston"
+}

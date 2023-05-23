@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55590_t2257815_667 {
+  scriptid = "val_55590_t2257815_667"
+  isInactive = false
+  name = "Florida-Coral Springs"
+}

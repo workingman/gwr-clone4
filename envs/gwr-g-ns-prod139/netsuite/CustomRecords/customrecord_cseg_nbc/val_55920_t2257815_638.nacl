@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55920_t2257815_638 {
+  scriptid = "val_55920_t2257815_638"
+  isInactive = false
+  name = "New Jersey-Bayonne"
+}

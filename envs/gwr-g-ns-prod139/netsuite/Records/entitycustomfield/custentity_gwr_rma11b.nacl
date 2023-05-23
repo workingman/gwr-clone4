@@ -32,5 +32,7 @@ netsuite.entitycustomfield custentity_gwr_rma11b {
   showhierarchy = false
   showinlist = false
   storevalue = true
-  description = "___"
+  
+  
+  description = "___old description"
 }

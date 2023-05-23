@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56239_t2257815_882 {
+  scriptid = "val_56239_t2257815_882"
+  isInactive = false
+  name = "Wisconsin-Fond du Lac"
+}

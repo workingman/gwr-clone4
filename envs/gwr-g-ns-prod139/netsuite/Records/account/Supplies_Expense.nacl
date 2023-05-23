@@ -11,4 +11,5 @@ netsuite.account Supplies_Expense@s {
   ]
   revalue = false
   identifier = "Supplies Expense"
+  custom_custrecord_acct_special = false
 }

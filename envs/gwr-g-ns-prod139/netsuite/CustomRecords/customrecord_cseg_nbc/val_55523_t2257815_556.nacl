@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55523_t2257815_556 {
+  scriptid = "val_55523_t2257815_556"
+  isInactive = false
+  name = "California-Rancho Cucamonga"
+}

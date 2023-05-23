@@ -8,6 +8,7 @@ netsuite.currency British_pound@s {
   symbolPlacement = "_beforeNumber"
   locale = "_unitedKingdomEnglish"
   formatSample = "£1,234.56"
-  exchangeRate = 2.365
+  
   currencyPrecision = "_two"
+  exchangeRate = 2.365
 }

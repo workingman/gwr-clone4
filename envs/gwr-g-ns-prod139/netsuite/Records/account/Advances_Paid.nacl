@@ -11,4 +11,5 @@ netsuite.account Advances_Paid@s {
   ]
   revalue = false
   identifier = "Advances Paid"
+  custom_custrecord_acct_special = false
 }

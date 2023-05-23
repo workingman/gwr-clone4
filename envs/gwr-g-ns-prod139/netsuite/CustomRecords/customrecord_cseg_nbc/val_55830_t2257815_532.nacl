@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55830_t2257815_532 {
+  scriptid = "val_55830_t2257815_532"
+  isInactive = false
+  name = "Illinois-Decatur"
+}

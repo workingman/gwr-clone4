@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55637_t2257815_351 {
+  scriptid = "val_55637_t2257815_351"
+  isInactive = false
+  name = "California-Fairfield"
+}

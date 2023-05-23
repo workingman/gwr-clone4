@@ -11,4 +11,5 @@ netsuite.account Accounts_Receivable@s {
   ]
   revalue = true
   identifier = "Accounts Receivable"
+  custom_custrecord_acct_special = false
 }

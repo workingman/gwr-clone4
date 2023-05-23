@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56192_t2257815_825 {
+  scriptid = "val_56192_t2257815_825"
+  isInactive = false
+  name = "California-San Jacinto"
+}

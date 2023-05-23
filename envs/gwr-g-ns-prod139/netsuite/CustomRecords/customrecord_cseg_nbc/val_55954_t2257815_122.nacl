@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55954_t2257815_122 {
+  scriptid = "val_55954_t2257815_122"
+  isInactive = false
+  name = "Minnesota-Burnsville"
+}

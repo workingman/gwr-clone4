@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55940_t2257815_574 {
+  scriptid = "val_55940_t2257815_574"
+  isInactive = false
+  name = "Wyoming-Cheyenne"
+}

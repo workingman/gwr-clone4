@@ -12,4 +12,5 @@ netsuite.account Telephone_Expense_Pager@su {
   ]
   revalue = false
   identifier = "Telephone Expense_Pager"
+  custom_custrecord_acct_special = false
 }

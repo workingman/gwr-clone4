@@ -395,6 +395,27 @@ netsuite.transactionForm custformsalto_cash_refund_form {
               checkBoxDefault = "USE_FIELD_DEFAULT"
               index = 4
             }
+            custbody_svb_vb_to_bell_dist_sched = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
+              label = "VB header to Bill Distribution Schedule"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 5
+            }
+            custbody_svb_schedule_is_intercompany = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
+              label = "Schedule Is Intercompany"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 6
+            }
           }
           index = 0
         }
@@ -632,6 +653,18 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     label = "GL Audit Numbering Sequence"
                     visible = true
                     index = 29
+                  }
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    index = 31
+                  }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 32
                   }
                 }
               }
@@ -1399,6 +1432,69 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1426,16 +1522,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 0
                   }
-                  custbodydp_transaction_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbodydp_transaction_field_1.scriptid
-                    label = "DP Transaction Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 1
-                  }
+                  
                   custbodyil_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodyil_payment_processor.scriptid
                     label = "IL Payment Processor"
@@ -1444,7 +1531,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 2
+                    index = 1
                   }
                   custbodysf_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodysf_payment_processor.scriptid
@@ -1454,7 +1541,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 3
+                    index = 2
                   }
                   custbodytb_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodytb_payment_processor.scriptid
@@ -1464,7 +1551,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 4
+                    index = 3
                   }
                   
                   
@@ -1500,6 +1587,27 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
+                    index = 4
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 5
                   }
                   
@@ -1512,6 +1620,62 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 6
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  cseg_nbc = {
+                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 7
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 8
+                  }
                 }
                 index = 0
               }
@@ -1605,6 +1769,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         visible = true
         index = 15
       }
+      custtab_16_t1221897_664 = {
+        id = netsuite.subtab.instance.custtab_16_t1221897_664.scriptid
+        label = "Bill Distribution Details"
+        visible = true
+        index = 17
+      }
     }
   }
   actionbar = {
@@ -1614,7 +1784,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
           id = "UPDATEREVREC"
           label = "Manage Revenue Recognition"
           visible = true
-          index = 0
+          
         }
       }
     }
@@ -1624,73 +1794,73 @@ netsuite.transactionForm custformsalto_cash_refund_form {
           id = "DELETE"
           label = "Delete"
           visible = false
-          index = 0
+          
         }
         EMAIL = {
           id = "EMAIL"
           label = "Email"
           visible = true
-          index = 1
+          
         }
         FAX = {
           id = "FAX"
           label = "Fax"
           visible = false
-          index = 2
+          
         }
         GLIMPACT = {
           id = "GLIMPACT"
           label = "GL Impact"
           visible = true
-          index = 3
+          
         }
         GOTOREGISTER = {
           id = "GOTOREGISTER"
           label = "Go To Register"
           visible = true
-          index = 4
+          
         }
         NEW = {
           id = "NEW"
           label = "New"
           visible = true
-          index = 5
+          
         }
         PRINT = {
           id = "PRINT"
           label = "Print"
           visible = false
-          index = 6
+          
         }
         PRINTGLIMPACT = {
           id = "PRINTGLIMPACT"
           label = "Print GL Impact"
           visible = true
-          index = 7
+          
         }
         SAVEEMAIL = {
           id = "SAVEEMAIL"
           label = "Save & Email"
           visible = true
-          index = 8
+          
         }
         SUBMITNEW = {
           id = "SUBMITNEW"
           label = "Save & New"
           visible = true
-          index = 9
+          
         }
         SAVEPRINT = {
           id = "SAVEPRINT"
           label = "Save & Print"
           visible = true
-          index = 10
+          
         }
         ACTIVITYHISTORY = {
           id = "ACTIVITYHISTORY"
           label = "Show Activity"
           visible = true
-          index = 11
+          
         }
       }
     }
@@ -1724,37 +1894,41 @@ netsuite.transactionForm custformsalto_cash_refund_form {
       ADMINISTRATOR = {
         id = "ADMINISTRATOR"
         preferred = false
-        index = 0
+        
       }
       CEO = {
         id = "CEO"
         preferred = false
-        index = 1
+        
       }
       CEO_HANDS_OFF = {
         id = "CEO_HANDS_OFF"
         preferred = false
-        index = 2
+        
       }
       CUSTOMROLE41 = {
         id = "CUSTOMROLE41"
         preferred = false
-        index = 3
+        
       }
       FULL_ACCESS = {
         id = "FULL_ACCESS"
         preferred = false
-        index = 4
+        
       }
       customrole1178 = {
         id = netsuite.role.instance.customrole1178.scriptid
         preferred = false
-        index = 5
+        
       }
       customrole_simon_test = {
         id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
-        index = 6
+        
+      }
+      customrole_salto_all_permissions = {
+        id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        preferred = false
       }
     }
   }
@@ -1764,6 +1938,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
     },
     {
       reference = netsuite.customsegment.instance.cseg2.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.cseg_nbc.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
 }

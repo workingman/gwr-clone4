@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56252_t2257815_587 {
+  scriptid = "val_56252_t2257815_587"
+  isInactive = false
+  name = "Vermont-Burlington"
+}

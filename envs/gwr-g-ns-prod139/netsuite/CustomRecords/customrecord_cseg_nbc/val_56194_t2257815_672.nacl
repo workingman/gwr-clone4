@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56194_t2257815_672 {
+  scriptid = "val_56194_t2257815_672"
+  isInactive = false
+  name = "Pennsylvania-Altoona"
+}

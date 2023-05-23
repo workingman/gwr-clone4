@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55902_t2257815_788 {
+  scriptid = "val_55902_t2257815_788"
+  isInactive = false
+  name = "Minnesota-St. Cloud"
+}

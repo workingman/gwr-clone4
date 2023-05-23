@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56145_t2257815_723 {
+  scriptid = "val_56145_t2257815_723"
+  isInactive = false
+  name = "Idaho-Caldwell"
+}

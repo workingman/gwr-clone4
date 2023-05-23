@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56200_t2257815_532 {
+  scriptid = "val_56200_t2257815_532"
+  isInactive = false
+  name = "New Mexico-Farmington"
+}

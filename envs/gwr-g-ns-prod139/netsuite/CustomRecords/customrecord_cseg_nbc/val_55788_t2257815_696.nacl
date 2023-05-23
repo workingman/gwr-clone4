@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55788_t2257815_696 {
+  scriptid = "val_55788_t2257815_696"
+  isInactive = false
+  name = "Ohio-Parma"
+}

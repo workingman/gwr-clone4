@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55525_t2257815_745 {
+  scriptid = "val_55525_t2257815_745"
+  isInactive = false
+  name = "Arizona-Tempe"
+}

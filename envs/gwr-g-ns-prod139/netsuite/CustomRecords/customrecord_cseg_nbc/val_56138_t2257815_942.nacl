@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56138_t2257815_942 {
+  scriptid = "val_56138_t2257815_942"
+  isInactive = false
+  name = "Minnesota-Edina"
+}

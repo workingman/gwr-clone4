@@ -453,6 +453,27 @@ netsuite.transactionForm custformmychange {
               checkBoxDefault = "USE_FIELD_DEFAULT"
               index = 5
             }
+            custbody_svb_vb_to_bell_dist_sched = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
+              label = "VB header to Bill Distribution Schedule"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 6
+            }
+            custbody_svb_schedule_is_intercompany = {
+              id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
+              label = "Schedule Is Intercompany"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              checkBoxDefault = "USE_FIELD_DEFAULT"
+              index = 7
+            }
           }
           index = 0
         }
@@ -776,6 +797,18 @@ netsuite.transactionForm custformmychange {
                     label = "GL Audit Numbering Sequence"
                     visible = true
                     index = 42
+                  }
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    index = 44
+                  }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 45
                   }
                 }
               }
@@ -1488,6 +1521,69 @@ netsuite.transactionForm custformmychange {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1515,16 +1611,7 @@ netsuite.transactionForm custformmychange {
                     sameRowAsPrevious = false
                     index = 0
                   }
-                  custbodydp_transaction_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbodydp_transaction_field_1.scriptid
-                    label = "DP Transaction Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 1
-                  }
+                  
                   custbodyil_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodyil_payment_processor.scriptid
                     label = "IL Payment Processor"
@@ -1533,7 +1620,7 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 2
+                    index = 1
                   }
                   custbodysf_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodysf_payment_processor.scriptid
@@ -1543,7 +1630,7 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 3
+                    index = 2
                   }
                   custbodytb_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodytb_payment_processor.scriptid
@@ -1553,7 +1640,7 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 4
+                    index = 3
                   }
                   
                   
@@ -1589,6 +1676,27 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
+                    index = 4
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 5
                   }
                   
@@ -1601,6 +1709,62 @@ netsuite.transactionForm custformmychange {
                   
                   
                   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 6
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  cseg_nbc = {
+                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 7
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 8
+                  }
                 }
                 index = 0
               }
@@ -1694,6 +1858,12 @@ netsuite.transactionForm custformmychange {
         visible = true
         index = 11
       }
+      custtab_16_t1221897_664 = {
+        id = netsuite.subtab.instance.custtab_16_t1221897_664.scriptid
+        label = "Bill Distribution Details"
+        visible = true
+        index = 17
+      }
     }
   }
   quickViewFields = {
@@ -1727,49 +1897,49 @@ netsuite.transactionForm custformmychange {
           id = "ACCEPTPAYMENT"
           label = "Accept Payment"
           visible = true
-          index = 0
+          
         }
         RETURN = {
           id = "RETURN"
           label = "Authorize Return"
           visible = true
-          index = 1
+          
         }
         AUTOFILL = {
           id = "AUTOFILL"
           label = "Auto Fill"
           visible = true
-          index = 2
+          
         }
         CREDIT = {
           id = "CREDIT"
           label = "Credit"
           visible = true
-          index = 3
+          
         }
         UPDATEREVREC = {
           id = "UPDATEREVREC"
           label = "Manage Revenue Recognition"
           visible = true
-          index = 4
+          
         }
         RENEWAL = {
           id = "RENEWAL"
           label = "Renew"
           visible = true
-          index = 5
+          
         }
         UPDATEVSOE = {
           id = "UPDATEVSOE"
           label = "Update VSOE"
           visible = true
-          index = 6
+          
         }
         VOID = {
           id = "VOID"
           label = "Void"
           visible = true
-          index = 7
+          
         }
       }
     }
@@ -1779,79 +1949,79 @@ netsuite.transactionForm custformmychange {
           id = "DELETE"
           label = "Delete"
           visible = true
-          index = 0
+          
         }
         EMAIL = {
           id = "EMAIL"
           label = "Email"
           visible = true
-          index = 1
+          
         }
         GLIMPACT = {
           id = "GLIMPACT"
           label = "GL Impact"
           visible = true
-          index = 2
+          
         }
         GOTOREGISTER = {
           id = "GOTOREGISTER"
           label = "Go To Register"
           visible = true
-          index = 3
+          
         }
         MAKECOPY = {
           id = "MAKECOPY"
           label = "Make Copy"
           visible = true
-          index = 4
+          
         }
         MEMORIZE = {
           id = "MEMORIZE"
           label = "Memorize"
           visible = true
-          index = 5
+          
         }
         NEW = {
           id = "NEW"
           label = "New"
           visible = true
-          index = 6
+          
         }
         PRINT = {
           id = "PRINT"
           label = "Print"
           visible = true
-          index = 7
+          
         }
         PRINTGLIMPACT = {
           id = "PRINTGLIMPACT"
           label = "Print GL Impact"
           visible = true
-          index = 8
+          
         }
         SAVEEMAIL = {
           id = "SAVEEMAIL"
           label = "Save & Email"
           visible = true
-          index = 9
+          
         }
         SUBMITNEW = {
           id = "SUBMITNEW"
           label = "Save & New"
           visible = true
-          index = 10
+          
         }
         SAVEPRINT = {
           id = "SAVEPRINT"
           label = "Save & Print"
           visible = true
-          index = 11
+          
         }
         ACTIVITYHISTORY = {
           id = "ACTIVITYHISTORY"
           label = "Show Activity"
           visible = true
-          index = 12
+          
         }
       }
     }
@@ -1907,112 +2077,126 @@ netsuite.transactionForm custformmychange {
       AR_CLERK = {
         id = "AR_CLERK"
         preferred = false
-        index = 0
+        
       }
       ACCOUNTANT = {
         id = "ACCOUNTANT"
         preferred = false
-        index = 1
+        
       }
       ACCOUNTANT__REVIEWER = {
         id = "ACCOUNTANT__REVIEWER"
         preferred = false
-        index = 2
+        
       }
       ADMINISTRATOR = {
         id = "ADMINISTRATOR"
         preferred = false
-        index = 3
+        
       }
       BOOKKEEPER = {
         id = "BOOKKEEPER"
         preferred = false
-        index = 4
+        
       }
       CEO = {
         id = "CEO"
         preferred = false
-        index = 5
+        
       }
       CEO_HANDS_OFF = {
         id = "CEO_HANDS_OFF"
         preferred = false
-        index = 6
+        
       }
       CUSTOMROLE41 = {
         id = "CUSTOMROLE41"
         preferred = false
-        index = 7
+        
       }
       CUSTOMER_CENTER = {
         id = "CUSTOMER_CENTER"
         preferred = false
-        index = 8
+        
       }
       FULL_ACCESS = {
         id = "FULL_ACCESS"
         preferred = false
-        index = 9
+        
       }
       customrole1028_1 = {
         id = netsuite.role.instance.customrole1028_1.scriptid
         preferred = false
-        index = 10
+        
       }
       customrole1071 = {
         id = netsuite.role.instance.customrole1071.scriptid
         preferred = false
-        index = 11
+        
       }
       customrole1078 = {
         id = netsuite.role.instance.customrole1078.scriptid
         preferred = false
-        index = 12
+        
       }
       customrole1079 = {
         id = netsuite.role.instance.customrole1079.scriptid
         preferred = false
-        index = 13
+        
       }
       customrole1080 = {
         id = netsuite.role.instance.customrole1080.scriptid
         preferred = false
-        index = 14
+        
       }
       customrole1084 = {
         id = netsuite.role.instance.customrole1084.scriptid
         preferred = false
-        index = 15
+        
       }
       customrole_gwr_role_acct = {
         id = netsuite.role.instance.customrole_gwr_role_acct.scriptid
         preferred = false
-        index = 16
+        
       }
       NETSUITE_SUPPORT_CENTER = {
         id = "NETSUITE_SUPPORT_CENTER"
         preferred = false
-        index = 17
+        
       }
       customrole1178 = {
         id = netsuite.role.instance.customrole1178.scriptid
         preferred = false
-        index = 18
+        
       }
       customrole_simon_test = {
         id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
-        index = 19
+        
       }
       CUSTOMROLE42 = {
         id = "CUSTOMROLE42"
         preferred = false
-        index = 20
+        
       }
       CUSTOMROLE43 = {
         id = "CUSTOMROLE43"
         preferred = false
-        index = 21
+        
+      }
+      customrole_srd_test_cust_role = {
+        id = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+        preferred = false
+        
+      }
+      customrole_srd_customer_center = {
+        id = netsuite.role.instance.customrole_srd_customer_center.scriptid
+        preferred = false
+        
+      }
+      customrole_salto_all_permissions = {
+        id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        preferred = false
       }
     }
   }
@@ -2021,37 +2205,37 @@ netsuite.transactionForm custformmychange {
       COMBINEEXPENSEINVOICEITEMS = {
         id = "COMBINEEXPENSEINVOICEITEMS"
         value = false
-        index = 0
+        
       }
       COMBINEINVOICEITEMS = {
         id = "COMBINEINVOICEITEMS"
         value = false
-        index = 1
+        
       }
       GROUPEXPENSESBYEMPLOYEE = {
         id = "GROUPEXPENSESBYEMPLOYEE"
         value = false
-        index = 2
+        
       }
       COMBINETIMEITEMS = {
         id = "COMBINETIMEITEMS"
         value = true
-        index = 3
+        
       }
       BILLABLESUBTOTALS = {
         id = "BILLABLESUBTOTALS"
         value = false
-        index = 4
+        
       }
       GROUPTIMEBYEMPLOYEE = {
         id = "GROUPTIMEBYEMPLOYEE"
         value = false
-        index = 5
+        
       }
       BILLABLEGROUPING = {
         id = "BILLABLEGROUPING"
         value = false
-        index = 6
+        
       }
     }
   }
@@ -2061,6 +2245,12 @@ netsuite.transactionForm custformmychange {
     },
     {
       reference = netsuite.customsegment.instance.cseg2.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.cseg_nbc.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
 }

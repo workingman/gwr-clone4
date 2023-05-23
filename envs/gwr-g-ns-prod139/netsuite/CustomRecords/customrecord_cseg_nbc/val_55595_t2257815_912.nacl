@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55595_t2257815_912 {
+  scriptid = "val_55595_t2257815_912"
+  isInactive = false
+  name = "Washington-Kent"
+}

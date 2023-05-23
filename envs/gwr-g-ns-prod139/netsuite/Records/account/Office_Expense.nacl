@@ -11,4 +11,5 @@ netsuite.account Office_Expense@s {
   ]
   revalue = false
   identifier = "Office Expense"
+  custom_custrecord_acct_special = false
 }

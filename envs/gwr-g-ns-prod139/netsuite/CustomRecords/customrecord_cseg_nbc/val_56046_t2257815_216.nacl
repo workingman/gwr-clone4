@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56046_t2257815_216 {
+  scriptid = "val_56046_t2257815_216"
+  isInactive = false
+  name = "California-Paramount"
+}

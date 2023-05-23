@@ -778,6 +778,12 @@ netsuite.transactionForm custform_gwr_csform1 {
                     visible = true
                     index = 44
                   }
+                  cseg_nbc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    index = 45
+                  }
                 }
               }
               index = 0
@@ -1530,6 +1536,53 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1587,16 +1640,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 3
                   }
-                  custbodydp_transaction_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbodydp_transaction_field_1.scriptid
-                    label = "DP Transaction Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 4
-                  }
+                  
                   cseg1 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg1]"
                     label = "Stam"
@@ -1605,7 +1649,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 5
+                    index = 4
                   }
                   cseg2 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg2]"
@@ -1615,7 +1659,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 6
+                    index = 5
                   }
                   
                   
@@ -1660,7 +1704,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 7
+                    index = 6
                   }
                   
                   
@@ -1681,7 +1725,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    index = 7
                   }
                   
                   
@@ -1711,10 +1755,44 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 8
                   }
                   
                   
+                  
+                  
+                  
+                  
+                  cseg_nbc = {
+                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                    label = "Nearest Big City"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 11
+                  }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 10
+                  }
                 }
                 index = 0
               }
@@ -2144,6 +2222,10 @@ netsuite.transactionForm custform_gwr_csform1 {
         preferred = false
         
       }
+      customrole_salto_all_permissions = {
+        id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+        preferred = false
+      }
     }
   }
   preferences = {
@@ -2191,6 +2273,9 @@ netsuite.transactionForm custform_gwr_csform1 {
     },
     {
       reference = netsuite.customsegment.instance.cseg2.scriptid
+    },
+    {
+      reference = netsuite.customsegment.instance.cseg_nbc.scriptid
     },
     {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid

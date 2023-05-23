@@ -12,4 +12,5 @@ netsuite.account Petty_Cash@s {
   ]
   revalue = true
   identifier = "Petty Cash"
+  custom_custrecord_acct_special = false
 }

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56270_t2257815_520 {
+  scriptid = "val_56270_t2257815_520"
+  isInactive = false
+  name = "South Carolina-Sumter"
+}

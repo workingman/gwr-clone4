@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55612_t2257815_413 {
+  scriptid = "val_55612_t2257815_413"
+  isInactive = false
+  name = "Illinois-Springfield"
+}

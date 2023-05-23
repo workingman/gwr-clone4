@@ -128,6 +128,9 @@ type netsuite.savedsearch {
   "List<netsuite.savedsearch_alertRecipients>" alert_recipients {
   }
   
+  string internalId {
+    _hidden_value = true
+  }
 }
 type netsuite.savedsearch_dependencies {
   "List<string>" dependency {

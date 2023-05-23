@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55656_t2257815_636 {
+  scriptid = "val_55656_t2257815_636"
+  isInactive = false
+  name = "California-Burbank"
+}

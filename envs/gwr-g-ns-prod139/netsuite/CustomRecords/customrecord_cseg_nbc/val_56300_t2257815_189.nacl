@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56300_t2257815_189 {
+  scriptid = "val_56300_t2257815_189"
+  isInactive = false
+  name = "Texas-Coppell"
+}

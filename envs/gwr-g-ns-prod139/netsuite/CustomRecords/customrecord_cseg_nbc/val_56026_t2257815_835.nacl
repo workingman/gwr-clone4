@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56026_t2257815_835 {
+  scriptid = "val_56026_t2257815_835"
+  isInactive = false
+  name = "Indiana-Noblesville"
+}

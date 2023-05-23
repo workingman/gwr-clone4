@@ -37,4 +37,6 @@ netsuite.transactionbodycustomfield custbody_rg_valid_forto_po {
   showinlist = false
   storevalue = true
   subtab = "TRANSACTIONMAIN"
+  bodyassemblybuild = false
+  bodybom = false
 }

@@ -12,4 +12,5 @@ netsuite.account Checking {
   ]
   revalue = true
   identifier = "Checking"
+  custom_custrecord_acct_special = false
 }

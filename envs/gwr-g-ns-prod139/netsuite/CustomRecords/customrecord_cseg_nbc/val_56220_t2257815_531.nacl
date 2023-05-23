@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56220_t2257815_531 {
+  scriptid = "val_56220_t2257815_531"
+  isInactive = false
+  name = "Illinois-Lombard"
+}

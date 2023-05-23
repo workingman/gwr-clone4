@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56352_t2257815_996 {
+  scriptid = "val_56352_t2257815_996"
+  isInactive = false
+  name = "Illinois-Wheeling"
+}

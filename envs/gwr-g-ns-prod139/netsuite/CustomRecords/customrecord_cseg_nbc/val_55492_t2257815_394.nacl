@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55492_t2257815_394 {
+  scriptid = "val_55492_t2257815_394"
+  isInactive = false
+  name = "Georgia-Columbus"
+}

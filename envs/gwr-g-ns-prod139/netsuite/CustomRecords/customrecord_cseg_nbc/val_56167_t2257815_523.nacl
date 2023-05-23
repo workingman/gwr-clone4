@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56167_t2257815_523 {
+  scriptid = "val_56167_t2257815_523"
+  isInactive = false
+  name = "Mississippi-Hattiesburg"
+}

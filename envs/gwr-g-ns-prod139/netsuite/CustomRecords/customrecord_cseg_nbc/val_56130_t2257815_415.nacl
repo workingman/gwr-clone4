@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56130_t2257815_415 {
+  scriptid = "val_56130_t2257815_415"
+  isInactive = false
+  name = "Colorado-Commerce City"
+}

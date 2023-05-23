@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55608_t2257815_271 {
+  scriptid = "val_55608_t2257815_271"
+  isInactive = false
+  name = "Texas-Beaumont"
+}

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56366_t2257815_770 {
+  scriptid = "val_56366_t2257815_770"
+  isInactive = false
+  name = "Ohio-Grove City"
+}

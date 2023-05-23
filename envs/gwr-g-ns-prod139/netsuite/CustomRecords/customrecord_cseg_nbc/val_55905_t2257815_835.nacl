@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55905_t2257815_835 {
+  scriptid = "val_55905_t2257815_835"
+  isInactive = false
+  name = "California-Camarillo"
+}

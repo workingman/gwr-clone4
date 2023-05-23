@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55801_t2257815_262 {
+  scriptid = "val_55801_t2257815_262"
+  isInactive = false
+  name = "Minnesota-Brooklyn Park"
+}

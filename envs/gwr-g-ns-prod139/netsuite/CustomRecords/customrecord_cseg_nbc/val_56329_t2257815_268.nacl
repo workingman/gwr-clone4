@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56329_t2257815_268 {
+  scriptid = "val_56329_t2257815_268"
+  isInactive = false
+  name = "Florida-Ocoee"
+}

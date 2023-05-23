@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55602_t2257815_301 {
+  scriptid = "val_55602_t2257815_301"
+  isInactive = false
+  name = "California-Santa Clara"
+}

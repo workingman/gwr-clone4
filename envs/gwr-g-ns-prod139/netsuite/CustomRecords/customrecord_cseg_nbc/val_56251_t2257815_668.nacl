@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56251_t2257815_668 {
+  scriptid = "val_56251_t2257815_668"
+  isInactive = false
+  name = "New Hampshire-Concord"
+}

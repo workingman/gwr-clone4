@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55751_t2257815_176 {
+  scriptid = "val_55751_t2257815_176"
+  isInactive = false
+  name = "California-Citrus Heights"
+}

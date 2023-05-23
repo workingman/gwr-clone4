@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56208_t2257815_624 {
+  scriptid = "val_56208_t2257815_624"
+  isInactive = false
+  name = "Ohio-Strongsville"
+}

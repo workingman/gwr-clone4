@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55661_t2257815_200 {
+  scriptid = "val_55661_t2257815_200"
+  isInactive = false
+  name = "Colorado-Boulder"
+}

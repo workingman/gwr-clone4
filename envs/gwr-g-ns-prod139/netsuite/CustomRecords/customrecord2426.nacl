@@ -188,4 +188,12 @@ type netsuite.customrecord2426 {
   metadataType = "customrecordtype"
   netsuite.customRecordTranslationsList translationsList {
   }
+  permissions = {
+    permission = {
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+      }
+    }
+  }
 }

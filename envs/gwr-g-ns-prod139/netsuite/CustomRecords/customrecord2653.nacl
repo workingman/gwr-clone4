@@ -258,6 +258,10 @@ type netsuite.customrecord2653 {
         permittedlevel = "EDIT"
         permittedrole = netsuite.role.instance.customrole1198.scriptid
       }
+      customrole_salto_all_permissions = {
+        permittedlevel = "FULL"
+        permittedrole = netsuite.role.instance.customrole_salto_all_permissions.scriptid
+      }
     }
   }
 }

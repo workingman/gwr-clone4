@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55823_t2257815_567 {
+  scriptid = "val_55823_t2257815_567"
+  isInactive = false
+  name = "Texas-Baytown"
+}

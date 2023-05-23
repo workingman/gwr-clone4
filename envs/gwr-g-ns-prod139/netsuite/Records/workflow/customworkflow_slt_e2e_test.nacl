@@ -68,7 +68,7 @@ netsuite.workflow customworkflow_slt_e2e_test {
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -111,7 +111,7 @@ netsuite.workflow customworkflow_slt_e2e_test {
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -128,13 +128,13 @@ netsuite.workflow customworkflow_slt_e2e_test {
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -142,7 +142,7 @@ netsuite.workflow customworkflow_slt_e2e_test {
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         index = 1

@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55973_t2257815_457 {
+  scriptid = "val_55973_t2257815_457"
+  isInactive = false
+  name = "Arkansas-Rogers"
+}

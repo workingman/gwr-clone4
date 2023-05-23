@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56279_t2257815_987 {
+  scriptid = "val_56279_t2257815_987"
+  isInactive = false
+  name = "Utah-Riverton"
+}

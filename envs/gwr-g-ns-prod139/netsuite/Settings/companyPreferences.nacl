@@ -36,10 +36,7 @@ netsuite.companyPreferences {
   FC_UI_HIDE_HIERARCHY_FOLDER_INFO = false
   LASTNAMEFIRSTENTITIES = false
   INACTIVATE_CONTACTS = false
-  CUSTOMLANDINGPAGE = {
-    value = "-1"
-    text = ""
-  }
+  
   TIMEFORMAT = {
     value = "h:mm a"
     text = "hh:mm AM/PM"
@@ -76,7 +73,7 @@ netsuite.companyPreferences {
   UNRESTRICTED_SEARCH_FORMULA_FIELDS = true
   RATING_ENGINE_YEAR_LIMIT = 50
   LISTSEGMENTSIZE = 50
-  SHOWLISTONERESULT = false
+  SHOWLISTONERESULT = true
   HIDEATTACHMENTFOLDERS = false
   MAXREPORTDIMENSIONS = 200
   SHOWPROJECTINNEWUI = false

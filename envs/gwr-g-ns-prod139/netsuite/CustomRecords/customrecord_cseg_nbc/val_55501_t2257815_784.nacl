@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55501_t2257815_784 {
+  scriptid = "val_55501_t2257815_784"
+  isInactive = false
+  name = "Georgia-Augusta-Richmond County"
+}

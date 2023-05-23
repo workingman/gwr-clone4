@@ -1061,4 +1061,88 @@ settings netsuite.accountingPreferences {
     label = "Perform backend checks to see if the item in the inventory detail subrecord matches the item in the transaction."
     type = "checkbox"
   }
+  netsuite.selectOption CUSTOMTRANSACTION_MAINACCOUNT_101 {
+    label = "Custom Budget Account"
+    type = "select"
+  }
+  netsuite.selectOption CUSTOMTRANSACTION_MAINACCOUNT_102 {
+    label = "SRD transaction Account"
+    type = "select"
+  }
+  boolean USESYSCALCPCT4REVREC {
+    label = "Use System Percentage of Completion For Schedules"
+    type = "checkbox"
+  }
+  netsuite.selectOption AMORTIZATIONJOURNALENTRYFORM {
+    label = "Default Amortization Journal Entry Form"
+    type = "select"
+  }
+  netsuite.selectOption AMORJOURNALDATEDEFAULT {
+    label = "Default Amortization Journal Date to"
+    type = "select"
+  }
+  boolean CSV_SEND_UNKNOWN_EMAIL {
+    label = "CSV import: Flag that allows to send summary reports to unknown emails for account"
+    type = "checkbox"
+  }
+  boolean MODIFYAMORTOTALAMOUNT {
+    label = "Allow Users to Modify Amortization Schedule"
+    type = "checkbox"
+  }
+  number NUMBEROFSHORTTERMEXPENSEPERIODS {
+    label = "Number of Short-term expense periods"
+    type = "integer"
+  }
+  boolean ALLOWASSEMBLYPURCHASE {
+    label = "Allow Purchase of Assembly Items"
+    type = "checkbox"
+  }
+  netsuite.selectOption DEFAULTWORKORDERCOMMITOPTION {
+    label = "Default commit option on work order"
+    type = "select"
+  }
+  netsuite.selectOption UNBUILDVARIANCEACCOUNT {
+    label = "Default Unbuild Variance Account"
+    type = "select"
+  }
+  boolean USEBOMDECORATOR {
+    label = "Use BoM Decorator"
+    type = "checkbox"
+  }
+  boolean ONLY_COSTING_ENGINE_UPDATES_AVGCOST {
+    label = "SCM: Inventory: Costing: Do not allow transactions to update the item average cost on submission"
+    type = "checkbox"
+  }
+  "List<netsuite.selectOption>" ANCHOR_CURRENCIES {
+    label = "Anchor Currencies"
+    type = "multiselect"
+  }
+  netsuite.selectOption EXCHANGE_RATE_PROVIDER {
+    label = "Rate Provider"
+    type = "select"
+  }
+  boolean USE_FX_TRIANGULATION {
+    label = "Use triangulation calculation by Netsuite"
+    type = "checkbox"
+  }
+  netsuite.selectOption EXCHANGE_RATE_WS_TYPE {
+    label = "Rate Provider WS TYPE"
+    type = "select"
+  }
+  netsuite.selectOption anchorCurrency1 {
+    label = "Primary Anchor Currency"
+    type = "select"
+  }
+  netsuite.selectOption anchorCurrency2 {
+    label = "Secondary Anchor Currency"
+    type = "select"
+  }
+  netsuite.selectOption anchorCurrency3 {
+    label = "Tertiary Anchor Currency"
+    type = "select"
+  }
+  boolean ENABLEVIRTUALCARDOPTIMIZATION {
+    label = "Enable Virtual Card Optimization In Payment Automation SuiteApp"
+    type = "checkbox"
+  }
 }

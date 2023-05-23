@@ -48,8 +48,7 @@ type netsuite.entryForm_actionbar_buttons_button {
   }
   boolean visible {
   }
-  number index {
-  }
+  
 }
 type netsuite.entryForm_actionbar_buttons {
   "Map<netsuite.entryForm_actionbar_buttons_button>" button {
@@ -92,8 +91,7 @@ type netsuite.entryForm_actionbar_menu_menuitem {
   }
   boolean visible {
   }
-  number index {
-  }
+  
 }
 type netsuite.entryForm_actionbar_menu {
   "Map<netsuite.entryForm_actionbar_menu_menuitem>" menuitem {

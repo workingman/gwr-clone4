@@ -4,7 +4,7 @@ netsuite.workflow customworkflow_srd_create_opp {
   initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
   initoncreate = true
   initonvieworupdate = false
-  initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_srd_opp_search.scriptid
+  initsavedsearchcondition = "[scriptid=customsearch_srd_opp_search]"
   inittriggertype = "BEFORELOAD"
   isinactive = false
   islogenabled = true
@@ -27,7 +27,7 @@ netsuite.workflow customworkflow_srd_create_opp {
         Opportunity_Type@f = {
           name = "Opportunity:Type"
           value = "STDBODYOPPORTUNITY:STDBODYTRANTYPE"
-          index = 0
+          
         }
       }
     }
@@ -57,7 +57,7 @@ netsuite.workflow customworkflow_srd_create_opp {
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -97,7 +97,7 @@ netsuite.workflow customworkflow_srd_create_opp {
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         index = 1

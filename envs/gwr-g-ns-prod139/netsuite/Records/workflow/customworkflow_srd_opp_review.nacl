@@ -4,9 +4,9 @@ netsuite.workflow customworkflow_srd_opp_review {
   initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
   initoncreate = true
   initonvieworupdate = false
-  initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_srd_opp_search.scriptid
+  initsavedsearchcondition = "[scriptid=customsearch_srd_opp_search]"
   inittriggertype = "BEFORELOAD"
-  isinactive = false
+  isinactive = true
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
   name = "SRD - Opp Review"
@@ -21,37 +21,37 @@ netsuite.workflow customworkflow_srd_opp_review {
         Opportunity_Estimate_Status@ds = {
           name = "Opportunity/Estimate Status"
           value = "STDBODYENTITYSTATUS"
-          index = 0
+          
         }
         Entity_Status1@s = {
           name = "Entity Status1"
           selectrecordtype = "-104"
           value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 1
+          
         }
         Entity_Status2@s = {
           name = "Entity Status2"
           selectrecordtype = "-104"
           value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 2
+          
         }
         Entity_Status3@s = {
           name = "Entity Status3"
           selectrecordtype = "-104"
           value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 3
+          
         }
         Entity_Status4@s = {
           name = "Entity Status4"
           selectrecordtype = "-104"
           value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 4
+          
         }
         Entity_Status5@s = {
           name = "Entity Status5"
           selectrecordtype = "-104"
           value = "[ACCOUNT_SPECIFIC_VALUE]"
-          index = 5
+          
         }
       }
     }
@@ -81,7 +81,7 @@ netsuite.workflow customworkflow_srd_opp_review {
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -121,7 +121,7 @@ netsuite.workflow customworkflow_srd_opp_review {
                 index = 0
               }
             }
-            index = 0
+            
           }
         }
         index = 1

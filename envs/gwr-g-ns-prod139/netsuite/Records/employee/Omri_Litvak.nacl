@@ -1,0 +1,40 @@
+netsuite.employee Omri_Litvak@s {
+  entityId = "Omri Litvak"
+  firstName = "Omri"
+  
+  email = "omri.litvak@salto.io"
+  isInactive = false
+  initials = "OL"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  expenseLimit = 0
+  purchaseOrderLimit = 0
+  isSalesRep = false
+  isJobResource = false
+  gender = "_omitted"
+  workCalendar = {
+    name = "Default Work Calendar"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_3
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+}

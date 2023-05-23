@@ -91,7 +91,7 @@ Complexity: Low
                 index = 1
               }
             }
-            index = 0
+            
           }
         }
         workflowtransitions = {
@@ -109,17 +109,17 @@ Complexity: Low
                     Customer_Overdue_Balance@fs = {
                       name = "Customer:Overdue Balance"
                       value = "STDBODYCUSTOMER:STDENTITYOVERDUEBALANCE"
-                      index = 0
+                      
                     }
                     Total = {
                       name = "Total"
                       value = "STDBODYTOTAL"
-                      index = 1
+                      
                     }
                     User_Supervisor@f = {
                       name = "User:Supervisor"
                       value = "STDUSERUSER:STDENTITYSUPERVISOR"
-                      index = 2
+                      
                     }
                   }
                 }
@@ -168,7 +168,7 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
-                        index = 0
+                        
                       }
                     }
                   }
@@ -212,7 +212,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -229,12 +229,12 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -258,12 +258,12 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -285,12 +285,12 @@ Complexity: Low
                       Workflow_Approver@f = {
                         name = "Workflow:Approver"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow4.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -330,7 +330,7 @@ Complexity: Low
                 index = 2
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {
@@ -369,13 +369,13 @@ Complexity: Low
                     Order_Status@s = {
                       name = "Order Status"
                       value = "STDBODYORDERSTATUS"
-                      index = 0
+                      
                     }
                     Order_Status1@s = {
                       name = "Order Status1"
                       selectrecordtype = "-244"
                       value = "13"
-                      index = 1
+                      
                     }
                   }
                 }
@@ -425,7 +425,7 @@ Complexity: Low
                 index = 1
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -442,13 +442,13 @@ Complexity: Low
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 0
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 1
+                        
                       }
                     }
                   }
@@ -456,7 +456,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 1
+            
           }
         }
         index = 2
@@ -508,7 +508,7 @@ Complexity: Low
                 index = 0
               }
             }
-            index = 0
+            
           }
           BEFORELOAD = {
             triggertype = "BEFORELOAD"
@@ -525,23 +525,23 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -565,23 +565,23 @@ Complexity: Low
                       Workflow_Created_By@fs = {
                         name = "Workflow:Created By"
                         value = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow5.scriptid
-                        index = 0
+                        
                       }
                       User = {
                         name = "User"
                         value = "STDUSERUSER"
-                        index = 1
+                        
                       }
                       User_Role@s = {
                         name = "User Role"
                         value = "STDUSERROLE"
-                        index = 2
+                        
                       }
                       Role1 = {
                         name = "Role1"
                         selectrecordtype = "-118"
                         value = "ADMINISTRATOR"
-                        index = 3
+                        
                       }
                     }
                   }
@@ -621,7 +621,7 @@ Complexity: Low
                 index = 2
               }
             }
-            index = 1
+            
           }
         }
         workflowtransitions = {
@@ -650,13 +650,13 @@ Complexity: Low
                     Order_Status@s = {
                       name = "Order Status"
                       value = "STDBODYORDERSTATUS"
-                      index = 0
+                      
                     }
                     Order_Status1@s = {
                       name = "Order Status1"
                       selectrecordtype = "-244"
                       value = "13"
-                      index = 1
+                      
                     }
                   }
                 }

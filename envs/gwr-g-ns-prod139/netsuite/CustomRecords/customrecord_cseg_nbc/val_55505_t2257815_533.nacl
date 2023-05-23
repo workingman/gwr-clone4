@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55505_t2257815_533 {
+  scriptid = "val_55505_t2257815_533"
+  isInactive = false
+  name = "Michigan-Grand Rapids"
+}

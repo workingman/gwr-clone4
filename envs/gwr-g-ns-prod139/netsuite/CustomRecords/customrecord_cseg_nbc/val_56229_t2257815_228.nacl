@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_56229_t2257815_228 {
+  scriptid = "val_56229_t2257815_228"
+  isInactive = false
+  name = "Missouri-Jefferson City"
+}

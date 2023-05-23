@@ -1,0 +1,5 @@
+netsuite.customrecord_cseg_nbc val_55894_t2257815_840 {
+  scriptid = "val_55894_t2257815_840"
+  isInactive = false
+  name = "Louisiana-Kenner"
+}

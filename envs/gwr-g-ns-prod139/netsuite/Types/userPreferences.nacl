@@ -455,4 +455,8 @@ settings netsuite.userPreferences {
     label = "Page Search"
     type = "checkbox"
   }
+  boolean SUBLIST_COLUMN_TOOLTIP {
+    label = "Sublist Column Name Tooltip"
+    type = "checkbox"
+  }
 }

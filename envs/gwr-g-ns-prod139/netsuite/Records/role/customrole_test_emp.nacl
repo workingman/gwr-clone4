@@ -173,6 +173,10 @@ netsuite.role customrole_test_emp {
         permkey = "ADMI_MANAGE_OWN_OAUTH_TOKENS"
         permlevel = "NONE"
       }
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
     }
   }
   recordrestrictions = {

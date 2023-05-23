@@ -11,4 +11,5 @@ netsuite.account Furniture___Fixtures@ses {
   ]
   revalue = false
   identifier = "Furniture & Fixtures"
+  custom_custrecord_acct_special = false
 }
