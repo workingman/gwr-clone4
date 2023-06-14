@@ -1,8 +1,8 @@
-netsuite.transactionForm custform_gwr_form_rma1 {
-  scriptid = "custform_gwr_form_rma1"
-  standard = "STANDARDRETURNAUTHORIZATIONCREDIT"
-  name = "GWR Return Authorization - Credit"
-  recordType = "RETURNAUTHORIZATION"
+netsuite.transactionForm custform_eshed_invoice {
+  scriptid = "custform_eshed_invoice"
+  standard = "STANDARDPRODUCTINVOICE"
+  name = "ESHED Custom Product Invoice"
+  recordType = "INVOICE"
   inactive = false
   preferred = false
   mainFields = {
@@ -17,19 +17,19 @@ netsuite.transactionForm custform_gwr_form_rma1 {
           MIDDLE = {
             position = "MIDDLE"
             field = {
-              CUSTOMFORM = {
-                id = "CUSTOMFORM"
-                label = "Custom Form"
+              STARTDATE = {
+                id = "STARTDATE"
+                label = "Start Date"
                 visible = true
-                mandatory = true
+                mandatory = false
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 0
               }
-              TRANID = {
-                id = "TRANID"
-                label = "Rtn. Auth. #"
+              ENDDATE = {
+                id = "ENDDATE"
+                label = "End Date"
                 visible = true
                 mandatory = false
                 displayType = "NORMAL"
@@ -37,9 +37,9 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 1
               }
-              ENTITY = {
-                id = "ENTITY"
-                label = "Customer"
+              POSTINGPERIOD = {
+                id = "POSTINGPERIOD"
+                label = "Posting Period"
                 visible = true
                 mandatory = true
                 displayType = "NORMAL"
@@ -47,9 +47,9 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 2
               }
-              JOB = {
-                id = "JOB"
-                label = "Job"
+              DUEDATE = {
+                id = "DUEDATE"
+                label = "Due Date"
                 visible = true
                 mandatory = false
                 displayType = "NORMAL"
@@ -57,35 +57,45 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 3
               }
-              TRANDATE = {
-                id = "TRANDATE"
-                label = "Date"
-                visible = true
-                mandatory = true
-                displayType = "NORMAL"
+              AMOUNTREMAINING = {
+                id = "AMOUNTREMAINING"
+                label = "Amount Due"
+                visible = false
+                mandatory = false
+                displayType = "DISABLED"
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 4
               }
-              ORDERSTATUS = {
-                id = "ORDERSTATUS"
-                label = "Status"
-                visible = true
-                mandatory = true
+              AMOUNTPAID = {
+                id = "AMOUNTPAID"
+                label = "Amount Paid"
+                visible = false
+                mandatory = false
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 5
               }
-              RETURNTRACKINGNUMBERS = {
-                id = "RETURNTRACKINGNUMBERS"
-                label = "Return Tracking Numbers"
-                visible = true
+              DISCOUNTDATE = {
+                id = "DISCOUNTDATE"
+                label = "Disc. Date"
+                visible = false
                 mandatory = false
-                displayType = "NORMAL"
+                displayType = "DISABLED"
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 6
+              }
+              DISCOUNTAMOUNT = {
+                id = "DISCOUNTAMOUNT"
+                label = "Disc. Amt."
+                visible = false
+                mandatory = false
+                displayType = "DISABLED"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 7
               }
               OTHERREFNUM = {
                 id = "OTHERREFNUM"
@@ -95,7 +105,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 7
+                index = 8
               }
               MEMO = {
                 id = "MEMO"
@@ -105,7 +115,17 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 8
+                index = 9
+              }
+              BULKPROCSUBMISSION = {
+                id = "BULKPROCSUBMISSION"
+                label = "Submission Id"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 10
               }
               TRANSACTIONNUMBER = {
                 id = "TRANSACTIONNUMBER"
@@ -115,7 +135,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 9
+                index = 11
               }
               GENERATETRANIDONSAVE = {
                 id = "GENERATETRANIDONSAVE"
@@ -126,7 +146,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 columnBreak = false
                 sameRowAsPrevious = false
                 checkBoxDefault = "UNCHECKED"
-                index = 10
+                index = 12
               }
             }
             index = 0
@@ -154,6 +174,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 0
               }
+              OPPORTUNITY = {
+                id = "OPPORTUNITY"
+                label = "Opportunity"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
               SALESEFFECTIVEDATE = {
                 id = "SALESEFFECTIVEDATE"
                 label = "Sales Effective Date"
@@ -162,7 +192,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 1
+                index = 2
               }
               EXCLUDECOMMISSION = {
                 id = "EXCLUDECOMMISSION"
@@ -173,16 +203,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 columnBreak = false
                 sameRowAsPrevious = false
                 checkBoxDefault = "USE_FIELD_DEFAULT"
-                index = 2
-              }
-              LEADSOURCE = {
-                id = "LEADSOURCE"
-                label = "Lead Source"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
                 index = 3
               }
               CREATEDFROM = {
@@ -195,6 +215,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 4
               }
+              LEADSOURCE = {
+                id = "LEADSOURCE"
+                label = "Lead Source"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 5
+              }
               PARTNER = {
                 id = "PARTNER"
                 label = "Partner"
@@ -203,7 +233,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 5
+                index = 6
               }
             }
             index = 0
@@ -281,6 +311,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 sameRowAsPrevious = false
                 index = 5
               }
+              cseg_nbc = {
+                id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
+                label = "Nearest Big City"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 6
+              }
             }
             index = 0
           }
@@ -294,6 +334,102 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         showTitle = true
         singleColumn = false
         index = 3
+      }
+      fieldgroup_4_t2257815_459 = {
+        scriptid = "fieldgroup_4_t2257815_459"
+        label = "Eshed Invoice Field Group"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              ASOFDATE = {
+                id = "ASOFDATE"
+                label = "As-Of Date"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              TRANDATE = {
+                id = "TRANDATE"
+                label = "Date"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              NEXTAPPROVER = {
+                id = "NEXTAPPROVER"
+                label = "Next Approver"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              APPROVALSTATUS = {
+                id = "APPROVALSTATUS"
+                label = "Approval Status"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+              JOB = {
+                id = "JOB"
+                label = "Job"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 4
+              }
+              ENTITY = {
+                id = "ENTITY"
+                label = "Customer"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 5
+              }
+              TRANID = {
+                id = "TRANID"
+                label = "Invoice #"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 6
+              }
+              CUSTOMFORM = {
+                id = "CUSTOMFORM"
+                label = "Custom Form"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 7
+              }
+            }
+            index = 0
+          }
+        }
+        index = 4
       }
     }
     defaultFieldGroup = {
@@ -321,6 +457,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               sameRowAsPrevious = false
               index = 1
             }
+            EXCLUDEFROMGLNUMBERING = {
+              id = "EXCLUDEFROMGLNUMBERING"
+              label = "Exclude from GL Audit Numbering"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              index = 2
+            }
             custbody_rg_valid_forto_po = {
               id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
               label = "Validated Required Fields for FortoX"
@@ -330,7 +476,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 2
+              index = 3
             }
             custbody_svb_vb_to_bell_dist_sched = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
@@ -340,7 +486,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 3
+              index = 4
             }
             custbody_svb_schedule_is_intercompany = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
@@ -351,7 +497,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 4
+              index = 5
             }
           }
           index = 0
@@ -366,6 +512,24 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         label = "Items"
         visible = true
         fieldGroups = {
+          fieldGroup = {
+            fieldgroup_5_t2257815_518 = {
+              scriptid = "fieldgroup_5_t2257815_518"
+              label = "Dollareel Brown"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              index = 0
+            }
+            fieldgroup_6_t2257815_659 = {
+              scriptid = "fieldgroup_6_t2257815_659"
+              label = "Dollareel Gray"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              index = 1
+            }
+          }
           defaultFieldGroup = {
             fields = {
               MIDDLE = {
@@ -373,7 +537,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 field = {
                   DISCOUNTITEM = {
                     id = "DISCOUNTITEM"
-                    label = "Discount"
+                    label = "Discount Item"
                     visible = true
                     mandatory = false
                     displayType = "NORMAL"
@@ -401,6 +565,8 @@ netsuite.transactionForm custform_gwr_form_rma1 {
           subList = {
             ITEM = {
               id = "ITEM"
+              label = "Items"
+              visible = true
               neverEmpty = false
               columns = {
                 column = {
@@ -416,183 +582,294 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     visible = true
                     index = 1
                   }
-                  QUANTITYRECEIVED = {
-                    id = "QUANTITYRECEIVED"
-                    label = "Returned"
+                  QUANTITYREMAINING = {
+                    id = "QUANTITYREMAINING"
+                    label = "Back Ordered"
                     visible = true
                     index = 2
+                  }
+                  QUANTITYAVAILABLE = {
+                    id = "QUANTITYAVAILABLE"
+                    label = "Available"
+                    visible = false
+                    index = 3
+                  }
+                  AVERAGECOST = {
+                    id = "AVERAGECOST"
+                    label = "Average Cost"
+                    visible = false
+                    index = 4
+                  }
+                  LASTPURCHASEPRICE = {
+                    id = "LASTPURCHASEPRICE"
+                    label = "Last Purchase Price"
+                    visible = false
+                    index = 5
+                  }
+                  QUANTITYONHAND = {
+                    id = "QUANTITYONHAND"
+                    label = "On Hand"
+                    visible = false
+                    index = 6
                   }
                   QUANTITY = {
                     id = "QUANTITY"
                     label = "Quantity"
                     visible = true
-                    index = 3
+                    index = 7
                   }
                   UNITS = {
                     id = "UNITS"
                     label = "Units"
                     visible = true
-                    index = 4
+                    index = 8
                   }
                   INVENTORYDETAIL = {
                     id = "INVENTORYDETAIL"
                     label = "Inventory Detail"
                     visible = true
-                    index = 5
+                    index = 9
                   }
                   DESCRIPTION = {
                     id = "DESCRIPTION"
                     label = "Description"
                     visible = true
-                    index = 6
+                    index = 10
                   }
                   PRICE = {
                     id = "PRICE"
                     label = "Price Level"
                     visible = true
-                    index = 7
+                    index = 11
                   }
                   RATE = {
                     id = "RATE"
                     label = "Unit Price"
                     visible = true
-                    index = 8
+                    index = 12
                   }
                   AMOUNT = {
                     id = "AMOUNT"
                     label = "Amount"
                     visible = true
-                    index = 9
+                    index = 13
                   }
                   TAXCODE = {
                     id = "TAXCODE"
                     label = "Tax Code"
                     visible = true
-                    index = 10
+                    index = 14
+                  }
+                  COMMITINVENTORY = {
+                    id = "COMMITINVENTORY"
+                    label = "Commit"
+                    visible = true
+                    index = 15
                   }
                   TAXRATE1 = {
                     id = "TAXRATE1"
                     label = "Tax Rate"
                     visible = true
-                    index = 11
+                    index = 16
                   }
                   TAXRATE2 = {
                     id = "TAXRATE2"
                     label = "PST"
                     visible = true
-                    index = 12
+                    index = 17
                   }
                   GROSSAMT = {
                     id = "GROSSAMT"
                     label = "Gross Amt"
                     visible = true
-                    index = 13
+                    index = 18
                   }
                   TAX1AMT = {
                     id = "TAX1AMT"
                     label = "Tax Amt"
                     visible = true
-                    index = 14
+                    index = 19
                   }
                   ISTAXABLE = {
                     id = "ISTAXABLE"
                     label = "Tax"
                     visible = true
-                    index = 15
+                    index = 20
                   }
                   OPTIONS = {
                     id = "OPTIONS"
                     label = "Options"
                     visible = true
-                    index = 16
+                    index = 21
+                  }
+                  TOBEFULFILLED = {
+                    id = "TOBEFULFILLED"
+                    label = "To Be Fulfilled"
+                    visible = false
+                    index = 22
                   }
                   DEPARTMENT = {
                     id = "DEPARTMENT"
                     label = "Department"
                     visible = false
-                    index = 17
+                    index = 23
                   }
                   CLASS = {
                     id = "CLASS"
                     label = "Class"
                     visible = false
-                    index = 18
+                    index = 24
                   }
                   LOCATION = {
                     id = "LOCATION"
                     label = "Location"
                     visible = false
-                    index = 19
+                    index = 25
                   }
-                  ISCLOSED = {
-                    id = "ISCLOSED"
-                    label = "Closed"
+                  EXCLUDEFROMRATEREQUEST = {
+                    id = "EXCLUDEFROMRATEREQUEST"
+                    label = "Exclude Item from Rate Request"
                     visible = true
-                    index = 20
+                    index = 26
                   }
                   FREEGIFTPROMOTION = {
                     id = "FREEGIFTPROMOTION"
                     label = "Free Gift Promotion"
                     visible = true
-                    index = 21
+                    index = 27
+                  }
+                  CHARGETYPE = {
+                    id = "CHARGETYPE"
+                    label = "Charge Type"
+                    visible = true
+                    index = 28
+                  }
+                  CHARGES = {
+                    id = "CHARGES"
+                    label = "Charges"
+                    visible = true
+                    index = 29
                   }
                   custcol_slt_billable = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
                     label = "Billable"
                     visible = true
-                    index = 22
+                    index = 30
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
                     label = "created by oss e2e - 8060213"
                     visible = true
-                    index = 23
+                    index = 31
                   }
                   custcoltransactionterms = {
                     id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
                     label = "Terms"
                     visible = false
-                    index = 25
+                    index = 32
                   }
                   cseg2 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
                     label = "Region"
                     visible = false
-                    index = 26
+                    index = 33
                   }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = false
-                    index = 27
+                    index = 34
+                  }
+                  QUANTITYORDERED = {
+                    id = "QUANTITYORDERED"
+                    label = "Ordered"
+                    visible = false
+                    index = 35
+                  }
+                  AMOUNTORDERED = {
+                    id = "AMOUNTORDERED"
+                    label = "Ordered"
+                    visible = false
+                    index = 36
+                  }
+                  CURRENTPERCENT = {
+                    id = "CURRENTPERCENT"
+                    label = "Current %"
+                    visible = false
+                    index = 37
+                  }
+                  PERCENTCOMPLETE = {
+                    id = "PERCENTCOMPLETE"
+                    label = "% Complete"
+                    visible = false
+                    index = 38
+                  }
+                  QUANTITYFULFILLED = {
+                    id = "QUANTITYFULFILLED"
+                    label = "Total To Date"
+                    visible = false
+                    index = 39
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = true
-                    index = 28
+                    index = 40
                   }
-                  custcol_gwr_rma1 = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
-                    label = "GWR RMA custom field"
+                  GLNUMBER = {
+                    id = "GLNUMBER"
+                    label = "GL #"
                     visible = true
-                    index = 24
+                    index = 41
+                  }
+                  GLSEQUENCE = {
+                    id = "GLSEQUENCE"
+                    label = "GL Audit Numbering Sequence"
+                    visible = true
+                    index = 42
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
                     label = "Cost Center"
                     visible = true
-                    index = 29
+                    index = 43
+                  }
+                  custcol_gwr_rma1 = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
+                    label = "GWR RMA custom field"
+                    visible = true
+                    index = 44
                   }
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
-                    index = 30
+                    index = 45
                   }
                 }
               }
               index = 0
+            }
+            ITEMCOST = {
+              id = "ITEMCOST"
+              label = "Billable Items"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+            EXPCOST = {
+              id = "EXPCOST"
+              label = "Billable Expenses"
+              visible = true
+              neverEmpty = false
+              index = 2
+            }
+            TIME = {
+              id = "TIME"
+              label = "Billable Time"
+              visible = true
+              neverEmpty = false
+              index = 3
             }
           }
         }
@@ -602,6 +879,26 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         id = "PROMOTIONSTAB"
         label = "Promotions"
         visible = true
+        fieldGroups = {
+          fieldGroup = {
+            fieldgroup_2_t2257815_667 = {
+              scriptid = "fieldgroup_2_t2257815_667"
+              label = "Dollareel Silver"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              index = 0
+            }
+            fieldgroup_3_t2257815_677 = {
+              scriptid = "fieldgroup_3_t2257815_677"
+              label = "Dollareel Gold"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              index = 1
+            }
+          }
+        }
         index = 1
       }
       TRANSACTIONSHIPPING = {
@@ -610,43 +907,187 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         visible = true
         fieldGroups = {
           fieldGroup = {
+            shippinginformation = {
+              scriptid = "shippinginformation"
+              label = "Shipping Information"
+              visible = true
+              showTitle = true
+              singleColumn = true
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    SHIPDATE = {
+                      id = "SHIPDATE"
+                      label = "Ship Date"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                    SHIPCARRIER = {
+                      id = "SHIPCARRIER"
+                      label = "Shipping Carrier"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
+                    SHIPMETHOD = {
+                      id = "SHIPMETHOD"
+                      label = "Shipping Method"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 2
+                    }
+                    SHIPPINGCOST = {
+                      id = "SHIPPINGCOST"
+                      label = "Shipping Cost"
+                      visible = false
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 3
+                    }
+                    HANDLINGCOST = {
+                      id = "HANDLINGCOST"
+                      label = "Handling Cost"
+                      visible = false
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 4
+                    }
+                    FOB = {
+                      id = "FOB"
+                      label = "FOB"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 5
+                    }
+                    TRACKINGNUMBERS = {
+                      id = "TRACKINGNUMBERS"
+                      label = "Tracking #"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 6
+                    }
+                    SHIPPINGTAXCODE = {
+                      id = "SHIPPINGTAXCODE"
+                      label = "Shipping Tax Code"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = true
+                      sameRowAsPrevious = false
+                      index = 7
+                    }
+                    SHIPPINGTAX1RATE = {
+                      id = "SHIPPINGTAX1RATE"
+                      label = "Shipping Tax Rate"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 8
+                    }
+                    SHIPPINGTAX2RATE = {
+                      id = "SHIPPINGTAX2RATE"
+                      label = "Shipping Tax Rate 2"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 9
+                    }
+                    HANDLINGTAXCODE = {
+                      id = "HANDLINGTAXCODE"
+                      label = "Handling Tax Code"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 10
+                    }
+                    HANDLINGTAX1RATE = {
+                      id = "HANDLINGTAX1RATE"
+                      label = "Handling Tax Rate"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 11
+                    }
+                    HANDLINGTAX2RATE = {
+                      id = "HANDLINGTAX2RATE"
+                      label = "Handling Tax Rate 2"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 12
+                    }
+                  }
+                  index = 0
+                }
+              }
+              index = 0
+            }
             shippingaddress = {
               scriptid = "shippingaddress"
               label = "Shipping Address"
               visible = true
               showTitle = true
-              singleColumn = false
-              index = 0
-            }
-          }
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  SHIPADDRESSLIST = {
-                    id = "SHIPADDRESSLIST"
-                    label = "Ship To Select"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 0
+              singleColumn = true
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    SHIPADDRESSLIST = {
+                      id = "SHIPADDRESSLIST"
+                      label = "Ship To Select"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                    SHIPADDRESS = {
+                      id = "SHIPADDRESS"
+                      label = "Ship To"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
                   }
-                  SHIPADDRESS = {
-                    id = "SHIPADDRESS"
-                    label = "Ship To"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 1
-                  }
+                  index = 0
                 }
-                index = 0
               }
+              index = 1
             }
           }
         }
@@ -658,43 +1099,97 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         visible = true
         fieldGroups = {
           fieldGroup = {
-            billingaddress = {
-              scriptid = "billingaddress"
+            billinginformation = {
+              scriptid = "billinginformation"
+              label = "Billing Information"
+              visible = true
+              showTitle = true
+              singleColumn = true
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    TERMS = {
+                      id = "TERMS"
+                      label = "Terms"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                    UNBILLEDORDERS = {
+                      id = "UNBILLEDORDERS"
+                      label = "Unbilled Orders"
+                      visible = false
+                      mandatory = false
+                      displayType = "DISABLED"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
+                    BALANCE = {
+                      id = "BALANCE"
+                      label = "Balance"
+                      visible = false
+                      mandatory = false
+                      displayType = "INLINETEXT"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 2
+                    }
+                  }
+                  index = 0
+                }
+              }
+              index = 0
+            }
+            billingaddrress = {
+              scriptid = "billingaddrress"
               label = "Billing Address"
               visible = true
               showTitle = true
-              singleColumn = false
-              index = 0
+              singleColumn = true
+              fields = {
+                MIDDLE = {
+                  position = "MIDDLE"
+                  field = {
+                    BILLADDRESSLIST = {
+                      id = "BILLADDRESSLIST"
+                      label = "Bill To Select"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
+                    BILLADDRESS = {
+                      id = "BILLADDRESS"
+                      label = "Bill To"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
+                  }
+                  index = 0
+                }
+              }
+              index = 1
             }
           }
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  BILLADDRESSLIST = {
-                    id = "BILLADDRESSLIST"
-                    label = "Bill To Select"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 0
-                  }
-                  BILLADDRESS = {
-                    id = "BILLADDRESS"
-                    label = "Bill To"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 1
-                  }
-                }
-                index = 0
-              }
+        }
+        subItems = {
+          subTab = {
+            TRANSACTIONPAYMENT = {
+              id = "TRANSACTIONPAYMENT"
+              label = "Payment"
+              visible = true
+              index = 0
             }
           }
         }
@@ -716,6 +1211,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                 MIDDLE = {
                   position = "MIDDLE"
                   field = {
+                    ACCOUNT = {
+                      id = "ACCOUNT"
+                      label = "Account"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 0
+                    }
                     CURRENCY = {
                       id = "CURRENCY"
                       label = "Currency"
@@ -724,7 +1229,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
-                      index = 0
+                      index = 1
                     }
                     EXCHANGERATE = {
                       id = "EXCHANGERATE"
@@ -734,7 +1239,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
-                      index = 1
+                      index = 2
                     }
                   }
                   index = 0
@@ -763,6 +1268,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                       checkBoxDefault = "USE_FIELD_DEFAULT"
                       index = 0
                     }
+                    VATREGNUM = {
+                      id = "VATREGNUM"
+                      label = "Tax ID"
+                      visible = true
+                      mandatory = false
+                      displayType = "NORMAL"
+                      columnBreak = false
+                      sameRowAsPrevious = false
+                      index = 1
+                    }
                     TAXITEM = {
                       id = "TAXITEM"
                       label = "Tax"
@@ -771,21 +1286,11 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                       displayType = "NORMAL"
                       columnBreak = false
                       sameRowAsPrevious = false
-                      index = 1
+                      index = 2
                     }
                     TAXRATE = {
                       id = "TAXRATE"
                       label = "Tax %"
-                      visible = true
-                      mandatory = false
-                      displayType = "NORMAL"
-                      columnBreak = false
-                      sameRowAsPrevious = false
-                      index = 2
-                    }
-                    VATREGNUM = {
-                      id = "VATREGNUM"
-                      label = "Tax ID"
                       visible = true
                       mandatory = false
                       displayType = "NORMAL"
@@ -822,7 +1327,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
             custtabdp_accounting_tab = {
               id = netsuite.subtab.instance.custtabdp_accounting_tab.scriptid
               label = "DP Accounting"
-              visible = false
+              visible = true
               index = 0
             }
           }
@@ -851,90 +1356,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         label = "Communication"
         visible = true
         subItems = {
-          subTab = {
-            TRANSACTIONOUTPUTOPTIONS = {
-              id = "TRANSACTIONOUTPUTOPTIONS"
-              label = "Messages"
-              visible = true
-              fieldGroups = {
-                defaultFieldGroup = {
-                  fields = {
-                    MIDDLE = {
-                      position = "MIDDLE"
-                      field = {
-                        TOBEPRINTED = {
-                          id = "TOBEPRINTED"
-                          label = "To Be Printed"
-                          visible = true
-                          mandatory = false
-                          displayType = "NORMAL"
-                          columnBreak = false
-                          sameRowAsPrevious = false
-                          checkBoxDefault = "USE_FIELD_DEFAULT"
-                          index = 0
-                        }
-                        TOBEEMAILED = {
-                          id = "TOBEEMAILED"
-                          label = "To Be E-mailed"
-                          visible = true
-                          mandatory = false
-                          displayType = "NORMAL"
-                          columnBreak = false
-                          sameRowAsPrevious = false
-                          checkBoxDefault = "USE_FIELD_DEFAULT"
-                          index = 1
-                        }
-                        TOBEFAXED = {
-                          id = "TOBEFAXED"
-                          label = "To Be Faxed"
-                          visible = true
-                          mandatory = false
-                          displayType = "NORMAL"
-                          columnBreak = false
-                          sameRowAsPrevious = false
-                          checkBoxDefault = "USE_FIELD_DEFAULT"
-                          index = 2
-                        }
-                        MESSAGESEL = {
-                          id = "MESSAGESEL"
-                          label = "Select Message"
-                          visible = true
-                          mandatory = false
-                          displayType = "NORMAL"
-                          columnBreak = false
-                          sameRowAsPrevious = false
-                          index = 3
-                        }
-                        MESSAGE = {
-                          id = "MESSAGE"
-                          label = "Customer Message"
-                          visible = true
-                          mandatory = false
-                          displayType = "NORMAL"
-                          columnBreak = false
-                          sameRowAsPrevious = false
-                          index = 4
-                        }
-                      }
-                      index = 0
-                    }
-                  }
-                }
-              }
-              subLists = {
-                subList = {
-                  MESSAGES = {
-                    id = "MESSAGES"
-                    label = "Messages"
-                    visible = true
-                    neverEmpty = false
-                    index = 0
-                  }
-                }
-              }
-              index = 0
-            }
-          }
           subList = {
             ACTIVITIES = {
               id = "ACTIVITIES"
@@ -979,6 +1400,100 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               index = 5
             }
           }
+          subTab = {
+            TRANSACTIONOUTPUTOPTIONS = {
+              id = "TRANSACTIONOUTPUTOPTIONS"
+              label = "Messages"
+              visible = true
+              fieldGroups = {
+                fieldGroup = {
+                  fieldgroup_1_t2257815_384 = {
+                    scriptid = "fieldgroup_1_t2257815_384"
+                    label = "Dollareel Says Hi"
+                    visible = true
+                    showTitle = true
+                    singleColumn = false
+                    index = 0
+                  }
+                }
+                defaultFieldGroup = {
+                  fields = {
+                    MIDDLE = {
+                      position = "MIDDLE"
+                      field = {
+                        MESSAGESEL = {
+                          id = "MESSAGESEL"
+                          label = "Select Message"
+                          visible = true
+                          mandatory = false
+                          displayType = "NORMAL"
+                          columnBreak = false
+                          sameRowAsPrevious = false
+                          index = 0
+                        }
+                        MESSAGE = {
+                          id = "MESSAGE"
+                          label = "Customer Message"
+                          visible = true
+                          mandatory = false
+                          displayType = "NORMAL"
+                          columnBreak = false
+                          sameRowAsPrevious = false
+                          index = 1
+                        }
+                        TOBEPRINTED = {
+                          id = "TOBEPRINTED"
+                          label = "To Be Printed"
+                          visible = true
+                          mandatory = false
+                          displayType = "NORMAL"
+                          columnBreak = false
+                          sameRowAsPrevious = false
+                          checkBoxDefault = "USE_FIELD_DEFAULT"
+                          index = 2
+                        }
+                        TOBEFAXED = {
+                          id = "TOBEFAXED"
+                          label = "To Be Faxed"
+                          visible = true
+                          mandatory = false
+                          displayType = "NORMAL"
+                          columnBreak = false
+                          sameRowAsPrevious = false
+                          checkBoxDefault = "USE_FIELD_DEFAULT"
+                          index = 3
+                        }
+                        TOBEEMAILED = {
+                          id = "TOBEEMAILED"
+                          label = "To Be E-mailed"
+                          visible = true
+                          mandatory = false
+                          displayType = "NORMAL"
+                          columnBreak = false
+                          sameRowAsPrevious = false
+                          checkBoxDefault = "USE_FIELD_DEFAULT"
+                          index = 4
+                        }
+                      }
+                      index = 0
+                    }
+                  }
+                }
+              }
+              subLists = {
+                subList = {
+                  MESSAGES = {
+                    id = "MESSAGES"
+                    label = "Messages"
+                    visible = true
+                    neverEmpty = false
+                    index = 0
+                  }
+                }
+              }
+              index = 0
+            }
+          }
         }
         index = 6
       }
@@ -990,7 +1505,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
           subList = {
             LINKS = {
               id = "LINKS"
-              label = "Receipts & Refunds"
+              label = "Payments"
               visible = true
               neverEmpty = false
               index = 0
@@ -1001,6 +1516,13 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               visible = true
               neverEmpty = false
               index = 1
+            }
+            CASES = {
+              id = "CASES"
+              label = "Support Cases"
+              visible = true
+              neverEmpty = false
+              index = 2
             }
           }
         }
@@ -1038,22 +1560,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         }
         index = 8
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      }
-      TRANSACTIONRECEIPTSANDREFUNDS = {
-        id = "TRANSACTIONRECEIPTSANDREFUNDS"
-        label = "Receipts and Refunds"
-        visible = true
-        index = 9
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1068,14 +1574,13 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                   custbodybundle_type = {
                     id = netsuite.transactionbodycustomfield.instance.custbodybundle_type.scriptid
                     label = "Bundle Type"
-                    visible = false
+                    visible = true
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
                     index = 0
                   }
-                  
                   custbodyil_payment_processor = {
                     id = netsuite.transactionbodycustomfield.instance.custbodyil_payment_processor.scriptid
                     label = "IL Payment Processor"
@@ -1118,7 +1623,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                   }
                   
                   
-                  
                   custbody_srd_opp_source = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
                     label = "SRD - Opportunity Source"
@@ -1129,11 +1633,16 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     sameRowAsPrevious = false
                     index = 5
                   }
-                  
-                  
-                  
-                  
-                  
+                  custbody_mkd_transaction_body_field_1 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
+                    label = "MKD Transaction Body Field 1"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 6
+                  }
                   
                   custbody_srd_translated_field = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
@@ -1143,42 +1652,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 6
-                  }
-                  
-                  
-                  
-                  
-                  
-                  
-                  cseg_nbc = {
-                    id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
-                    label = "Nearest Big City"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
                     index = 7
-                  }
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 8
                   }
                   
                   custbody_eshed_superfield = {
@@ -1189,7 +1663,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 8
                   }
                 }
                 index = 0
@@ -1197,11 +1671,17 @@ netsuite.transactionForm custform_gwr_form_rma1 {
             }
           }
         }
-        index = 10
+        index = 9
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
         label = "Address"
+        visible = true
+        index = 10
+      }
+      CHARGES = {
+        id = "CHARGES"
+        label = "Charges"
         visible = true
         index = 11
       }
@@ -1210,6 +1690,23 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         label = "Accounting Books"
         visible = true
         index = 12
+      }
+      GLIMPACTTAB = {
+        id = "GLIMPACTTAB"
+        label = "GL Impact"
+        visible = true
+        subItems = {
+          subList = {
+            GLIMPACTCHANGES = {
+              id = "GLIMPACTCHANGES"
+              label = "GL Impact Changes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 13
       }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid
@@ -1231,7 +1728,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
             }
           }
         }
-        index = 13
+        index = 14
       }
       custtab_43_t2257815_377 = {
         id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
@@ -1259,12 +1756,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
             }
           }
         }
-        index = 14
-      }
-      custtab_8_t2480139_401 = {
-        id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
-        label = "GWR Subtab"
-        visible = true
         index = 15
       }
       custtab_16_t1221897_664 = {
@@ -1273,52 +1764,86 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         visible = true
         index = 16
       }
+      custtab_8_t2480139_401 = {
+        id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
+        label = "GWR Subtab"
+        visible = true
+        index = 17
+      }
       custtab_62_t2257815_401 = {
         id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
         label = "Eshed's 2nd Subtab"
         visible = true
-        index = 17
+        index = 18
+      }
+    }
+  }
+  quickViewFields = {
+    field = {
+      ENTITY = {
+        id = "ENTITY"
+        index = 0
+      }
+      TOTAL = {
+        id = "TOTAL"
+        index = 1
+      }
+      TRANDATE = {
+        id = "TRANDATE"
+        index = 2
+      }
+      DUEDATE = {
+        id = "DUEDATE"
+        index = 3
+      }
+      POSTINGPERIOD = {
+        id = "POSTINGPERIOD"
+        index = 4
       }
     }
   }
   actionbar = {
     buttons = {
       button = {
-        APPROVERETURN = {
-          id = "APPROVERETURN"
-          label = "Approve Return"
+        ACCEPTPAYMENT = {
+          id = "ACCEPTPAYMENT"
+          label = "Accept Payment"
           visible = true
-          
         }
-        CANCELRETURN = {
-          id = "CANCELRETURN"
-          label = "Cancel Return"
+        RETURN = {
+          id = "RETURN"
+          label = "Authorize Return"
           visible = true
-          
         }
-        CLOSEREMAINING = {
-          id = "CLOSEREMAINING"
-          label = "Close"
+        AUTOFILL = {
+          id = "AUTOFILL"
+          label = "Auto Fill"
           visible = true
-          
+        }
+        CREDIT = {
+          id = "CREDIT"
+          label = "Credit"
+          visible = true
         }
         UPDATEREVREC = {
           id = "UPDATEREVREC"
           label = "Manage Revenue Recognition"
           visible = true
-          
         }
-        RECEIVE = {
-          id = "RECEIVE"
-          label = "Receive"
+        RENEWAL = {
+          id = "RENEWAL"
+          label = "Renew"
           visible = true
-          
         }
-        REFUND = {
-          id = "REFUND"
-          label = "Refund"
+        UPDATEVSOE = {
+          id = "UPDATEVSOE"
+          label = "Update VSOE"
           visible = true
-          
+        }
+        VOID = {
+          id = "VOID"
+          label = "Void"
+          visible = true
         }
       }
     }
@@ -1328,73 +1853,71 @@ netsuite.transactionForm custform_gwr_form_rma1 {
           id = "DELETE"
           label = "Delete"
           visible = true
-          
         }
         EMAIL = {
           id = "EMAIL"
           label = "Email"
           visible = true
-          
-        }
-        FAX = {
-          id = "FAX"
-          label = "Fax"
-          visible = true
-          
         }
         GLIMPACT = {
           id = "GLIMPACT"
           label = "GL Impact"
           visible = true
-          
         }
         GOTOREGISTER = {
           id = "GOTOREGISTER"
           label = "Go To Register"
           visible = true
-          
+        }
+        MAKECOPY = {
+          id = "MAKECOPY"
+          label = "Make Copy"
+          visible = true
+        }
+        MAKESTANDALONECOPY = {
+          id = "MAKESTANDALONECOPY"
+          label = "Make Standalone Copy"
+          visible = true
+        }
+        MEMORIZE = {
+          id = "MEMORIZE"
+          label = "Memorize"
+          visible = true
         }
         NEW = {
           id = "NEW"
           label = "New"
           visible = true
-          
         }
         PRINT = {
           id = "PRINT"
           label = "Print"
           visible = true
-          
         }
         PRINTGLIMPACT = {
           id = "PRINTGLIMPACT"
           label = "Print GL Impact"
           visible = true
-          
         }
         SAVEEMAIL = {
           id = "SAVEEMAIL"
           label = "Save & Email"
           visible = true
-          
         }
         SUBMITNEW = {
           id = "SUBMITNEW"
           label = "Save & New"
           visible = true
-          
         }
         SAVEPRINT = {
           id = "SAVEPRINT"
           label = "Save & Print"
           visible = true
-          
         }
         ACTIVITYHISTORY = {
           id = "ACTIVITYHISTORY"
           label = "Show Activity"
           visible = true
-          
         }
       }
     }
@@ -1403,15 +1926,15 @@ netsuite.transactionForm custform_gwr_form_rma1 {
   emailMessageTemplate = "USE_DEFAULT"
   printingType = {
     advanced = {
-      printTemplate = "STDTMPLRTNAUTH"
-      emailTemplate = "STDTMPLRTNAUTH"
+      printTemplate = "STDTMPLCUSTINVCST"
+      emailTemplate = "STDTMPLCUSTINVC"
     }
   }
   totalBox = {
     totalBoxField = {
-      TOTAL = {
-        id = "TOTAL"
-        label = "Total"
+      AMOUNTREMAINING = {
+        id = "AMOUNTREMAINING"
+        label = "Amount Due"
         visible = true
         index = 0
       }
@@ -1421,82 +1944,164 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         visible = true
         index = 1
       }
+      TOTAL = {
+        id = "TOTAL"
+        label = "Total"
+        visible = true
+        index = 2
+      }
     }
   }
   linkedForms = {
     linkedForm = {
-      RETURN_AUTHORIZATION_CREDIT_MEMO_TRANSACTION = {
-        type = "RETURN_AUTHORIZATION_CREDIT_MEMO_TRANSACTION"
+      INVOICE_CREDIT_MEMO_TRANSACTION = {
+        type = "INVOICE_CREDIT_MEMO_TRANSACTION"
         form = "USE_DEFAULT"
       }
-      RETURN_AUTHORIZATION_ITEM_RECEIPT_TRANSACTION = {
-        type = "RETURN_AUTHORIZATION_ITEM_RECEIPT_TRANSACTION"
+      INVOICE_ESTIMATE_TRANSACTION = {
+        type = "INVOICE_ESTIMATE_TRANSACTION"
+        form = "USE_DEFAULT"
+      }
+      INVOICE_RETURN_AUTHORIZATION_TRANSACTION = {
+        type = "INVOICE_RETURN_AUTHORIZATION_TRANSACTION"
         form = "USE_DEFAULT"
       }
     }
   }
   roles = {
     role = {
+      customrole_srd_test_cust_role = {
+        id = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+        preferred = false
+      }
+      AR_CLERK = {
+        id = "AR_CLERK"
+        preferred = false
+      }
+      ACCOUNTANT = {
+        id = "ACCOUNTANT"
+        preferred = false
+      }
+      ACCOUNTANT__REVIEWER = {
+        id = "ACCOUNTANT__REVIEWER"
+        preferred = false
+      }
       ADMINISTRATOR = {
         id = "ADMINISTRATOR"
         preferred = false
-        
+      }
+      BOOKKEEPER = {
+        id = "BOOKKEEPER"
+        preferred = false
       }
       CEO = {
         id = "CEO"
         preferred = false
-        
       }
       CEO_HANDS_OFF = {
         id = "CEO_HANDS_OFF"
         preferred = false
-        
       }
       CUSTOMROLE41 = {
         id = "CUSTOMROLE41"
         preferred = false
-        
       }
       CUSTOMER_CENTER = {
         id = "CUSTOMER_CENTER"
         preferred = false
-        
       }
+      
       FULL_ACCESS = {
         id = "FULL_ACCESS"
         preferred = false
-        
+      }
+      customrole1028_1 = {
+        id = netsuite.role.instance.customrole1028_1.scriptid
+        preferred = false
+      }
+      customrole1071 = {
+        id = netsuite.role.instance.customrole1071.scriptid
+        preferred = false
+      }
+      customrole1078 = {
+        id = netsuite.role.instance.customrole1078.scriptid
+        preferred = false
+      }
+      customrole1079 = {
+        id = netsuite.role.instance.customrole1079.scriptid
+        preferred = false
+      }
+      customrole1080 = {
+        id = netsuite.role.instance.customrole1080.scriptid
+        preferred = false
+      }
+      customrole1084 = {
+        id = netsuite.role.instance.customrole1084.scriptid
+        preferred = false
+      }
+      customrole_gwr_role_acct = {
+        id = netsuite.role.instance.customrole_gwr_role_acct.scriptid
+        preferred = false
       }
       NETSUITE_SUPPORT_CENTER = {
         id = "NETSUITE_SUPPORT_CENTER"
         preferred = false
-        
       }
       customrole1178 = {
         id = netsuite.role.instance.customrole1178.scriptid
         preferred = false
-        
       }
       customrole_simon_test = {
         id = netsuite.role.instance.customrole_simon_test.scriptid
         preferred = false
-        
       }
-      
-      
-      customrole_srd_test_cust_role = {
-        id = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+      CUSTOMROLE42 = {
+        id = "CUSTOMROLE42"
         preferred = false
-        
+      }
+      CUSTOMROLE43 = {
+        id = "CUSTOMROLE43"
+        preferred = false
       }
       customrole_srd_customer_center = {
         id = netsuite.role.instance.customrole_srd_customer_center.scriptid
         preferred = false
-        
       }
       customrole_salto_all_permissions = {
         id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
         preferred = false
+      }
+    }
+  }
+  preferences = {
+    preference = {
+      COMBINEEXPENSEINVOICEITEMS = {
+        id = "COMBINEEXPENSEINVOICEITEMS"
+        value = false
+      }
+      COMBINEINVOICEITEMS = {
+        id = "COMBINEINVOICEITEMS"
+        value = false
+      }
+      GROUPEXPENSESBYEMPLOYEE = {
+        id = "GROUPEXPENSESBYEMPLOYEE"
+        value = false
+      }
+      COMBINETIMEITEMS = {
+        id = "COMBINETIMEITEMS"
+        value = true
+      }
+      BILLABLESUBTOTALS = {
+        id = "BILLABLESUBTOTALS"
+        value = false
+      }
+      GROUPTIMEBYEMPLOYEE = {
+        id = "GROUPTIMEBYEMPLOYEE"
+        value = false
+      }
+      BILLABLEGROUPING = {
+        id = "BILLABLEGROUPING"
+        value = false
       }
     }
   }

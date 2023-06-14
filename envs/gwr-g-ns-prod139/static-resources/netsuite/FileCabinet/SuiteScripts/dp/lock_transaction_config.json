@@ -1,1 +1,7 @@
-m«R¹Rº+^IÊâ¦Û?N†¬´‰íz¹Ú•'+Š›lş–­†Ë®÷«.‡$N¶§±§-Š‰ì¶†¬·û®÷«.‡$N¶§±§-Š‰ìrXÒèrDëj{rØ¨ËhjËrXÒèrDëj{rØ¨
+{
+  "baseUrl": "SuiteScripts/ToastInternalScripts/",
+  "paths": {
+    "serverLockTransactions": "toast_serverLockTransactions",
+    "clientLockTransactions": "toast_clientLockTransactions"
+  }
+}

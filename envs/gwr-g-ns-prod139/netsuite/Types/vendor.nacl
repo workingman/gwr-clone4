@@ -178,4 +178,22 @@ type netsuite.vendor {
   string externalId {
     isAttribute = true
   }
+  number custom_custentity13 {
+    field_instance = netsuite.entitycustomfield.instance.custentity13.scriptid
+  }
+  string custom_custentity14 {
+    field_instance = netsuite.entitycustomfield.instance.custentity14.scriptid
+  }
+  string custom_custentity15 {
+    field_instance = netsuite.entitycustomfield.instance.custentity15.scriptid
+  }
+  string custom_custentity_slt_demo {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_demo.scriptid
+  }
+  number custom_custentity_slt_tax_reg {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_tax_reg.scriptid
+  }
+  string custom_custentitypurchasing_email_address {
+    field_instance = netsuite.entitycustomfield.instance.custentitypurchasing_email_address.scriptid
+  }
 }

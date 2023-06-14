@@ -79,4 +79,7 @@ type netsuite.task {
   }
   serviceid identifier {
   }
+  boolean custom_custevent_slt_severity {
+    field_instance = netsuite.crmcustomfield.instance.custevent_slt_severity.scriptid
+  }
 }

@@ -291,4 +291,56 @@ type netsuite.customer {
   }
   serviceid identifier {
   }
+  boolean custom_custentity10 {
+    field_instance = netsuite.entitycustomfield.instance.custentity10.scriptid
+  }
+  string custom_custentity11 {
+    field_instance = netsuite.entitycustomfield.instance.custentity11.scriptid
+  }
+  number custom_custentity13 {
+    field_instance = netsuite.entitycustomfield.instance.custentity13.scriptid
+  }
+  string custom_custentity14 {
+    field_instance = netsuite.entitycustomfield.instance.custentity14.scriptid
+  }
+  string custom_custentity15 {
+    field_instance = netsuite.entitycustomfield.instance.custentity15.scriptid
+  }
+  string custom_custentity19 {
+    field_instance = netsuite.entitycustomfield.instance.custentity19.scriptid
+  }
+  string custom_custentity2 {
+    field_instance = netsuite.entitycustomfield.instance.custentity2.scriptid
+  }
+  string custom_custentity2edited {
+    field_instance = netsuite.entitycustomfield.instance.custentity2edited.scriptid
+  }
+  string custom_custentity_slt_demo {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_demo.scriptid
+  }
+  number custom_custentity_slt_tax_reg {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_tax_reg.scriptid
+  }
+  boolean custom_custentitycust_active {
+    field_instance = netsuite.entitycustomfield.instance.custentitycust_active.scriptid
+  }
+  string custom_custentitycust_slt_conflict1 {
+    field_instance = netsuite.entitycustomfield.instance.custentitycust_slt_conflict1.scriptid
+  }
+  boolean custom_custentitydemo_testing {
+    field_instance = netsuite.entitycustomfield.instance.custentitydemo_testing.scriptid
+  }
+  string custom_custentitydemosaltofield {
+    field_instance = netsuite.entitycustomfield.instance.custentitydemosaltofield.scriptid
+  }
+  string custom_custentityproduct_type {
+    field_instance = netsuite.entitycustomfield.instance.custentityproduct_type.scriptid
+  }
+  string custom_custentityslt_demo_moti {
+    field_instance = netsuite.entitycustomfield.instance.custentityslt_demo_moti.scriptid
+  }
+  unknown custom_custentitytier {
+    select_type_id = netsuite.customlist.instance.customlistcustomer_tiers.scriptid
+    field_instance = netsuite.entitycustomfield.instance.custentitytier.scriptid
+  }
 }

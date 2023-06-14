@@ -478,4 +478,5 @@ netsuite.accountingPreferences {
     text = ""
   }
   ENABLEVIRTUALCARDOPTIMIZATION = true
+  INITIALCOSTINGQUEUEMAXSIZE = 500000
 }

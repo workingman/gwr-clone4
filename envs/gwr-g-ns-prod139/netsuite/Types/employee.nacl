@@ -236,4 +236,34 @@ type netsuite.employee {
   string externalId {
     isAttribute = true
   }
+  string custom_custentity1 {
+    field_instance = netsuite.entitycustomfield.instance.custentity1.scriptid
+  }
+  number custom_custentity13 {
+    field_instance = netsuite.entitycustomfield.instance.custentity13.scriptid
+  }
+  string custom_custentity16 {
+    field_instance = netsuite.entitycustomfield.instance.custentity16.scriptid
+  }
+  string custom_custentity_fav_color {
+    field_instance = netsuite.entitycustomfield.instance.custentity_fav_color.scriptid
+  }
+  string custom_custentity_slt_demo {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_demo.scriptid
+  }
+  boolean custom_custentity_slt_e2e_test {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_e2e_test.scriptid
+  }
+  number custom_custentity_slt_tax_reg {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_tax_reg.scriptid
+  }
+  boolean custom_custentitycust_active {
+    field_instance = netsuite.entitycustomfield.instance.custentitycust_active.scriptid
+  }
+  string custom_custentitydemosaltofield {
+    field_instance = netsuite.entitycustomfield.instance.custentitydemosaltofield.scriptid
+  }
+  string custom_custentityslt_demo_moti {
+    field_instance = netsuite.entitycustomfield.instance.custentityslt_demo_moti.scriptid
+  }
 }

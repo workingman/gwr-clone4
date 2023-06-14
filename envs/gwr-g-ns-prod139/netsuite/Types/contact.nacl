@@ -81,4 +81,25 @@ type netsuite.contact {
   string externalId {
     isAttribute = true
   }
+  string custom_custentity1 {
+    field_instance = netsuite.entitycustomfield.instance.custentity1.scriptid
+  }
+  boolean custom_custentity10 {
+    field_instance = netsuite.entitycustomfield.instance.custentity10.scriptid
+  }
+  number custom_custentity13 {
+    field_instance = netsuite.entitycustomfield.instance.custentity13.scriptid
+  }
+  boolean custom_custentity_14 {
+    field_instance = netsuite.entitycustomfield.instance.custentity_14.scriptid
+  }
+  boolean custom_custentity_15 {
+    field_instance = netsuite.entitycustomfield.instance.custentity_15.scriptid
+  }
+  boolean custom_custentity_slt_e2e_test {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_e2e_test.scriptid
+  }
+  string custom_custentitygwr_field1 {
+    field_instance = netsuite.entitycustomfield.instance.custentitygwr_field1.scriptid
+  }
 }

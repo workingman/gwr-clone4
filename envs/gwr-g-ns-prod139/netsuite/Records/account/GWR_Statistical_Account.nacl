@@ -1,6 +1,7 @@
 netsuite.account GWR_Statistical_Account@s {
   unitsType = {
     name = "Each"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   unit = {
     name = "Each"

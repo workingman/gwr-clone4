@@ -131,4 +131,14 @@ type netsuite.partner {
   }
   serviceid identifier {
   }
+  number custom_custentity_slt_tax_reg {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_tax_reg.scriptid
+  }
+  string custom_custentityproduct_type {
+    field_instance = netsuite.entitycustomfield.instance.custentityproduct_type.scriptid
+  }
+  unknown custom_custentitytier {
+    select_type_id = netsuite.customlist.instance.customlistcustomer_tiers.scriptid
+    field_instance = netsuite.entitycustomfield.instance.custentitytier.scriptid
+  }
 }

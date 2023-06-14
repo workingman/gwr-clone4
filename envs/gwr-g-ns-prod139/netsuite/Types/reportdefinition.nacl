@@ -32,7 +32,7 @@ type netsuite.reportdefinition {
   }
   netsuite.reportdefinition_uipreferences uiPreferences {
   }
-  netsuite.reportdefinition_fields flags {
+  netsuite.reportdefinition_flags flags {
   }
 }
 type netsuite.reportdefinition_accessaudience {
@@ -114,72 +114,39 @@ type netsuite.reportdefinition_dependencies {
   }
 }
 type netsuite.reportdefinition_fields {
-  number KEY_REPORT_ID {
-  }
-  string KEY_SCRIPT_ID {
-  }
-  string KEY_PACKAGE {
-  }
-  number FIELD_KEY {
-  }
-  string FIELD_CODE {
-  }
-  string FIELD_DESCRIPTION {
-  }
-  string FIELD_NAME {
-  }
-  string FIELD_ORIGINAL_TITLE {
-  }
-  string FIELD_PERM_TYPE {
-  }
-  string KEY_FEATURE {
-  }
-  boolean FLAG_PERIODS_ALLOWD {
-  }
-  string FLAG_DISPLAY_TYPE {
-  }
-  boolean FLAG_ONE_DATE {
-  }
-  boolean FLAG_PRIMARY_OUTER_JOIN {
-  }
-  boolean FLAG_CUSTOM_MODE {
-  }
-  boolean FLAG_CASH_BASIS {
-  }
-  boolean FLAG_SHOW_ZEROS {
-  }
-  boolean FLAG_INACTIVE {
-  }
-  number FIELD_VERSION {
-  }
-  boolean FLAG_PERIODS_ON {
-  }
-  boolean FLAG_USE_FISCAL_YEAR_RANGE {
-  }
-  boolean FLAG_USE_TAX_PERIODS {
-  }
-  string KEY_ENTITY {
-  }
-  boolean FLAG_SHOW_LINK {
-  }
-  boolean FLAG_SUPPORTS_CONSOL_SUBSIDIARY {
-  }
-  number KEY_DEF_TOGGLE {
-  }
-  string FIELD_TOGGLE_TYPE {
-  }
-  string FIELD_TOGGLE_URL {
-  }
-  boolean FLAG_AFFECTED_BY_COGS {
-  }
-  string FIELD_DEPRECATION_REASON {
-  }
-  boolean FLAG_ACTIVITY_ONLY {
-  }
-  number KEY_AUDIENCE {
-  }
-  string KEY_ACCESS_AUDIENCE {
-  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
 type netsuite.reportdefinition_fields {
   number KEY_COMPONENT {
@@ -319,5 +286,73 @@ type netsuite.reportdefinition_uipreferences {
   boolean PARAMETERL_SHOW_CURRENCY_SYMBOL {
   }
   number PARAMETER_EXPAND_LEVEL {
+  }
+}
+type netsuite.reportdefinition_flags {
+  number KEY_REPORT_ID {
+  }
+  string KEY_SCRIPT_ID {
+  }
+  string KEY_PACKAGE {
+  }
+  number FIELD_KEY {
+  }
+  string FIELD_CODE {
+  }
+  string FIELD_DESCRIPTION {
+  }
+  string FIELD_NAME {
+  }
+  string FIELD_ORIGINAL_TITLE {
+  }
+  string FIELD_PERM_TYPE {
+  }
+  string KEY_FEATURE {
+  }
+  boolean FLAG_PERIODS_ALLOWD {
+  }
+  string FLAG_DISPLAY_TYPE {
+  }
+  boolean FLAG_ONE_DATE {
+  }
+  boolean FLAG_PRIMARY_OUTER_JOIN {
+  }
+  boolean FLAG_CUSTOM_MODE {
+  }
+  boolean FLAG_CASH_BASIS {
+  }
+  boolean FLAG_SHOW_ZEROS {
+  }
+  boolean FLAG_INACTIVE {
+  }
+  number FIELD_VERSION {
+  }
+  boolean FLAG_PERIODS_ON {
+  }
+  boolean FLAG_USE_FISCAL_YEAR_RANGE {
+  }
+  boolean FLAG_USE_TAX_PERIODS {
+  }
+  string KEY_ENTITY {
+  }
+  boolean FLAG_SHOW_LINK {
+  }
+  boolean FLAG_SUPPORTS_CONSOL_SUBSIDIARY {
+  }
+  number KEY_DEF_TOGGLE {
+  }
+  string FIELD_TOGGLE_TYPE {
+  }
+  string FIELD_TOGGLE_URL {
+  }
+  boolean FLAG_AFFECTED_BY_COGS {
+  }
+  string FIELD_DEPRECATION_REASON {
+  }
+  boolean FLAG_ACTIVITY_ONLY {
+  }
+  number KEY_AUDIENCE {
+  }
+  string KEY_ACCESS_AUDIENCE {
   }
 }

@@ -45,4 +45,5 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
   ismatrixoption = false
   isordered = true
   name = "GWR Workflow Selector List"
+  description = "change to snapshot environment"
 }

@@ -1,10 +1,11 @@
-netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
-  scriptid = "custbody_gwr_workflow_selector"
+netsuite.transactionbodycustomfield custbody_eshed_superfield {
+  scriptid = "custbody_eshed_superfield"
   accesslevel = "2"
   applyformatting = false
   bodyassemblybuild = false
   bodybom = false
   bodycustomerpayment = false
+  bodycustomtransactions = netsuite.customtransactiontype.instance.customtransaction_bm_budget_transaction.scriptid
   bodydeposit = false
   bodydepositapplication = false
   bodyexpensereport = false
@@ -16,30 +17,26 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   bodyjournal = false
   bodyopportunity = false
   bodyothertransaction = false
-  
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
-  bodypurchase = false
-  bodysale = true
+  bodypurchase = true
+  bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "SELECT"
+  fieldtype = "TEXT"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Workflow selector"
-  onparentdelete = "NO_ACTION"
+  label = "Eshed's Super Field"
   searchlevel = "2"
-  selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
   showhierarchy = false
   showinlist = false
   storevalue = true
-  description = "New, much better description!"
 }
