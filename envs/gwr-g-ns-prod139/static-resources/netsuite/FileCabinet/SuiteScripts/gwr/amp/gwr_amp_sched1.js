@@ -7,7 +7,13 @@ define(['N/log'],
  * @param{log} log
  */
     (log) => {
-
+      /**
+       * A bunch of new code!! 
+       *const execute = (scriptContext) => {
+       *     var otherFieldList = ['custbody_jg_quote_number','custbody32','custbody39','otherrefnum','leadsource','partner','department','intercotransaction'];
+       *}
+       */
+      
         /**
          * Defines the Scheduled script trigger point.
          * @param {Object} scriptContext
