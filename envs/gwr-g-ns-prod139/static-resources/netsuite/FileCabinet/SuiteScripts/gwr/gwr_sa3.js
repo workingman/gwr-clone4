@@ -6,6 +6,10 @@ define(['N/log'],
     /**
  * @param{log} log
  */
+
+    /**
+      * change 1
+      */
     (log) => {
         /**
          * Defines the Suitelet script trigger point.
@@ -16,9 +20,19 @@ define(['N/log'],
          */
         const onRequest = (scriptContext) => {
             const a = 2
-
-        }
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+       }
+      /**
+        * change 2
+        */
 
         return {onRequest}
-
-    });
+});
