@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
-  scriptid = "custbody_gwr_workflow_selector"
+netsuite.transactionbodycustomfield custbody_aw_edit {
+  scriptid = "custbody_aw_edit"
   accesslevel = "2"
   applyformatting = false
   bodyassemblybuild = false
@@ -29,18 +29,15 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "SELECT"
+  fieldtype = "CHECKBOX"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Workflow selector"
-  onparentdelete = "NO_ACTION"
+  label = "GWR Amp Edit - WA"
   searchlevel = "2"
-  selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
   showhierarchy = false
   showinlist = false
   storevalue = true
-  description = "New, much better description!"
-  
+  subtab = "TRANSACTIONSYSTEMINFORMATION"
 }
