@@ -15,6 +15,6 @@ jobs:
         
       - name: Run Deploy
         run: |
-          ./salto-cloud deployment deploy -b ${{ github.event.pull_request.head.ref }}
+          ./salto-cloud deployment deploy --push -b ${{ github.event.pull_request.head.ref }}
         env: 
           SALTO_API_TOKEN: ${{ secrets.SALTO_API_TOKEN }}
