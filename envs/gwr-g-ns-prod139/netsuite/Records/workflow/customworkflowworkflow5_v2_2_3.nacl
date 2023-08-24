@@ -421,7 +421,7 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Sales Order:GWR Workflow selector\" IN (\"GWR Workflow Selector List1\",\"GWR Workflow Selector List2\") AND \"Total\" > 300000.0"
+                  formula = "\"Sales Order:GWR Workflow selector\" IN (\"GWR Workflow Selector List1\",\"GWR Workflow Selector List2\") AND \"Total\" > 300000.00"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
