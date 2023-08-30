@@ -2,4 +2,5 @@ netsuite.customrecord_cseg_nbc val_55405_t2257815_241 {
   scriptid = "val_55405_t2257815_241"
   isInactive = false
   name = "District of Columbia-Washington"
+  _alias = "District of Columbia-Washington"
 }

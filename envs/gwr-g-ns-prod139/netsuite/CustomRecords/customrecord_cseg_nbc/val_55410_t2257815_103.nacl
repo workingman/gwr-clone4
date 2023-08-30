@@ -2,4 +2,5 @@ netsuite.customrecord_cseg_nbc val_55410_t2257815_103 {
   scriptid = "val_55410_t2257815_103"
   isInactive = false
   name = "Kentucky-Louisville/Jefferson County"
+  _alias = "Kentucky-Louisville/Jefferson County"
 }

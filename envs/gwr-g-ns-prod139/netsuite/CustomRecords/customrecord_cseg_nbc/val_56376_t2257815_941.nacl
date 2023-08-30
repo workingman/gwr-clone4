@@ -2,4 +2,5 @@ netsuite.customrecord_cseg_nbc val_56376_t2257815_941 {
   scriptid = "val_56376_t2257815_941"
   isInactive = false
   name = "Arizona-Apache Junction"
+  _alias = "Arizona-Apache Junction"
 }

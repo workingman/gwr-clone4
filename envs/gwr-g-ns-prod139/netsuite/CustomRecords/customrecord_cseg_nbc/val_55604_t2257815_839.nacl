@@ -2,4 +2,5 @@ netsuite.customrecord_cseg_nbc val_55604_t2257815_839 {
   scriptid = "val_55604_t2257815_839"
   isInactive = false
   name = "Georgia-Athens-Clarke County"
+  _alias = "Georgia-Athens-Clarke County"
 }

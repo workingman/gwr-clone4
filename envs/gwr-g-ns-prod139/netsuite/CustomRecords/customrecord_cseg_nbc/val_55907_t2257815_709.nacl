@@ -2,4 +2,5 @@ netsuite.customrecord_cseg_nbc val_55907_t2257815_709 {
   scriptid = "val_55907_t2257815_709"
   isInactive = false
   name = "New York-Schenectady"
+  _alias = "New York-Schenectady"
 }
