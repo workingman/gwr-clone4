@@ -40,4 +40,5 @@ netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
   showinlist = false
   storevalue = true
   subtab = "TRANSACTIONSYSTEMINFORMATION"
+  _alias = "GWR Amp 1st Level Approval"
 }

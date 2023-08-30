@@ -1496,4 +1496,5 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
       reference = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
     },
   ]
+  _alias = "GWR Amp |SO Approval V2 - for prod 2 23"
 }

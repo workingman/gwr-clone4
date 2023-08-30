@@ -42,4 +42,5 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   showinlist = false
   storevalue = true
   description = "New, much better description!"
+  _alias = "GWR Workflow selector"
 }

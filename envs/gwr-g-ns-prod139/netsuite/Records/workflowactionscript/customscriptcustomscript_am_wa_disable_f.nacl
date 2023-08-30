@@ -22,4 +22,5 @@ netsuite.workflowactionscript customscriptcustomscript_am_wa_disable_f {
       }
     }
   }
+  _alias = "GWR Amp | WA Disable Fields"
 }
