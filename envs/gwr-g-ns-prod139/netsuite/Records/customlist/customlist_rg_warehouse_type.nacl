@@ -78,4 +78,5 @@ netsuite.customlist customlist_rg_warehouse_type {
       }
     }
   }
+  _alias = "RG - Warehouse Types"
 }

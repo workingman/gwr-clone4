@@ -1650,4 +1650,5 @@ netsuite.role customrole_salto_all_permissions {
       }
     }
   }
+  _alias = "salto-all-permissions"
 }

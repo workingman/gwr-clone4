@@ -12,4 +12,5 @@ netsuite.account Retained_Earnings@s {
   revalue = false
   identifier = "Retained Earnings"
   custom_custrecord_acct_special = false
+  _alias = "Retained Earnings"
 }

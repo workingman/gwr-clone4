@@ -30,4 +30,5 @@ netsuite.customlist customlist9 {
       }
     }
   }
+  _alias = "Customer_Active_List"
 }

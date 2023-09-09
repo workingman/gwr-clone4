@@ -75,4 +75,5 @@ netsuite.workflow customworkflow_clncs {
       }
     }
   }
+  _alias = "NC"
 }

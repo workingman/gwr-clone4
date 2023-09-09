@@ -34,6 +34,7 @@ type netsuite.reportdefinition {
   }
   netsuite.reportdefinition_flags flags {
   }
+  _alias = "Report Definition"
 }
 type netsuite.reportdefinition_accessaudience {
   boolean allcustomers {
@@ -215,9 +216,9 @@ type netsuite.reportdefinition_fields {
   }
   string FIELD_NEG_VAL_FORMAT {
   }
-  string FIELD_GROUP {
+  unknown FIELD_GROUP {
   }
-  string FIELD_PARENT_GROUP {
+  unknown FIELD_PARENT_GROUP {
   }
   string FIELD_COLUMN_FILTER_GROUP {
   }

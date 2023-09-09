@@ -119,4 +119,5 @@ netsuite.savedsearch customsearchtesting_script_id {
   FLAG_BUILT_IN = false
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom Account Search"
 }

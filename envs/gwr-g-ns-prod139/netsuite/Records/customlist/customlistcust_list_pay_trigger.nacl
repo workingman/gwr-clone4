@@ -29,4 +29,5 @@ netsuite.customlist customlistcust_list_pay_trigger {
       }
     }
   }
+  _alias = "Payment Trigger (2)"
 }

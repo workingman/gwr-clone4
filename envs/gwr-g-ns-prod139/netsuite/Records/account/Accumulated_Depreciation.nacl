@@ -12,4 +12,5 @@ netsuite.account Accumulated_Depreciation@s {
   revalue = false
   identifier = "Accumulated Depreciation"
   custom_custrecord_acct_special = false
+  _alias = "Accumulated Depreciation"
 }

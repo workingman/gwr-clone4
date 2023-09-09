@@ -518,4 +518,5 @@ type netsuite.inventoryItem {
     select_type_id = netsuite.customlist.instance.customlist_dp.scriptid
     field_instance = netsuite.itemcustomfield.instance.custitemdp_custom_item_field.scriptid
   }
+  _alias = "Inventory Item"
 }

@@ -9,4 +9,5 @@ netsuite.file SuiteScripts_CustomerValidation_js@dv {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "CustomerValidation.js"
 }

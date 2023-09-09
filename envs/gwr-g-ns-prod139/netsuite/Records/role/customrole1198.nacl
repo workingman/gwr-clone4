@@ -95,4 +95,5 @@ netsuite.role customrole1198 {
       }
     }
   }
+  _alias = "RG_Test Vendor Center"
 }

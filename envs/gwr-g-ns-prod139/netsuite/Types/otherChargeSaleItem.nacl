@@ -159,4 +159,5 @@ type netsuite.otherChargeSaleItem {
   }
   serviceid identifier {
   }
+  _alias = "Other Charge Sale Item"
 }

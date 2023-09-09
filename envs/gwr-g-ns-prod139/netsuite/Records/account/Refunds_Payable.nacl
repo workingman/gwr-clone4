@@ -12,4 +12,5 @@ netsuite.account Refunds_Payable@s {
   revalue = true
   identifier = "Refunds Payable"
   custom_custrecord_acct_special = false
+  _alias = "Refunds Payable"
 }

@@ -11,4 +11,5 @@ netsuite.currency British_pound@s {
   
   currencyPrecision = "_two"
   exchangeRate = 2.365
+  _alias = "British pound"
 }

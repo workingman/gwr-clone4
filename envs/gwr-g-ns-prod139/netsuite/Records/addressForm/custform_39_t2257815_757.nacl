@@ -131,4 +131,5 @@ netsuite.addressForm custform_39_t2257815_757 {
 <addressee>
 '''
   countries = "JP"
+  _alias = "SRD - Custom Address Form"
 }

@@ -150,6 +150,7 @@ type netsuite.transactionbodycustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Transaction Body Custom Field"
 }
 type netsuite.transactionbodycustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

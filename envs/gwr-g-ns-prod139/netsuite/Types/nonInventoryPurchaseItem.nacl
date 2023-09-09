@@ -121,4 +121,5 @@ type netsuite.nonInventoryPurchaseItem {
   }
   serviceid identifier {
   }
+  _alias = "Non-inventory Purchase Item"
 }

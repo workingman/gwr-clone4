@@ -18,4 +18,5 @@ netsuite.account GWR_Statistical_Account@s {
   ]
   identifier = "GWR Statistical Account"
   custom_custrecord_acct_special = false
+  _alias = "GWR Statistical Account"
 }

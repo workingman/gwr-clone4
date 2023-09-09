@@ -1538,51 +1538,9 @@ netsuite.transactionForm custform_gwr_csform1 {
         
         
         
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1771,28 +1729,27 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
-                  }
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
+                    
                     index = 9
                   }
-                  custbody_gwr_workflow_selector = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-                    label = "GWR Workflow selector"
-                    visible = true
+                  
+                  
+                  
+                  custbody_eshed_superfield = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
+                    label = "Eshed's Super Field"
+                    visible = false
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
                     index = 10
                   }
+                  
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1891,6 +1848,12 @@ netsuite.transactionForm custform_gwr_csform1 {
         label = "Bill Distribution Details"
         visible = true
         index = 16
+      }
+      custtab_62_t2257815_401 = {
+        id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
+        label = "Eshed's 2nd Subtab"
+        visible = true
+        index = 18
       }
     }
   }
@@ -2281,4 +2244,5 @@ netsuite.transactionForm custform_gwr_csform1 {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "Custom Service Invoice"
 }

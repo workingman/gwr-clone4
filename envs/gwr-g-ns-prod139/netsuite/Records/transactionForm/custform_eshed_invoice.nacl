@@ -1560,6 +1560,9 @@ netsuite.transactionForm custform_eshed_invoice {
         }
         index = 8
         
+        
+        
+        
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1633,16 +1636,7 @@ netsuite.transactionForm custform_eshed_invoice {
                     sameRowAsPrevious = false
                     index = 5
                   }
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 6
-                  }
+                  
                   
                   custbody_srd_translated_field = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
@@ -1652,7 +1646,8 @@ netsuite.transactionForm custform_eshed_invoice {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 7
+                    
+                    index = 6
                   }
                   
                   custbody_eshed_superfield = {
@@ -1663,8 +1658,15 @@ netsuite.transactionForm custform_eshed_invoice {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    
+                    index = 7
                   }
+                  
+                  
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -2119,4 +2121,5 @@ netsuite.transactionForm custform_eshed_invoice {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "ESHED Custom Product Invoice"
 }

@@ -23,4 +23,5 @@ netsuite.clientscript customscript105 {
       }
     }
   }
+  _alias = "testscriptJS"
 }

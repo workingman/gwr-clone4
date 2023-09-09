@@ -12,4 +12,5 @@ netsuite.account Insurance_Expense@s {
   revalue = false
   identifier = "Insurance Expense"
   custom_custrecord_acct_special = false
+  _alias = "Insurance Expense"
 }

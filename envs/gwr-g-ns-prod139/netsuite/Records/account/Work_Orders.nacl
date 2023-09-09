@@ -12,4 +12,5 @@ netsuite.account Work_Orders@s {
   revalue = false
   identifier = "Work Orders"
   custom_custrecord_acct_special = false
+  _alias = "Work Orders"
 }

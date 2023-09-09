@@ -51,6 +51,7 @@ type netsuite.workflow {
   
   string application_id {
   }
+  _alias = "Workflow"
 }
 type netsuite.workflow_initcondition_parameters_parameter {
   string name {

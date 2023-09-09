@@ -27,6 +27,7 @@ type netsuite.kpiscorecard {
   
   string application_id {
   }
+  _alias = "KPI Score Card"
 }
 type netsuite.kpiscorecard_audience {
   boolean allroles {

@@ -33,4 +33,5 @@ netsuite.itemcustomfield custitemdp_custom_item_field {
   subtab = "ITEMPURCHASINGINVENTORY"
   appliestoinventory = true
   appliestoitemassembly = false
+  _alias = "DP Custom Field"
 }

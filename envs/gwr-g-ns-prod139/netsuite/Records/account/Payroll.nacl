@@ -13,4 +13,5 @@ netsuite.account Payroll {
   revalue = true
   identifier = "Payroll"
   custom_custrecord_acct_special = false
+  _alias = "Payroll"
 }

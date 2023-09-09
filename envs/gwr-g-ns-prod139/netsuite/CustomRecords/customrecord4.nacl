@@ -152,4 +152,5 @@ type netsuite.customrecord4 {
       }
     }
   }
+  _alias = "Customer Satisfaction Survey"
 }

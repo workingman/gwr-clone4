@@ -38,4 +38,5 @@ netsuite.transactionbodycustomfield custbodydp_transaction_field_1 {
   bodytransferorder = false
   bodyassemblybuild = false
   bodybom = false
+  _alias = "DP Transaction Field 1"
 }

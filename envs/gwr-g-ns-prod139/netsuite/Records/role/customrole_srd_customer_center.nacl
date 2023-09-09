@@ -161,4 +161,5 @@ netsuite.role customrole_srd_customer_center {
       }
     }
   }
+  _alias = "SRD - Customer Center Role"
 }

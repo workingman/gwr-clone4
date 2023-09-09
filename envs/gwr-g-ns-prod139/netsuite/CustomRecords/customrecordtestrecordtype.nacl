@@ -207,4 +207,5 @@ type netsuite.customrecordtestrecordtype {
       }
     }
   }
+  _alias = "Test Record Type2"
 }

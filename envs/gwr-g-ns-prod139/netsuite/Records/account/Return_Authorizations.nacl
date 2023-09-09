@@ -12,4 +12,5 @@ netsuite.account Return_Authorizations@s {
   revalue = false
   identifier = "Return Authorizations"
   custom_custrecord_acct_special = false
+  _alias = "Return Authorizations"
 }

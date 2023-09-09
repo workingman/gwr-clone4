@@ -38,4 +38,5 @@ netsuite.transactioncolumncustomfield custcol_slt_e2e_test {
   colinventoryadjustment = false
   coltransferorder = false
   colbuild = false
+  _alias = "created by oss e2e - 8060213"
 }

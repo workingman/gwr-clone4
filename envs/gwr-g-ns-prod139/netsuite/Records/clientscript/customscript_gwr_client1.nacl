@@ -22,4 +22,5 @@ netsuite.clientscript customscript_gwr_client1 {
       }
     }
   }
+  _alias = "GWR client script on sales order"
 }

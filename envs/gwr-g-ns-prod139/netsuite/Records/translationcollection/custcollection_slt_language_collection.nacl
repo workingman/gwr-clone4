@@ -11,4 +11,5 @@ netsuite.translationcollection custcollection_slt_language_collection {
       }
     }
   }
+  _alias = "Language collection"
 }

@@ -7,4 +7,5 @@ netsuite.folder SuiteScripts_dp@d {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "dp"
 }

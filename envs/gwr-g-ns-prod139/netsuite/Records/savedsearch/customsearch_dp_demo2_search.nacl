@@ -216,4 +216,5 @@ netsuite.savedsearch customsearch_dp_demo2_search {
   FLAG_BUILT_IN = false
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "DP Demo2 Search"
 }

@@ -24,6 +24,7 @@ type netsuite.addressForm {
   
   string application_id {
   }
+  _alias = "Address Form"
 }
 type netsuite.addressForm_customCode {
   string scriptFile {

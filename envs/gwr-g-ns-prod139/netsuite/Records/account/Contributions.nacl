@@ -12,4 +12,5 @@ netsuite.account Contributions {
   revalue = false
   identifier = "Contributions"
   custom_custrecord_acct_special = false
+  _alias = "Contributions"
 }

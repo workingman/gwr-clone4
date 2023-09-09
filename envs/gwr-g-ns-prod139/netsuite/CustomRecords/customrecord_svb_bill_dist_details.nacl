@@ -825,4 +825,5 @@ type netsuite.customrecord_svb_bill_dist_details {
       }
     }
   }
+  _alias = "SVB | Bill Distribution Details"
 }

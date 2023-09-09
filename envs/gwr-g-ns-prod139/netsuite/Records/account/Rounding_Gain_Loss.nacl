@@ -12,4 +12,5 @@ netsuite.account Rounding_Gain_Loss@sd {
   revalue = false
   identifier = "Rounding Gain/Loss"
   custom_custrecord_acct_special = false
+  _alias = "Rounding Gain/Loss"
 }

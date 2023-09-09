@@ -32,4 +32,5 @@ netsuite.entitycustomfield custentitycust_active {
   showinlist = false
   storevalue = true
   subtab = "ENTITYSALES"
+  _alias = "IsActive 1234"
 }

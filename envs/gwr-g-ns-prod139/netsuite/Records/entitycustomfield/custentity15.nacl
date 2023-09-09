@@ -30,4 +30,5 @@ netsuite.entitycustomfield custentity15 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "new entity field EY"
 }

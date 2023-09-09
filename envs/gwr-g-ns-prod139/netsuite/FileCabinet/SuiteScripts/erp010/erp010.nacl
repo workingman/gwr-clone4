@@ -6,4 +6,5 @@ netsuite.folder SuiteScripts_erp010@d {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "erp010"
 }

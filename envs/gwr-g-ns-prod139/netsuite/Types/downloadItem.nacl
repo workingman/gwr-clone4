@@ -168,4 +168,5 @@ type netsuite.downloadItem {
   }
   serviceid identifier {
   }
+  _alias = "Download Item"
 }

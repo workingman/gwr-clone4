@@ -12,4 +12,5 @@ netsuite.account Organization_Expense@s {
   revalue = false
   identifier = "Organization Expense"
   custom_custrecord_acct_special = false
+  _alias = "Organization Expense"
 }

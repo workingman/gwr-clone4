@@ -395,4 +395,5 @@ settings netsuite.companyPreferences {
     label = "Enables logging of restriction keys changes. The value is the restriction key table you want to enable logging for. (example: mysybsidiarykeys)"
     type = "select"
   }
+  _alias = "Company Preferences"
 }

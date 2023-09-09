@@ -30,4 +30,5 @@ type netsuite.classification {
   }
   serviceid identifier {
   }
+  _alias = "Classification"
 }

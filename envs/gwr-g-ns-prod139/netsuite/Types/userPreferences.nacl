@@ -459,4 +459,5 @@ settings netsuite.userPreferences {
     label = "Sublist Column Name Tooltip"
     type = "checkbox"
   }
+  _alias = "User Preferences"
 }

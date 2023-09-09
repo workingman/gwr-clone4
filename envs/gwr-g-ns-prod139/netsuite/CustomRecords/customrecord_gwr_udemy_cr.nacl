@@ -151,4 +151,5 @@ type netsuite.customrecord_gwr_udemy_cr {
       }
     }
   }
+  _alias = "GWR Custom Record Udemy"
 }

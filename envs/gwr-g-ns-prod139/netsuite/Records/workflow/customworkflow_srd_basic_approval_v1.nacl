@@ -677,4 +677,5 @@ Complexity: Low
       }
     }
   }
+  _alias = "SRD - Sales Order Basic Approval"
 }

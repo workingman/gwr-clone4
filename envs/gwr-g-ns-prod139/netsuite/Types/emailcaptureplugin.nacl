@@ -40,6 +40,7 @@ type netsuite.emailcaptureplugin {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Email Capture Plugin"
 }
 type netsuite.emailcaptureplugin_libraries_library {
   string scriptfile {

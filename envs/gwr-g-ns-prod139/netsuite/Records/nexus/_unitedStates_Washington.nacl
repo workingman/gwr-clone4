@@ -10,4 +10,5 @@ netsuite.nexus _unitedStates_Washington {
   }
   description = "WA"
   identifier = "_unitedStates_Washington"
+  _alias = "_unitedStates_Washington"
 }

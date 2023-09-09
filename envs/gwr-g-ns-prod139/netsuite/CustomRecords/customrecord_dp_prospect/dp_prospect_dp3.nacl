@@ -1,6 +1,0 @@
-netsuite.customrecord_dp_prospect dp_prospect_dp3 {
-  scriptid = "dp_prospect_dp3"
-  isInactive = false
-  name = "DP Prospect 3"
-  custom_custrecord_dp_prospect_field = "Something for DP3"
-}

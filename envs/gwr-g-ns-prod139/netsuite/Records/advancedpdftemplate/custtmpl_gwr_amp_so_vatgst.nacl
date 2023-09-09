@@ -8,4 +8,5 @@ netsuite.advancedpdftemplate custtmpl_gwr_amp_so_vatgst {
   title = "Custom Sales Order PDF/HTML Template"
   trantype = "SALESORD"
   content = file("netsuite/advancedpdftemplate/custtmpl_gwr_amp_so_vatgst.xml")
+  _alias = "Custom Sales Order PDF/HTML Template"
 }

@@ -48,6 +48,7 @@ type netsuite.restlet {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Restlet"
 }
 type netsuite.restlet_customplugintypes_plugintype {
   string plugintype {

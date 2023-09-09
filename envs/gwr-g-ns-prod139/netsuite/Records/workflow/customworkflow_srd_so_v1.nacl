@@ -674,4 +674,5 @@ If the sales order is not automatically approved, a manual approval process begi
       }
     }
   }
+  _alias = "SRD - Sales Order Approval (2)"
 }

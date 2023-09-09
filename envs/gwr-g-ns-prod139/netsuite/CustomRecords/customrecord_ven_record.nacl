@@ -263,4 +263,5 @@ type netsuite.customrecord_ven_record {
       }
     }
   }
+  _alias = "Sample Onboarding Form"
 }

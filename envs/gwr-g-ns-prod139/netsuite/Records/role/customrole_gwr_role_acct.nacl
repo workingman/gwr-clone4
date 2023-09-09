@@ -550,4 +550,5 @@ netsuite.role customrole_gwr_role_acct {
       }
     }
   }
+  _alias = "GWR custom accountant"
 }

@@ -33,4 +33,5 @@ netsuite.itemcustomfield custitem_slt_billable {
   subtab = "ITEMMAIN"
   appliestoinventory = false
   appliestoitemassembly = false
+  _alias = "Billable"
 }

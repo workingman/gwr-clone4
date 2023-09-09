@@ -39,4 +39,5 @@ netsuite.transactionbodycustomfield custbody_eshed_superfield {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Eshed's Super Field"
 }

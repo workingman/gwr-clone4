@@ -78,4 +78,5 @@ netsuite.role customrole_simon_test {
       }
     }
   }
+  _alias = "Razor - Celigo Support (2)"
 }

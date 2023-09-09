@@ -18,6 +18,7 @@ type netsuite.financiallayout {
   }
   netsuite.financiallayout_fields flags {
   }
+  _alias = "Financial Layout"
 }
 type netsuite.financiallayout_dependencies {
   string dependency {

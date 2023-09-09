@@ -39,4 +39,5 @@ netsuite.transactionbodycustomfield custbody_lala {
   subtab = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
   bodyassemblybuild = false
   bodybom = false
+  _alias = "Test Field"
 }

@@ -246,4 +246,5 @@ netsuite.role customrole1000 {
       }
     }
   }
+  _alias = "Custom Developer"
 }

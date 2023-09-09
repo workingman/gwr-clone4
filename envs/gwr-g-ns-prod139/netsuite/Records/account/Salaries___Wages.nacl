@@ -12,4 +12,5 @@ netsuite.account Salaries___Wages@ses {
   revalue = false
   identifier = "Salaries & Wages"
   custom_custrecord_acct_special = false
+  _alias = "Salaries & Wages"
 }

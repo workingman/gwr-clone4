@@ -25,4 +25,5 @@ netsuite.workflow customworkflow_dp_demo2_workflow {
       }
     }
   }
+  _alias = "DP Demo2 Workflow"
 }

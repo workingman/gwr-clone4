@@ -128,4 +128,5 @@ netsuite.workflow customworkflow_srd_opp_review {
       }
     }
   }
+  _alias = "SRD - Opp Review"
 }

@@ -36,4 +36,5 @@ netsuite.scheduledscript customscript8 {
       }
     }
   }
+  _alias = "dummy scheduled script"
 }

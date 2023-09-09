@@ -12,4 +12,5 @@ netsuite.account Payroll_Expenses@s {
   revalue = false
   identifier = "Payroll Expenses"
   custom_custrecord_acct_special = false
+  _alias = "Payroll Expenses"
 }

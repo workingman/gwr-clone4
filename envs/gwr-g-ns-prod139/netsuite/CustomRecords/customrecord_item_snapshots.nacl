@@ -232,4 +232,5 @@ type netsuite.customrecord_item_snapshots {
     }
   }
   metadataType = "customrecordtype"
+  _alias = "Item Snapshots"
 }

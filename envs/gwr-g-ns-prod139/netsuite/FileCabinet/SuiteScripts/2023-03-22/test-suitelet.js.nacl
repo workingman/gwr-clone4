@@ -9,4 +9,5 @@ netsuite.file SuiteScripts_2023_03_22_test_suitelet_js@dbbdbv {
   _parent = [
     netsuite.folder.instance.SuiteScripts_2023_03_22@dbb,
   ]
+  _alias = "test-suitelet.js"
 }

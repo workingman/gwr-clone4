@@ -10,4 +10,5 @@ netsuite.file SuiteScripts_ApplicationConstants_js@dv {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "ApplicationConstants.js"
 }

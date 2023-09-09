@@ -13,6 +13,7 @@ netsuite.subsidiary Parent_Company@s {
         netsuite.customFieldRef.instance.subsidiary_customField_55,
       ]
     }
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   legalName = "Demo: Blank US OneWorld Account"
   isElimination = false
@@ -76,4 +77,6 @@ netsuite.subsidiary Parent_Company@s {
       }
     }
   }
+  tranPrefix = "PC-"
+  _alias = "Parent Company"
 }

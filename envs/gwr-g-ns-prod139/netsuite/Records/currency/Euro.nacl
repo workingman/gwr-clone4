@@ -11,4 +11,5 @@ netsuite.currency Euro {
   
   currencyPrecision = "_two"
   exchangeRate = 1.509
+  _alias = "Euro"
 }

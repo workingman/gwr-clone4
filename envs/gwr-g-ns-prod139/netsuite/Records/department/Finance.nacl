@@ -6,4 +6,5 @@ netsuite.department Finance {
     netsuite.subsidiary.instance.Parent_Company@s,
   ]
   identifier = "Finance"
+  _alias = "Finance"
 }

@@ -1063,6 +1063,13 @@ netsuite.entryForm custform_employee {
               neverEmpty = false
               index = 0
             }
+            customrecord_dash_refresh_config_custrecord_drc_employee@uuuvuu = {
+              id = netsuite.customrecord_dash_refresh_config.field.custom_custrecord_drc_employee.scriptid
+              label = "Dashboard Refresh Configuration"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
           }
         }
         index = 5
@@ -1516,4 +1523,5 @@ netsuite.entryForm custform_employee {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "EMPLOYEE FORM"
 }

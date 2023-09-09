@@ -35,4 +35,5 @@ netsuite.transactioncolumncustomfield custcol_gwr_rma1 {
   showhierarchy = false
   storevalue = true
   colbuild = false
+  _alias = "GWR RMA custom field"
 }

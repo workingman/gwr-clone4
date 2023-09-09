@@ -7,4 +7,5 @@ netsuite.folder SuiteScripts_InnerFolder@d {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "InnerFolder"
 }

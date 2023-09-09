@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity_fav_color {
   showinlist = false
   storevalue = true
   subtab = netsuite.subtab.instance.custtab_salto_child_test.scriptid
+  _alias = "Favorite Color"
 }

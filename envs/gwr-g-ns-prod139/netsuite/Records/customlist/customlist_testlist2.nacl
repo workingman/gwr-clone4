@@ -23,4 +23,5 @@ netsuite.customlist customlist_testlist2 {
       }
     }
   }
+  _alias = "testlist2"
 }

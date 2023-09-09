@@ -25,6 +25,7 @@ type netsuite.customlist {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Custom List"
 }
 type netsuite.customlist_customvalues_customvalue {
   serviceid scriptid {

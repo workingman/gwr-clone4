@@ -12,4 +12,5 @@ netsuite.account Credit_Card_Payable@s {
   revalue = true
   identifier = "Credit Card Payable"
   custom_custrecord_acct_special = false
+  _alias = "Credit Card Payable"
 }

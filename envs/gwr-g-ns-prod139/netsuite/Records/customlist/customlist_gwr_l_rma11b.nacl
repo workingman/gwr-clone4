@@ -39,4 +39,5 @@ netsuite.customlist customlist_gwr_l_rma11b {
       }
     }
   }
+  _alias = "GWR list RMA 11b"
 }

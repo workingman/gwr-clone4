@@ -466,4 +466,5 @@ type netsuite.assemblyItem {
   }
   serviceid identifier {
   }
+  _alias = "Assembly Item"
 }

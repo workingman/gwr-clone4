@@ -258,4 +258,5 @@ netsuite.role customrole1003 {
       }
     }
   }
+  _alias = "Custom Developer With more certain WF permissions"
 }

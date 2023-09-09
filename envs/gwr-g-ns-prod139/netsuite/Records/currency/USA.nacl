@@ -12,4 +12,5 @@ netsuite.currency USA {
   currencyPrecision = "_two"
   exchangeRate = 1
   fxRateUpdateTimezone = "_americaNewYork"
+  _alias = "USA"
 }

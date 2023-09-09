@@ -96,4 +96,5 @@ type netsuite.subsidiary {
   }
   serviceid identifier {
   }
+  _alias = "Subsidiary"
 }

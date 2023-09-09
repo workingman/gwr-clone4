@@ -11,4 +11,5 @@ netsuite.currency Canadian_Dollar@s {
   
   currencyPrecision = "_two"
   exchangeRate = 1.559
+  _alias = "Canadian Dollar"
 }

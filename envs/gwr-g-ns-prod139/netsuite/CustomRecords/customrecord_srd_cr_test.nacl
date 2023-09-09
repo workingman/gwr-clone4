@@ -159,4 +159,5 @@ type netsuite.customrecord_srd_cr_test {
     }
   }
   metadataType = "customrecordtype"
+  _alias = "srd - scott cr test"
 }

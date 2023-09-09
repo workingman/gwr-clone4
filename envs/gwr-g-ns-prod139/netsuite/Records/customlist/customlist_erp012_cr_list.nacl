@@ -29,4 +29,5 @@ netsuite.customlist customlist_erp012_cr_list {
       }
     }
   }
+  _alias = "ERP 012 CR List"
 }

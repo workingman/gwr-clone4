@@ -38,4 +38,5 @@ type netsuite.datasetbuilderplugin {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Dataset Builder Plugin"
 }

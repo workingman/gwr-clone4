@@ -15,4 +15,5 @@ type netsuite.centerlink {
   
   string application_id {
   }
+  _alias = "Center Link"
 }

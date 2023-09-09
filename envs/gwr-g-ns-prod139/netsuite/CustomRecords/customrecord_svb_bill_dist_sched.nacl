@@ -429,4 +429,5 @@ type netsuite.customrecord_svb_bill_dist_sched {
       }
     }
   }
+  _alias = "SVB | Bill Distribution Schedule"
 }

@@ -36,4 +36,5 @@ netsuite.customlist customlist_flo_log_level {
       }
     }
   }
+  _alias = "Log Level"
 }

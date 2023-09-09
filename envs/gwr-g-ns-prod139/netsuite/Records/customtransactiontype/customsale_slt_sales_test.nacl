@@ -23,4 +23,5 @@ netsuite.customtransactiontype customsale_slt_sales_test {
       }
     }
   }
+  _alias = "sales"
 }

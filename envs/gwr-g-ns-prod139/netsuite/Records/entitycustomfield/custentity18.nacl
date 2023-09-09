@@ -30,4 +30,5 @@ netsuite.entitycustomfield custentity18 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "myNewLazyField"
 }

@@ -39,6 +39,7 @@ type netsuite.pluginimplementation {
   
   string application_id {
   }
+  _alias = "Plugin Implementation"
 }
 type netsuite.pluginimplementation_libraries_library {
   string scriptfile {

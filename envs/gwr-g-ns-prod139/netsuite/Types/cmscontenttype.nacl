@@ -22,4 +22,5 @@ type netsuite.cmscontenttype {
   
   string application_id {
   }
+  _alias = "CMS Content Type"
 }

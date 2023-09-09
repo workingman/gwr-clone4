@@ -25,7 +25,7 @@ netsuite.entitycustomfield custentity_gwr_rma11b {
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR RMA 11b"
+  
   onparentdelete = "NO_ACTION"
   searchlevel = "2"
   selectrecordtype = netsuite.customlist.instance.customlist_gwr_l_rma11b.scriptid
@@ -35,4 +35,6 @@ netsuite.entitycustomfield custentity_gwr_rma11b {
   
   
   description = "___old description"
+  label = "GWR RMA 11b!"
+  _alias = "GWR RMA 11b!"
 }

@@ -89,4 +89,5 @@ netsuite.savedcsvimport custimport_gwr_csv_mapping_vendor {
       }
     }
   }
+  _alias = "_gwr_csv_mapping_vendor"
 }

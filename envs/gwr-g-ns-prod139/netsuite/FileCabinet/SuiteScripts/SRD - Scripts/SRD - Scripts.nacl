@@ -6,4 +6,5 @@ netsuite.folder SuiteScripts_SRD___Scripts@dsbs {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "SRD - Scripts"
 }

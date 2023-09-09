@@ -21,4 +21,5 @@ netsuite.crmcustomfield custeventdemo_crm {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "demo_crm"
 }

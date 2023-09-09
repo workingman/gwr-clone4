@@ -12,4 +12,5 @@ netsuite.account Undeposited_Funds@s {
   revalue = false
   identifier = "Undeposited Funds"
   custom_custrecord_acct_special = false
+  _alias = "Undeposited Funds"
 }

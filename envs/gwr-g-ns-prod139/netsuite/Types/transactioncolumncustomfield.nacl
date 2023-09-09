@@ -142,6 +142,7 @@ type netsuite.transactioncolumncustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Transaction Column Custom Field"
 }
 type netsuite.transactioncolumncustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

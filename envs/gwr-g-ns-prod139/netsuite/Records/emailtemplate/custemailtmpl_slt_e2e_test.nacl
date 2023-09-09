@@ -9,4 +9,5 @@ netsuite.emailtemplate custemailtmpl_slt_e2e_test {
   subject = "email subject"
   usesmedia = false
   content = file("netsuite/emailtemplate/custemailtmpl_slt_e2e_test.html")
+  _alias = "created by oss e2e - 8060213"
 }

@@ -38,4 +38,5 @@ netsuite.transactioncolumncustomfield custcol_slt_billable {
   colinventoryadjustment = false
   coltransferorder = false
   colbuild = false
+  _alias = "Billable"
 }

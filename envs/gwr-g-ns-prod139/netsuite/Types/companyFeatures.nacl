@@ -650,4 +650,5 @@ settings netsuite.companyFeatures {
   boolean SHIPPINGPARTNERS {
     label = "Shipping Partners"
   }
+  _alias = "Company Features"
 }

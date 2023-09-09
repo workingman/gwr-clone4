@@ -23,4 +23,5 @@ netsuite.customlist customlistcustomer_tiers {
       }
     }
   }
+  _alias = "Customer Tiers"
 }

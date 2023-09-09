@@ -12,4 +12,5 @@ netsuite.account Allowance_for_Doubtful_Accounts@s {
   revalue = false
   identifier = "Allowance for Doubtful Accounts"
   custom_custrecord_acct_special = false
+  _alias = "Allowance for Doubtful Accounts"
 }

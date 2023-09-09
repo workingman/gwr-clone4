@@ -254,4 +254,5 @@ netsuite.role customrole1200 {
       }
     }
   }
+  _alias = "Developer Salto"
 }

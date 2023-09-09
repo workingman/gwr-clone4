@@ -12,4 +12,5 @@ netsuite.account Other_Receivables@s {
   revalue = false
   identifier = "Other Receivables"
   custom_custrecord_acct_special = false
+  _alias = "Other Receivables"
 }

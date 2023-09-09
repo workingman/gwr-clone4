@@ -17,4 +17,5 @@ netsuite.othercustomfield custrecordsame_as_shipping_address {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Same As Shipping Address"
 }

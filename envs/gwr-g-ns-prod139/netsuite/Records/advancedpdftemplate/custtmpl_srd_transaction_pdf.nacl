@@ -8,4 +8,5 @@ netsuite.advancedpdftemplate custtmpl_srd_transaction_pdf {
   title = "srd - transaction pdf"
   trantype = "CUSTINVC"
   content = file("netsuite/advancedpdftemplate/custtmpl_srd_transaction_pdf.xml")
+  _alias = "srd - transaction pdf"
 }

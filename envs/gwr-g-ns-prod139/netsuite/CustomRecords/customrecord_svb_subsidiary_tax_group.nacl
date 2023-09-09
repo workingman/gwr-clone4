@@ -175,4 +175,5 @@ type netsuite.customrecord_svb_subsidiary_tax_group {
       }
     }
   }
+  _alias = "SVB | Subsidiary Tax Group"
 }

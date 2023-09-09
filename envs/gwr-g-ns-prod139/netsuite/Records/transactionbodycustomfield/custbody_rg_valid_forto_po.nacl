@@ -39,4 +39,5 @@ netsuite.transactionbodycustomfield custbody_rg_valid_forto_po {
   subtab = "TRANSACTIONMAIN"
   bodyassemblybuild = false
   bodybom = false
+  _alias = "Validated Required Fields for FortoX"
 }

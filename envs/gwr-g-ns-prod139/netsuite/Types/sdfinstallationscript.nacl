@@ -38,6 +38,7 @@ type netsuite.sdfinstallationscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "SDF Installation Script"
 }
 type netsuite.sdfinstallationscript_customplugintypes_plugintype {
   string plugintype {

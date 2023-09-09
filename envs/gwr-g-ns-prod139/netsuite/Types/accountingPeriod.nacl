@@ -44,4 +44,5 @@ type netsuite.accountingPeriod {
   }
   serviceid identifier {
   }
+  _alias = "Accounting Period"
 }

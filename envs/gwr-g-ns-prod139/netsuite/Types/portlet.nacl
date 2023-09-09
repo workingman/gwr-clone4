@@ -44,6 +44,7 @@ type netsuite.portlet {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Portlet"
 }
 type netsuite.portlet_customplugintypes_plugintype {
   string plugintype {

@@ -9,4 +9,5 @@ type netsuite.integration {
   
   string application_id {
   }
+  _alias = "Integration"
 }

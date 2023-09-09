@@ -27,4 +27,5 @@ type netsuite.file {
   
   string application_id {
   }
+  _alias = "File"
 }

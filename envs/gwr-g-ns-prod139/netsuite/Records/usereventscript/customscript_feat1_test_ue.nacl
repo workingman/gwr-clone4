@@ -23,4 +23,5 @@ netsuite.usereventscript customscript_feat1_test_ue {
       }
     }
   }
+  _alias = "test"
 }

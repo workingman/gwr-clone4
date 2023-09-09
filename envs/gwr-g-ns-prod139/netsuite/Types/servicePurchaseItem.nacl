@@ -123,4 +123,5 @@ type netsuite.servicePurchaseItem {
   }
   serviceid identifier {
   }
+  _alias = "Service Purchase Item"
 }

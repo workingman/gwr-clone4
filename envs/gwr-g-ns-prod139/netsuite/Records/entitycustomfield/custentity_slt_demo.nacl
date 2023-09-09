@@ -30,4 +30,5 @@ netsuite.entitycustomfield custentity_slt_demo {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "demo field"
 }

@@ -12,4 +12,5 @@ netsuite.account Line_of_Credit_Payable@s {
   revalue = true
   identifier = "Line of Credit Payable"
   custom_custrecord_acct_special = false
+  _alias = "Line of Credit Payable"
 }

@@ -91,6 +91,7 @@ type netsuite.othercustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Other Custom Field"
 }
 type netsuite.othercustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

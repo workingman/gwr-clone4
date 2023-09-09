@@ -12,4 +12,5 @@ netsuite.account Owner_s_Capital@ts {
   revalue = false
   identifier = "Owner's Capital"
   custom_custrecord_acct_special = false
+  _alias = "Owner's Capital"
 }

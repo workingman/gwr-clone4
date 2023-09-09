@@ -554,4 +554,5 @@ netsuite.role customrole1084 {
       }
     }
   }
+  _alias = "GWR Amp role 1084"
 }

@@ -266,4 +266,5 @@ netsuite.role customrole_gwr_role_ar {
       }
     }
   }
+  _alias = "GWR Custom A/R Clerk"
 }

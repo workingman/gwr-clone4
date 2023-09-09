@@ -202,4 +202,5 @@ netsuite.savedsearch customsearch_gwr_savedsearch1 {
   FLAG_BUILT_IN = false
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "GWR search for my accounts"
 }

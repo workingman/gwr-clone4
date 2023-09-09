@@ -19,4 +19,5 @@ type netsuite.subtab {
   }
   boolean titleTranslate {
   }
+  _alias = "Subtab"
 }

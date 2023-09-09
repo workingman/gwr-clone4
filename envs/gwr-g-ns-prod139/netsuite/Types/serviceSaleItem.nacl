@@ -217,4 +217,5 @@ type netsuite.serviceSaleItem {
   }
   serviceid identifier {
   }
+  _alias = "Service Sale Item"
 }

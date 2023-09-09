@@ -266,4 +266,5 @@ type netsuite.employee {
   string custom_custentityslt_demo_moti {
     field_instance = netsuite.entitycustomfield.instance.custentityslt_demo_moti.scriptid
   }
+  _alias = "Employee"
 }

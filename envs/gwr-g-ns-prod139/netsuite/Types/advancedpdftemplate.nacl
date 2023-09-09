@@ -34,4 +34,5 @@ type netsuite.advancedpdftemplate {
   
   string application_id {
   }
+  _alias = "Advanced PDF Template"
 }

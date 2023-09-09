@@ -12,4 +12,5 @@ netsuite.account Transfer_Orders@s {
   revalue = false
   identifier = "Transfer Orders"
   custom_custrecord_acct_special = false
+  _alias = "Transfer Orders"
 }

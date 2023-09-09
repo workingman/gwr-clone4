@@ -9,4 +9,5 @@ netsuite.file SuiteScripts_gwr_sa3_js@duv {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "gwr_sa3.js"
 }

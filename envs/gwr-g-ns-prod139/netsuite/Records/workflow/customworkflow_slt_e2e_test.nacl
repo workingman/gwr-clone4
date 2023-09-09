@@ -149,4 +149,5 @@ netsuite.workflow customworkflow_slt_e2e_test {
       }
     }
   }
+  _alias = "created by oss e2e - 8060213"
 }

@@ -195,4 +195,5 @@ type netsuite.customrecord_slt_testforrest {
       }
     }
   }
+  _alias = "test for rest"
 }

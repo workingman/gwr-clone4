@@ -9,4 +9,5 @@ netsuite.file SuiteScripts_dp_test_json@ddv {
   _parent = [
     netsuite.folder.instance.SuiteScripts_dp@d,
   ]
+  _alias = "test.json"
 }

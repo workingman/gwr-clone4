@@ -13,4 +13,5 @@ netsuite.account Insurance_Expense_Liability@su {
   revalue = false
   identifier = "Insurance Expense_Liability"
   custom_custrecord_acct_special = false
+  _alias = "Liability"
 }

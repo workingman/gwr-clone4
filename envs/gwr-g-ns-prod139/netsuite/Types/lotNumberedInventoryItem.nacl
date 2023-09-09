@@ -489,4 +489,5 @@ type netsuite.lotNumberedInventoryItem {
   }
   serviceid identifier {
   }
+  _alias = "Lot Numbered Inventory Item"
 }

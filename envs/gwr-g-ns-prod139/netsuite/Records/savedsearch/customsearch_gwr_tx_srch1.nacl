@@ -174,4 +174,5 @@ netsuite.savedsearch customsearch_gwr_tx_srch1 {
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
   KEY_AUDIENCE = 0
+  _alias = "GWR tx search1 20220804"
 }

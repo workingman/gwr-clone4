@@ -12,4 +12,5 @@ netsuite.account Capital_Stock@s {
   revalue = false
   identifier = "Capital Stock"
   custom_custrecord_acct_special = false
+  _alias = "Capital Stock"
 }

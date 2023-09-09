@@ -52,4 +52,5 @@ type netsuite.paymentItem {
   string externalId {
     isAttribute = true
   }
+  _alias = "Payment Item"
 }

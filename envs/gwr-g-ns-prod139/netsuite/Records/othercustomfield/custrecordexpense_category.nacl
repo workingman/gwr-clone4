@@ -16,4 +16,5 @@ netsuite.othercustomfield custrecordexpense_category {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Expense Category"
 }

@@ -42,6 +42,7 @@ type netsuite.suitelet {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Suitelet"
 }
 type netsuite.suitelet_customplugintypes_plugintype {
   string plugintype {

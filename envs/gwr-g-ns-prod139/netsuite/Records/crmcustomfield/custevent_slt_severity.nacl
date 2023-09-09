@@ -28,4 +28,5 @@ netsuite.crmcustomfield custevent_slt_severity {
       reference = netsuite.customsegment.instance.cseg1.scriptid
     },
   ]
+  _alias = "Severity"
 }

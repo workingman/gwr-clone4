@@ -41,6 +41,7 @@ type netsuite.sspapplication {
   string internalId {
     _hidden_value = true
   }
+  _alias = "SSP Application"
 }
 type netsuite.sspapplication_entrypoints_entrypoint {
   netsuite.webapp_entrytype entrytype {

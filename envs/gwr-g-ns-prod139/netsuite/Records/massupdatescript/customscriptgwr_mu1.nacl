@@ -22,4 +22,5 @@ netsuite.massupdatescript customscriptgwr_mu1 {
       }
     }
   }
+  _alias = "gwr mass update1"
 }

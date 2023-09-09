@@ -40,6 +40,7 @@ type netsuite.scheduledscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Scheduled Script"
 }
 type netsuite.scheduledscript_customplugintypes_plugintype {
   string plugintype {

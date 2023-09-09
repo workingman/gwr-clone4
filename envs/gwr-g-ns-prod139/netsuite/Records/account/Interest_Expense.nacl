@@ -12,4 +12,5 @@ netsuite.account Interest_Expense@s {
   revalue = false
   identifier = "Interest Expense"
   custom_custrecord_acct_special = false
+  _alias = "Interest Expense"
 }

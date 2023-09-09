@@ -36,6 +36,7 @@ type netsuite.mapreducescript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Map Reduce Script"
 }
 type netsuite.mapreducescript_customplugintypes_plugintype {
   string plugintype {

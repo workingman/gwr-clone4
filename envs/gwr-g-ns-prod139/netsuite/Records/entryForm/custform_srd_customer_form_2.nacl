@@ -2052,4 +2052,5 @@ netsuite.entryForm custform_srd_customer_form_2 {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "SRD Customer Form 2"
 }

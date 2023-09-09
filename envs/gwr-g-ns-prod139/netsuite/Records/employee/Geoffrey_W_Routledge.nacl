@@ -70,4 +70,5 @@ netsuite.employee Geoffrey_W_Routledge@s {
     ]
   }
   custom_custentity_slt_tax_reg = 7777777
+  _alias = "Geoffrey W Routledge"
 }

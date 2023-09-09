@@ -466,4 +466,5 @@ type netsuite.lotNumberedAssemblyItem {
   }
   serviceid identifier {
   }
+  _alias = "Lot Numbered Assembly Item"
 }

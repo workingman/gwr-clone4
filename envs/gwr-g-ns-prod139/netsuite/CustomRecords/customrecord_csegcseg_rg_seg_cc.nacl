@@ -141,4 +141,5 @@ type netsuite.customrecord_csegcseg_rg_seg_cc {
     }
   }
   metadataType = "customrecordtype"
+  _alias = "Cost Center"
 }

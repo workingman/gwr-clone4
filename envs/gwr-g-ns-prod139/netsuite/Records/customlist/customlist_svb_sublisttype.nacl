@@ -22,4 +22,5 @@ netsuite.customlist customlist_svb_sublisttype {
       }
     }
   }
+  _alias = "SVB Sublist type"
 }

@@ -35,4 +35,5 @@ netsuite.transactioncolumncustomfield custcoltransactionterms {
   colinventoryadjustment = false
   coltransferorder = false
   colbuild = false
+  _alias = "Terms"
 }

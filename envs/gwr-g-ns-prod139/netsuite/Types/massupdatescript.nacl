@@ -40,6 +40,7 @@ type netsuite.massupdatescript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Mass Update Script"
 }
 type netsuite.massupdatescript_libraries_library {
   string scriptfile {

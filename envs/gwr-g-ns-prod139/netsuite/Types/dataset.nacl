@@ -19,6 +19,7 @@ type netsuite.dataset {
   }
   boolean nameTranslate {
   }
+  _alias = "Dataset"
 }
 type netsuite.dataset_dependencies {
   "List<string>" dependency {

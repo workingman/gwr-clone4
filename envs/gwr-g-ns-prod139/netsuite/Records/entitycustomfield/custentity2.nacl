@@ -40,4 +40,5 @@ netsuite.entitycustomfield custentity2 {
       }
     }
   }
+  _alias = "CreatedUsingCodeEDITED (2)"
 }

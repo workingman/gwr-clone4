@@ -131,6 +131,7 @@ type netsuite.savedsearch {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Saved Search"
 }
 type netsuite.savedsearch_dependencies {
   "List<string>" dependency {

@@ -12,4 +12,5 @@ netsuite.account Prepaid_Income_Taxes@s {
   revalue = false
   identifier = "Prepaid Income Taxes"
   custom_custrecord_acct_special = false
+  _alias = "Prepaid Income Taxes"
 }

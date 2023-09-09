@@ -12,4 +12,5 @@ netsuite.account Taxes___Licenses_Other@sesb {
   revalue = false
   identifier = "Taxes & Licenses-Other"
   custom_custrecord_acct_special = false
+  _alias = "Taxes & Licenses-Other"
 }

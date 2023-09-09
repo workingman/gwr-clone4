@@ -30,4 +30,5 @@ netsuite.entitycustomfield custentityproduct_type {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Product Type"
 }

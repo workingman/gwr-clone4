@@ -12,4 +12,5 @@ netsuite.account Inventory {
   revalue = false
   identifier = "Inventory"
   custom_custrecord_acct_special = false
+  _alias = "Inventory"
 }

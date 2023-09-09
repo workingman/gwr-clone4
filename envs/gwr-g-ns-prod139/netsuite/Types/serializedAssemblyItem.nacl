@@ -480,4 +480,5 @@ type netsuite.serializedAssemblyItem {
   }
   serviceid identifier {
   }
+  _alias = "Serialized Assembly Item"
 }

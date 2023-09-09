@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity19 {
   showinlist = false
   storevalue = true
   subtab = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
+  _alias = "Cust Field"
 }

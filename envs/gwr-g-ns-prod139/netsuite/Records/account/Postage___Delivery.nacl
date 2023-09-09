@@ -12,4 +12,5 @@ netsuite.account Postage___Delivery@ses {
   revalue = false
   identifier = "Postage & Delivery"
   custom_custrecord_acct_special = false
+  _alias = "Postage & Delivery"
 }

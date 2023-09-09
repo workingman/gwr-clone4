@@ -12,4 +12,5 @@ netsuite.account Automotive_Equipment@s {
   revalue = false
   identifier = "Automotive Equipment"
   custom_custrecord_acct_special = false
+  _alias = "Automotive Equipment"
 }

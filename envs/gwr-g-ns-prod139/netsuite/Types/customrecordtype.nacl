@@ -106,6 +106,7 @@ type netsuite.customrecordtype {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Custom Record Type"
 }
 type netsuite.customrecordtype_customrecordcustomfields_customrecordcustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

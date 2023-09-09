@@ -12,4 +12,5 @@ netsuite.account Freight___Delivery@ses {
   revalue = false
   identifier = "Freight & Delivery"
   custom_custrecord_acct_special = false
+  _alias = "Freight & Delivery"
 }

@@ -6,4 +6,5 @@ netsuite.folder SuiteScripts_feat1@d {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "feat1"
 }

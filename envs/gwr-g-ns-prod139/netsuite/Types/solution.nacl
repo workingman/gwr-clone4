@@ -36,4 +36,5 @@ type netsuite.solution {
   string externalId {
     isAttribute = true
   }
+  _alias = "Solution"
 }

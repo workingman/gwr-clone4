@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity16 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "custCreate17-08"
 }

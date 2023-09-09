@@ -36,4 +36,5 @@ netsuite.transactioncolumncustomfield custcol_gwr_return_reason {
   colinventoryadjustment = false
   coltransferorder = false
   colbuild = false
+  _alias = "GWR Return Reason"
 }

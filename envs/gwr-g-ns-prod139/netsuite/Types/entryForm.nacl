@@ -39,6 +39,7 @@ type netsuite.entryForm {
   
   string application_id {
   }
+  _alias = "Entry Form"
 }
 type netsuite.entryForm_actionbar_buttons_button {
   netsuite.entryform_buttonid id {

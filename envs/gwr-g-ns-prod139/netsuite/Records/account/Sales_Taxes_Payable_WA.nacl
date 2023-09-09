@@ -12,4 +12,5 @@ netsuite.account Sales_Taxes_Payable_WA@s {
   revalue = false
   identifier = "Sales Taxes Payable WA"
   custom_custrecord_acct_special = false
+  _alias = "Sales Taxes Payable WA"
 }

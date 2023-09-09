@@ -39,6 +39,7 @@ type netsuite.customtransactiontype {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Custom Transaction Type"
 }
 type netsuite.customtransactiontype_accounting {
   boolean specifyaccountontransaction {

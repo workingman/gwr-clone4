@@ -38,4 +38,5 @@ type netsuite.currency {
   string externalId {
     isAttribute = true
   }
+  _alias = "Currency"
 }

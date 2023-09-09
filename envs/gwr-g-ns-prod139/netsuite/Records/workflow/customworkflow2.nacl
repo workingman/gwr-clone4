@@ -20,4 +20,5 @@ Complexity: Low
   initcondition = {
     type = "VISUAL_BUILDER"
   }
+  _alias = "Journal Entry Basic Approval"
 }

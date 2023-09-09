@@ -66,4 +66,5 @@ netsuite.customsegment cseg1 {
       }
     }
   }
+  _alias = "Stam"
 }

@@ -17,4 +17,5 @@ netsuite.othercustomfield custrecord_acct_special {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Special"
 }

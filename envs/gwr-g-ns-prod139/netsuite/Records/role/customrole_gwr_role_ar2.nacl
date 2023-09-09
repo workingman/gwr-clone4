@@ -267,4 +267,5 @@ netsuite.role customrole_gwr_role_ar2 {
       }
     }
   }
+  _alias = "AAAAH!  Please don't give this role to Geoff"
 }

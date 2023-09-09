@@ -6,4 +6,5 @@ netsuite.folder SuiteScripts_gwr@d {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "gwr"
 }

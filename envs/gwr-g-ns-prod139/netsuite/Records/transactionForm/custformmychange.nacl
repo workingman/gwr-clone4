@@ -1544,6 +1544,9 @@ netsuite.transactionForm custformmychange {
         
         
         
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1714,16 +1717,7 @@ netsuite.transactionForm custformmychange {
                   
                   
                   
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 8
-                  }
+                  
                   
                   custbody_eshed_superfield = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
@@ -1733,8 +1727,15 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    
+                    index = 8
                   }
+                  
+                  
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -2231,4 +2232,5 @@ netsuite.transactionForm custformmychange {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "Custom Service Invoice (2)"
 }

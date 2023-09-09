@@ -12,4 +12,5 @@ netsuite.account Partner__1_Capital@sns {
   revalue = false
   identifier = "Partner #1 Capital"
   custom_custrecord_acct_special = false
+  _alias = "Partner #1 Capital"
 }

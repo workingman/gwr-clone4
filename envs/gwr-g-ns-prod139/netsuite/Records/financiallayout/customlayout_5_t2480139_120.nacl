@@ -693,4 +693,5 @@ netsuite.financiallayout customlayout_5_t2480139_120 {
     KEY_DEFAULT_FORMULA_STYLE = 11
     KEY_DEFAULT_TEXT_STYLE = 12
   }
+  _alias = "Custom Balance Sheet Layout(US)"
 }

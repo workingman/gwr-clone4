@@ -38,4 +38,5 @@ type netsuite.workbookbuilderplugin {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Workbook Builder Plugin"
 }

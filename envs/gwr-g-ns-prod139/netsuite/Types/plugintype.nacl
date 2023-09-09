@@ -48,6 +48,7 @@ type netsuite.plugintype {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Plugin Type"
 }
 type netsuite.plugintype_libraries_library {
   string scriptfile {

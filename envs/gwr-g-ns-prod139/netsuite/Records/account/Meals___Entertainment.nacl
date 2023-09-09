@@ -12,4 +12,5 @@ netsuite.account Meals___Entertainment@ses {
   revalue = false
   identifier = "Meals & Entertainment"
   custom_custrecord_acct_special = false
+  _alias = "Meals & Entertainment"
 }

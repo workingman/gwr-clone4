@@ -289,4 +289,5 @@ type netsuite.nonInventorySaleItem {
   }
   serviceid identifier {
   }
+  _alias = "Non-inventory Sale Item"
 }

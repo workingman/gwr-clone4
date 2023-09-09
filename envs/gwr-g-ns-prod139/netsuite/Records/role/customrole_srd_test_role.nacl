@@ -34,4 +34,5 @@ netsuite.role customrole_srd_test_role {
       }
     }
   }
+  _alias = "(SRD) Test Role"
 }

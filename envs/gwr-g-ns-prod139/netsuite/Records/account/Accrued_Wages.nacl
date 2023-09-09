@@ -12,4 +12,5 @@ netsuite.account Accrued_Wages@s {
   revalue = true
   identifier = "Accrued Wages"
   custom_custrecord_acct_special = false
+  _alias = "Accrued Wages"
 }

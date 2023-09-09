@@ -8,4 +8,5 @@ netsuite.advancedpdftemplate custtmpl_srd_opp_review {
   title = "SRD - opp review template"
   trantype = "CUSTINVC"
   content = file("netsuite/advancedpdftemplate/custtmpl_srd_opp_review.xml")
+  _alias = "SRD - opp review template"
 }

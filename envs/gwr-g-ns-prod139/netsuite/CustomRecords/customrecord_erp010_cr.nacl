@@ -195,4 +195,5 @@ type netsuite.customrecord_erp010_cr {
       }
     }
   }
+  _alias = "ERP 010 custom record"
 }

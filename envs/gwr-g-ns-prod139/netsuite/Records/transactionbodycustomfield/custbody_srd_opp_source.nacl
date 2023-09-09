@@ -38,4 +38,5 @@ netsuite.transactionbodycustomfield custbody_srd_opp_source {
   storevalue = true
   bodyassemblybuild = false
   bodybom = false
+  _alias = "SRD - Opportunity Source"
 }

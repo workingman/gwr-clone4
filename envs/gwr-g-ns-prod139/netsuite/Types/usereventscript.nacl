@@ -46,6 +46,7 @@ type netsuite.usereventscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "User Event Script"
 }
 type netsuite.usereventscript_customplugintypes_plugintype {
   string plugintype {

@@ -46,6 +46,7 @@ type netsuite.bundleinstallationscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Bundle Installation Script"
 }
 type netsuite.bundleinstallationscript_customplugintypes_plugintype {
   string plugintype {

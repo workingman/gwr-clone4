@@ -4,7 +4,7 @@ netsuite.transactionForm custform_srd_new_form_1 {
   name = "SRD - Custom Purchase Order - 1"
   recordType = "PURCHASEORDER"
   inactive = false
-  preferred = true
+  preferred = false
   mainFields = {
     fieldGroup = {
       primaryinformation = {
@@ -1342,6 +1342,9 @@ netsuite.transactionForm custform_srd_new_form_1 {
         
         
         
+        
+        
+        
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1477,16 +1480,7 @@ netsuite.transactionForm custform_srd_new_form_1 {
                   
                   
                   
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 8
-                  }
+                  
                   
                   custbody_eshed_superfield = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
@@ -1496,8 +1490,15 @@ netsuite.transactionForm custform_srd_new_form_1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    
+                    index = 8
                   }
+                  
+                  
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1969,4 +1970,5 @@ netsuite.transactionForm custform_srd_new_form_1 {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "SRD - Custom Purchase Order - 1"
 }

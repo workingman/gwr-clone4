@@ -127,4 +127,5 @@ netsuite.addressForm custform_7_2239021_592 {
   }
   addressTemplate = "abcEDITEDorder"
   countries = "AL|AX"
+  _alias = "Custom Address Form Gil for BFN Demo COMMON ?!"
 }

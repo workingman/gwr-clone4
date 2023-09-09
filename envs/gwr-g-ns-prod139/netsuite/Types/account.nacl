@@ -84,4 +84,5 @@ type netsuite.account {
   boolean custom_custrecord_acct_special {
     field_instance = netsuite.othercustomfield.instance.custrecord_acct_special.scriptid
   }
+  _alias = "Account"
 }

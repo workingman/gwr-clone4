@@ -55,4 +55,5 @@ netsuite.transactionbodycustomfield custbody_svb_vb_to_bell_dist_sched {
   }
   bodyassemblybuild = false
   bodybom = false
+  _alias = "VB header to Bill Distribution Schedule"
 }

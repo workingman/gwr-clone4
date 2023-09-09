@@ -4,4 +4,5 @@ netsuite.folder SuiteScripts {
   isinactive = false
   isprivate = false
   path = "/SuiteScripts"
+  _alias = "SuiteScripts"
 }

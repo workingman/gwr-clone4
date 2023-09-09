@@ -623,4 +623,5 @@ type netsuite.customrecord_svb_line_is_source_sub {
       }
     }
   }
+  _alias = "SVB | Bill Distribtn Sched Line"
 }

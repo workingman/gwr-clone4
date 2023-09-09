@@ -31,4 +31,5 @@ netsuite.employee Simon_Camilleri@s {
   custom_custentity_slt_e2e_test = false
   custom_custentitycust_active = false
   department = netsuite.department.instance.Technology
+  _alias = "Simon Camilleri"
 }

@@ -69,4 +69,5 @@ type netsuite.itemGroup {
   }
   serviceid identifier {
   }
+  _alias = "Item Group"
 }

@@ -30,4 +30,5 @@ type netsuite.department {
   }
   serviceid identifier {
   }
+  _alias = "Department"
 }

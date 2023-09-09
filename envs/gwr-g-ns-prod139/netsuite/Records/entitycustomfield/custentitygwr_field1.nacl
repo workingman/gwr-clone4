@@ -33,4 +33,5 @@ netsuite.entitycustomfield custentitygwr_field1 {
   showinlist = false
   storevalue = true
   subtab = "ENTITYACCESS"
+  _alias = "gwr_field1"
 }

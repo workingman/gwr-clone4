@@ -12,4 +12,5 @@ netsuite.account Sales_Discounts@s {
   revalue = false
   identifier = "Sales Discounts"
   custom_custrecord_acct_special = false
+  _alias = "Sales Discounts"
 }

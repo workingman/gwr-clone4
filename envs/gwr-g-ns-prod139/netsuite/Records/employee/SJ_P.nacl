@@ -30,4 +30,5 @@ netsuite.employee SJ_P@s {
   custom_custentity1 = "None"
   custom_custentity_slt_e2e_test = false
   custom_custentitycust_active = false
+  _alias = "SJ P"
 }

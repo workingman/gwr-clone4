@@ -77,4 +77,5 @@ type netsuite.markupItem {
   }
   serviceid identifier {
   }
+  _alias = "Markup Item"
 }

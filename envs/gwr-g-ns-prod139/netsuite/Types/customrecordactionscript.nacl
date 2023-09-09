@@ -40,6 +40,7 @@ type netsuite.customrecordactionscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Custom Record Action Script"
 }
 type netsuite.customrecordactionscript_customplugintypes_plugintype {
   string plugintype {

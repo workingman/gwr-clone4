@@ -141,4 +141,5 @@ type netsuite.giftCertificateItem {
   }
   serviceid identifier {
   }
+  _alias = "Gift Certificate Item"
 }

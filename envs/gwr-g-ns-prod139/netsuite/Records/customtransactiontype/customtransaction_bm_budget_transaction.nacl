@@ -48,4 +48,5 @@ netsuite.customtransactiontype customtransaction_bm_budget_transaction {
       }
     }
   }
+  _alias = "Custom Budget"
 }

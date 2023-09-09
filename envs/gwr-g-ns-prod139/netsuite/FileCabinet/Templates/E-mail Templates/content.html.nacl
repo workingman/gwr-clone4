@@ -10,4 +10,5 @@ netsuite.file Templates_E_mail_Templates_content_html@dbsdv {
   _parent = [
     netsuite.folder.instance.Templates_E_mail_Templates@dbs,
   ]
+  _alias = "content.html"
 }

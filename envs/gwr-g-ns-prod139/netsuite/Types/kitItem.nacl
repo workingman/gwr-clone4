@@ -265,4 +265,5 @@ type netsuite.kitItem {
   }
   serviceid identifier {
   }
+  _alias = "Kit Item"
 }

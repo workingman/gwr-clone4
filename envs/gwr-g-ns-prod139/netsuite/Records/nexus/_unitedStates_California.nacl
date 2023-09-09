@@ -6,4 +6,5 @@ netsuite.nexus _unitedStates_California {
   }
   description = "United States CA"
   identifier = "_unitedStates_California"
+  _alias = "_unitedStates_California"
 }

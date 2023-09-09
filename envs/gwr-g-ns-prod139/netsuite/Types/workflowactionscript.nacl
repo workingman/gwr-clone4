@@ -46,6 +46,7 @@ type netsuite.workflowactionscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Workflow Action Script"
 }
 type netsuite.workflowactionscript_customplugintypes_plugintype {
   string plugintype {

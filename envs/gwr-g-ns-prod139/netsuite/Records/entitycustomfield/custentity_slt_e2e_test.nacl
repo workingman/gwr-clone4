@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity_slt_e2e_test {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "created by oss e2e - 8060213"
 }

@@ -29,4 +29,5 @@ netsuite.customlist customlist_flo_license_type {
       }
     }
   }
+  _alias = "License Type"
 }

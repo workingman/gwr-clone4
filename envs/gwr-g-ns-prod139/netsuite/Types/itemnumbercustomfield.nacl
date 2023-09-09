@@ -92,6 +92,7 @@ type netsuite.itemnumbercustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Item Number Custom Field"
 }
 type netsuite.itemnumbercustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

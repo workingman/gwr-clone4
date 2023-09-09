@@ -220,4 +220,5 @@ type netsuite.customrecord2652 {
       }
     }
   }
+  _alias = "Update PO_Sample"
 }

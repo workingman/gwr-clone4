@@ -25,6 +25,7 @@ type netsuite.workbook {
   }
   boolean nameTranslate {
   }
+  _alias = "Workbook"
 }
 type netsuite.workbook_charts_chart {
   serviceid scriptid {

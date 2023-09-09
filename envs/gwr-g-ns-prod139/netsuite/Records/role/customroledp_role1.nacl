@@ -24,6 +24,15 @@ netsuite.role customroledp_role1 {
         permkey = "LIST_OTHER_ADDRESS"
         permlevel = "FULL"
       }
+      TRAN_AUDIT = {
+        permkey = "TRAN_AUDIT"
+        permlevel = "FULL"
+      }
+      TRAN_PURCHORDBILL = {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "FULL"
+      }
     }
   }
+  _alias = "DP Role 1"
 }

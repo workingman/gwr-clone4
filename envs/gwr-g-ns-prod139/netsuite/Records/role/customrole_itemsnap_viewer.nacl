@@ -274,4 +274,5 @@ netsuite.role customrole_itemsnap_viewer {
       }
     }
   }
+  _alias = "Snapshot Viewer"
 }

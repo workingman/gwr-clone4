@@ -22,4 +22,5 @@ netsuite.customlist customlist_erp010_cr_list {
       }
     }
   }
+  _alias = "ERP 010 field rec values"
 }

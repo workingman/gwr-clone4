@@ -12,4 +12,5 @@ netsuite.account Depreciation_Expense@s {
   revalue = false
   identifier = "Depreciation Expense"
   custom_custrecord_acct_special = false
+  _alias = "Depreciation Expense"
 }

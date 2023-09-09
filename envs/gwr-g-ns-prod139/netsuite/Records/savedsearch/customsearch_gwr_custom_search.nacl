@@ -119,4 +119,5 @@ netsuite.savedsearch customsearch_gwr_custom_search {
   FLAG_SHOW_AUDIT_TRAIL = false
   FIELD_EMAIL_SUBJECT = "OMG New Record 20220901"
   FIELD_EMAIL_COMMENT = "20220901 hard to find string"
+  _alias = "GWR Customer Search"
 }

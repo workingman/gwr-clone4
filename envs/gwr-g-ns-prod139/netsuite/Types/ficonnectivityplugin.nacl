@@ -38,4 +38,5 @@ type netsuite.ficonnectivityplugin {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Financial Institution Connectivity Plugin"
 }

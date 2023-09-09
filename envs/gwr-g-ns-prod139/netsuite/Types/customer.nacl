@@ -343,4 +343,5 @@ type netsuite.customer {
     select_type_id = netsuite.customlist.instance.customlistcustomer_tiers.scriptid
     field_instance = netsuite.entitycustomfield.instance.custentitytier.scriptid
   }
+  _alias = "Customer"
 }

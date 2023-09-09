@@ -172,4 +172,5 @@ netsuite.customsegment csegcseg_rg_seg_cc {
       }
     }
   }
+  _alias = "Cost Center"
 }

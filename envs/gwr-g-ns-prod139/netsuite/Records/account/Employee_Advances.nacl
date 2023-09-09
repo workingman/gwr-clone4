@@ -12,4 +12,5 @@ netsuite.account Employee_Advances@s {
   revalue = false
   identifier = "Employee Advances"
   custom_custrecord_acct_special = false
+  _alias = "Employee Advances"
 }

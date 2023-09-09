@@ -195,4 +195,5 @@ netsuite.role customrole1014 {
       }
     }
   }
+  _alias = "Custom Employee Center"
 }

@@ -16,6 +16,7 @@ netsuite.subsidiary Parent_Company_GWR_Subsidiary1@sus {
         netsuite.customFieldRef.instance.subsidiary_customField_55,
       ]
     }
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   isElimination = false
   currency = netsuite.currency.instance.USA
@@ -33,4 +34,6 @@ netsuite.subsidiary Parent_Company_GWR_Subsidiary1@sus {
     id = "[ACCOUNT_SPECIFIC_VALUE]"
   }
   identifier = "Parent Company_GWR Subsidiary1"
+  tranPrefix = "GWR-"
+  _alias = "GWR Subsidiary1"
 }

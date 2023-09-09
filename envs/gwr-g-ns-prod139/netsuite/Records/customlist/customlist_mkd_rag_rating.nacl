@@ -28,6 +28,14 @@ netsuite.customlist customlist_mkd_rag_rating {
         value = "Green"
         index = 2
       }
+      val_55757_t2480139_260 = {
+        scriptid = "val_55757_t2480139_260"
+        abbreviation = "T"
+        isinactive = false
+        value = "Test"
+        index = 3
+      }
     }
   }
+  _alias = "RAG Rating"
 }

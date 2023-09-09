@@ -12,4 +12,5 @@ netsuite.account Commissions_Payable@s {
   revalue = true
   identifier = "Commissions Payable"
   custom_custrecord_acct_special = false
+  _alias = "Commissions Payable"
 }

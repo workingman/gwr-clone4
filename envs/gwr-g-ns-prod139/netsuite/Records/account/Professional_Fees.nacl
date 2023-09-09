@@ -12,4 +12,5 @@ netsuite.account Professional_Fees@s {
   revalue = false
   identifier = "Professional Fees"
   custom_custrecord_acct_special = false
+  _alias = "Professional Fees"
 }

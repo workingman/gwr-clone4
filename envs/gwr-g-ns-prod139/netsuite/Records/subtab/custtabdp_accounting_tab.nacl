@@ -3,4 +3,5 @@ netsuite.subtab custtabdp_accounting_tab {
   parent = "TRANSACTIONACCOUNTING"
   tabtype = "TRANSACTION"
   title = "DP Accounting"
+  _alias = "DP Accounting"
 }

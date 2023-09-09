@@ -139,4 +139,5 @@ type netsuite.customrecord_cseg_nbc {
     }
   }
   metadataType = "customrecordtype"
+  _alias = "Nearest Big City"
 }

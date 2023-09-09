@@ -25,4 +25,5 @@ netsuite.workflow customworkflow_dp_email_test {
       }
     }
   }
+  _alias = "DP_Email_Test"
 }

@@ -12,4 +12,5 @@ netsuite.account Utilities {
   revalue = false
   identifier = "Utilities"
   custom_custrecord_acct_special = false
+  _alias = "Utilities"
 }

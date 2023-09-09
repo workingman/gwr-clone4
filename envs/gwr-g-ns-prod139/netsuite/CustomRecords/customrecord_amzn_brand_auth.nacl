@@ -334,4 +334,5 @@ type netsuite.customrecord_amzn_brand_auth {
       }
     }
   }
+  _alias = "Amazon Brand Authorisation"
 }

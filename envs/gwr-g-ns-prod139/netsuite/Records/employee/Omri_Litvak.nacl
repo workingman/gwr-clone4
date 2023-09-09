@@ -37,4 +37,5 @@ netsuite.employee Omri_Litvak@s {
   targetUtilization = 100
   custom_custentity_slt_e2e_test = false
   custom_custentitycust_active = false
+  _alias = "Omri Litvak"
 }

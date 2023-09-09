@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity10 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "createdByTestWithOwner3 (2)"
 }

@@ -132,4 +132,5 @@ netsuite.companyPreferences {
     value = "-4"
     text = "Images"
   }
+  _alias = "Company Preferences"
 }

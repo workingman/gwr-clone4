@@ -195,4 +195,5 @@ type netsuite.customrecord_erp012_cr {
       }
     }
   }
+  _alias = "Feat 1 Custom Record (2)"
 }

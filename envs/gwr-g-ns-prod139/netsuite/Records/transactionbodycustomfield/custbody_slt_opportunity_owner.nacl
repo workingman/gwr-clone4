@@ -52,4 +52,5 @@ netsuite.transactionbodycustomfield custbody_slt_opportunity_owner {
   bodytransferorder = false
   bodyassemblybuild = false
   bodybom = false
+  _alias = "Opportunity owner"
 }

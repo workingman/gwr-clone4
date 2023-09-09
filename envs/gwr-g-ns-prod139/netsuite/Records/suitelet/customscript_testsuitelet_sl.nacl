@@ -43,4 +43,5 @@ netsuite.suitelet customscript_testsuitelet_sl {
       }
     }
   }
+  _alias = "test-suitelet-sl"
 }

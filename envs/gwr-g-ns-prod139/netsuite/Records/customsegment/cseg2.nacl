@@ -22,4 +22,5 @@ netsuite.customsegment cseg2 {
       }
     }
   }
+  _alias = "Region"
 }

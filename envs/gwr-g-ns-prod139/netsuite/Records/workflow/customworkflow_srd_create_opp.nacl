@@ -104,4 +104,5 @@ netsuite.workflow customworkflow_srd_create_opp {
       }
     }
   }
+  _alias = "SRD - create new opp"
 }

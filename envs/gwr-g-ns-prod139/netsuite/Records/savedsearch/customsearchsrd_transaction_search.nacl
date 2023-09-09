@@ -252,4 +252,5 @@ netsuite.savedsearch customsearchsrd_transaction_search {
   FLAG_BUILT_IN = false
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "srd - transaction search"
 }

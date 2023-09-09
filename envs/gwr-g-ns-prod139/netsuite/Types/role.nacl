@@ -60,6 +60,7 @@ type netsuite.role {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Role"
 }
 type netsuite.role_permissions_permission {
   string permkey {

@@ -264,4 +264,5 @@ type netsuite.customrecord2653 {
       }
     }
   }
+  _alias = "SKU Details_Sample"
 }

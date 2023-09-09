@@ -36,4 +36,5 @@ netsuite.employee Salto_User@s {
   targetUtilization = 100
   custom_custentity_slt_e2e_test = false
   custom_custentitycust_active = false
+  _alias = "Salto User"
 }

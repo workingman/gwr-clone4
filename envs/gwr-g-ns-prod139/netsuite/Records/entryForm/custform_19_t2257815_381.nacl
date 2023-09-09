@@ -2075,4 +2075,5 @@ netsuite.entryForm custform_19_t2257815_381 {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "Salto Demo Form"
 }

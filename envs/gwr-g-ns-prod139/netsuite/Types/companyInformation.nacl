@@ -107,4 +107,5 @@ settings netsuite.companyInformation {
     _required = true
     _hidden_value = true
   }
+  _alias = "Company Information"
 }

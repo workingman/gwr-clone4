@@ -169,4 +169,5 @@ netsuite.customlist customlist_flo_event_type {
       }
     }
   }
+  _alias = "Event Type"
 }

@@ -477,6 +477,7 @@ netsuite.accountingPreferences {
     value = "SOAP"
     text = ""
   }
-  ENABLEVIRTUALCARDOPTIMIZATION = true
+  ENABLEVIRTUALCARDOPTIMIZATION = false
   INITIALCOSTINGQUEUEMAXSIZE = 500000
+  _alias = "Accounting Preferences"
 }

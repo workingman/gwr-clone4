@@ -134,4 +134,5 @@ netsuite.role customrole1005 {
       }
     }
   }
+  _alias = "Integration"
 }

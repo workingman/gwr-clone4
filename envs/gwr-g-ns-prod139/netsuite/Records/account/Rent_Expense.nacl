@@ -12,4 +12,5 @@ netsuite.account Rent_Expense@s {
   revalue = false
   identifier = "Rent Expense"
   custom_custrecord_acct_special = false
+  _alias = "Rent Expense"
 }

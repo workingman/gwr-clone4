@@ -24,4 +24,5 @@ netsuite.usereventscript customscript107 {
       }
     }
   }
+  _alias = "CustomerValidation"
 }

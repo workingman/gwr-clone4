@@ -12,4 +12,5 @@ netsuite.account Less_Long_Term_Portion@sbs {
   revalue = true
   identifier = "Less Long-Term Portion"
   custom_custrecord_acct_special = false
+  _alias = "Less Long-Term Portion"
 }

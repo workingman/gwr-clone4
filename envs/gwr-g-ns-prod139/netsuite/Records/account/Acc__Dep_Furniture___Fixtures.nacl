@@ -12,4 +12,5 @@ netsuite.account Acc__Dep_Furniture___Fixtures@vsbses {
   revalue = false
   identifier = "Acc. Dep-Furniture & Fixtures"
   custom_custrecord_acct_special = false
+  _alias = "Acc. Dep-Furniture & Fixtures"
 }

@@ -53,6 +53,7 @@ type netsuite.transactionForm {
   
   string application_id {
   }
+  _alias = "Transaction Form"
 }
 type netsuite.transactionForm_actionbar_buttons_button {
   netsuite.transactionform_buttonid id {

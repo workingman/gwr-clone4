@@ -38,4 +38,5 @@ netsuite.transactionbodycustomfield custbodybundle_type {
   bodytransferorder = true
   bodyassemblybuild = false
   bodybom = false
+  _alias = "Bundle Type"
 }

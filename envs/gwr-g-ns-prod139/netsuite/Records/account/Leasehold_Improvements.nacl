@@ -12,4 +12,5 @@ netsuite.account Leasehold_Improvements@s {
   revalue = false
   identifier = "Leasehold Improvements"
   custom_custrecord_acct_special = false
+  _alias = "Leasehold Improvements"
 }

@@ -31,4 +31,5 @@ netsuite.entitycustomfield custentity_15 {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Checkbox Field 15"
 }

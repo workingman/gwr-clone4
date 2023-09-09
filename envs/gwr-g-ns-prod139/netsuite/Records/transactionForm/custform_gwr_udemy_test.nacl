@@ -367,6 +367,9 @@ netsuite.transactionForm custform_gwr_udemy_test {
         
         
         
+        
+        
+        
       }
       TRANSACTIONCOMMUNICATION = {
         id = "TRANSACTIONCOMMUNICATION"
@@ -1163,16 +1166,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                   
                   
                   
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 7
-                  }
+                  
                   
                   custbody_eshed_superfield = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
@@ -1182,8 +1176,15 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    
+                    index = 7
                   }
+                  
+                  
+                  
+                  
+                  
+                  
                 }
                 index = 0
               }
@@ -1528,4 +1529,5 @@ netsuite.transactionForm custform_gwr_udemy_test {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
+  _alias = "GWR Custom Online Order - Invoice"
 }

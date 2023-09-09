@@ -211,4 +211,5 @@ type netsuite.otherChargeResaleItem {
   }
   serviceid identifier {
   }
+  _alias = "Other Charge Resale Item"
 }

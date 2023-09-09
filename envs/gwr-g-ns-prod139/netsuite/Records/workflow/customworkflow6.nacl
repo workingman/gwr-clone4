@@ -48,4 +48,5 @@ netsuite.workflow customworkflow6 {
       }
     }
   }
+  _alias = "Approve Currency changes"
 }

@@ -195,4 +195,5 @@ netsuite.role customrole_test_emp {
       }
     }
   }
+  _alias = "Test Emp Centre"
 }

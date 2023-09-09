@@ -22,6 +22,7 @@ type netsuite.centercategory {
   }
   boolean labelTranslate {
   }
+  _alias = "Center Category"
 }
 type netsuite.centercategory_links_link {
   netsuite.generic_task linkid {

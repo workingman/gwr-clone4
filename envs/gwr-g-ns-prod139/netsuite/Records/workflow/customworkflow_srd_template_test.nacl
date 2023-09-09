@@ -503,4 +503,5 @@ Complexity: Low
       }
     }
   }
+  _alias = "SRD - Template Test"
 }

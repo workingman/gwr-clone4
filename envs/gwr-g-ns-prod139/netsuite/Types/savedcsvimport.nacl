@@ -60,6 +60,7 @@ type netsuite.savedcsvimport {
   
   string application_id {
   }
+  _alias = "Saved CSV Import"
 }
 type netsuite.savedcsvimport_audience {
   boolean ispublic {

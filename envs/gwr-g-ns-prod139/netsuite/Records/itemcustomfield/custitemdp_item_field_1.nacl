@@ -32,4 +32,5 @@ netsuite.itemcustomfield custitemdp_item_field_1 {
   showinlist = false
   storevalue = true
   appliestoitemassembly = false
+  _alias = "DP Field 1"
 }

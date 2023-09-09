@@ -234,4 +234,5 @@ netsuite.savedsearch customsearch_emp_internalid {
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
   KEY_AUDIENCE = 218
+  _alias = "Employee Number 8"
 }

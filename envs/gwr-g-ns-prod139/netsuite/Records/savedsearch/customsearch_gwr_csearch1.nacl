@@ -126,4 +126,5 @@ netsuite.savedsearch customsearch_gwr_csearch1 {
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
   KEY_AUDIENCE = 0
+  _alias = "GWR Custom Employee Search"
 }

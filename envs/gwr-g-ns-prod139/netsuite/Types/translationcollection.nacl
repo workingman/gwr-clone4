@@ -21,6 +21,7 @@ type netsuite.translationcollection {
   }
   boolean nameTranslate {
   }
+  _alias = "Translation Collection"
 }
 type netsuite.translationcollection_strings_string {
   serviceid scriptid {

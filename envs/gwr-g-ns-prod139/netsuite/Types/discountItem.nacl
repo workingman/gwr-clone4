@@ -77,4 +77,5 @@ type netsuite.discountItem {
   }
   serviceid identifier {
   }
+  _alias = "Discount Item"
 }

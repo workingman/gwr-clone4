@@ -60,6 +60,7 @@ type netsuite.clientscript {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Client Script"
 }
 type netsuite.clientscript_buttons_button {
   string buttonlabel {

@@ -120,6 +120,7 @@ type netsuite.itemcustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Item Custom Field"
 }
 type netsuite.itemcustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

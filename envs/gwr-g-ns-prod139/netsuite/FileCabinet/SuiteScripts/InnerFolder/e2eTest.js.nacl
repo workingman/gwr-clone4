@@ -10,4 +10,5 @@ netsuite.file SuiteScripts_InnerFolder_e2eTest_js@ddv {
   _parent = [
     netsuite.folder.instance.SuiteScripts_InnerFolder@d,
   ]
+  _alias = "e2eTest.js"
 }

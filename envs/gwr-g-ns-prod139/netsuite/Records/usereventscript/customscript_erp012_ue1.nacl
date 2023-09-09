@@ -23,4 +23,5 @@ netsuite.usereventscript customscript_erp012_ue1 {
       }
     }
   }
+  _alias = "ERP 010 UE One"
 }

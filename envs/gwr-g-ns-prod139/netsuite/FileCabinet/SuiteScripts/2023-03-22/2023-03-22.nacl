@@ -6,4 +6,5 @@ netsuite.folder SuiteScripts_2023_03_22@dbb {
   _parent = [
     netsuite.folder.instance.SuiteScripts,
   ]
+  _alias = "2023-03-22"
 }

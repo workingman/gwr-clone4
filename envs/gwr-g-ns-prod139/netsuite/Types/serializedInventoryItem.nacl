@@ -487,4 +487,5 @@ type netsuite.serializedInventoryItem {
   }
   serviceid identifier {
   }
+  _alias = "Serialized Inventory Item"
 }

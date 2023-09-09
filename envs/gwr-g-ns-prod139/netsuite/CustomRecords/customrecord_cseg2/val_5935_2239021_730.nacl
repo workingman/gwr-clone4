@@ -2,4 +2,5 @@ netsuite.customrecord_cseg2 val_5935_2239021_730 {
   scriptid = "val_5935_2239021_730"
   isInactive = false
   name = "APAC"
+  _alias = "APAC"
 }

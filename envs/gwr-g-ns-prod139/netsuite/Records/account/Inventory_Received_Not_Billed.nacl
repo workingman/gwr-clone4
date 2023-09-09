@@ -12,4 +12,5 @@ netsuite.account Inventory_Received_Not_Billed@s {
   revalue = true
   identifier = "Inventory Received Not Billed"
   custom_custrecord_acct_special = false
+  _alias = "Inventory Received Not Billed"
 }

@@ -216,4 +216,5 @@ netsuite.companyFeatures {
   TELEPHONY = false
   SUITEAPPCONTROLCENTER = false
   SHIPPINGPARTNERS = false
+  _alias = "Company Features"
 }

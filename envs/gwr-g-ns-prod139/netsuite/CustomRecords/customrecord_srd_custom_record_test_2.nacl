@@ -184,4 +184,5 @@ type netsuite.customrecord_srd_custom_record_test_2 {
       }
     }
   }
+  _alias = "srd - custom record 2"
 }

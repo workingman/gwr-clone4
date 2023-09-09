@@ -35,4 +35,5 @@ type netsuite.bankstatementparserplugin {
   
   string application_id {
   }
+  _alias = "Bank Statement Parser Plugin"
 }

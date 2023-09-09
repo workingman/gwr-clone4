@@ -12,4 +12,5 @@ netsuite.account Purchase_Orders@s {
   revalue = false
   identifier = "Purchase Orders"
   custom_custrecord_acct_special = false
+  _alias = "Purchase Orders"
 }

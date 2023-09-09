@@ -32,4 +32,5 @@ netsuite.entitycustomfield custentity6 {
   showinlist = false
   storevalue = true
   
+  _alias = "CreatedUsingCode8_3"
 }

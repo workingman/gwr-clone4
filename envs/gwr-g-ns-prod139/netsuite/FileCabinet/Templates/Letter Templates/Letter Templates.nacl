@@ -7,4 +7,5 @@ netsuite.folder Templates_Letter_Templates@ds {
   _parent = [
     netsuite.folder.instance.Templates,
   ]
+  _alias = "Letter Templates"
 }

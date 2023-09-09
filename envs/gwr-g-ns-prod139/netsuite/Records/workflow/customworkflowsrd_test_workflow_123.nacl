@@ -33,4 +33,5 @@ netsuite.workflow customworkflowsrd_test_workflow_123 {
       }
     }
   }
+  _alias = "SRD - Test Workflow"
 }

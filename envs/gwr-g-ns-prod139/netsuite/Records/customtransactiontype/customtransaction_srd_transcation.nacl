@@ -46,4 +46,5 @@ netsuite.customtransactiontype customtransaction_srd_transcation {
       }
     }
   }
+  _alias = "SRD transaction"
 }

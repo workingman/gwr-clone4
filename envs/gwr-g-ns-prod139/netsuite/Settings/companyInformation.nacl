@@ -34,9 +34,10 @@ netsuite.companyInformation {
     value = "1"
     text = "Standard Fiscal Calendar"
   }
-  lastmodifieddate = "8/16/2021 7:39 am"
+  lastmodifieddate = "8/15/2023 10:27 pm"
   
   restleturl = "https://tstdrv2480139.restlets.api.netsuite.com"
   iselimination = false
   displaylogointernally = false
+  _alias = "Company Information"
 }

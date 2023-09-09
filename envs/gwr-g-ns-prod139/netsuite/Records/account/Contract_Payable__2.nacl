@@ -12,4 +12,5 @@ netsuite.account Contract_Payable__2@ssn {
   revalue = true
   identifier = "Contract Payable #2"
   custom_custrecord_acct_special = false
+  _alias = "Contract Payable #2"
 }

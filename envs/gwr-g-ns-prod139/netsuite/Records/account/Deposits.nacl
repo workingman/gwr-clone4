@@ -12,4 +12,5 @@ netsuite.account Deposits {
   revalue = false
   identifier = "Deposits"
   custom_custrecord_acct_special = false
+  _alias = "Deposits"
 }

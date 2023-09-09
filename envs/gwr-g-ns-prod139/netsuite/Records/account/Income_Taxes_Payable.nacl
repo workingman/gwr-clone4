@@ -12,4 +12,5 @@ netsuite.account Income_Taxes_Payable@s {
   revalue = true
   identifier = "Income Taxes Payable"
   custom_custrecord_acct_special = false
+  _alias = "Income Taxes Payable"
 }

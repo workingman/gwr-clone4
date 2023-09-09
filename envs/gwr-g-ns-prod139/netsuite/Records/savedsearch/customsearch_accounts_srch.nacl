@@ -143,4 +143,5 @@ netsuite.savedsearch customsearch_accounts_srch {
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
   KEY_AUDIENCE = 0
+  _alias = "ACCOUNTS"
 }

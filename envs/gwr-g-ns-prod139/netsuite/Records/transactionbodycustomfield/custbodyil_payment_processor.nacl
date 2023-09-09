@@ -40,4 +40,5 @@ netsuite.transactionbodycustomfield custbodyil_payment_processor {
   bodytransferorder = false
   bodyassemblybuild = false
   bodybom = false
+  _alias = "IL Payment Processor"
 }

@@ -37,4 +37,5 @@ netsuite.customlist customlistpayment_processor {
       }
     }
   }
+  _alias = "Payment Processor"
 }

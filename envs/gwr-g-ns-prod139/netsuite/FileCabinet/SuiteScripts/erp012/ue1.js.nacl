@@ -9,4 +9,5 @@ netsuite.file SuiteScripts_erp012_ue1_js@ddv {
   _parent = [
     netsuite.folder.instance.SuiteScripts_erp012@d,
   ]
+  _alias = "ue1.js"
 }

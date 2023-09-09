@@ -63,9 +63,7 @@ netsuite {
             "^custimport[^_]*",
           ]
         },
-        {
-          name = "reportdefinition"
-        },
+
         {
           name = "workbook"
         },

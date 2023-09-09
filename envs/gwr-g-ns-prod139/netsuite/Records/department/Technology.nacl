@@ -6,4 +6,5 @@ netsuite.department Technology {
     netsuite.subsidiary.instance.Parent_Company@s,
   ]
   identifier = "Technology"
+  _alias = "Technology"
 }

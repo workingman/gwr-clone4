@@ -38,4 +38,5 @@ netsuite.transactionbodycustomfield custbody_srd_translated_field {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "SRD Translated field"
 }

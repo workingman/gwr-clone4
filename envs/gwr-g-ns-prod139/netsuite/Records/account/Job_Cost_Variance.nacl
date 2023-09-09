@@ -12,4 +12,5 @@ netsuite.account Job_Cost_Variance@s {
   revalue = false
   identifier = "Job Cost Variance"
   custom_custrecord_acct_special = false
+  _alias = "Job Cost Variance"
 }

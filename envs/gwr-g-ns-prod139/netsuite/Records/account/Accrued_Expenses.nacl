@@ -12,4 +12,5 @@ netsuite.account Accrued_Expenses@s {
   revalue = true
   identifier = "Accrued Expenses"
   custom_custrecord_acct_special = false
+  _alias = "Accrued Expenses"
 }

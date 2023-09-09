@@ -343,4 +343,5 @@ type netsuite.customrecord_supp_pay_terms {
       }
     }
   }
+  _alias = "Supplier Payment Terms"
 }

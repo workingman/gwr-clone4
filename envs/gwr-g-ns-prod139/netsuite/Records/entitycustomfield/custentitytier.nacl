@@ -33,4 +33,5 @@ netsuite.entitycustomfield custentitytier {
   showhierarchy = false
   showinlist = false
   storevalue = true
+  _alias = "Tier in english"
 }

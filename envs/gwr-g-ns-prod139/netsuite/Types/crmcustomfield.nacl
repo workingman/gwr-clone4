@@ -116,6 +116,7 @@ type netsuite.crmcustomfield {
   string internalId {
     _hidden_value = true
   }
+  _alias = "CRM Custom Field"
 }
 type netsuite.crmcustomfield_customfieldfilters_customfieldfilter {
   string fldfilter {

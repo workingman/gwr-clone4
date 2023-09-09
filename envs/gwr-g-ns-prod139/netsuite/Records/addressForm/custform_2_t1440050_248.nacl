@@ -134,4 +134,5 @@ netsuite.addressForm custform_2_t1440050_248 {
 <country>
 '''
   countries = "US"
+  _alias = "Custom Address Form"
 }

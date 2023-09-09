@@ -41,4 +41,5 @@ netsuite.transactionbodycustomfield custbody_svb_schedule_is_intercompany {
   subtab = "TRANSACTIONMAIN"
   bodyassemblybuild = false
   bodybom = false
+  _alias = "Schedule Is Intercompany"
 }

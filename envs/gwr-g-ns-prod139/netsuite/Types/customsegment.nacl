@@ -44,6 +44,7 @@ type netsuite.customsegment {
   string internalId {
     _hidden_value = true
   }
+  _alias = "Custom Segment"
 }
 type netsuite.customsegment_permissions_permission {
   string role {
