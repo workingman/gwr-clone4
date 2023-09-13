@@ -3,13 +3,12 @@
  * @NScriptType ClientScript
  * @NModuleScope SameAccount
  */
-// 20230912-223232
-
 define(['N/log'],
 /**
  * @param{log} log
  */
 function(log) {
+    // 20230912-223207
     /**
      * Function to be executed after page is initialized.
      *
@@ -22,6 +21,7 @@ function(log) {
     function pageInit(scriptContext) {
 
     }
+
     /**
      * Function to be executed when field is changed.
      *
