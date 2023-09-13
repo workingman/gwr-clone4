@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55950_t2257815_955 {
+  scriptid = "val_55950_t2257815_955"
+  isInactive = false
+  name = "Iowa-Ames"
+  _alias = "Iowa-Ames"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55762_t2257815_430 {
+  scriptid = "val_55762_t2257815_430"
+  isInactive = false
+  name = "Connecticut-Danbury"
+  _alias = "Connecticut-Danbury"
+}

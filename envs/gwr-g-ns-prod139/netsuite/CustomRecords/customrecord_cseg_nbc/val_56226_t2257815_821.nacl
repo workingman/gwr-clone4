@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56226_t2257815_821 {
+  scriptid = "val_56226_t2257815_821"
+  isInactive = false
+  name = "California-Lompoc"
+  _alias = "California-Lompoc"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55579_t2257815_688 {
+  scriptid = "val_55579_t2257815_688"
+  isInactive = false
+  name = "Texas-Waco"
+  _alias = "Texas-Waco"
+}

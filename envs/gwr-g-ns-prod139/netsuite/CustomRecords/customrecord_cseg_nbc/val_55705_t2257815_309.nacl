@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55705_t2257815_309 {
+  scriptid = "val_55705_t2257815_309"
+  isInactive = false
+  name = "Missouri-Lee's Summit"
+  _alias = "Missouri-Lee's Summit"
+}

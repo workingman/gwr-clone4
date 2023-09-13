@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56308_t2257815_358 {
+  scriptid = "val_56308_t2257815_358"
+  isInactive = false
+  name = "Wisconsin-New Berlin"
+  _alias = "Wisconsin-New Berlin"
+}

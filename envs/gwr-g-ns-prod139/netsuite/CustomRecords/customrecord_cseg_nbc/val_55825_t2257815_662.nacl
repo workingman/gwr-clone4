@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55825_t2257815_662 {
+  scriptid = "val_55825_t2257815_662"
+  isInactive = false
+  name = "Arkansas-Springdale"
+  _alias = "Arkansas-Springdale"
+}

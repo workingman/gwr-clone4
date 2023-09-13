@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56341_t2257815_825 {
+  scriptid = "val_56341_t2257815_825"
+  isInactive = false
+  name = "Washington-Puyallup"
+  _alias = "Washington-Puyallup"
+}

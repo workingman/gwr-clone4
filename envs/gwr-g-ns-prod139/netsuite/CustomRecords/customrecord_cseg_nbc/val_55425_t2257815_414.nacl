@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55425_t2257815_414 {
+  scriptid = "val_55425_t2257815_414"
+  isInactive = false
+  name = "North Carolina-Raleigh"
+  _alias = "North Carolina-Raleigh"
+}

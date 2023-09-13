@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55829_t2257815_974 {
+  scriptid = "val_55829_t2257815_974"
+  isInactive = false
+  name = "Washington-Auburn"
+  _alias = "Washington-Auburn"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56052_t2257815_253 {
+  scriptid = "val_56052_t2257815_253"
+  isInactive = false
+  name = "California-Hanford"
+  _alias = "California-Hanford"
+}

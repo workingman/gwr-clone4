@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56077_t2257815_971 {
+  scriptid = "val_56077_t2257815_971"
+  isInactive = false
+  name = "Arizona-Lake Havasu City"
+  _alias = "Arizona-Lake Havasu City"
+}

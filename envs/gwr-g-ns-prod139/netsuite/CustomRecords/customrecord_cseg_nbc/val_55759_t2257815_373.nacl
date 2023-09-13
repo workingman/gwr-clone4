@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55759_t2257815_373 {
+  scriptid = "val_55759_t2257815_373"
+  isInactive = false
+  name = "Illinois-Cicero"
+  _alias = "Illinois-Cicero"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55466_t2257815_674 {
+  scriptid = "val_55466_t2257815_674"
+  isInactive = false
+  name = "Texas-Lubbock"
+  _alias = "Texas-Lubbock"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55818_t2257815_740 {
+  scriptid = "val_55818_t2257815_740"
+  isInactive = false
+  name = "Georgia-Albany"
+  _alias = "Georgia-Albany"
+}

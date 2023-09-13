@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55424_t2257815_367 {
+  scriptid = "val_55424_t2257815_367"
+  isInactive = false
+  name = "Nebraska-Omaha"
+  _alias = "Nebraska-Omaha"
+}

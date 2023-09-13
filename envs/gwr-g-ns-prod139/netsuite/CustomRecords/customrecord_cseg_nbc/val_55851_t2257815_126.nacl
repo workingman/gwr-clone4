@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55851_t2257815_126 {
+  scriptid = "val_55851_t2257815_126"
+  isInactive = false
+  name = "Arkansas-Jonesboro"
+  _alias = "Arkansas-Jonesboro"
+}

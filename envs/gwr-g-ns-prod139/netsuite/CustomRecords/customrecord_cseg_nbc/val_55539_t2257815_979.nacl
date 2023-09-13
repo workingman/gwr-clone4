@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55539_t2257815_979 {
+  scriptid = "val_55539_t2257815_979"
+  isInactive = false
+  name = "California-Salinas"
+  _alias = "California-Salinas"
+}

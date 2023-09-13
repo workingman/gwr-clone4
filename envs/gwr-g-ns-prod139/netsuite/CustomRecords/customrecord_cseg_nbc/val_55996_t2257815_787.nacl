@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55996_t2257815_787 {
+  scriptid = "val_55996_t2257815_787"
+  isInactive = false
+  name = "Illinois-Orland Park"
+  _alias = "Illinois-Orland Park"
+}

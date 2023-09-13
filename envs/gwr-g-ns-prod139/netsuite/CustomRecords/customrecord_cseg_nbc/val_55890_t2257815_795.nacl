@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55890_t2257815_795 {
+  scriptid = "val_55890_t2257815_795"
+  isInactive = false
+  name = "Wisconsin-Eau Claire"
+  _alias = "Wisconsin-Eau Claire"
+}

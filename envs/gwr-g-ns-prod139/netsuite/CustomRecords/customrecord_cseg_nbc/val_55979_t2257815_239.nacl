@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55979_t2257815_239 {
+  scriptid = "val_55979_t2257815_239"
+  isInactive = false
+  name = "California-Rocklin"
+  _alias = "California-Rocklin"
+}

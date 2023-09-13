@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56267_t2257815_413 {
+  scriptid = "val_56267_t2257815_413"
+  isInactive = false
+  name = "California-Rohnert Park"
+  _alias = "California-Rohnert Park"
+}

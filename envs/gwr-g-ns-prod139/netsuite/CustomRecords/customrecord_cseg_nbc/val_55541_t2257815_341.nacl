@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55541_t2257815_341 {
+  scriptid = "val_55541_t2257815_341"
+  isInactive = false
+  name = "Texas-Pasadena"
+  _alias = "Texas-Pasadena"
+}

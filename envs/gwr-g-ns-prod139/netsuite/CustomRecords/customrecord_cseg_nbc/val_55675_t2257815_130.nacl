@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55675_t2257815_130 {
+  scriptid = "val_55675_t2257815_130"
+  isInactive = false
+  name = "Texas-College Station"
+  _alias = "Texas-College Station"
+}

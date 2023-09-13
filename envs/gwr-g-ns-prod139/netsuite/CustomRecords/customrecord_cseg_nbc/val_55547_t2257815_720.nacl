@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55547_t2257815_720 {
+  scriptid = "val_55547_t2257815_720"
+  isInactive = false
+  name = "Virginia-Alexandria"
+  _alias = "Virginia-Alexandria"
+}

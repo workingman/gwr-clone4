@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55506_t2257815_586 {
+  scriptid = "val_55506_t2257815_586"
+  isInactive = false
+  name = "Utah-Salt Lake City"
+  _alias = "Utah-Salt Lake City"
+}

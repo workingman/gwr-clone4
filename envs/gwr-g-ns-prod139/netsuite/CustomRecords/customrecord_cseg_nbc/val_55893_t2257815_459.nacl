@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55893_t2257815_459 {
+  scriptid = "val_55893_t2257815_459"
+  isInactive = false
+  name = "California-Yorba Linda"
+  _alias = "California-Yorba Linda"
+}

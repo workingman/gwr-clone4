@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55853_t2257815_650 {
+  scriptid = "val_55853_t2257815_650"
+  isInactive = false
+  name = "California-Lynwood"
+  _alias = "California-Lynwood"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56056_t2257815_740 {
+  scriptid = "val_56056_t2257815_740"
+  isInactive = false
+  name = "Idaho-Pocatello"
+  _alias = "Idaho-Pocatello"
+}

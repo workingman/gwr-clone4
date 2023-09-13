@@ -1,0 +1,7 @@
+netsuite.customrecord_csegcseg_rg_seg_cc val_9571055_6979138_216 {
+  scriptid = "val_9571055_6979138_216"
+  isInactive = false
+  parent = netsuite.customrecord_csegcseg_rg_seg_cc.instance.val_9569984_6979138_186
+  name = "1010 Management"
+  _alias = "1010 Management"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55677_t2257815_368 {
+  scriptid = "val_55677_t2257815_368"
+  isInactive = false
+  name = "Georgia-Sandy Springs"
+  _alias = "Georgia-Sandy Springs"
+}

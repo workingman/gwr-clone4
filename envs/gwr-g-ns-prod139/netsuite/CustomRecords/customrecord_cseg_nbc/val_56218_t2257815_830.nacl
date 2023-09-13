@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56218_t2257815_830 {
+  scriptid = "val_56218_t2257815_830"
+  isInactive = false
+  name = "Massachusetts-Pittsfield"
+  _alias = "Massachusetts-Pittsfield"
+}

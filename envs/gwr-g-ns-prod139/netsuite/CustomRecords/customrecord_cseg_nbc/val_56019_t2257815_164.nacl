@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56019_t2257815_164 {
+  scriptid = "val_56019_t2257815_164"
+  isInactive = false
+  name = "Maryland-Bowie"
+  _alias = "Maryland-Bowie"
+}

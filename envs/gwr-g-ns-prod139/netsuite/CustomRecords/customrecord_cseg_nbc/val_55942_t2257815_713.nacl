@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55942_t2257815_713 {
+  scriptid = "val_55942_t2257815_713"
+  isInactive = false
+  name = "Georgia-Alpharetta"
+  _alias = "Georgia-Alpharetta"
+}

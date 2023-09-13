@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55785_t2257815_363 {
+  scriptid = "val_55785_t2257815_363"
+  isInactive = false
+  name = "California-Redwood City"
+  _alias = "California-Redwood City"
+}

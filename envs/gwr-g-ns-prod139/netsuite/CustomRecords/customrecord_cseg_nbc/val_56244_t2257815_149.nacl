@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56244_t2257815_149 {
+  scriptid = "val_56244_t2257815_149"
+  isInactive = false
+  name = "California-Bell Gardens"
+  _alias = "California-Bell Gardens"
+}

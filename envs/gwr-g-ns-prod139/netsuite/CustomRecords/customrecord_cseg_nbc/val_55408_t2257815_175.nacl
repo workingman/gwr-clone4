@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55408_t2257815_175 {
+  scriptid = "val_55408_t2257815_175"
+  isInactive = false
+  name = "Maryland-Baltimore"
+  _alias = "Maryland-Baltimore"
+}

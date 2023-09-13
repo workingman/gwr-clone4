@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56381_t2257815_568 {
+  scriptid = "val_56381_t2257815_568"
+  isInactive = false
+  name = "Wisconsin-Beloit"
+  _alias = "Wisconsin-Beloit"
+}

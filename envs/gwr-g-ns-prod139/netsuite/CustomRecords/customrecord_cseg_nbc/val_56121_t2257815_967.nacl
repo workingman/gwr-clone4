@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56121_t2257815_967 {
+  scriptid = "val_56121_t2257815_967"
+  isInactive = false
+  name = "Minnesota-Apple Valley"
+  _alias = "Minnesota-Apple Valley"
+}

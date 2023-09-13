@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55532_t2257815_848 {
+  scriptid = "val_55532_t2257815_848"
+  isInactive = false
+  name = "Florida-Pembroke Pines"
+  _alias = "Florida-Pembroke Pines"
+}

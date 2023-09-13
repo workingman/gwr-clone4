@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56275_t2257815_455 {
+  scriptid = "val_56275_t2257815_455"
+  isInactive = false
+  name = "California-Brea"
+  _alias = "California-Brea"
+}

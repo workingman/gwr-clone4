@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55975_t2257815_640 {
+  scriptid = "val_55975_t2257815_640"
+  isInactive = false
+  name = "California-Gardena"
+  _alias = "California-Gardena"
+}

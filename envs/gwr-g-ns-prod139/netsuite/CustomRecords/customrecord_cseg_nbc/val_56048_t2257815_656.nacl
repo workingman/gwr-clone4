@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56048_t2257815_656 {
+  scriptid = "val_56048_t2257815_656"
+  isInactive = false
+  name = "Texas-Georgetown"
+  _alias = "Texas-Georgetown"
+}

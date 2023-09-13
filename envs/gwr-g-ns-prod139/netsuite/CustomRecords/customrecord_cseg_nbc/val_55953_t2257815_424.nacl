@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55953_t2257815_424 {
+  scriptid = "val_55953_t2257815_424"
+  isInactive = false
+  name = "Kentucky-Bowling Green"
+  _alias = "Kentucky-Bowling Green"
+}

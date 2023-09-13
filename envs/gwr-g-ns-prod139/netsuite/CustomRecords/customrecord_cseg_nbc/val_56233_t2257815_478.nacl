@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56233_t2257815_478 {
+  scriptid = "val_56233_t2257815_478"
+  isInactive = false
+  name = "New York-Freeport"
+  _alias = "New York-Freeport"
+}

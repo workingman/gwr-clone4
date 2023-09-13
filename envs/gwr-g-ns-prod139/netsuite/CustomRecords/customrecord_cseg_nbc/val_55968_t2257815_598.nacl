@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55968_t2257815_598 {
+  scriptid = "val_55968_t2257815_598"
+  isInactive = false
+  name = "Connecticut-Meriden"
+  _alias = "Connecticut-Meriden"
+}

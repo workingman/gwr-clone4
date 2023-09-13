@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55470_t2257815_521 {
+  scriptid = "val_55470_t2257815_521"
+  isInactive = false
+  name = "Texas-Garland"
+  _alias = "Texas-Garland"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55725_t2257815_377 {
+  scriptid = "val_55725_t2257815_377"
+  isInactive = false
+  name = "Georgia-Macon"
+  _alias = "Georgia-Macon"
+}

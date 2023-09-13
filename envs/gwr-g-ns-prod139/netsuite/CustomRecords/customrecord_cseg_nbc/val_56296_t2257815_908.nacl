@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56296_t2257815_908 {
+  scriptid = "val_56296_t2257815_908"
+  isInactive = false
+  name = "Illinois-Carol Stream"
+  _alias = "Illinois-Carol Stream"
+}

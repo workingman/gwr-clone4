@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55641_t2257815_236 {
+  scriptid = "val_55641_t2257815_236"
+  isInactive = false
+  name = "Colorado-Pueblo"
+  _alias = "Colorado-Pueblo"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55989_t2257815_623 {
+  scriptid = "val_55989_t2257815_623"
+  isInactive = false
+  name = "Washington-Lakewood"
+  _alias = "Washington-Lakewood"
+}

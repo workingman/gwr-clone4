@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56351_t2257815_875 {
+  scriptid = "val_56351_t2257815_875"
+  isInactive = false
+  name = "California-Montclair"
+  _alias = "California-Montclair"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55536_t2257815_873 {
+  scriptid = "val_55536_t2257815_873"
+  isInactive = false
+  name = "California-Corona"
+  _alias = "California-Corona"
+}

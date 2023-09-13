@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55988_t2257815_854 {
+  scriptid = "val_55988_t2257815_854"
+  isInactive = false
+  name = "Florida-North Port"
+  _alias = "Florida-North Port"
+}

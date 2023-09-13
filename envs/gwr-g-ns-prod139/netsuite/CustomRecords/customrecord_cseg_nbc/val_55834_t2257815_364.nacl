@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55834_t2257815_364 {
+  scriptid = "val_55834_t2257815_364"
+  isInactive = false
+  name = "Louisiana-Lake Charles"
+  _alias = "Louisiana-Lake Charles"
+}

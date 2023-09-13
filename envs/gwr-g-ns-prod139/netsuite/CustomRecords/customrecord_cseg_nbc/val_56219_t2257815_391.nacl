@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56219_t2257815_391 {
+  scriptid = "val_56219_t2257815_391"
+  isInactive = false
+  name = "Pennsylvania-York"
+  _alias = "Pennsylvania-York"
+}

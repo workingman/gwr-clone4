@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55726_t2257815_192 {
+  scriptid = "val_55726_t2257815_192"
+  isInactive = false
+  name = "Colorado-Longmont"
+  _alias = "Colorado-Longmont"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56378_t2257815_952 {
+  scriptid = "val_56378_t2257815_952"
+  isInactive = false
+  name = "Texas-Weslaco"
+  _alias = "Texas-Weslaco"
+}

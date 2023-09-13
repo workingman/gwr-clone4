@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55835_t2257815_615 {
+  scriptid = "val_55835_t2257815_615"
+  isInactive = false
+  name = "Minnesota-Plymouth"
+  _alias = "Minnesota-Plymouth"
+}

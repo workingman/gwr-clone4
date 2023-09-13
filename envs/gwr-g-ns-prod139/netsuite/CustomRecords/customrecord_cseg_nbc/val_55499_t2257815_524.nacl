@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55499_t2257815_524 {
+  scriptid = "val_55499_t2257815_524"
+  isInactive = false
+  name = "California-Huntington Beach"
+  _alias = "California-Huntington Beach"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56364_t2257815_402 {
+  scriptid = "val_56364_t2257815_402"
+  isInactive = false
+  name = "Colorado-Northglenn"
+  _alias = "Colorado-Northglenn"
+}

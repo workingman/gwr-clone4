@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55912_t2257815_547 {
+  scriptid = "val_55912_t2257815_547"
+  isInactive = false
+  name = "California-Yuba City"
+  _alias = "California-Yuba City"
+}

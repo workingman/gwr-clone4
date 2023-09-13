@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56263_t2257815_728 {
+  scriptid = "val_56263_t2257815_728"
+  isInactive = false
+  name = "Illinois-Bartlett"
+  _alias = "Illinois-Bartlett"
+}

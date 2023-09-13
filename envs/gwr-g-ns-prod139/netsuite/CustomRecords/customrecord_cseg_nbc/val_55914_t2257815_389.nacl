@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55914_t2257815_389 {
+  scriptid = "val_55914_t2257815_389"
+  isInactive = false
+  name = "Ohio-Youngstown"
+  _alias = "Ohio-Youngstown"
+}

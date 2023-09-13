@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55435_t2257815_960 {
+  scriptid = "val_55435_t2257815_960"
+  isInactive = false
+  name = "Florida-Tampa"
+  _alias = "Florida-Tampa"
+}

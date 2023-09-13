@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55913_t2257815_149 {
+  scriptid = "val_55913_t2257815_149"
+  isInactive = false
+  name = "Minnesota-Maple Grove"
+  _alias = "Minnesota-Maple Grove"
+}
