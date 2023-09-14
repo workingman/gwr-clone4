@@ -17,4 +17,10 @@ netsuite.file SuiteScripts_gwr_gwr_sa3_js@dduv {
   
   _alias = "gwr_sa3.js"
   
+  
+  _generated_dependencies = [
+    {
+      reference = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+    },
+  ]
 }

@@ -29,8 +29,6 @@ define(['N/log'],
             workflow.get({ name: 'custbody_aw_second_lvl_approval' })
             workflow.get({ name: 'custbody_aw_second_lvl_approval' })
             workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
        }
       /**
         * change 2
