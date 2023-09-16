@@ -3,7 +3,10 @@
  * @NScriptType Suitelet
  */
 define(['N/record', 'N/search'],
-    /**
+
+// 20230915-184750
+       
+/*     
  * @param{record} record
  * @param{search} search
  */
@@ -22,3 +25,4 @@ define(['N/record', 'N/search'],
         return {onRequest}
 
     });
+// 20230913-010311 178E4999-885F-4E88-BD59-0C98EBECB0C3
