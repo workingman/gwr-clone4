@@ -5,10 +5,9 @@
 define(['N/record', 'N/search'],
 
 // 20230915-191826
-  //     20230919-145638
 
        // geoff's changes
-       
+       // my changes are better than your changes!!!
 /*     
  * @param{record} record
  * @param{search} search
@@ -23,9 +22,9 @@ define(['N/record', 'N/search'],
          * @since 2015.2
          */
 
-        const onRequest = (scriptContext) => { // more code from geoff
+        const onRequest = (scriptContext) => {
 //kgr code
-
+//more changes for me.
         }
 
         return {onRequest}
