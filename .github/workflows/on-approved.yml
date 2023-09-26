@@ -1,7 +1,10 @@
-name: Deploy
+name: On Approval
 on:
   pull_request_review:
     types: [submitted]
+    branches:
+      -salto/deployments/*
+      
 
 jobs:
   Deploy:
