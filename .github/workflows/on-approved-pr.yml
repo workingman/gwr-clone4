@@ -3,9 +3,8 @@ on:
   pull_request_review:
     types: [submitted]
 
-      
 jobs:
-  Run deployment:
+  Run-deployment:
     if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
     steps:
