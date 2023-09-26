@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55441_t2257815_751 {
+  scriptid = "val_55441_t2257815_751"
+  isInactive = false
+  name = "California-Riverside"
+  _alias = "California-Riverside"
+}

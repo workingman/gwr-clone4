@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56255_t2257815_748 {
+  scriptid = "val_56255_t2257815_748"
+  isInactive = false
+  name = "Florida-Altamonte Springs"
+  _alias = "Florida-Altamonte Springs"
+}

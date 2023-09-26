@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55456_t2257815_117 {
+  scriptid = "val_55456_t2257815_117"
+  isInactive = false
+  name = "New Jersey-Jersey City"
+  _alias = "New Jersey-Jersey City"
+}

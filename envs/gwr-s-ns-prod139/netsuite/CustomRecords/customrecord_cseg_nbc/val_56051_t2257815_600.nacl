@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56051_t2257815_600 {
+  scriptid = "val_56051_t2257815_600"
+  isInactive = false
+  name = "Illinois-Mount Prospect"
+  _alias = "Illinois-Mount Prospect"
+}

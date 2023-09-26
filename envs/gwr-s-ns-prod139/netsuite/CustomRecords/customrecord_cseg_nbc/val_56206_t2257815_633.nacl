@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56206_t2257815_633 {
+  scriptid = "val_56206_t2257815_633"
+  isInactive = false
+  name = "Washington-Lacey"
+  _alias = "Washington-Lacey"
+}

@@ -1,0 +1,16 @@
+envs {
+  envs = [
+    {
+      name = "d0323c7e-614a-4c2e-a8da-09b6ec606e7d-gwr-s-ns-dev815"
+      accountToServiceName = {
+        netsuite = "netsuite"
+      }
+    },
+    {
+      name = "gwr-s-ns-prod139"
+      accountToServiceName = {
+        netsuite = "netsuite"
+      }
+    },
+  ]
+}

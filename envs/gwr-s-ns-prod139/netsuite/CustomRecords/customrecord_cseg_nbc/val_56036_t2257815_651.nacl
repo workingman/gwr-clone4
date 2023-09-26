@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56036_t2257815_651 {
+  scriptid = "val_56036_t2257815_651"
+  isInactive = false
+  name = "Massachusetts-Chicopee"
+  _alias = "Massachusetts-Chicopee"
+}

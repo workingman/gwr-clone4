@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56257_t2257815_368 {
+  scriptid = "val_56257_t2257815_368"
+  isInactive = false
+  name = "Illinois-Buffalo Grove"
+  _alias = "Illinois-Buffalo Grove"
+}

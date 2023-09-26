@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56298_t2257815_595 {
+  scriptid = "val_56298_t2257815_595"
+  isInactive = false
+  name = "Illinois-Streamwood"
+  _alias = "Illinois-Streamwood"
+}

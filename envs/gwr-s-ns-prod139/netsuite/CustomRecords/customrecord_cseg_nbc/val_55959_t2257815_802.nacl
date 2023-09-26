@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55959_t2257815_802 {
+  scriptid = "val_55959_t2257815_802"
+  isInactive = false
+  name = "California-Monterey Park"
+  _alias = "California-Monterey Park"
+}

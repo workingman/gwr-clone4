@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55728_t2257815_880 {
+  scriptid = "val_55728_t2257815_880"
+  isInactive = false
+  name = "California-San Marcos"
+  _alias = "California-San Marcos"
+}

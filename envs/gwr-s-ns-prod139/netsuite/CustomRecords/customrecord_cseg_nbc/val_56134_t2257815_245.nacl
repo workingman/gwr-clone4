@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56134_t2257815_245 {
+  scriptid = "val_56134_t2257815_245"
+  isInactive = false
+  name = "Florida-Coral Gables"
+  _alias = "Florida-Coral Gables"
+}

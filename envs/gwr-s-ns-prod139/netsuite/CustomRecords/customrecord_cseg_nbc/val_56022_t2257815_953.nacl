@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56022_t2257815_953 {
+  scriptid = "val_56022_t2257815_953"
+  isInactive = false
+  name = "California-Fountain Valley"
+  _alias = "California-Fountain Valley"
+}

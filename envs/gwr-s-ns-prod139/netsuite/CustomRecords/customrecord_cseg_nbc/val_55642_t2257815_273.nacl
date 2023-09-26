@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55642_t2257815_273 {
+  scriptid = "val_55642_t2257815_273"
+  isInactive = false
+  name = "North Carolina-High Point"
+  _alias = "North Carolina-High Point"
+}

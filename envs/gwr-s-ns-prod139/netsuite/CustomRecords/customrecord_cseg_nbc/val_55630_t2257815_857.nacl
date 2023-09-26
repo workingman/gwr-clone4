@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55630_t2257815_857 {
+  scriptid = "val_55630_t2257815_857"
+  isInactive = false
+  name = "New Hampshire-Manchester"
+  _alias = "New Hampshire-Manchester"
+}

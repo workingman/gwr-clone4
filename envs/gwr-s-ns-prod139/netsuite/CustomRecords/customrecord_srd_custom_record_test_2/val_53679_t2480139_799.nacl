@@ -1,0 +1,6 @@
+netsuite.customrecord_srd_custom_record_test_2 val_53679_t2480139_799 {
+  scriptid = "val_53679_t2480139_799"
+  isInactive = false
+  name = "test_instance"
+  _alias = "test_instance"
+}

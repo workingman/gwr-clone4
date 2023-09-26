@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55497_t2257815_205 {
+  scriptid = "val_55497_t2257815_205"
+  isInactive = false
+  name = "New York-Yonkers"
+  _alias = "New York-Yonkers"
+}

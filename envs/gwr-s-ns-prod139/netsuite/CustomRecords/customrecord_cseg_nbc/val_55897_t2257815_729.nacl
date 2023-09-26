@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55897_t2257815_729 {
+  scriptid = "val_55897_t2257815_729"
+  isInactive = false
+  name = "Wisconsin-Oshkosh"
+  _alias = "Wisconsin-Oshkosh"
+}

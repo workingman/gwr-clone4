@@ -1,0 +1,6 @@
+netsuite.customrecord_csegcseg_rg_seg_cc val_9569984_6979138_186 {
+  scriptid = "val_9569984_6979138_186"
+  isInactive = false
+  name = "1100 Management"
+  _alias = "1100 Management"
+}

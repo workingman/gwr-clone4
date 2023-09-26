@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55779_t2257815_680 {
+  scriptid = "val_55779_t2257815_680"
+  isInactive = false
+  name = "Michigan-Farmington Hills"
+  _alias = "Michigan-Farmington Hills"
+}

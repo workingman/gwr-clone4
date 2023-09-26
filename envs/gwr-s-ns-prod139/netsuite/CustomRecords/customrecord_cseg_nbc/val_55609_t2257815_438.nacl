@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55609_t2257815_438 {
+  scriptid = "val_55609_t2257815_438"
+  isInactive = false
+  name = "Missouri-Independence"
+  _alias = "Missouri-Independence"
+}

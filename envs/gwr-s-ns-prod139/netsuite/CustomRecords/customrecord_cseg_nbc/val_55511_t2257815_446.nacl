@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55511_t2257815_446 {
+  scriptid = "val_55511_t2257815_446"
+  isInactive = false
+  name = "Massachusetts-Worcester"
+  _alias = "Massachusetts-Worcester"
+}

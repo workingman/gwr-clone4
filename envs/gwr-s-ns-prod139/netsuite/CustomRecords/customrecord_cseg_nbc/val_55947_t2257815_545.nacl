@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55947_t2257815_545 {
+  scriptid = "val_55947_t2257815_545"
+  isInactive = false
+  name = "Iowa-Council Bluffs"
+  _alias = "Iowa-Council Bluffs"
+}

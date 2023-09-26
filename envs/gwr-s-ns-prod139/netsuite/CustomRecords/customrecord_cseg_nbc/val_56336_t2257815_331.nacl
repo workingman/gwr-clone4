@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56336_t2257815_331 {
+  scriptid = "val_56336_t2257815_331"
+  isInactive = false
+  name = "Maryland-Annapolis"
+  _alias = "Maryland-Annapolis"
+}

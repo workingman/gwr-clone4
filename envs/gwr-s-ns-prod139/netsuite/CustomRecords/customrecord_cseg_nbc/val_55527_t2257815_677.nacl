@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55527_t2257815_677 {
+  scriptid = "val_55527_t2257815_677"
+  isInactive = false
+  name = "Washington-Vancouver"
+  _alias = "Washington-Vancouver"
+}

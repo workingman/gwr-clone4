@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56265_t2257815_909 {
+  scriptid = "val_56265_t2257815_909"
+  isInactive = false
+  name = "Arizona-Oro Valley"
+  _alias = "Arizona-Oro Valley"
+}

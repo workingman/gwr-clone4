@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55576_t2257815_278 {
+  scriptid = "val_55576_t2257815_278"
+  isInactive = false
+  name = "Michigan-Sterling Heights"
+  _alias = "Michigan-Sterling Heights"
+}

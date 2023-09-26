@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55915_t2257815_648 {
+  scriptid = "val_55915_t2257815_648"
+  isInactive = false
+  name = "Illinois-Skokie"
+  _alias = "Illinois-Skokie"
+}

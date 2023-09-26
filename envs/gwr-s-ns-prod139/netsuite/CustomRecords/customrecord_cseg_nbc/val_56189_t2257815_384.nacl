@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56189_t2257815_384 {
+  scriptid = "val_56189_t2257815_384"
+  isInactive = false
+  name = "South Carolina-Summerville"
+  _alias = "South Carolina-Summerville"
+}

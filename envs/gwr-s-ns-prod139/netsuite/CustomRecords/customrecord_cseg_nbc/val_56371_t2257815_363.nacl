@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56371_t2257815_363 {
+  scriptid = "val_56371_t2257815_363"
+  isInactive = false
+  name = "Illinois-Calumet City"
+  _alias = "Illinois-Calumet City"
+}

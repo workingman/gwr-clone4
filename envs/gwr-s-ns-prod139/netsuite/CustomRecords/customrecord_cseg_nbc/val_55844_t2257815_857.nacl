@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55844_t2257815_857 {
+  scriptid = "val_55844_t2257815_857"
+  isInactive = false
+  name = "Arizona-Goodyear"
+  _alias = "Arizona-Goodyear"
+}

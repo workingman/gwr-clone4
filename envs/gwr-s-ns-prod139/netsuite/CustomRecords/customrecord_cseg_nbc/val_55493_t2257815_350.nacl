@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55493_t2257815_350 {
+  scriptid = "val_55493_t2257815_350"
+  isInactive = false
+  name = "Alabama-Montgomery"
+  _alias = "Alabama-Montgomery"
+}

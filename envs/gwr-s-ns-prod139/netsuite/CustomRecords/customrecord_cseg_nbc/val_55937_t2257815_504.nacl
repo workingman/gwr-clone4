@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55937_t2257815_504 {
+  scriptid = "val_55937_t2257815_504"
+  isInactive = false
+  name = "Texas-Conroe"
+  _alias = "Texas-Conroe"
+}

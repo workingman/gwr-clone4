@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56129_t2257815_608 {
+  scriptid = "val_56129_t2257815_608"
+  isInactive = false
+  name = "Washington-Burien"
+  _alias = "Washington-Burien"
+}

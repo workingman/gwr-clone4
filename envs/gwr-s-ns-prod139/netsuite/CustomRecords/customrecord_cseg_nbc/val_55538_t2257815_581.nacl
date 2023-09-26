@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55538_t2257815_581 {
+  scriptid = "val_55538_t2257815_581"
+  isInactive = false
+  name = "California-Palmdale"
+  _alias = "California-Palmdale"
+}

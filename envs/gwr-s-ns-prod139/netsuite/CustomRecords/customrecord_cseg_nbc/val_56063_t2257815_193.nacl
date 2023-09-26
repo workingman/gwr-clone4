@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56063_t2257815_193 {
+  scriptid = "val_56063_t2257815_193"
+  isInactive = false
+  name = "Ohio-Elyria"
+  _alias = "Ohio-Elyria"
+}

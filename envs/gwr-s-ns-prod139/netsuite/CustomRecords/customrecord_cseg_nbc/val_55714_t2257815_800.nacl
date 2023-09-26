@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55714_t2257815_800 {
+  scriptid = "val_55714_t2257815_800"
+  isInactive = false
+  name = "Utah-Orem"
+  _alias = "Utah-Orem"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55811_t2257815_698 {
+  scriptid = "val_55811_t2257815_698"
+  isInactive = false
+  name = "Missouri-St. Joseph"
+  _alias = "Missouri-St. Joseph"
+}

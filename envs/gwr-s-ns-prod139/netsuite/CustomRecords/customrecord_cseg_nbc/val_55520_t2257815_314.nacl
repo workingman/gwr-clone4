@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55520_t2257815_314 {
+  scriptid = "val_55520_t2257815_314"
+  isInactive = false
+  name = "Mississippi-Jackson"
+  _alias = "Mississippi-Jackson"
+}

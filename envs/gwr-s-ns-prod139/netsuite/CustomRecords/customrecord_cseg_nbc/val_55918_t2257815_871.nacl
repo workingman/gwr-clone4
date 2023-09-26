@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55918_t2257815_871 {
+  scriptid = "val_55918_t2257815_871"
+  isInactive = false
+  name = "Texas-Victoria"
+  _alias = "Texas-Victoria"
+}

@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55946_t2257815_828 {
+  scriptid = "val_55946_t2257815_828"
+  isInactive = false
+  name = "Massachusetts-Haverhill"
+  _alias = "Massachusetts-Haverhill"
+}

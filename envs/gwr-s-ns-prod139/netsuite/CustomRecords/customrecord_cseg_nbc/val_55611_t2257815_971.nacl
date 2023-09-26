@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55611_t2257815_971 {
+  scriptid = "val_55611_t2257815_971"
+  isInactive = false
+  name = "Michigan-Ann Arbor"
+  _alias = "Michigan-Ann Arbor"
+}

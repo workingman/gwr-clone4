@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55882_t2257815_625 {
+  scriptid = "val_55882_t2257815_625"
+  isInactive = false
+  name = "New York-Mount Vernon"
+  _alias = "New York-Mount Vernon"
+}

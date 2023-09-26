@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55852_t2257815_617 {
+  scriptid = "val_55852_t2257815_617"
+  isInactive = false
+  name = "Delaware-Wilmington"
+  _alias = "Delaware-Wilmington"
+}

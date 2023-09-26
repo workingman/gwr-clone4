@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55558_t2257815_543 {
+  scriptid = "val_55558_t2257815_543"
+  isInactive = false
+  name = "Illinois-Naperville"
+  _alias = "Illinois-Naperville"
+}

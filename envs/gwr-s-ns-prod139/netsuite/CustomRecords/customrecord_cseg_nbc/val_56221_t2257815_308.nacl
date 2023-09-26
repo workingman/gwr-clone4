@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56221_t2257815_308 {
+  scriptid = "val_56221_t2257815_308"
+  isInactive = false
+  name = "Massachusetts-Attleboro"
+  _alias = "Massachusetts-Attleboro"
+}

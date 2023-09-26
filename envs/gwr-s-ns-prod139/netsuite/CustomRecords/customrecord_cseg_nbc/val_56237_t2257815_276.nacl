@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56237_t2257815_276 {
+  scriptid = "val_56237_t2257815_276"
+  isInactive = false
+  name = "Tennessee-Smyrna"
+  _alias = "Tennessee-Smyrna"
+}

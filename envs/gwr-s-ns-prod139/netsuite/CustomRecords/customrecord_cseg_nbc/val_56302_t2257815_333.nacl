@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56302_t2257815_333 {
+  scriptid = "val_56302_t2257815_333"
+  isInactive = false
+  name = "Massachusetts-Holyoke"
+  _alias = "Massachusetts-Holyoke"
+}

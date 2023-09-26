@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56238_t2257815_532 {
+  scriptid = "val_56238_t2257815_532"
+  isInactive = false
+  name = "Utah-Bountiful"
+  _alias = "Utah-Bountiful"
+}

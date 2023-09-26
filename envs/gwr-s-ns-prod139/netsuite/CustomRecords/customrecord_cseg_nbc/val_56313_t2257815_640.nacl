@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56313_t2257815_640 {
+  scriptid = "val_56313_t2257815_640"
+  isInactive = false
+  name = "Illinois-Romeoville"
+  _alias = "Illinois-Romeoville"
+}

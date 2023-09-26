@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56211_t2257815_388 {
+  scriptid = "val_56211_t2257815_388"
+  isInactive = false
+  name = "New Jersey-Sayreville"
+  _alias = "New Jersey-Sayreville"
+}

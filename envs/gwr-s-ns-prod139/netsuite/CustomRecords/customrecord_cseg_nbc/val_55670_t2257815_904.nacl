@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_55670_t2257815_904 {
+  scriptid = "val_55670_t2257815_904"
+  isInactive = false
+  name = "Indiana-South Bend"
+  _alias = "Indiana-South Bend"
+}

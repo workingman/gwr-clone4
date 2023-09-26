@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56216_t2257815_700 {
+  scriptid = "val_56216_t2257815_700"
+  isInactive = false
+  name = "New Jersey-Hackensack"
+  _alias = "New Jersey-Hackensack"
+}

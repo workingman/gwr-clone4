@@ -1,0 +1,6 @@
+netsuite.customrecord_cseg_nbc val_56207_t2257815_215 {
+  scriptid = "val_56207_t2257815_215"
+  isInactive = false
+  name = "Mississippi-Biloxi"
+  _alias = "Mississippi-Biloxi"
+}
