@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
-  scriptid = "custbody_aw_first_lvl_approval"
+netsuite.transactionbodycustomfield custbody1 {
+  scriptid = "custbody1"
   accesslevel = "2"
   applyformatting = false
   bodyassemblybuild = false
@@ -14,31 +14,30 @@ netsuite.transactionbodycustomfield custbody_aw_first_lvl_approval {
   bodyitemreceipt = false
   bodyitemreceiptorder = false
   bodyjournal = false
-  bodyopportunity = false
+  bodyopportunity = true
   bodyothertransaction = false
-  
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
-  bodypurchase = false
-  bodysale = true
+  bodypurchase = true
+  bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
   encryptatrest = false
-  fieldtype = "CHECKBOX"
+  fieldtype = "TEXT"
   globalsearch = false
   isformula = false
   ismandatory = false
   isparent = false
-  label = "GWR Amp 1st Level Approval"
+  label = "Eshed's Field 1"
   searchlevel = "2"
   showhierarchy = false
-  showinlist = false
+  showinlist = true
   storevalue = true
-  subtab = "TRANSACTIONSYSTEMINFORMATION"
-  _alias = "GWR Amp 1st Level Approval"
+  subtab = "TRANSACTIONSALES"
+  _alias = "Eshed's Field 1"
 }
