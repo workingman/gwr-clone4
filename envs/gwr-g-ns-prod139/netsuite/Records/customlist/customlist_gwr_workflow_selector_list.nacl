@@ -12,21 +12,21 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
         scriptid = "val_54959_t2257815_717"
         abbreviation = "R"
         isinactive = false
-        value = "Red__"
+        value = "Red"
         index = 1
       }
       val_54960_t2257815_430 = {
         scriptid = "val_54960_t2257815_430"
         abbreviation = "B"
         isinactive = false
-        value = "Blue__"
+        value = "Blue"
         index = 2
       }
       val_55058_t2257815_924 = {
         scriptid = "val_55058_t2257815_924"
         abbreviation = "O"
         isinactive = false
-        value = "Silver__"
+        value = "Silver"
         index = 3
       }
       val_55059_t2257815_653 = {
