@@ -1,5 +1,5 @@
-netsuite.transactionbodycustomfield custbody1 {
-  scriptid = "custbody1"
+netsuite.transactionbodycustomfield custbody_mkd_transaction_body_field_2 {
+  scriptid = "custbody_mkd_transaction_body_field_2"
   accesslevel = "2"
   applyformatting = false
   bodyassemblybuild = false
@@ -14,13 +14,13 @@ netsuite.transactionbodycustomfield custbody1 {
   bodyitemreceipt = false
   bodyitemreceiptorder = false
   bodyjournal = false
-  bodyopportunity = true
+  bodyopportunity = false
   bodyothertransaction = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
   bodyprintstatement = false
-  bodypurchase = true
+  bodypurchase = false
   bodysale = false
   bodytransferorder = false
   bodyvendorpayment = false
@@ -33,11 +33,10 @@ netsuite.transactionbodycustomfield custbody1 {
   isformula = false
   ismandatory = false
   isparent = false
-  label = "Eshed's Field 1"
+  label = "MKD Transaction Body Field 2"
   searchlevel = "2"
   showhierarchy = false
-  showinlist = true
+  showinlist = false
   storevalue = true
-  subtab = "TRANSACTIONSALES"
-  _alias = "Eshed's Field 1"
+  _alias = "MKD Transaction Body Field 2"
 }

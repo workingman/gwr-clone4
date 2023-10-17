@@ -687,7 +687,7 @@ settings netsuite.accountingPreferences {
     type = "select"
   }
   boolean USE_UNIT_CONVERSION_RATE {
-    label = "Use unit conversion rate for price range calculation (Issue 401421)"
+    label = "Use unit conversion rate for price range calculation (Issue 401421 and 726108)"
     type = "checkbox"
   }
   boolean CASHBASIS {
@@ -1046,7 +1046,7 @@ settings netsuite.accountingPreferences {
     type = "checkbox"
   }
   boolean USE_UPDATED_CALCULATION_OBV {
-    label = "Use updated calculation for OBV when deleting discount lines and mAmount 0 for A/R scenario"
+    label = "Use updated calculation for open_balance_variance procedure, for deleting discount lines and 0 amount for A/R scenarios"
     type = "checkbox"
   }
   netsuite.selectOption GLNUMBERINGBY {
@@ -1146,4 +1146,24 @@ settings netsuite.accountingPreferences {
     type = "checkbox"
   }
   _alias = "Accounting Preferences"
+  boolean USEPREFERREDBINONITEMRCPT {
+    label = "Use Preferred Bin on Item Receipts"
+    type = "checkbox"
+  }
+  boolean REQUIREBINSONTRANS {
+    label = "Require Bins on All Transactions Except Item Receipts"
+    type = "checkbox"
+  }
+  boolean SEND_GIFT_CERTIFICATE_EMAILS {
+    label = "Send gift certificate email"
+    type = "checkbox"
+  }
+  boolean EMAIL_EMPLOYEE_ON_REJECTION {
+    label = "Email employee on rejection"
+    type = "checkbox"
+  }
+  boolean GIFT_CERTIFICATE_FIELDS_MANDATORY {
+    label = "Make gift certificate fields required on transaction lines"
+    type = "checkbox"
+  }
 }

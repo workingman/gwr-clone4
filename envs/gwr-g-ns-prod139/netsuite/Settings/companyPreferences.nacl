@@ -56,7 +56,7 @@ netsuite.companyPreferences {
     text = "Open Sans"
   }
   AUTONOMOUS_ENTITY_NUMBERING = false
-  DISABLE_HTML_IN_SEARCH_FORMULA = false
+  
   INCR_NUM_OF_BULK_PROCESSING_THREADS = false
   AUTONAMECUSTOMERS = true
   FLP_CHECKS_RECORD_SERVICE_INTERNAL = 0
@@ -133,4 +133,5 @@ netsuite.companyPreferences {
     text = "Images"
   }
   _alias = "Company Preferences"
+  DISABLE_CUSTOMER_SATISFACTION = false
 }

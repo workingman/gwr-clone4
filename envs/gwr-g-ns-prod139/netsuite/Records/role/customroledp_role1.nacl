@@ -32,6 +32,10 @@ netsuite.role customroledp_role1 {
         permkey = "TRAN_PURCHORDBILL"
         permlevel = "FULL"
       }
+      TRAN_TIMEBILL = {
+        permkey = "TRAN_TIMEBILL"
+        permlevel = "VIEW"
+      }
     }
   }
   _alias = "DP Role 1"

@@ -109,7 +109,7 @@ netsuite.companyFeatures {
   WORKORDERS = true
   SERIALIZEDINVENTORY = true
   LOTNUMBEREDINVENTORY = true
-  BINMANAGEMENT = false
+  BINMANAGEMENT = true
   ADVBINSERIALLOTMGMT = true
   INVENTORYSTATUS = false
   ADVINVENTORYMGMT = false
@@ -162,7 +162,7 @@ netsuite.companyFeatures {
   CAMPAIGNSUBSCRIPTIONS = false
   UPSELL = true
   SALESCAMPAIGNS = false
-  INTELLIGENTRECOMMENDATIONS = false
+  
   PRM = true
   PARTNERCOMMISSIONS = false
   MULTIPARTNER = false
@@ -217,4 +217,5 @@ netsuite.companyFeatures {
   SUITEAPPCONTROLCENTER = false
   SHIPPINGPARTNERS = false
   _alias = "Company Features"
+  COMMITPLUSOVERAGE = false
 }

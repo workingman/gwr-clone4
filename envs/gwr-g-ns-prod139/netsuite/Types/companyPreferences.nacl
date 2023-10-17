@@ -155,10 +155,7 @@ settings netsuite.companyPreferences {
     label = "Use Autonomous (Non-Gapless) Entity Numbering"
     type = "checkbox"
   }
-  boolean DISABLE_HTML_IN_SEARCH_FORMULA {
-    label = "Disable HTML in Search Formula (Text)"
-    type = "checkbox"
-  }
+  
   boolean INCR_NUM_OF_BULK_PROCESSING_THREADS {
     label = "Increase number of bulk processing threads to 10"
     type = "checkbox"
@@ -348,7 +345,7 @@ settings netsuite.companyPreferences {
     type = "checkbox"
   }
   boolean ORACLE_GUIDED_LEARNING {
-    label = "Enable Oracle Guided Learning"
+    label = "Enable NetSuite Guided Learning"
     type = "checkbox"
   }
   number MAX_CUSTOMER_HIERARCHY_SIZE {
@@ -391,9 +388,10 @@ settings netsuite.companyPreferences {
     _required = true
     _hidden_value = true
   }
-  netsuite.selectOption RESTRICTIONTABLECHANGESLOGGING {
-    label = "Enables logging of restriction keys changes. The value is the restriction key table you want to enable logging for. (example: mysybsidiarykeys)"
-    type = "select"
-  }
+  
   _alias = "Company Preferences"
+  boolean DISABLE_CUSTOMER_SATISFACTION {
+    label = "Do not display customer satisfaction surveys"
+    type = "checkbox"
+  }
 }

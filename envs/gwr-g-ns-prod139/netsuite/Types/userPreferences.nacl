@@ -372,7 +372,7 @@ settings netsuite.userPreferences {
     type = "checkbox"
   }
   boolean ORACLE_GUIDED_LEARNING {
-    label = "Enable Oracle Guided Learning"
+    label = "Enable NetSuite Guided Learning"
     type = "checkbox"
   }
   boolean FORECASTWEIGHTED {
@@ -460,4 +460,8 @@ settings netsuite.userPreferences {
     type = "checkbox"
   }
   _alias = "User Preferences"
+  boolean DISABLE_CUSTOMER_SATISFACTION {
+    label = "Do not display customer satisfaction surveys"
+    type = "checkbox"
+  }
 }

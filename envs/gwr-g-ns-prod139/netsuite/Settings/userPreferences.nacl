@@ -196,4 +196,5 @@ netsuite.userPreferences {
   PAGE_SEARCH = true
   SUBLIST_COLUMN_TOOLTIP = true
   _alias = "User Preferences"
+  DISABLE_CUSTOMER_SATISFACTION = false
 }

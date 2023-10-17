@@ -3,7 +3,7 @@ netsuite.workflow customworkflow_dp_demo1 {
   initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
   initoncreate = true
   initonvieworupdate = false
-  initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_dp_search_1.scriptid
+  initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_dp_demo2_search.scriptid
   inittriggertype = "AFTERSUBMIT"
   isinactive = false
   islogenabled = false
@@ -20,7 +20,7 @@ netsuite.workflow customworkflow_dp_demo1 {
       workflowstate434 = {
         scriptid = "workflowstate434"
         donotexitworkflow = false
-        name = "Really Bad Name"
+        name = "Bad Name Here"
         positionx = 243
         positiony = 133
         workflowactions = {
@@ -47,6 +47,9 @@ netsuite.workflow customworkflow_dp_demo1 {
         }
         index = 0
       }
+      
+      
+      
       
     }
   }

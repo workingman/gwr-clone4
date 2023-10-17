@@ -1,7 +1,7 @@
 netsuite.clientscript customscript_gwr_client1 {
   scriptid = "customscript_gwr_client1"
   isinactive = false
-  name = "GWR client script on sales order"
+  name = "GWR client script on sales order 1"
   notifyadmins = false
   notifyowner = true
   notifyuser = false
@@ -22,5 +22,5 @@ netsuite.clientscript customscript_gwr_client1 {
       }
     }
   }
-  _alias = "GWR client script on sales order"
+  _alias = "GWR client script on sales order 1"
 }

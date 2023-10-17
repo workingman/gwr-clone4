@@ -488,9 +488,7 @@ settings netsuite.companyFeatures {
   boolean SALESCAMPAIGNS {
     label = "Sales Campaigns"
   }
-  boolean INTELLIGENTRECOMMENDATIONS {
-    label = "Intelligent Recommendations"
-  }
+  
   boolean PRM {
     label = "Partner Relationship Management"
   }
@@ -651,4 +649,7 @@ settings netsuite.companyFeatures {
     label = "Shipping Partners"
   }
   _alias = "Company Features"
+  boolean COMMITPLUSOVERAGE {
+    label = "Commit Plus Overage"
+  }
 }

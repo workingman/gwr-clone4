@@ -1,7 +1,7 @@
-netsuite.transactionForm custform_eshed_invoice {
-  scriptid = "custform_eshed_invoice"
+netsuite.transactionForm custform_56_t2257815_243 {
+  scriptid = "custform_56_t2257815_243"
   standard = "STANDARDPRODUCTINVOICE"
-  name = "ESHED Custom Product Invoice"
+  name = "MKD Custom Product Invoice2"
   recordType = "INVOICE"
   inactive = false
   preferred = false
@@ -17,6 +17,86 @@ netsuite.transactionForm custform_eshed_invoice {
           MIDDLE = {
             position = "MIDDLE"
             field = {
+              CUSTOMFORM = {
+                id = "CUSTOMFORM"
+                label = "Custom Form"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              TRANID = {
+                id = "TRANID"
+                label = "Invoice #"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              ENTITY = {
+                id = "ENTITY"
+                label = "Customer"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              JOB = {
+                id = "JOB"
+                label = "Job"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+              APPROVALSTATUS = {
+                id = "APPROVALSTATUS"
+                label = "Approval Status"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 4
+              }
+              NEXTAPPROVER = {
+                id = "NEXTAPPROVER"
+                label = "Next Approver"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 5
+              }
+              TRANDATE = {
+                id = "TRANDATE"
+                label = "Date"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 6
+              }
+              ASOFDATE = {
+                id = "ASOFDATE"
+                label = "As-Of Date"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 7
+              }
               STARTDATE = {
                 id = "STARTDATE"
                 label = "Start Date"
@@ -25,7 +105,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 0
+                index = 8
               }
               ENDDATE = {
                 id = "ENDDATE"
@@ -35,7 +115,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 1
+                index = 9
               }
               POSTINGPERIOD = {
                 id = "POSTINGPERIOD"
@@ -45,7 +125,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 2
+                index = 10
               }
               DUEDATE = {
                 id = "DUEDATE"
@@ -55,7 +135,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 3
+                index = 11
               }
               AMOUNTREMAINING = {
                 id = "AMOUNTREMAINING"
@@ -65,7 +145,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "DISABLED"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 4
+                index = 12
               }
               AMOUNTPAID = {
                 id = "AMOUNTPAID"
@@ -75,7 +155,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 5
+                index = 13
               }
               DISCOUNTDATE = {
                 id = "DISCOUNTDATE"
@@ -85,7 +165,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "DISABLED"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 6
+                index = 14
               }
               DISCOUNTAMOUNT = {
                 id = "DISCOUNTAMOUNT"
@@ -95,7 +175,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "DISABLED"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 7
+                index = 15
               }
               OTHERREFNUM = {
                 id = "OTHERREFNUM"
@@ -105,7 +185,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 8
+                index = 16
               }
               MEMO = {
                 id = "MEMO"
@@ -115,7 +195,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 9
+                index = 17
               }
               BULKPROCSUBMISSION = {
                 id = "BULKPROCSUBMISSION"
@@ -125,7 +205,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 10
+                index = 18
               }
               TRANSACTIONNUMBER = {
                 id = "TRANSACTIONNUMBER"
@@ -135,7 +215,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 11
+                index = 19
               }
               GENERATETRANIDONSAVE = {
                 id = "GENERATETRANIDONSAVE"
@@ -146,7 +226,17 @@ netsuite.transactionForm custform_eshed_invoice {
                 columnBreak = false
                 sameRowAsPrevious = false
                 checkBoxDefault = "UNCHECKED"
-                index = 12
+                index = 20
+              }
+              EXCLUDEFROMGLNUMBERING = {
+                id = "EXCLUDEFROMGLNUMBERING"
+                label = "Exclude from GL Audit Numbering"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 21
               }
             }
             index = 0
@@ -304,12 +394,22 @@ netsuite.transactionForm custform_eshed_invoice {
               cseg1 = {
                 id = "[type=transactionbodycustomfield, scriptid=cseg1]"
                 label = "Stam"
-                visible = false
+                visible = true
                 mandatory = false
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 5
+              }
+              csegcseg_rg_seg_cc = {
+                id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                label = "Cost Center"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 6
               }
               cseg_nbc = {
                 id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
@@ -319,7 +419,7 @@ netsuite.transactionForm custform_eshed_invoice {
                 displayType = "NORMAL"
                 columnBreak = false
                 sameRowAsPrevious = false
-                index = 6
+                index = 7
               }
             }
             index = 0
@@ -334,102 +434,6 @@ netsuite.transactionForm custform_eshed_invoice {
         showTitle = true
         singleColumn = false
         index = 3
-      }
-      fieldgroup_4_t2257815_459 = {
-        scriptid = "fieldgroup_4_t2257815_459"
-        label = "Eshed Invoice Field Group"
-        visible = true
-        showTitle = true
-        singleColumn = false
-        fields = {
-          MIDDLE = {
-            position = "MIDDLE"
-            field = {
-              ASOFDATE = {
-                id = "ASOFDATE"
-                label = "As-Of Date"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 0
-              }
-              TRANDATE = {
-                id = "TRANDATE"
-                label = "Date"
-                visible = true
-                mandatory = true
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 1
-              }
-              NEXTAPPROVER = {
-                id = "NEXTAPPROVER"
-                label = "Next Approver"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 2
-              }
-              APPROVALSTATUS = {
-                id = "APPROVALSTATUS"
-                label = "Approval Status"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 3
-              }
-              JOB = {
-                id = "JOB"
-                label = "Job"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 4
-              }
-              ENTITY = {
-                id = "ENTITY"
-                label = "Customer"
-                visible = true
-                mandatory = true
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 5
-              }
-              TRANID = {
-                id = "TRANID"
-                label = "Invoice #"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 6
-              }
-              CUSTOMFORM = {
-                id = "CUSTOMFORM"
-                label = "Custom Form"
-                visible = true
-                mandatory = true
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 7
-              }
-            }
-            index = 0
-          }
-        }
-        index = 4
       }
     }
     defaultFieldGroup = {
@@ -457,16 +461,6 @@ netsuite.transactionForm custform_eshed_invoice {
               sameRowAsPrevious = false
               index = 1
             }
-            EXCLUDEFROMGLNUMBERING = {
-              id = "EXCLUDEFROMGLNUMBERING"
-              label = "Exclude from GL Audit Numbering"
-              visible = false
-              mandatory = false
-              displayType = "NORMAL"
-              columnBreak = false
-              sameRowAsPrevious = false
-              index = 2
-            }
             custbody_rg_valid_forto_po = {
               id = netsuite.transactionbodycustomfield.instance.custbody_rg_valid_forto_po.scriptid
               label = "Validated Required Fields for FortoX"
@@ -476,7 +470,7 @@ netsuite.transactionForm custform_eshed_invoice {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 3
+              index = 2
             }
             custbody_svb_vb_to_bell_dist_sched = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_vb_to_bell_dist_sched.scriptid
@@ -486,7 +480,7 @@ netsuite.transactionForm custform_eshed_invoice {
               displayType = "NORMAL"
               columnBreak = false
               sameRowAsPrevious = false
-              index = 4
+              index = 3
             }
             custbody_svb_schedule_is_intercompany = {
               id = netsuite.transactionbodycustomfield.instance.custbody_svb_schedule_is_intercompany.scriptid
@@ -497,7 +491,7 @@ netsuite.transactionForm custform_eshed_invoice {
               columnBreak = false
               sameRowAsPrevious = false
               checkBoxDefault = "USE_FIELD_DEFAULT"
-              index = 5
+              index = 4
             }
           }
           index = 0
@@ -512,24 +506,6 @@ netsuite.transactionForm custform_eshed_invoice {
         label = "Items"
         visible = true
         fieldGroups = {
-          fieldGroup = {
-            fieldgroup_5_t2257815_518 = {
-              scriptid = "fieldgroup_5_t2257815_518"
-              label = "Dollareel Brown"
-              visible = true
-              showTitle = true
-              singleColumn = false
-              index = 0
-            }
-            fieldgroup_6_t2257815_659 = {
-              scriptid = "fieldgroup_6_t2257815_659"
-              label = "Dollareel Gray"
-              visible = true
-              showTitle = true
-              singleColumn = false
-              index = 1
-            }
-          }
           defaultFieldGroup = {
             fields = {
               MIDDLE = {
@@ -678,15 +654,15 @@ netsuite.transactionForm custform_eshed_invoice {
                     visible = true
                     index = 17
                   }
-                  GROSSAMT = {
-                    id = "GROSSAMT"
-                    label = "Gross Amt"
-                    visible = true
-                    index = 18
-                  }
                   TAX1AMT = {
                     id = "TAX1AMT"
                     label = "Tax Amt"
+                    visible = true
+                    index = 18
+                  }
+                  GROSSAMT = {
+                    id = "GROSSAMT"
+                    label = "Gross Amt"
                     visible = true
                     index = 19
                   }
@@ -726,118 +702,118 @@ netsuite.transactionForm custform_eshed_invoice {
                     visible = false
                     index = 25
                   }
-                  EXCLUDEFROMRATEREQUEST = {
-                    id = "EXCLUDEFROMRATEREQUEST"
-                    label = "Exclude Item from Rate Request"
-                    visible = true
-                    index = 26
-                  }
-                  FREEGIFTPROMOTION = {
-                    id = "FREEGIFTPROMOTION"
-                    label = "Free Gift Promotion"
-                    visible = true
-                    index = 27
-                  }
-                  CHARGETYPE = {
-                    id = "CHARGETYPE"
-                    label = "Charge Type"
-                    visible = true
-                    index = 28
-                  }
-                  CHARGES = {
-                    id = "CHARGES"
-                    label = "Charges"
-                    visible = true
-                    index = 29
-                  }
-                  custcol_slt_billable = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
-                    label = "Billable"
-                    visible = true
-                    index = 30
-                  }
-                  custcol_slt_e2e_test = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
-                    label = "created by oss e2e - 8060213"
-                    visible = true
-                    index = 31
-                  }
-                  custcoltransactionterms = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
-                    label = "Terms"
-                    visible = false
-                    index = 32
-                  }
-                  cseg2 = {
-                    id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
-                    label = "Region"
-                    visible = false
-                    index = 33
-                  }
-                  cseg1 = {
-                    id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
-                    label = "Stam"
-                    visible = false
-                    index = 34
-                  }
-                  QUANTITYORDERED = {
-                    id = "QUANTITYORDERED"
-                    label = "Ordered"
-                    visible = false
-                    index = 35
-                  }
-                  AMOUNTORDERED = {
-                    id = "AMOUNTORDERED"
-                    label = "Ordered"
-                    visible = false
-                    index = 36
-                  }
-                  CURRENTPERCENT = {
-                    id = "CURRENTPERCENT"
-                    label = "Current %"
-                    visible = false
-                    index = 37
-                  }
-                  PERCENTCOMPLETE = {
-                    id = "PERCENTCOMPLETE"
-                    label = "% Complete"
-                    visible = false
-                    index = 38
-                  }
-                  QUANTITYFULFILLED = {
-                    id = "QUANTITYFULFILLED"
-                    label = "Total To Date"
-                    visible = false
-                    index = 39
-                  }
-                  custcol_gwr_return_reason = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
-                    label = "GWR Return Reason"
-                    visible = true
-                    index = 40
-                  }
                   GLNUMBER = {
                     id = "GLNUMBER"
                     label = "GL #"
                     visible = true
-                    index = 41
+                    index = 26
                   }
                   GLSEQUENCE = {
                     id = "GLSEQUENCE"
                     label = "GL Audit Numbering Sequence"
                     visible = true
-                    index = 42
+                    index = 27
                   }
-                  csegcseg_rg_seg_cc = {
-                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
-                    label = "Cost Center"
+                  EXCLUDEFROMRATEREQUEST = {
+                    id = "EXCLUDEFROMRATEREQUEST"
+                    label = "Exclude Item from Rate Request"
                     visible = true
-                    index = 43
+                    index = 28
+                  }
+                  FREEGIFTPROMOTION = {
+                    id = "FREEGIFTPROMOTION"
+                    label = "Free Gift Promotion"
+                    visible = true
+                    index = 29
+                  }
+                  CHARGETYPE = {
+                    id = "CHARGETYPE"
+                    label = "Charge Type"
+                    visible = true
+                    index = 30
+                  }
+                  CHARGES = {
+                    id = "CHARGES"
+                    label = "Charges"
+                    visible = true
+                    index = 31
+                  }
+                  custcol_slt_billable = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
+                    label = "Billable"
+                    visible = true
+                    index = 32
+                  }
+                  custcol_slt_e2e_test = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
+                    label = "created by oss e2e - 8060213"
+                    visible = true
+                    index = 33
+                  }
+                  custcoltransactionterms = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
+                    label = "Terms"
+                    visible = false
+                    index = 34
+                  }
+                  custcol_gwr_return_reason = {
+                    id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
+                    label = "GWR Return Reason"
+                    visible = true
+                    index = 35
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = true
+                    index = 36
+                  }
+                  cseg2 = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
+                    label = "Region"
+                    visible = false
+                    index = 37
+                  }
+                  cseg1 = {
+                    id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
+                    label = "Stam"
+                    visible = true
+                    index = 38
+                  }
+                  csegcseg_rg_seg_cc = {
+                    id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
+                    label = "Cost Center"
+                    visible = true
+                    index = 39
+                  }
+                  QUANTITYORDERED = {
+                    id = "QUANTITYORDERED"
+                    label = "Ordered"
+                    visible = false
+                    index = 40
+                  }
+                  AMOUNTORDERED = {
+                    id = "AMOUNTORDERED"
+                    label = "Ordered"
+                    visible = false
+                    index = 41
+                  }
+                  CURRENTPERCENT = {
+                    id = "CURRENTPERCENT"
+                    label = "Current %"
+                    visible = false
+                    index = 42
+                  }
+                  PERCENTCOMPLETE = {
+                    id = "PERCENTCOMPLETE"
+                    label = "% Complete"
+                    visible = false
+                    index = 43
+                  }
+                  QUANTITYFULFILLED = {
+                    id = "QUANTITYFULFILLED"
+                    label = "Total To Date"
+                    visible = false
                     index = 44
                   }
                   cseg_nbc = {
@@ -879,26 +855,6 @@ netsuite.transactionForm custform_eshed_invoice {
         id = "PROMOTIONSTAB"
         label = "Promotions"
         visible = true
-        fieldGroups = {
-          fieldGroup = {
-            fieldgroup_2_t2257815_667 = {
-              scriptid = "fieldgroup_2_t2257815_667"
-              label = "Dollareel Silver"
-              visible = true
-              showTitle = true
-              singleColumn = false
-              index = 0
-            }
-            fieldgroup_3_t2257815_677 = {
-              scriptid = "fieldgroup_3_t2257815_677"
-              label = "Dollareel Gold"
-              visible = true
-              showTitle = true
-              singleColumn = false
-              index = 1
-            }
-          }
-        }
         index = 1
       }
       TRANSACTIONSHIPPING = {
@@ -1406,16 +1362,6 @@ netsuite.transactionForm custform_eshed_invoice {
               label = "Messages"
               visible = true
               fieldGroups = {
-                fieldGroup = {
-                  fieldgroup_1_t2257815_384 = {
-                    scriptid = "fieldgroup_1_t2257815_384"
-                    label = "Dollareel Says Hi"
-                    visible = true
-                    showTitle = true
-                    singleColumn = false
-                    index = 0
-                  }
-                }
                 defaultFieldGroup = {
                   fields = {
                     MIDDLE = {
@@ -1562,7 +1508,51 @@ netsuite.transactionForm custform_eshed_invoice {
         
         
         
-        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1577,7 +1567,7 @@ netsuite.transactionForm custform_eshed_invoice {
                   custbodybundle_type = {
                     id = netsuite.transactionbodycustomfield.instance.custbodybundle_type.scriptid
                     label = "Bundle Type"
-                    visible = true
+                    visible = false
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
@@ -1614,41 +1604,8 @@ netsuite.transactionForm custform_eshed_invoice {
                     sameRowAsPrevious = false
                     index = 3
                   }
-                  csegcseg_rg_seg_cc = {
-                    id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
-                    label = "Cost Center"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 4
-                  }
                   
                   
-                  custbody_srd_opp_source = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
-                    label = "SRD - Opportunity Source"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 5
-                  }
-                  
-                  
-                  custbody_srd_translated_field = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
-                    label = "SRD Translated field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    
-                    index = 6
-                  }
                   
                   custbody_eshed_superfield = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
@@ -1658,7 +1615,36 @@ netsuite.transactionForm custform_eshed_invoice {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    
+                    index = 4
+                  }
+                  custbody_mkd_transaction_body_field_2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
+                    label = "MKD Transaction Body Field 2"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 5
+                  }
+                  custbody_srd_opp_source = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
+                    label = "SRD - Opportunity Source"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 6
+                  }
+                  custbody_srd_translated_field = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
+                    label = "SRD Translated field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 7
                   }
                   
@@ -1667,6 +1653,26 @@ netsuite.transactionForm custform_eshed_invoice {
                   
                   
                   
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 8
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
                 }
                 index = 0
               }
@@ -1716,15 +1722,15 @@ netsuite.transactionForm custform_eshed_invoice {
         visible = true
         subItems = {
           subTab = {
-            custtab_4_2239021_431 = {
-              id = netsuite.subtab.instance.custtab_4_2239021_431.scriptid
-              label = "Salto Debug"
-              visible = true
-              index = 0
-            }
             custtab_3_2239021_364 = {
               id = netsuite.subtab.instance.custtab_3_2239021_364.scriptid
               label = "Salto Errors"
+              visible = true
+              index = 0
+            }
+            custtab_4_2239021_431 = {
+              id = netsuite.subtab.instance.custtab_4_2239021_431.scriptid
+              label = "Salto Debug"
               visible = true
               index = 1
             }
@@ -1928,8 +1934,8 @@ netsuite.transactionForm custform_eshed_invoice {
   emailMessageTemplate = "USE_DEFAULT"
   printingType = {
     advanced = {
-      printTemplate = "STDTMPLCUSTINVCST"
-      emailTemplate = "STDTMPLCUSTINVC"
+      printTemplate = netsuite.advancedpdftemplate.instance.custtmpl_mkd_custom_invoice_pdf.scriptid
+      emailTemplate = netsuite.advancedpdftemplate.instance.custtmpl_mkd_custom_invoice_pdf.scriptid
     }
   }
   totalBox = {
@@ -2012,7 +2018,10 @@ netsuite.transactionForm custform_eshed_invoice {
         id = "CUSTOMER_CENTER"
         preferred = false
       }
-      
+      customrole_eshed_role = {
+        id = netsuite.role.instance.customrole_eshed_role.scriptid
+        preferred = false
+      }
       FULL_ACCESS = {
         id = "FULL_ACCESS"
         preferred = false
@@ -2121,5 +2130,5 @@ netsuite.transactionForm custform_eshed_invoice {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
-  _alias = "ESHED Custom Product Invoice"
+  _alias = "MKD Custom Product Invoice2"
 }

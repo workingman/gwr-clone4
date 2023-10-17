@@ -370,6 +370,55 @@ netsuite.transactionForm custform_gwr_udemy_test {
         
         
         
+        
+        
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONCOMMUNICATION = {
         id = "TRANSACTIONCOMMUNICATION"
@@ -1066,7 +1115,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
         id = "WORKFLOW"
         label = "Workflow"
         visible = true
-        index = 13
+        index = 14
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1177,6 +1226,26 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     columnBreak = false
                     sameRowAsPrevious = false
                     
+                    index = 8
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_mkd_transaction_body_field_2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
+                    label = "MKD Transaction Body Field 2"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 7
                   }
                   
@@ -1185,19 +1254,40 @@ netsuite.transactionForm custform_gwr_udemy_test {
                   
                   
                   
+                  
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 10
+                  }
                 }
                 index = 0
               }
             }
           }
         }
-        index = 14
+        index = 15
       }
       MULTIBOOK = {
         id = "MULTIBOOK"
         label = "Accounting Books"
         visible = true
-        index = 15
+        index = 16
       }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid
@@ -1219,7 +1309,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
             }
           }
         }
-        index = 16
+        index = 17
       }
       custtab_43_t2257815_377 = {
         id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
@@ -1247,25 +1337,25 @@ netsuite.transactionForm custform_gwr_udemy_test {
             }
           }
         }
-        index = 17
+        index = 18
       }
       custtab_16_t1221897_664 = {
         id = netsuite.subtab.instance.custtab_16_t1221897_664.scriptid
         label = "Bill Distribution Details"
         visible = true
-        index = 18
+        index = 19
       }
       custtab_8_t2480139_401 = {
         id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
         label = "GWR Subtab"
         visible = true
-        index = 19
+        index = 20
       }
       custtab_62_t2257815_401 = {
         id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
         label = "Eshed's 2nd Subtab"
         visible = true
-        index = 20
+        index = 13
       }
     }
   }
@@ -1513,6 +1603,10 @@ netsuite.transactionForm custform_gwr_udemy_test {
       }
       
       
+      customrole_eshed_role = {
+        id = netsuite.role.instance.customrole_eshed_role.scriptid
+        preferred = false
+      }
     }
   }
   _generated_dependencies = [
