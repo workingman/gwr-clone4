@@ -1439,6 +1439,54 @@ netsuite.transactionForm custform_41_t2257815_194 {
         
         
         
+        
+        
+        
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_aw_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1574,8 +1622,29 @@ netsuite.transactionForm custform_41_t2257815_194 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     
+                    index = 8
+                  }
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  custbody_mkd_transaction_body_field_2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
+                    label = "MKD Transaction Body Field 2"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
                     index = 7
                   }
+                  
                   
                   
                   
@@ -1588,13 +1657,13 @@ netsuite.transactionForm custform_41_t2257815_194 {
             }
           }
         }
-        index = 10
+        index = 11
       }
       MULTIBOOK = {
         id = "MULTIBOOK"
         label = "Accounting Books"
         visible = true
-        index = 11
+        index = 12
       }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid
@@ -1616,7 +1685,7 @@ netsuite.transactionForm custform_41_t2257815_194 {
             }
           }
         }
-        index = 12
+        index = 13
       }
       custtab_43_t2257815_377 = {
         id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
@@ -1644,25 +1713,25 @@ netsuite.transactionForm custform_41_t2257815_194 {
             }
           }
         }
-        index = 13
+        index = 14
       }
       custtab_16_t1221897_664 = {
         id = netsuite.subtab.instance.custtab_16_t1221897_664.scriptid
         label = "Bill Distribution Details"
         visible = true
-        index = 14
+        index = 15
       }
       custtab_8_t2480139_401 = {
         id = netsuite.subtab.instance.custtab_8_t2480139_401.scriptid
         label = "GWR Subtab"
         visible = true
-        index = 15
+        index = 16
       }
       custtab_62_t2257815_401 = {
         id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
         label = "Eshed's 2nd Subtab"
         visible = true
-        index = 16
+        index = 10
       }
     }
   }
