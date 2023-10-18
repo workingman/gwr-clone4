@@ -1069,30 +1069,15 @@ settings netsuite.accountingPreferences {
     label = "SRD transaction Account"
     type = "select"
   }
-  boolean USESYSCALCPCT4REVREC {
-    label = "Use System Percentage of Completion For Schedules"
-    type = "checkbox"
-  }
-  netsuite.selectOption AMORTIZATIONJOURNALENTRYFORM {
-    label = "Default Amortization Journal Entry Form"
-    type = "select"
-  }
-  netsuite.selectOption AMORJOURNALDATEDEFAULT {
-    label = "Default Amortization Journal Date to"
-    type = "select"
-  }
+  
+  
+  
   boolean CSV_SEND_UNKNOWN_EMAIL {
     label = "CSV import: Flag that allows to send summary reports to unknown emails for account"
     type = "checkbox"
   }
-  boolean MODIFYAMORTOTALAMOUNT {
-    label = "Allow Users to Modify Amortization Schedule"
-    type = "checkbox"
-  }
-  number NUMBEROFSHORTTERMEXPENSEPERIODS {
-    label = "Number of Short-term expense periods"
-    type = "integer"
-  }
+  
+  
   boolean ALLOWASSEMBLYPURCHASE {
     label = "Allow Purchase of Assembly Items"
     type = "checkbox"

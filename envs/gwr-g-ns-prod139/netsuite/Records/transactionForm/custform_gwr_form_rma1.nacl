@@ -1055,6 +1055,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         
         
         
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1083,6 +1084,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
+                  
                   custbody_aw_edit = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
                     label = "GWR Amp Edit - WA"
@@ -1262,6 +1264,9 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                   
                   
                   
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1272,6 +1277,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     sameRowAsPrevious = false
                     index = 10
                   }
+                  
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
                     label = "GWR Workflow selector"
@@ -1589,10 +1595,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
         id = netsuite.role.instance.customrole_salto_all_permissions.scriptid
         preferred = false
       }
-      WMS_LIMITED_ACCESS = {
-        id = "WMS_LIMITED_ACCESS"
-        preferred = false
-      }
+      
     }
   }
   _generated_dependencies = [

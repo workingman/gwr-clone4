@@ -519,67 +519,47 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcoltransactionterms.scriptid
                     label = "Terms"
                     visible = true
-                    index = 18
+                    index = 16
                   }
                   cseg2 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg2]"
                     label = "Region"
                     visible = false
-                    index = 19
+                    index = 17
                   }
                   cseg1 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg1]"
                     label = "Stam"
                     visible = false
-                    index = 21
+                    index = 18
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = false
-                    index = 23
+                    index = 19
                   }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
-                    index = 24
+                    index = 20
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
                     label = "Cost Center"
                     visible = true
-                    index = 26
-                  }
-                  AMORTIZATIONSCHED = {
-                    id = "AMORTIZATIONSCHED"
-                    label = "Amortization Schedule"
-                    visible = true
-                    index = 16
-                  }
-                  AMORTIZSTARTDATE = {
-                    id = "AMORTIZSTARTDATE"
-                    label = "Amortization Start"
-                    visible = true
-                    index = 17
-                  }
-                  AMORTIZATIONENDDATE = {
-                    id = "AMORTIZATIONENDDATE"
-                    label = "Amortization End"
-                    visible = true
-                    index = 20
-                  }
-                  AMORTIZATIONRESIDUAL = {
-                    id = "AMORTIZATIONRESIDUAL"
-                    label = "Residual"
-                    visible = true
                     index = 22
                   }
+                  
+                  
+                  
+                  
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
-                    index = 25
+                    index = 21
                   }
                 }
               }
@@ -754,7 +734,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
-                    index = 33
+                    index = 29
                   }
                   INVENTORYDETAIL = {
                     id = "INVENTORYDETAIL"
@@ -766,49 +746,29 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     id = "GLNUMBER"
                     label = "GL #"
                     visible = true
-                    index = 31
+                    index = 27
                   }
                   GLSEQUENCE = {
                     id = "GLSEQUENCE"
                     label = "GL Audit Numbering Sequence"
                     visible = true
-                    index = 32
+                    index = 28
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
                     label = "Cost Center"
                     visible = true
-                    index = 35
+                    index = 31
                   }
-                  AMORTIZATIONSCHED = {
-                    id = "AMORTIZATIONSCHED"
-                    label = "Amortization Schedule"
-                    visible = true
-                    index = 27
-                  }
-                  AMORTIZSTARTDATE = {
-                    id = "AMORTIZSTARTDATE"
-                    label = "Amortization Start"
-                    visible = true
-                    index = 28
-                  }
-                  AMORTIZATIONENDDATE = {
-                    id = "AMORTIZATIONENDDATE"
-                    label = "Amortization End"
-                    visible = true
-                    index = 29
-                  }
-                  AMORTIZATIONRESIDUAL = {
-                    id = "AMORTIZATIONRESIDUAL"
-                    label = "Residual"
-                    visible = true
-                    index = 30
-                  }
+                  
+                  
+                  
+                  
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
-                    index = 34
+                    index = 30
                   }
                 }
               }
@@ -1133,6 +1093,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
         
         
         
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1161,6 +1122,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
+                  
                   custbody_aw_edit = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
                     label = "GWR Amp Edit - WA"
@@ -1391,6 +1353,9 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                   
                   
                   
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1401,6 +1366,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     sameRowAsPrevious = false
                     index = 10
                   }
+                  
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
                     label = "GWR Workflow selector"

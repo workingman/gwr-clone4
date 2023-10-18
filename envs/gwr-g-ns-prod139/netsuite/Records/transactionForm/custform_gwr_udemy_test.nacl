@@ -374,6 +374,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
         
         
         
+        
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -402,6 +403,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
+                  
                   custbody_aw_edit = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
                     label = "GWR Amp Edit - WA"
@@ -1255,6 +1257,9 @@ netsuite.transactionForm custform_gwr_udemy_test {
                   
                   
                   
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1265,6 +1270,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     sameRowAsPrevious = false
                     index = 9
                   }
+                  
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
                     label = "GWR Workflow selector"

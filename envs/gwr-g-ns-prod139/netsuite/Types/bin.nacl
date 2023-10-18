@@ -23,4 +23,7 @@ type netsuite.bin {
   string externalId {
     isAttribute = true
   }
+  _alias = "Bin"
+  serviceid identifier {
+  }
 }

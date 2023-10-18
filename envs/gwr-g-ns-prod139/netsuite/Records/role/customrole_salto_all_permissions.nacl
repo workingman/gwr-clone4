@@ -424,10 +424,7 @@ netsuite.role customrole_salto_all_permissions {
         permkey = "REPO_UNBILLED"
         permlevel = "VIEW"
       }
-      REPO_AMORTIZATION = {
-        permkey = "REPO_AMORTIZATION"
-        permlevel = "VIEW"
-      }
+      
       REPO_BALANCESHEET = {
         permkey = "REPO_BALANCESHEET"
         permlevel = "VIEW"
@@ -444,10 +441,7 @@ netsuite.role customrole_salto_all_permissions {
         permkey = "REPO_COMMISSION"
         permlevel = "VIEW"
       }
-      REPO_DEFERREDEXPENSE = {
-        permkey = "REPO_DEFERREDEXPENSE"
-        permlevel = "VIEW"
-      }
+      
       REPO_REMINDEREMPLOYEE = {
         permkey = "REPO_REMINDEREMPLOYEE"
         permlevel = "VIEW"
@@ -596,10 +590,7 @@ netsuite.role customrole_salto_all_permissions {
         permkey = "LIST_ALLOCSCHEDULE"
         permlevel = "FULL"
       }
-      LIST_AMORTIZATION = {
-        permkey = "LIST_AMORTIZATION"
-        permlevel = "FULL"
-      }
+      
       REGT_BANK = {
         permkey = "REGT_BANK"
         permlevel = "FULL"

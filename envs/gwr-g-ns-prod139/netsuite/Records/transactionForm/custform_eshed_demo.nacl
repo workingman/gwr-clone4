@@ -883,6 +883,7 @@ netsuite.transactionForm custform_eshed_demo {
           
           
           
+          
           defaultFieldGroup = {
             fields = {
               MIDDLE = {
@@ -910,6 +911,7 @@ netsuite.transactionForm custform_eshed_demo {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 1
                   }
+                  
                   custbody_aw_edit = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
                     label = "GWR Amp Edit - WA"
@@ -1065,6 +1067,9 @@ netsuite.transactionForm custform_eshed_demo {
                   
                   
                   
+                  
+                  
+                  
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1075,6 +1080,7 @@ netsuite.transactionForm custform_eshed_demo {
                     sameRowAsPrevious = false
                     index = 8
                   }
+                  
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
                     label = "GWR Workflow selector"
