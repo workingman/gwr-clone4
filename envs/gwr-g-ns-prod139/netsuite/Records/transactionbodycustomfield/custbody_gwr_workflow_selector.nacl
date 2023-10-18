@@ -16,7 +16,7 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   bodyjournal = false
   bodyopportunity = false
   bodyothertransaction = false
-  
+  bodyperiodendjournal = false
   bodypickingticket = false
   bodyprintflag = false
   bodyprintpackingslip = false
@@ -41,6 +41,6 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   showhierarchy = false
   showinlist = false
   storevalue = true
-  description = "Old, lousy discrwption whtig spelling errorrs"
+  description = "New, much better description!"
   _alias = "GWR Workflow selector"
 }
