@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55797_t2257815_773 {
-  scriptid = "val_55797_t2257815_773"
-  isInactive = false
-  name = "Florida-Palm Coast"
-  _alias = "Florida-Palm Coast"
-}

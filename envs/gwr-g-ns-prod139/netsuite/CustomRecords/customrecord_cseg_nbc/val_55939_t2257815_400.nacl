@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55939_t2257815_400 {
-  scriptid = "val_55939_t2257815_400"
-  isInactive = false
-  name = "Minnesota-Eden Prairie"
-  _alias = "Minnesota-Eden Prairie"
-}

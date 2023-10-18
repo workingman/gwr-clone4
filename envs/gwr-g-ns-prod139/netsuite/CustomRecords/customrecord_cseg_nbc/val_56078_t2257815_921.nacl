@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56078_t2257815_921 {
-  scriptid = "val_56078_t2257815_921"
-  isInactive = false
-  name = "Florida-Pensacola"
-  _alias = "Florida-Pensacola"
-}

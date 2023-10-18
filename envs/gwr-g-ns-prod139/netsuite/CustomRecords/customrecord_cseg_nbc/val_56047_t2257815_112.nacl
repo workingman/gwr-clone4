@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56047_t2257815_112 {
-  scriptid = "val_56047_t2257815_112"
-  isInactive = false
-  name = "North Dakota-Grand Forks"
-  _alias = "North Dakota-Grand Forks"
-}

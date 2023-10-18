@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56151_t2257815_151 {
-  scriptid = "val_56151_t2257815_151"
-  isInactive = false
-  name = "New Mexico-Roswell"
-  _alias = "New Mexico-Roswell"
-}

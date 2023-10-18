@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55682_t2257815_358 {
-  scriptid = "val_55682_t2257815_358"
-  isInactive = false
-  name = "California-Jurupa Valley"
-  _alias = "California-Jurupa Valley"
-}

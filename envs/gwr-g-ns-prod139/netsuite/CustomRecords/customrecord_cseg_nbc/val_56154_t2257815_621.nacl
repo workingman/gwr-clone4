@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56154_t2257815_621 {
-  scriptid = "val_56154_t2257815_621"
-  isInactive = false
-  name = "Michigan-East Lansing"
-  _alias = "Michigan-East Lansing"
-}

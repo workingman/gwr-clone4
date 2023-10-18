@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55924_t2257815_943 {
-  scriptid = "val_55924_t2257815_943"
-  isInactive = false
-  name = "Florida-Homestead"
-  _alias = "Florida-Homestead"
-}

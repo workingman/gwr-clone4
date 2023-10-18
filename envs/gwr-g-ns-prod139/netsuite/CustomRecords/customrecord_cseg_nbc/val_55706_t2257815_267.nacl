@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55706_t2257815_267 {
-  scriptid = "val_55706_t2257815_267"
-  isInactive = false
-  name = "Washington-Federal Way"
-  _alias = "Washington-Federal Way"
-}

@@ -99,6 +99,8 @@ type netsuite.customrecord_supp_pay_terms {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true

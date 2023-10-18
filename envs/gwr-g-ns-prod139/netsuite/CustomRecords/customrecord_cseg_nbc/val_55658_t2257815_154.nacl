@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55658_t2257815_154 {
-  scriptid = "val_55658_t2257815_154"
-  isInactive = false
-  name = "Florida-Pompano Beach"
-  _alias = "Florida-Pompano Beach"
-}

@@ -99,6 +99,8 @@ type netsuite.customrecord_cseg2 {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true
@@ -143,4 +145,20 @@ type netsuite.customrecord_cseg2 {
   netsuite.customRecordTranslationsList translationsList {
   }
   _alias = "Region"
+  instances = {
+    instance = {
+      val_5934_2239021_682 = {
+        scriptid = "val_5934_2239021_682"
+        isinactive = false
+        name = "EMEA"
+        index = 0
+      }
+      val_5935_2239021_730 = {
+        scriptid = "val_5935_2239021_730"
+        isinactive = false
+        name = "APAC"
+        index = 1
+      }
+    }
+  }
 }

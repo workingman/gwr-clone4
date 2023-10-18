@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55993_t2257815_580 {
-  scriptid = "val_55993_t2257815_580"
-  isInactive = false
-  name = "Illinois-Des Plaines"
-  _alias = "Illinois-Des Plaines"
-}

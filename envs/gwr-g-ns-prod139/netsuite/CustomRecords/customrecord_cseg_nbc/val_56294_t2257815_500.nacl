@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56294_t2257815_500 {
-  scriptid = "val_56294_t2257815_500"
-  isInactive = false
-  name = "Illinois-Crystal Lake"
-  _alias = "Illinois-Crystal Lake"
-}

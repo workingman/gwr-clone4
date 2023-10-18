@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56092_t2257815_682 {
-  scriptid = "val_56092_t2257815_682"
-  isInactive = false
-  name = "Michigan-Battle Creek"
-  _alias = "Michigan-Battle Creek"
-}

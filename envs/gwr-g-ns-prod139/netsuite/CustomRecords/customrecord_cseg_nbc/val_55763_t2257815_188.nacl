@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55763_t2257815_188 {
-  scriptid = "val_55763_t2257815_188"
-  isInactive = false
-  name = "Idaho-Meridian"
-  _alias = "Idaho-Meridian"
-}

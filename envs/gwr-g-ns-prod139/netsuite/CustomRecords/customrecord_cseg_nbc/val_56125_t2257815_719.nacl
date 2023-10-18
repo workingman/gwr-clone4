@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56125_t2257815_719 {
-  scriptid = "val_56125_t2257815_719"
-  isInactive = false
-  name = "Arizona-Casa Grande"
-  _alias = "Arizona-Casa Grande"
-}

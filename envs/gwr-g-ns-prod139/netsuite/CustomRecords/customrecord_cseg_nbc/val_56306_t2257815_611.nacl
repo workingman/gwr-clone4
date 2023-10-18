@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56306_t2257815_611 {
-  scriptid = "val_56306_t2257815_611"
-  isInactive = false
-  name = "Tennessee-Brentwood"
-  _alias = "Tennessee-Brentwood"
-}

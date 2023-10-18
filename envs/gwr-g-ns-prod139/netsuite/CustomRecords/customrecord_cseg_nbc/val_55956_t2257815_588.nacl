@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55956_t2257815_588 {
-  scriptid = "val_55956_t2257815_588"
-  isInactive = false
-  name = "Iowa-West Des Moines"
-  _alias = "Iowa-West Des Moines"
-}

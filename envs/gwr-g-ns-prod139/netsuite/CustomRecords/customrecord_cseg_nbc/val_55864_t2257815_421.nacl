@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55864_t2257815_421 {
-  scriptid = "val_55864_t2257815_421"
-  isInactive = false
-  name = "California-Turlock"
-  _alias = "California-Turlock"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55831_t2257815_515 {
-  scriptid = "val_55831_t2257815_515"
-  isInactive = false
-  name = "California-San Ramon"
-  _alias = "California-San Ramon"
-}

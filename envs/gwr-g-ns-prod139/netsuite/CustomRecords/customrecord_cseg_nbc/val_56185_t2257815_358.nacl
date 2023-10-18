@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56185_t2257815_358 {
-  scriptid = "val_56185_t2257815_358"
-  isInactive = false
-  name = "North Dakota-Minot"
-  _alias = "North Dakota-Minot"
-}

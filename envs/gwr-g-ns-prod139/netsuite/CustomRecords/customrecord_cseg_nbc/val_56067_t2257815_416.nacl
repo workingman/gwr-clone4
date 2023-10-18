@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56067_t2257815_416 {
-  scriptid = "val_56067_t2257815_416"
-  isInactive = false
-  name = "Nebraska-Bellevue"
-  _alias = "Nebraska-Bellevue"
-}

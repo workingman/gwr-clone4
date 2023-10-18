@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55552_t2257815_839 {
-  scriptid = "val_55552_t2257815_839"
-  isInactive = false
-  name = "California-Sunnyvale"
-  _alias = "California-Sunnyvale"
-}

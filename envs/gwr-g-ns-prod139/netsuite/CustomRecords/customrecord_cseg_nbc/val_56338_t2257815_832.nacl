@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56338_t2257815_832 {
-  scriptid = "val_56338_t2257815_832"
-  isInactive = false
-  name = "Florida-Ormond Beach"
-  _alias = "Florida-Ormond Beach"
-}

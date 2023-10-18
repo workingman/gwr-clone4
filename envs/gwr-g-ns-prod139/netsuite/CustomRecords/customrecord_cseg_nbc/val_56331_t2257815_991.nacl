@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56331_t2257815_991 {
-  scriptid = "val_56331_t2257815_991"
-  isInactive = false
-  name = "Massachusetts-Woburn"
-  _alias = "Massachusetts-Woburn"
-}

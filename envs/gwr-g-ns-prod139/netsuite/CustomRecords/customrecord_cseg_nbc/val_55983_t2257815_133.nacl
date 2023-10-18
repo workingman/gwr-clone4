@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55983_t2257815_133 {
-  scriptid = "val_55983_t2257815_133"
-  isInactive = false
-  name = "California-Petaluma"
-  _alias = "California-Petaluma"
-}

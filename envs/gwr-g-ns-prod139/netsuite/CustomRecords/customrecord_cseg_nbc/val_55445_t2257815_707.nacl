@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55445_t2257815_707 {
-  scriptid = "val_55445_t2257815_707"
-  isInactive = false
-  name = "Alaska-Anchorage"
-  _alias = "Alaska-Anchorage"
-}

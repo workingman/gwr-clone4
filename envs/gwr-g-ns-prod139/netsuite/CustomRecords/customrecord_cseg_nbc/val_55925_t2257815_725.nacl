@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55925_t2257815_725 {
-  scriptid = "val_55925_t2257815_725"
-  isInactive = false
-  name = "Maryland-Rockville"
-  _alias = "Maryland-Rockville"
-}

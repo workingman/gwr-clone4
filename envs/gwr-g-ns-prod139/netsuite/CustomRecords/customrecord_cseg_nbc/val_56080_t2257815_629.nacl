@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56080_t2257815_629 {
-  scriptid = "val_56080_t2257815_629"
-  isInactive = false
-  name = "California-Yucaipa"
-  _alias = "California-Yucaipa"
-}

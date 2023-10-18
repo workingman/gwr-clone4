@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56016_t2257815_364 {
-  scriptid = "val_56016_t2257815_364"
-  isInactive = false
-  name = "North Carolina-Rocky Mount"
-  _alias = "North Carolina-Rocky Mount"
-}

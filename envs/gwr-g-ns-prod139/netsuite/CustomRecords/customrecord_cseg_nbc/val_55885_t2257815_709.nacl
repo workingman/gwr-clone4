@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55885_t2257815_709 {
-  scriptid = "val_55885_t2257815_709"
-  isInactive = false
-  name = "California-Rancho Cordova"
-  _alias = "California-Rancho Cordova"
-}

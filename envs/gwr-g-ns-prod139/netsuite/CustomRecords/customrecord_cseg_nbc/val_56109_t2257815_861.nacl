@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56109_t2257815_861 {
-  scriptid = "val_56109_t2257815_861"
-  isInactive = false
-  name = "Oklahoma-Enid"
-  _alias = "Oklahoma-Enid"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56084_t2257815_719 {
-  scriptid = "val_56084_t2257815_719"
-  isInactive = false
-  name = "Illinois-Hoffman Estates"
-  _alias = "Illinois-Hoffman Estates"
-}

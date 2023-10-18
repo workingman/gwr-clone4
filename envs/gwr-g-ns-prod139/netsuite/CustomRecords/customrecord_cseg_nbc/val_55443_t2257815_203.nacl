@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55443_t2257815_203 {
-  scriptid = "val_55443_t2257815_203"
-  isInactive = false
-  name = "Kentucky-Lexington-Fayette"
-  _alias = "Kentucky-Lexington-Fayette"
-}

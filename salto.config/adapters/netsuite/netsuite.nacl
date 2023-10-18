@@ -12,7 +12,7 @@ netsuite {
       ]
       customRecords = [
         {
-          name = "customrecord_.*"
+          name = "customrecord_gwr"
         },
       ]
     }

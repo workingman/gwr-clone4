@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55742_t2257815_237 {
-  scriptid = "val_55742_t2257815_237"
-  isInactive = false
-  name = "California-Whittier"
-  _alias = "California-Whittier"
-}

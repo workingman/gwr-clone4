@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56333_t2257815_835 {
-  scriptid = "val_56333_t2257815_835"
-  isInactive = false
-  name = "Illinois-Rock Island"
-  _alias = "Illinois-Rock Island"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56367_t2257815_642 {
-  scriptid = "val_56367_t2257815_642"
-  isInactive = false
-  name = "Texas-Texarkana"
-  _alias = "Texas-Texarkana"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55444_t2257815_675 {
-  scriptid = "val_55444_t2257815_675"
-  isInactive = false
-  name = "Pennsylvania-Pittsburgh"
-  _alias = "Pennsylvania-Pittsburgh"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56369_t2257815_156 {
-  scriptid = "val_56369_t2257815_156"
-  isInactive = false
-  name = "Delaware-Dover"
-  _alias = "Delaware-Dover"
-}

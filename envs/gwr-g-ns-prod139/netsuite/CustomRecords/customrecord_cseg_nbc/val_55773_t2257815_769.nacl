@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55773_t2257815_769 {
-  scriptid = "val_55773_t2257815_769"
-  isInactive = false
-  name = "Michigan-Westland"
-  _alias = "Michigan-Westland"
-}

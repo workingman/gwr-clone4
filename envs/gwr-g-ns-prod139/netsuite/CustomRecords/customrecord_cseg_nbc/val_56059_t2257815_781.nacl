@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56059_t2257815_781 {
-  scriptid = "val_56059_t2257815_781"
-  isInactive = false
-  name = "Texas-Port Arthur"
-  _alias = "Texas-Port Arthur"
-}

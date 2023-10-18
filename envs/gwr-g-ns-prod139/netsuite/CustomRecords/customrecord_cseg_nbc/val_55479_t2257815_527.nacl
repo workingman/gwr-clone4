@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55479_t2257815_527 {
-  scriptid = "val_55479_t2257815_527"
-  isInactive = false
-  name = "California-Fremont"
-  _alias = "California-Fremont"
-}

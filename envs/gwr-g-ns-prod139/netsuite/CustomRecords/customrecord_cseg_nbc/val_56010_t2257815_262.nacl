@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56010_t2257815_262 {
-  scriptid = "val_56010_t2257815_262"
-  isInactive = false
-  name = "California-Lake Elsinore"
-  _alias = "California-Lake Elsinore"
-}

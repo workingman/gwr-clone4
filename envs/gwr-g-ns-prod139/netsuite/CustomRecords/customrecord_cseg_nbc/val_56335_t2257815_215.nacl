@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56335_t2257815_215 {
-  scriptid = "val_56335_t2257815_215"
-  isInactive = false
-  name = "Missouri-Cape Girardeau"
-  _alias = "Missouri-Cape Girardeau"
-}

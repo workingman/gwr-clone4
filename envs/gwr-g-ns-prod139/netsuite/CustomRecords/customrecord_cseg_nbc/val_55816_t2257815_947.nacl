@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55816_t2257815_947 {
-  scriptid = "val_55816_t2257815_947"
-  isInactive = false
-  name = "California-Chino Hills"
-  _alias = "California-Chino Hills"
-}

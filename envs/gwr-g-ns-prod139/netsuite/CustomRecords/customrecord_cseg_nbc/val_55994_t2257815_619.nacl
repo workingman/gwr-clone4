@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55994_t2257815_619 {
-  scriptid = "val_55994_t2257815_619"
-  isInactive = false
-  name = "California-Huntington Park"
-  _alias = "California-Huntington Park"
-}

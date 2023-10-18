@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55619_t2257815_283 {
-  scriptid = "val_55619_t2257815_283"
-  isInactive = false
-  name = "North Dakota-Fargo"
-  _alias = "North Dakota-Fargo"
-}

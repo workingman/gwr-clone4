@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56260_t2257815_893 {
-  scriptid = "val_56260_t2257815_893"
-  isInactive = false
-  name = "Illinois-Urbana"
-  _alias = "Illinois-Urbana"
-}

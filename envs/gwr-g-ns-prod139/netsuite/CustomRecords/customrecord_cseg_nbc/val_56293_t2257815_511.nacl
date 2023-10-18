@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56293_t2257815_511 {
-  scriptid = "val_56293_t2257815_511"
-  isInactive = false
-  name = "California-La Puente"
-  _alias = "California-La Puente"
-}

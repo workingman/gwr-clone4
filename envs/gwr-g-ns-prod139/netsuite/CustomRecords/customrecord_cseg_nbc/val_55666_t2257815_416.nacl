@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55666_t2257815_416 {
-  scriptid = "val_55666_t2257815_416"
-  isInactive = false
-  name = "California-Rialto"
-  _alias = "California-Rialto"
-}

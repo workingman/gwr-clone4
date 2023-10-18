@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55901_t2257815_895 {
-  scriptid = "val_55901_t2257815_895"
-  isInactive = false
-  name = "Maine-Portland"
-  _alias = "Maine-Portland"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56349_t2257815_418 {
-  scriptid = "val_56349_t2257815_418"
-  isInactive = false
-  name = "Ohio-Huber Heights"
-  _alias = "Ohio-Huber Heights"
-}

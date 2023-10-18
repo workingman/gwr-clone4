@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55836_t2257815_369 {
-  scriptid = "val_55836_t2257815_369"
-  isInactive = false
-  name = "Illinois-Bolingbrook"
-  _alias = "Illinois-Bolingbrook"
-}

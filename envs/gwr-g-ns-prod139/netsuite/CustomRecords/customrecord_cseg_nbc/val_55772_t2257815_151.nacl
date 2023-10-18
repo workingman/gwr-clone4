@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55772_t2257815_151 {
-  scriptid = "val_55772_t2257815_151"
-  isInactive = false
-  name = "Washington-Bellingham"
-  _alias = "Washington-Bellingham"
-}

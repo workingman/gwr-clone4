@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55667_t2257815_911 {
-  scriptid = "val_55667_t2257815_911"
-  isInactive = false
-  name = "New Mexico-Las Cruces"
-  _alias = "New Mexico-Las Cruces"
-}

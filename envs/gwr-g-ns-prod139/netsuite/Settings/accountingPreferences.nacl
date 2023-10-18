@@ -443,18 +443,12 @@ netsuite.accountingPreferences {
     value = "103"
     text = "Penalties"
   }
-  USESYSCALCPCT4REVREC = false
-  AMORTIZATIONJOURNALENTRYFORM = {
-    value = "30"
-    text = "Standard Journal Entry"
-  }
-  AMORJOURNALDATEDEFAULT = {
-    value = "LASTDAYOFPERIOD"
-    text = "Last Day of Period"
-  }
+  
+  
+  
   CSV_SEND_UNKNOWN_EMAIL = false
-  MODIFYAMORTOTALAMOUNT = false
-  NUMBEROFSHORTTERMEXPENSEPERIODS = 12
+  
+  
   ALLOWASSEMBLYPURCHASE = false
   DEFAULTWORKORDERCOMMITOPTION = {
     value = "1"

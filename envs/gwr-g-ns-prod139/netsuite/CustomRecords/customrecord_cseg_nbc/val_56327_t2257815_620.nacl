@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56327_t2257815_620 {
-  scriptid = "val_56327_t2257815_620"
-  isInactive = false
-  name = "Wisconsin-Wausau"
-  _alias = "Wisconsin-Wausau"
-}

@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56186_t2257815_902 {
-  scriptid = "val_56186_t2257815_902"
-  isInactive = false
-  name = "California-Palm Springs"
-  _alias = "California-Palm Springs"
-}

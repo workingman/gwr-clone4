@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55573_t2257815_860 {
-  scriptid = "val_55573_t2257815_860"
-  isInactive = false
-  name = "Utah-West Valley City"
-  _alias = "Utah-West Valley City"
-}

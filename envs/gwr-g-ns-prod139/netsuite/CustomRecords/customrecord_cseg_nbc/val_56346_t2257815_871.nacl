@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56346_t2257815_871 {
-  scriptid = "val_56346_t2257815_871"
-  isInactive = false
-  name = "Arizona-Marana"
-  _alias = "Arizona-Marana"
-}

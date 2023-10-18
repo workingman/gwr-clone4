@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55703_t2257815_220 {
-  scriptid = "val_55703_t2257815_220"
-  isInactive = false
-  name = "Nevada-Sparks"
-  _alias = "Nevada-Sparks"
-}

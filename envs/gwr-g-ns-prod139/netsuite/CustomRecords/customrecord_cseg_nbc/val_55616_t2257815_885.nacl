@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55616_t2257815_885 {
-  scriptid = "val_55616_t2257815_885"
-  isInactive = false
-  name = "California-El Monte"
-  _alias = "California-El Monte"
-}

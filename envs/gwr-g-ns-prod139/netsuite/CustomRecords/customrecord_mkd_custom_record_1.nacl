@@ -98,6 +98,8 @@ type netsuite.customrecord_mkd_custom_record_1 {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true

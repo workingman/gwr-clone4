@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56126_t2257815_348 {
-  scriptid = "val_56126_t2257815_348"
-  isInactive = false
-  name = "Florida-Pinellas Park"
-  _alias = "Florida-Pinellas Park"
-}

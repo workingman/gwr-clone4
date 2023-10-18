@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55827_t2257815_779 {
-  scriptid = "val_55827_t2257815_779"
-  isInactive = false
-  name = "Illinois-Schaumburg"
-  _alias = "Illinois-Schaumburg"
-}

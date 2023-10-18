@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56201_t2257815_536 {
-  scriptid = "val_56201_t2257815_536"
-  isInactive = false
-  name = "Illinois-Glenview"
-  _alias = "Illinois-Glenview"
-}

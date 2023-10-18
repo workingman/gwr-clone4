@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56272_t2257815_293 {
-  scriptid = "val_56272_t2257815_293"
-  isInactive = false
-  name = "Rhode Island-Woonsocket"
-  _alias = "Rhode Island-Woonsocket"
-}

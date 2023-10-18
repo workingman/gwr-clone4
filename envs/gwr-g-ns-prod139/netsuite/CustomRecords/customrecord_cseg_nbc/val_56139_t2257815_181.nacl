@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56139_t2257815_181 {
-  scriptid = "val_56139_t2257815_181"
-  isInactive = false
-  name = "Ohio-Cuyahoga Falls"
-  _alias = "Ohio-Cuyahoga Falls"
-}

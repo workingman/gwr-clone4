@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55791_t2257815_239 {
-  scriptid = "val_55791_t2257815_239"
-  isInactive = false
-  name = "California-Napa"
-  _alias = "California-Napa"
-}

@@ -99,6 +99,8 @@ type netsuite.customrecord_svb_bill_dist_sched {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true

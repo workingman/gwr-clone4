@@ -99,6 +99,8 @@ type netsuite.customrecord_svb_line_is_source_sub {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true

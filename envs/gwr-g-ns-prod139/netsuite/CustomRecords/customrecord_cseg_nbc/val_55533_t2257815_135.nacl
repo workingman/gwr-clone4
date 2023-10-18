@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55533_t2257815_135 {
-  scriptid = "val_55533_t2257815_135"
-  isInactive = false
-  name = "California-Elk Grove"
-  _alias = "California-Elk Grove"
-}

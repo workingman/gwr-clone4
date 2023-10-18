@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56024_t2257815_995 {
-  scriptid = "val_56024_t2257815_995"
-  isInactive = false
-  name = "Michigan-Dearborn Heights"
-  _alias = "Michigan-Dearborn Heights"
-}

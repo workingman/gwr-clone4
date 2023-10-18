@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55749_t2257815_504 {
-  scriptid = "val_55749_t2257815_504"
-  isInactive = false
-  name = "Virginia-Suffolk"
-  _alias = "Virginia-Suffolk"
-}

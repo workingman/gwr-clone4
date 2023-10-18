@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56105_t2257815_141 {
-  scriptid = "val_56105_t2257815_141"
-  isInactive = false
-  name = "California-Glendora"
-  _alias = "California-Glendora"
-}

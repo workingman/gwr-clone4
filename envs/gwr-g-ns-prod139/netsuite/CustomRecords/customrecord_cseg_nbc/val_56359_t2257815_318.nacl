@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56359_t2257815_318 {
-  scriptid = "val_56359_t2257815_318"
-  isInactive = false
-  name = "New York-Valley Stream"
-  _alias = "New York-Valley Stream"
-}

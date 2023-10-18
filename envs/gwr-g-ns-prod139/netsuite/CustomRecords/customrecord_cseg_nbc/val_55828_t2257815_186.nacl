@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55828_t2257815_186 {
-  scriptid = "val_55828_t2257815_186"
-  isInactive = false
-  name = "South Carolina-Mount Pleasant"
-  _alias = "South Carolina-Mount Pleasant"
-}

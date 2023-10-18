@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55617_t2257815_411 {
-  scriptid = "val_55617_t2257815_411"
-  isInactive = false
-  name = "Missouri-Columbia"
-  _alias = "Missouri-Columbia"
-}

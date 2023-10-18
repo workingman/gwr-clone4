@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55921_t2257815_409 {
-  scriptid = "val_55921_t2257815_409"
-  isInactive = false
-  name = "California-Laguna Niguel"
-  _alias = "California-Laguna Niguel"
-}

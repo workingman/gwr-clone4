@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56292_t2257815_516 {
-  scriptid = "val_56292_t2257815_516"
-  isInactive = false
-  name = "California-Beaumont"
-  _alias = "California-Beaumont"
-}

@@ -98,6 +98,8 @@ type netsuite.customrecord_dash_refresh_config {
     }
     hidden_string internalId {
     }
+    netsuite.customrecordtype_instances instances {
+    }
   }
   serviceid scriptid {
     _required = true

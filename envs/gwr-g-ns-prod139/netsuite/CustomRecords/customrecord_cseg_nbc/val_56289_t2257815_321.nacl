@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56289_t2257815_321 {
-  scriptid = "val_56289_t2257815_321"
-  isInactive = false
-  name = "Arizona-Prescott"
-  _alias = "Arizona-Prescott"
-}

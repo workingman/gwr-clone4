@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55632_t2257815_199 {
-  scriptid = "val_55632_t2257815_199"
-  isInactive = false
-  name = "Utah-West Jordan"
-  _alias = "Utah-West Jordan"
-}

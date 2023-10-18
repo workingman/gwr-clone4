@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55516_t2257815_307 {
-  scriptid = "val_55516_t2257815_307"
-  isInactive = false
-  name = "Rhode Island-Providence"
-  _alias = "Rhode Island-Providence"
-}

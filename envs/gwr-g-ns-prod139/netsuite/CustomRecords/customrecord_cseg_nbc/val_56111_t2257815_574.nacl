@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_56111_t2257815_574 {
-  scriptid = "val_56111_t2257815_574"
-  isInactive = false
-  name = "Georgia-Brookhaven"
-  _alias = "Georgia-Brookhaven"
-}

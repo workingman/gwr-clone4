@@ -1,6 +1,0 @@
-netsuite.customrecord_cseg_nbc val_55991_t2257815_883 {
-  scriptid = "val_55991_t2257815_883"
-  isInactive = false
-  name = "California-San Rafael"
-  _alias = "California-San Rafael"
-}
