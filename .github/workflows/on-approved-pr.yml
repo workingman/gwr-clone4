@@ -1,4 +1,4 @@
-name: Run deployment upon approval
+name: Approval
 on:
   pull_request_review:
     types: [submitted]
