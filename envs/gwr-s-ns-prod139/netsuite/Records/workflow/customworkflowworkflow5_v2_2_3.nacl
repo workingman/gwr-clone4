@@ -421,19 +421,12 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                 valuechecked = true
                 valuetype = "STATIC"
                 initcondition = {
-                  formula = "\"Sales Order:GWR Workflow selector\" IN (\"GWR Workflow Selector List1\") AND \"Total\" > 100000.0"
+                  formula = "\"Total\" > 400000.00"
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
-                      Sales_Order_GWR_Workflow_selector@sfss = {
-                        name = "Sales Order:GWR Workflow selector"
-                        value = "STDBODYSALESORDER:[scriptid=custbody_gwr_workflow_selector]"
-                      }
-                      GWR_Workflow_Selector_List1@s = {
-                        name = "GWR Workflow Selector List1"
-                        selectrecordtype = netsuite.customlist.instance.customlist_gwr_workflow_selector_list.scriptid
-                        value = "[SCRIPT_ID_NOT_SPECIFIED]"
-                      }
+                      
+                      
                       Total = {
                         name = "Total"
                         value = "STDBODYTOTAL"
@@ -1486,10 +1479,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
       }
     }
   }
-  _generated_dependencies = [
-    {
-      reference = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-    },
-  ]
+  
   _alias = "GWR Amp |SO Approval V2 - for prod 2 23"
 }
