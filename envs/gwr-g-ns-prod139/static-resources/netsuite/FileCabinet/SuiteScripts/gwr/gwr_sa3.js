@@ -6,11 +6,12 @@ define(['N/log'],
     /**
  * @param{log} log
  */
-//20230927-102135
-// 20231010-224550
-       // 20231013-114352 
-       // 20231013-114919
-       // 20231013-115332 ********
+
+    // 20230925-235310
+    // 20230926-000024
+    // 20230927-003442
+    // 20230927-004019
+
     /**
       * change 1
       */
@@ -25,14 +26,7 @@ define(['N/log'],
         const onRequest = (scriptContext) => {
             const a = 2
             workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
-            workflow.get({ name: 'custbody_aw_second_lvl_approval' })
+            // 20230912-223153
        }
       /**
         * change 2
