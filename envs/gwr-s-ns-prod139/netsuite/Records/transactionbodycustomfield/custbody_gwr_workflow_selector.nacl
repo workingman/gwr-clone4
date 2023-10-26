@@ -43,4 +43,5 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   storevalue = true
   description = "New, much better description!"
   _alias = "GWR Workflow selector"
+  bodyperiodendjournal = false
 }
