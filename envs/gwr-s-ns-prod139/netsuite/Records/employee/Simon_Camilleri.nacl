@@ -1,0 +1,34 @@
+netsuite.employee Simon_Camilleri@s {
+  workCalendar = {
+    name = "Default Work Calendar"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
+  }
+  entityId = "Simon Camilleri"
+  firstName = "Simon"
+  email = "simon.camilleri@salto.io"
+  isInactive = false
+  initials = "SC"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2022-08-04T07:00:00.000Z"
+  gender = "_omitted"
+  giveAccess = false
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  department = netsuite.department.instance.Technology
+  _alias = "Simon Camilleri"
+}
