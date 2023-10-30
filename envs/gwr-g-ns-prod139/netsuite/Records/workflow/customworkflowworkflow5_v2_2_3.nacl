@@ -425,8 +425,6 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
                   type = "VISUAL_BUILDER"
                   parameters = {
                     parameter = {
-                      
-                      
                       Total = {
                         name = "Total"
                         value = "STDBODYTOTAL"
@@ -1479,6 +1477,5 @@ netsuite.workflow customworkflowworkflow5_v2_2_3 {
       }
     }
   }
-  
   _alias = "GWR Amp |SO Approval V2 - for prod 2 23"
 }
