@@ -1,0 +1,74 @@
+netsuite.employee Geoffrey_W_Routledge@s {
+  entityId = "Geoffrey W Routledge"
+  firstName = "Geoffrey"
+  middleName = "W"
+  
+  email = "geoffrey.routledge@salto.io"
+  isInactive = false
+  initials = "GWR"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2022-04-21T07:00:00.000Z"
+  title = "NS Administrator"
+  gender = "_omitted"
+  workCalendar = {
+    name = "Default Work Calendar"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = netsuite.role.instance.customrole_gwr_role_ar2
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_1
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_3
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_6
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_15
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_22
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_42
+      },
+      {
+        selectedRole = netsuite.recordRef.instance.employee_selectedRole_19
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  salutation = "Mr."
+  phone = "6047878594"
+  defaultAddress = "GWR<br>Mr.  Geoffrey W Routledge<br>4575 Glenwood Ave<br>North Vancouver WA 98008<br>United States"
+  homePhone = "6049856761"
+  addressbookList = {
+    addressbook = [
+      netsuite.employeeAddressbook.instance.employee_addressbook_2,
+    ]
+  }
+  custom_custentity_slt_tax_reg = 7777777
+  _alias = "Geoffrey W Routledge"
+}
