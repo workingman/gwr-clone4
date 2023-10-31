@@ -1,0 +1,3 @@
+netsuite.employeeAddressbook employee_addressbook_2 {
+  _alias = "4575 Glenwood Ave"
+}
