@@ -1,0 +1,13 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "4ddbbfb6-88dd-4057-b991-3250ef12716e"
+      folderName = "4ddbbfb6-88dd-4057-b991-3250ef12716e-gwr-s-ns-dev815"
+      type = "deployment"
+    },
+    {
+      uuid = "48b432fb-25eb-49b4-aa02-715c6e000d36"
+      folderName = "gwr-s-ns-prod139"
+    },
+  ]
+}
