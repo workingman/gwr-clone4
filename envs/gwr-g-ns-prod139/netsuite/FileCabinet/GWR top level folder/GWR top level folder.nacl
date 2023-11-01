@@ -1,0 +1,7 @@
+netsuite.folder GWR_top_level_folder@s {
+  bundleable = false
+  isinactive = false
+  isprivate = false
+  path = "/GWR top level folder"
+  _alias = "GWR top level folder"
+}

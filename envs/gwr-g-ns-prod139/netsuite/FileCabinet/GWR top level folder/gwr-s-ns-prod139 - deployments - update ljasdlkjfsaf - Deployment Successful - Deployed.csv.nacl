@@ -1,0 +1,13 @@
+netsuite.file GWR_top_level_folder_gwr_s_ns_prod139___deployments___update_ljasdlkjfsaf___Deployment_Successful___Deployed_csv@sssdbbbsbssbsssbsssbsv {
+  bundleable = false
+  isinactive = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/GWR top level folder/gwr-s-ns-prod139 - deployments - update ljasdlkjfsaf - Deployment Successful - Deployed.csv"
+  content = file("netsuite/FileCabinet/GWR top level folder/gwr-s-ns-prod139 - deployments - update ljasdlkjfsaf - Deployment Successful - Deployed.csv")
+  _parent = [
+    netsuite.folder.instance.GWR_top_level_folder@s,
+  ]
+  _alias = "gwr-s-ns-prod139 - deployments - update ljasdlkjfsaf - Deployment Successful - Deployed.csv"
+}
