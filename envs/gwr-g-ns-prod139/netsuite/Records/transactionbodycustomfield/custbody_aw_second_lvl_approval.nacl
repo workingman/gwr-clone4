@@ -41,4 +41,5 @@ netsuite.transactionbodycustomfield custbody_aw_second_lvl_approval {
   storevalue = true
   subtab = "TRANSACTIONSYSTEMINFORMATION"
   _alias = "GWR Amp 2nd Level Approval"
+  bodyperiodendjournal = false
 }

@@ -41,4 +41,5 @@ netsuite.transactionbodycustomfield custbody_itr_doc_number {
   showinlist = false
   storevalue = true
   _alias = "GWR Amp doc number"
+  bodyperiodendjournal = false
 }
