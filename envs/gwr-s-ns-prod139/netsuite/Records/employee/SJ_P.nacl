@@ -1,0 +1,33 @@
+netsuite.employee SJ_P@s {
+  workCalendar = {
+    name = "Default Work Calendar"
+    id = "[ACCOUNT_SPECIFIC_VALUE]"
+  }
+  entityId = "SJ P"
+  firstName = "SJ"
+  email = "jonah.pressman+nsdemo@salto.io"
+  isInactive = false
+  initials = "SP"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2023-01-22T08:00:00.000Z"
+  gender = "_omitted"
+  giveAccess = false
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  eligibleForCommission = false
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  _alias = "SJ P"
+}
