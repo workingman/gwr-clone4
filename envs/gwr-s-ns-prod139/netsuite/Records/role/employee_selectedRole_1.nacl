@@ -1,0 +1,5 @@
+netsuite.recordRef employee_selectedRole_1 {
+  name = "Accountant"
+  isSubInstance = true
+  _alias = "Accountant"
+}
