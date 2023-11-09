@@ -14,22 +14,7 @@ netsuite.workflow customworkflow_gwr_cicd_workflow {
   initcondition = {
     type = "VISUAL_BUILDER"
   }
-  workflowcustomfields = {
-    workflowcustomfield = {
-      custworkflow_gwr_employee = {
-        scriptid = "custworkflow_gwr_employee"
-        applyformatting = false
-        defaultchecked = false
-        
-        displaytype = "NORMAL"
-        fieldtype = "SELECT"
-        label = "employee"
-        selectrecordtype = "-4"
-        storevalue = true
-        index = 0
-      }
-    }
-  }
+  
   workflowstates = {
     workflowstate = {
       workflowstate461 = {
