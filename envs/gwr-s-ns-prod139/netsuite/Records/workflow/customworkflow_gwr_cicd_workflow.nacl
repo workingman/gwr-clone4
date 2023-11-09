@@ -14,22 +14,7 @@ netsuite.workflow customworkflow_gwr_cicd_workflow {
   initcondition = {
     type = "VISUAL_BUILDER"
   }
-  workflowcustomfields = {
-    workflowcustomfield = {
-      custworkflow_gwr_employee = {
-        scriptid = "custworkflow_gwr_employee"
-        applyformatting = false
-        defaultchecked = false
-        
-        displaytype = "NORMAL"
-        fieldtype = "SELECT"
-        label = "employee"
-        selectrecordtype = "-4"
-        storevalue = true
-        index = 0
-      }
-    }
-  }
+  
   workflowstates = {
     workflowstate = {
       workflowstate461 = {
@@ -39,6 +24,36 @@ netsuite.workflow customworkflow_gwr_cicd_workflow {
         positionx = 243
         positiony = 133
         index = 0
+        workflowtransitions = {
+          workflowtransition = {
+            workflowtransition558 = {
+              scriptid = "workflowtransition558"
+              contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+              tostate = netsuite.workflow.instance.customworkflow_gwr_cicd_workflow.workflowstates.workflowstate.workflowstate462.scriptid
+              initcondition = {
+                formula = "\"Amount\" = 1234.00"
+                type = "VISUAL_BUILDER"
+                parameters = {
+                  parameter = {
+                    Amount = {
+                      name = "Amount"
+                      value = "STDBODYAMOUNT"
+                    }
+                  }
+                }
+              }
+              index = 0
+            }
+          }
+        }
+      }
+      workflowstate462 = {
+        scriptid = "workflowstate462"
+        donotexitworkflow = false
+        name = "State 2"
+        positionx = 583
+        positiony = 143
+        index = 1
       }
     }
   }
