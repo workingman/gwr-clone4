@@ -31,7 +31,7 @@ netsuite.workflow customworkflow_gwr_cicd_workflow {
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
               tostate = netsuite.workflow.instance.customworkflow_gwr_cicd_workflow.workflowstates.workflowstate.workflowstate462.scriptid
               initcondition = {
-                formula = "\"Amount\" = 1234.0"
+                formula = "\"Amount\" = 1234.00"
                 type = "VISUAL_BUILDER"
                 parameters = {
                   parameter = {
