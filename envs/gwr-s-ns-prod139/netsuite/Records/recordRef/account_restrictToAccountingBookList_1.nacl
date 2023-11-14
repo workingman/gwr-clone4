@@ -1,0 +1,3 @@
+netsuite.recordRef account_restrictToAccountingBookList_1 {
+  isSubInstance = true
+}

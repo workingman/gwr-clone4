@@ -1,0 +1,97 @@
+netsuite.workflow customworkflow_deprecated {
+  scriptid = "customworkflow_deprecated"
+  description = "All Sales Orders require one level of approval from the Revenue Analyst or Revenue Manager roles. If the Sales Order is over $100,000 it requires another level of approval from someone in the Revenue Manager role who WAS NOT the first approver."
+  initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
+  initoncreate = true
+  initonvieworupdate = false
+  isinactive = false
+  islogenabled = false
+  keephistory = "NEVER"
+  name = "deprecated1"
+  recordtypes = "SALESORDER"
+  releasestatus = "SUSPENDED"
+  runasadmin = true
+  initcondition = {
+    type = "VISUAL_BUILDER"
+  }
+  workflowcustomfields = {
+    workflowcustomfield = {
+      custworkflow5_7_3 = {
+        scriptid = "custworkflow5_7_3"
+        applyformatting = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "SELECT"
+        label = "First Approver (SO) (2)"
+        selectrecordtype = "-4"
+        storevalue = true
+        index = 0
+      }
+      custworkflow11_2 = {
+        scriptid = "custworkflow11_2"
+        applyformatting = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "CHECKBOX"
+        label = "Back 2nd Approver"
+        storevalue = true
+        index = 1
+      }
+      custworkflow13_2 = {
+        scriptid = "custworkflow13_2"
+        applyformatting = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "CHECKBOX"
+        label = "From Pending 2nd Level"
+        storevalue = true
+        index = 2
+      }
+      custworkflow14_2 = {
+        scriptid = "custworkflow14_2"
+        applyformatting = false
+        defaultchecked = false
+        displaytype = "NORMAL"
+        fieldtype = "CHECKBOX"
+        label = "Approved"
+        storevalue = true
+        index = 3
+      }
+    }
+  }
+  workflowstates = {
+    workflowstate = {
+      workflowstate109 = {
+        scriptid = "workflowstate109"
+        donotexitworkflow = false
+        name = "Second Approval Required?"
+        positionx = 433
+        positiony = 313
+        workflowstatecustomfields = {
+          workflowstatecustomfield = {
+            custwfstate2_7_3 = {
+              scriptid = "custwfstate2_7_3"
+              applyformatting = false
+              defaultchecked = false
+              displaytype = "NORMAL"
+              fieldtype = "CHECKBOX"
+              label = "Second Approval Required? (2)"
+              storevalue = true
+              index = 0
+            }
+          }
+        }
+        index = 0
+      }
+      workflowstate119 = {
+        scriptid = "workflowstate119"
+        donotexitworkflow = false
+        name = "State 1"
+        positionx = 2063
+        positiony = 773
+        index = 1
+      }
+    }
+  }
+  _alias = "deprecated1"
+}
