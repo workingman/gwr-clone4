@@ -7,7 +7,7 @@ define(['N/record', 'N/search'],
 // 20231031-133953
 // 20231101-104040
 // 20231107-215316 km
-       // km 20231120-114257
+// 20231121-132722
        
 /*     
  * @param{record} record
@@ -15,7 +15,6 @@ define(['N/record', 'N/search'],
  */
     (record, search) => {
 // GR code 20231117-101601
-// more GR code 20231117-111752
         /**
          * Defines the Suitelet script trigger point.
          * @param {Object} scriptContext
