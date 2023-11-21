@@ -1,0 +1,105 @@
+netsuite.savedsearch customsearch_ubp_roles {
+  scriptid = "customsearch_ubp_roles"
+  definition = "e8ff4158415e01aec8536a30850ed597171d64c24ecd7bf2860f86db95d5a552@GZC@2023.2.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Role_ISINACTIVE"
+      FIELD_ATTRIBUTE = "F"
+      FIELD_TYPE = "CHECKBOX"
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Role_ISCUSTOM"
+      FIELD_ATTRIBUTE = "T"
+      FIELD_TYPE = "CHECKBOX"
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Role_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_CUSTOMSTANDARD"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_CENTERTYPE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Role_FROMBUNDLE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Role_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FLAG_AUDIENCE_ALL_CUSTOMERS = false
+    FLAG_AUDIENCE_ALL_EMPLOYEES = false
+    FLAG_AUDIENCE_ALL_PARTNERS = false
+    FLAG_AUDIENCE_ALL_ROLES = true
+    FLAG_AUDIENCE_ALL_VENDORS = false
+  }
+  KEY_SCRIPT_ID = "customsearch_ubp_roles"
+  FIELD_DEFAULT_NAME = "ubp-roles"
+  FIELD_SEARCH_TYPE = "Role"
+  FLAG_PUBLIC = true
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = false
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 0
+  _alias = "ubp-roles"
+}
