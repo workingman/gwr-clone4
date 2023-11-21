@@ -1,0 +1,124 @@
+netsuite {
+  fetch = {
+    include = {
+      types = [
+        {
+          name = ".*"
+        },
+      ]
+      fileCabinet = [
+        "^/SuiteScripts.*",
+        "^/Templates.*",
+      ]
+      customRecords = [
+        {
+          name = "customrecord_gwr"
+        },
+      ]
+    }
+    fieldsToOmit = [
+      {
+        type = "companyInformation"
+        fields = [
+          "formsurl",
+          "appurl",
+        ]
+      },
+      {
+        type = "employee"
+        subtype = "employeeAddressbook"
+        fields = [
+          ".*",
+        ]
+      },
+      {
+        type = "employee"
+        fields = [
+          "lastName",
+        ]
+      },
+      {
+        type = "transactionForm"
+        fields = [
+          "netsuite.transactionForm.instance.custform_gwr_form_rma1",
+        ]
+      },
+    ]
+    exclude = {
+      fileCabinet = [
+        "^/Templates/Letter Templates/Mail Merge Folder.*",
+        "^.*xlsx?$",
+      ]
+      types = [
+        {
+          name = "savedsearch"
+          ids = [
+            "^customsearch[0-9].*",
+            "customsearch_srd_opp_search",
+          ]
+        },
+        {
+          name = "savedcsvimport"
+          ids = [
+            "^custimport[^_]*",
+          ]
+        },
+
+        {
+          name = "workbook"
+        },
+        {
+          name = "dataset"
+        },
+        {
+          name = "customer"
+        },
+        {
+          name = "accountingPeriod"
+        },
+        {
+          name = "job"
+        },
+        {
+          name = "manufacturingCostTemplate"
+        },
+        {
+          name = "partner"
+        },
+        {
+          name = "solution"
+        },
+        {
+          name = "giftCertificateItem"
+        },
+        {
+          name = "downloadItem"
+        },
+        {
+          name = "assemblyItem|lotNumberedAssemblyItem|serializedAssemblyItem|descriptionItem|discountItem|kitItem|markupItem|nonInventoryPurchaseItem|nonInventorySaleItem|nonInventoryResaleItem|otherChargeSaleItem|otherChargeResaleItem|otherChargePurchaseItem|paymentItem|serviceResaleItem|servicePurchaseItem|serviceSaleItem|subtotalItem|inventoryItem|lotNumberedInventoryItem|serializedInventoryItem|itemGroup"
+        },
+        {
+          name = "workflow"
+          ids = [
+            "customworkflow4",
+          ]
+        },
+        {
+          name = "advancedpdftemplate"
+          ids = [
+            "custtmpl_gwr_defunct1",
+          ]
+        },
+      ]
+      customRecords = [
+        {
+          name = "customrecord_.*"
+          ids = [
+            "val_55003_t2257815_782",
+            "val_55004_t2257815_304",
+          ]
+        },
+      ]
+    }
+  }
+}

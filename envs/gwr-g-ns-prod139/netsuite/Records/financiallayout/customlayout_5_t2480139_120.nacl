@@ -1,0 +1,697 @@
+netsuite.financiallayout customlayout_5_t2480139_120 {
+  scriptid = "customlayout_5_t2480139_120"
+  layout = "162ec883175acab366d71e2351b30ba6add4d470030d59a698572311f574c460@GZC@2022.2.17@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"
+  name = "Custom Balance Sheet Layout(US)"
+  rows = [
+    {
+      FIELD_KEY = 93
+      FIELD_NAME = "ASSETS"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_93_T2480139_845"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 0
+      SEQ_NUMBER = 0
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 13
+      KEY_FORMULA = 102
+      FLAG_TOP_ROW = true
+    },
+    {
+      FIELD_KEY = 94
+      FIELD_NAME = "Current Assets"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_94_T2480139_916"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 1
+      SEQ_NUMBER = 1
+      KEY_PARENT = 93
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 14
+      KEY_FORMULA = 99
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 95
+      FIELD_NAME = "Bank"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_95_T2480139_780"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 2
+      SEQ_NUMBER = 2
+      KEY_PARENT = 94
+      FIELD_DEFAULT_TOTAL_NAME = "Total Bank"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 15
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 95
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 16
+      KEY_BODY_STYLE = 17
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 175
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 96
+      FIELD_NAME = "Accounts Receivable"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_96_T2480139_240"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 3
+      SEQ_NUMBER = 3
+      KEY_PARENT = 94
+      FIELD_DEFAULT_TOTAL_NAME = "Total Accounts Receivable"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 18
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 96
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 19
+      KEY_BODY_STYLE = 20
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 176
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 97
+      FIELD_NAME = "Unbilled Receivable"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_97_T2480139_774"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 4
+      SEQ_NUMBER = 4
+      KEY_PARENT = 94
+      FIELD_DEFAULT_TOTAL_NAME = "Total Unbilled Receivable"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 21
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 97
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 22
+      KEY_BODY_STYLE = 23
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 177
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 98
+      FIELD_NAME = "Other Current Asset"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_98_T2480139_669"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 5
+      SEQ_NUMBER = 5
+      KEY_PARENT = 94
+      FIELD_DEFAULT_TOTAL_NAME = "Total Other Current Asset"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 24
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 98
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 25
+      KEY_BODY_STYLE = 26
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 178
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 99
+      FIELD_NAME = "Total Current Assets"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_99_T2480139_503"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 6
+      SEQ_NUMBER = 6
+      KEY_PARENT = 93
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 27
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 94
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 100
+      FIELD_NAME = "Fixed Assets"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_100_T2480139_303"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 7
+      SEQ_NUMBER = 7
+      KEY_PARENT = 93
+      FIELD_DEFAULT_TOTAL_NAME = "Total Fixed Assets"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 28
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 100
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 29
+      KEY_BODY_STYLE = 30
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 179
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 101
+      FIELD_NAME = "Other Assets"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_101_T2480139_301"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 8
+      SEQ_NUMBER = 8
+      KEY_PARENT = 93
+      FIELD_DEFAULT_TOTAL_NAME = "Total Other Assets"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 31
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 101
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 32
+      KEY_BODY_STYLE = 33
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 180
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 102
+      FIELD_NAME = "Total ASSETS"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_102_T2480139_552"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 9
+      SEQ_NUMBER = 9
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "ASSETS"
+      KEY_STYLE = 34
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 93
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = true
+    },
+    {
+      FIELD_KEY = 103
+      FIELD_NAME = "Liabilities &amp; Equity"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_103_T2480139_133"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 10
+      SEQ_NUMBER = 10
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 35
+      KEY_FORMULA = 119
+      FLAG_TOP_ROW = true
+    },
+    {
+      FIELD_KEY = 104
+      FIELD_NAME = "Current Liabilities"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_104_T2480139_642"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 11
+      SEQ_NUMBER = 11
+      KEY_PARENT = 103
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 36
+      KEY_FORMULA = 108
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 105
+      FIELD_NAME = "Accounts Payable"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_105_T2480139_451"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 12
+      SEQ_NUMBER = 12
+      KEY_PARENT = 104
+      FIELD_DEFAULT_TOTAL_NAME = "Total Accounts Payable"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 37
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 105
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 38
+      KEY_BODY_STYLE = 39
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 181
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 106
+      FIELD_NAME = "Credit Card"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_106_T2480139_322"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 13
+      SEQ_NUMBER = 13
+      KEY_PARENT = 104
+      FIELD_DEFAULT_TOTAL_NAME = "Total Credit Card"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 40
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 106
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 41
+      KEY_BODY_STYLE = 42
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 182
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 107
+      FIELD_NAME = "Other Current Liability"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_107_T2480139_374"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 14
+      SEQ_NUMBER = 14
+      KEY_PARENT = 104
+      FIELD_DEFAULT_TOTAL_NAME = "Total Other Current Liability"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 43
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 107
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 44
+      KEY_BODY_STYLE = 45
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 183
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 108
+      FIELD_NAME = "Total Current Liabilities"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_108_T2480139_195"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 15
+      SEQ_NUMBER = 15
+      KEY_PARENT = 103
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "LIABILITIES"
+      KEY_STYLE = 46
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 104
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 109
+      FIELD_NAME = "Long Term Liabilities"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_109_T2480139_437"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 16
+      SEQ_NUMBER = 16
+      KEY_PARENT = 103
+      FIELD_DEFAULT_TOTAL_NAME = "Total Long Term Liabilities"
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 47
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 109
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 48
+      KEY_BODY_STYLE = 49
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 184
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 110
+      FIELD_NAME = "Equity"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_110_T2480139_467"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 17
+      SEQ_NUMBER = 17
+      KEY_PARENT = 103
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 50
+      KEY_FORMULA = 118
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 111
+      FIELD_NAME = "Equity"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_111_T2480139_914"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 18
+      SEQ_NUMBER = 18
+      KEY_PARENT = 110
+      FLAG_SHOW_NAME = false
+      FLAG_SHOW_TOTAL_NAME = false
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 51
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 111
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 52
+      KEY_BODY_STYLE = 53
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 185
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 112
+      FIELD_NAME = "Retained Earnings"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_112_T2480139_698"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 18
+      SEQ_NUMBER = 19
+      KEY_PARENT = 110
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = false
+      FIELD_COLLAPSED_SECTION = "CANNOT_EXPAND"
+      KEY_STYLE = 54
+      KEY_FORMULA = 115
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 113
+      FIELD_NAME = "Retained Earnings (Account Section)"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_113_T2480139_461"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 18
+      SEQ_NUMBER = 20
+      KEY_PARENT = 112
+      FLAG_SHOW_NAME = false
+      FLAG_SHOW_TOTAL_NAME = false
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 55
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 113
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 56
+      KEY_BODY_STYLE = 57
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 186
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 114
+      FIELD_NAME = "Net Income (Balance Forward to Beginning of Year)"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_114_T2480139_574"
+      FIELD_TYPE = "REFERENCED"
+      FIELD_PRIORITY = 19
+      SEQ_NUMBER = 21
+      KEY_PARENT = 112
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = false
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 58
+      KEY_CALC_REPORT = -200
+      KEY_CALC_COMP_ID = "NL"
+      KEY_CALC_ROW = -56
+      KEY_CALC_ROW_COMP_ID = "NL"
+      FIELD_CALC_RANGE_START = "Balance Forward"
+      FIELD_CALC_RANGE_END = "Beginning of Year"
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 115
+      FIELD_NAME = "Total Retained Earnings"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_115_T2480139_806"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 21
+      SEQ_NUMBER = 22
+      KEY_PARENT = 110
+      FLAG_SHOW_NAME = false
+      FLAG_SHOW_TOTAL_NAME = false
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 59
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 112
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 116
+      FIELD_NAME = "Net Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_116_T2480139_395"
+      FIELD_TYPE = "REFERENCED"
+      FIELD_PRIORITY = 19
+      SEQ_NUMBER = 23
+      KEY_PARENT = 110
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 60
+      KEY_CALC_REPORT = -200
+      KEY_CALC_COMP_ID = "NL"
+      KEY_CALC_ROW = -56
+      KEY_CALC_ROW_COMP_ID = "NL"
+      FIELD_CALC_RANGE_START = "Beginning of Year"
+      FIELD_CALC_RANGE_END = "End Date"
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 117
+      FIELD_NAME = "Cumulative Translation Adjustment"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_117_T2480139_775"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 20
+      SEQ_NUMBER = 24
+      KEY_PARENT = 110
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "CANNOT_EXPAND"
+      FIELD_FINANCIAL_MARKER = "CTA"
+      KEY_STYLE = 61
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 117
+      KEY_SECTION_COMP_ID = "NL"
+      KEY_TOTAL_STYLE = 62
+      KEY_BODY_STYLE = 63
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 187
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 118
+      FIELD_NAME = "Total Equity"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_118_T2480139_176"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 21
+      SEQ_NUMBER = 25
+      KEY_PARENT = 103
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "EQUITY"
+      KEY_STYLE = 64
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 110
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = false
+    },
+    {
+      FIELD_KEY = 119
+      FIELD_NAME = "Total Liabilities &amp; Equity"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_119_T2480139_286"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 22
+      SEQ_NUMBER = 26
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 65
+      FLAG_DYNAMIC_HEADER_TOTAL = true
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 103
+      FIELD_FORMULA_PARTS = 0
+      FLAG_TOP_ROW = true
+    },
+  ]
+  flags = {
+    FIELD_KEY = 5
+    KEY_SCRIPT_ID = "CUSTOMLAYOUT_5_T2480139_120"
+    FIELD_NAME = "Custom Balance Sheet Layout(US)"
+    FIELD_FINANCIAL_TYPE = "FINANCIAL_BALANCE_SHEET_STMT"
+    FIELD_EXPAND_LEVEL = "EXPANDED"
+    FIELD_OVERALL_INDENT = "HIERARCHY"
+    KEY_DEFAULT_HEADER_STYLE = 9
+    KEY_DEFAULT_SECTION_STYLE = 10
+    KEY_DEFAULT_FORMULA_STYLE = 11
+    KEY_DEFAULT_TEXT_STYLE = 12
+  }
+  _alias = "Custom Balance Sheet Layout(US)"
+}
